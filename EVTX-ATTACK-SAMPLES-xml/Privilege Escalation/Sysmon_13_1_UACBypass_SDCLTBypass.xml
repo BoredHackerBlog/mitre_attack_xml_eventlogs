@@ -1,0 +1,179 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:07:51.116072600Z" />
+      <EventRecordID>11122</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1980" ThreadID="1904" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-09 02:07:51.100</Data>
+      <Data Name="ProcessGuid">{365abb72-88dc-5cd3-0000-00100da51a00}</Data>
+      <Data Name="ProcessId">2704</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000_CLASSES\exefile\shell\runas\command\IsolatedCommand</Data>
+      <Data Name="Details">C:\Windows\System32\cmd.exe /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:07:51.131697600Z" />
+      <EventRecordID>11123</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1980" ThreadID="1904" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:07:51.116</Data>
+      <Data Name="ProcessGuid">{365abb72-8b77-5cd3-0000-0010e8fd2900}</Data>
+      <Data Name="ProcessId">3836</Data>
+      <Data Name="Image">C:\Windows\System32\sdclt.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft« Windows Backup</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\sdclt.exe" /kickoffelev </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-863b-5cd3-0000-002082390100}</Data>
+      <Data Name="LogonId">0x13982</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8D4E7579031F773DFC73D54C72E865CCCDAC77F0,MD5=5EFDBEAECD69E250E5BA4A2950203CD4,SHA256=F66CEDB142FB711B9A9E57EFF498DF0BBCA16419EE089AB35529FAE4E6A19E7E,IMPHASH=B4141E03977FAAF21E42D3AE32C0DAC8</Data>
+      <Data Name="ParentProcessGuid">{365abb72-88dc-5cd3-0000-00100da51a00}</Data>
+      <Data Name="ParentProcessId">2704</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:07:51.131697600Z" />
+      <EventRecordID>11124</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1980" ThreadID="1904" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:07:51.116</Data>
+      <Data Name="SourceProcessGUID">{365abb72-88dc-5cd3-0000-00100da51a00}</Data>
+      <Data Name="SourceProcessId">2704</Data>
+      <Data Name="SourceThreadId">656</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-8b77-5cd3-0000-0010e8fd2900}</Data>
+      <Data Name="TargetProcessId">3836</Data>
+      <Data Name="TargetImage">C:\Windows\system32\sdclt.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\system32\shell32.dll+15595|C:\Windows\system32\shell32.dll+22b92|C:\Windows\system32\shell32.dll+15399|C:\Windows\system32\shell32.dll+2f5d9|C:\Windows\system32\shell32.dll+149e4|C:\Windows\system32\shell32.dll+2f65b|C:\Windows\system32\shell32.dll+14b2b|C:\Windows\system32\shell32.dll+2223c|C:\Windows\system32\shell32.dll+16761|C:\Windows\system32\shell32.dll+21e44|C:\Windows\system32\shell32.dll+21ea7|UNKNOWN(044216FE)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5c9682</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:07:56.149275700Z" />
+      <EventRecordID>11125</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1980" ThreadID="1904" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:07:56.149</Data>
+      <Data Name="SourceProcessGUID">{365abb72-88dc-5cd3-0000-00100da51a00}</Data>
+      <Data Name="SourceProcessId">2704</Data>
+      <Data Name="SourceThreadId">2784</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-8b77-5cd3-0000-0010e8fd2900}</Data>
+      <Data Name="TargetProcessId">3836</Data>
+      <Data Name="TargetImage">C:\Windows\system32\sdclt.exe</Data>
+      <Data Name="GrantedAccess">0x1f1fff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4591c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(012BAECF)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5c9ca0|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5517d9|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+551863|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+550575|UNKNOWN(00210A31)|UNKNOWN(04B106A4)|UNKNOWN(04A47EA0)|UNKNOWN(04A479A9)|UNKNOWN(0497273E)|UNKNOWN(04972678)|UNKNOWN(0463FC4F)|UNKNOWN(049762BA)|UNKNOWN(04975DE2)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:08:00.446150700Z" />
+      <EventRecordID>11126</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1980" ThreadID="1904" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:08:00.336</Data>
+      <Data Name="ProcessGuid">{365abb72-8b80-5cd3-0000-001065512a00}</Data>
+      <Data Name="ProcessId">2264</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\cmd.exe" /c notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-863b-5cd3-0000-00204a390100}</Data>
+      <Data Name="LogonId">0x1394a</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-8b77-5cd3-0000-0010e8fd2900}</Data>
+      <Data Name="ParentProcessId">3836</Data>
+      <Data Name="ParentImage">C:\Windows\System32\sdclt.exe</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,417 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:06.342445600Z" />
+      <EventRecordID>18195</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="780" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns:auto-ns3="http://schemas.microsoft.com/win/2004/08/events" xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-3583694148-1414552638-2922671848-1000</SubjectUserSid>
+        <SubjectUserName>IEUser</SubjectUserName>
+        <SubjectDomainName>IEWIN7</SubjectDomainName>
+        <SubjectLogonId>0x1371b</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.342445600Z" />
+      <EventRecordID>18196</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="44" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x13765</Data>
+      <Data Name="NewProcessId">0x4f0</Data>
+      <Data Name="NewProcessName">C:\Python27\python.exe</Data>
+      <Data Name="TokenElevationType">%%1938</Data>
+      <Data Name="ProcessId">0x12c</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.608070600Z" />
+      <EventRecordID>18197</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="52" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x13765</Data>
+      <Data Name="NewProcessId">0x628</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="TokenElevationType">%%1938</Data>
+      <Data Name="ProcessId">0x4f0</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.623695600Z" />
+      <EventRecordID>18198</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="52" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x7f0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\consent.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x3c8</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4611</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12289</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.654945600Z" />
+      <EventRecordID>18199</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="3956" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="LogonProcessName">ConsentUI</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4673</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.654945600Z" />
+      <EventRecordID>18200</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="508" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectServer">NT Local Security Authority / Authentication Service</Data>
+      <Data Name="Service">LsaRegisterLogonProcess()</Data>
+      <Data Name="PrivilegeList">SeTcbPrivilege</Data>
+      <Data Name="ProcessId">0x1ec</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.748695600Z" />
+      <EventRecordID>18201</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="52" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xec8</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x258</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4611</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12289</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.795570600Z" />
+      <EventRecordID>18202</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="564" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="LogonProcessName">ConsentUI</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4673</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.795570600Z" />
+      <EventRecordID>18203</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="508" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectServer">NT Local Security Authority / Authentication Service</Data>
+      <Data Name="Service">LsaRegisterLogonProcess()</Data>
+      <Data Name="PrivilegeList">SeTcbPrivilege</Data>
+      <Data Name="ProcessId">0x1ec</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.795570600Z" />
+      <EventRecordID>18204</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="52" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x27c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x258</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.826820600Z" />
+      <EventRecordID>18205</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="52" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x5b0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x4f0</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.889320600Z" />
+      <EventRecordID>18206</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="564" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x1371b</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">IEWIN7</Data>
+      <Data Name="TargetLogonId">0x1bbdce</Data>
+      <Data Name="LogonType">9</Data>
+      <Data Name="LogonProcessName">seclogo</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x3c8</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.889320600Z" />
+      <EventRecordID>18207</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="52" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xc74</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x4f0</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T17:10:10.904945600Z" />
+      <EventRecordID>18208</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="44" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x8dc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x188</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,1000 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:11.073626900Z" />
+      <EventRecordID>198242566</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="744" ThreadID="3396" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-738609754-2819869699-4189121830-1108</SubjectUserSid>
+        <SubjectUserName>bob</SubjectUserName>
+        <SubjectDomainName>insecurebank</SubjectDomainName>
+        <SubjectLogonId>0x8d7099</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.436632900Z" />
+      <EventRecordID>198242568</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.440616200Z" />
+      <EventRecordID>198242569</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.458618800Z" />
+      <EventRecordID>198242572</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.461613700Z" />
+      <EventRecordID>198242574</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.463625100Z" />
+      <EventRecordID>198242576</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.465616300Z" />
+      <EventRecordID>198242577</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.467613200Z" />
+      <EventRecordID>198242578</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="896" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.470615800Z" />
+      <EventRecordID>198242579</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3616" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:35.472614200Z" />
+      <EventRecordID>198242581</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{19195a5b-6da0-11d0-afd3-00c04fd930c9}</Data>
+      <Data Name="ObjectName">%{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%1539
+				</Data>
+      <Data Name="AccessMask">0x40000</Data>
+      <Data Name="Properties">%%1539
+	{19195a5b-6da0-11d0-afd3-00c04fd930c9}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.022631200Z" />
+      <EventRecordID>198242588</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="896" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{2ea9670c-f0f9-4d3f-90e5-a087e8c05863}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.022631200Z" />
+      <EventRecordID>198242589</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{2ea9670c-f0f9-4d3f-90e5-a087e8c05863}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.023629800Z" />
+      <EventRecordID>198242590</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{a1aa38aa-447e-46c2-aba0-d205d4d8f873}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.023629800Z" />
+      <EventRecordID>198242591</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3616" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{a1aa38aa-447e-46c2-aba0-d205d4d8f873}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.023629800Z" />
+      <EventRecordID>198242592</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="896" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{57dccd4c-7381-4371-8480-d74d47019ad8}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.023629800Z" />
+      <EventRecordID>198242593</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{57dccd4c-7381-4371-8480-d74d47019ad8}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.024634700Z" />
+      <EventRecordID>198242594</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{af3067e0-bb6f-47c2-aa20-f3f458797f38}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.024634700Z" />
+      <EventRecordID>198242595</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3616" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{af3067e0-bb6f-47c2-aa20-f3f458797f38}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.024634700Z" />
+      <EventRecordID>198242596</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="896" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{30f197fc-beca-48d6-923e-a52a437119d3}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.025627200Z" />
+      <EventRecordID>198242597</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{30f197fc-beca-48d6-923e-a52a437119d3}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.025627200Z" />
+      <EventRecordID>198242598</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{77b63738-c25c-4fbd-ba96-a7abe17a22a3}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.025627200Z" />
+      <EventRecordID>198242599</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{77b63738-c25c-4fbd-ba96-a7abe17a22a3}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.025627200Z" />
+      <EventRecordID>198242600</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{8e6be6cd-81e7-4c8c-8eb0-50ca85b4950c}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.025627200Z" />
+      <EventRecordID>198242601</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{8e6be6cd-81e7-4c8c-8eb0-50ca85b4950c}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.026630300Z" />
+      <EventRecordID>198242602</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{98e50f6a-ae61-4bff-a9f0-ccfa5ccb555c}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.026630300Z" />
+      <EventRecordID>198242603</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{98e50f6a-ae61-4bff-a9f0-ccfa5ccb555c}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.026630300Z" />
+      <EventRecordID>198242604</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="2868" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{9f3dcf8f-49df-4db9-aa5f-09b804addd96}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-25T21:28:45.026630300Z" />
+      <EventRecordID>198242605</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="444" ThreadID="3300" />
+      <Channel>Security</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{9f3dcf8f-49df-4db9-aa5f-09b804addd96}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-738609754-2819869699-4189121830-1108</Data>
+      <Data Name="SubjectUserName">bob</Data>
+      <Data Name="SubjectDomainName">insecurebank</Data>
+      <Data Name="SubjectLogonId">0x40f2719</Data>
+      <Data Name="DSName">insecurebank.local</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">DC=insecurebank,DC=local</Data>
+      <Data Name="ObjectGUID">{c6faf700-bfe4-452a-a766-424f84c29583}</Data>
+      <Data Name="ObjectClass">domainDNS</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:BAG:BAD:AI(OA;CIIO;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;3e0f7e18-2c7a-4c10-ba82-4d926db99a3e;;S-1-5-21-738609754-2819869699-4189121830-522)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1107)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1120)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-738609754-2819869699-4189121830-1121)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;;RP;c7407360-20bf-11d0-a768-00aa006e0529;;RU)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;RU)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;RP;b8119fd0-04f6-4762-ab7a-4986c76b3f9a;;AU)(OA;OICI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-738609754-2819869699-4189121830-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+</root>

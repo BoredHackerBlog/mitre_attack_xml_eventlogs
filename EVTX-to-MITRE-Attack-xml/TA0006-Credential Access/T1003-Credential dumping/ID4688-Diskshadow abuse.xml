@@ -1,0 +1,142 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T20:17:05.433984100Z" />
+      <EventRecordID>155520909</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2736" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xa8a1627a</Data>
+      <Data Name="NewProcessId">0xda8</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\diskshadow.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x11c0</Data>
+      <Data Name="CommandLine">diskshadow.exe  /s shadow.txt</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T20:17:05.468454900Z" />
+      <EventRecordID>155520914</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2736" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">ROOTDC1$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1acc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\VSSVC.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x21c</Data>
+      <Data Name="CommandLine">C:\Windows\system32\vssvc.exe</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T20:17:06.209415300Z" />
+      <EventRecordID>155520974</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4700" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">ROOTDC1$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x3d0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\SearchProtocolHost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xa38</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe63_ Global\UsGthrCtrlFltPipeMssGthrPipe63 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" </Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\SearchIndexer.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T20:17:06.259158100Z" />
+      <EventRecordID>155520978</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3540" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">ROOTDC1$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x11cc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\SearchFilterHost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xa38</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\SearchFilterHost.exe" 0 648 652 660 8192 656 </Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\SearchIndexer.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-8192</Data>
+    </EventData>
+  </Event>
+</root>

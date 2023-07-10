@@ -1,0 +1,57 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T09:16:14.118934100Z" />
+      <EventRecordID>31</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1680" ThreadID="4556" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1183,technique_name=Image File Execution Options Injection</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2021-04-26 09:16:14.116</Data>
+      <Data Name="ProcessGuid">{5d63072b-84de-6086-7b49-000000000c00}</Data>
+      <Data Name="ProcessId">4932</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T09:16:14.119167600Z" />
+      <EventRecordID>32</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1680" ThreadID="4556" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1183,technique_name=Image File Execution Options Injection</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-04-26 09:16:14.116</Data>
+      <Data Name="ProcessGuid">{5d63072b-84de-6086-7b49-000000000c00}</Data>
+      <Data Name="ProcessId">4932</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe\Debugger</Data>
+      <Data Name="Details">C:\windows\system32\cmd.exe</Data>
+    </EventData>
+  </Event>
+</root>

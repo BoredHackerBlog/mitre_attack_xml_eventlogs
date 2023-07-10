@@ -1,0 +1,44 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T15:03:05.992230700Z" />
+      <EventRecordID>191969</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1404" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1015,technique_name=Accessibility Features</Data>
+      <Data Name="UtcTime">2021-04-26 15:03:05.976</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-d629-6086-b80a-000000002000}</Data>
+      <Data Name="ProcessId">3068</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe  /Q /c C:\Windows\TEMP\execute.bat </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{7cf65fc7-2e59-6080-e703-000000000000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=7C3D7281E1151FE4127923F4B4C3CD36438E1A12,MD5=F5AE03DE0AD60F5B17B82F2CD68402FE,SHA256=6F88FB88FFB0F1D5465C2826E5B4F523598B1B8378377C8378FFEBC171BAD18B,IMPHASH=77AED1ADAF24B344F08C8AD1432908C3</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-d629-6086-b70a-000000002000}</Data>
+      <Data Name="ParentProcessId">3492</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\cmd.exe /Q /c echo cd  ^&gt; \\127.0.0.1\C$\__output 2^&gt;^&amp;1 &gt; C:\Windows\TEMP\execute.bat &amp; C:\Windows\system32\cmd.exe /Q /c C:\Windows\TEMP\execute.bat &amp; del C:\Windows\TEMP\execute.bat</Data>
+    </EventData>
+  </Event>
+</root>

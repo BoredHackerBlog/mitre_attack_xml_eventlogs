@@ -1,0 +1,128 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T00:29:52.744024600Z" />
+      <EventRecordID>17424</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2028" ThreadID="2016" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 00:29:48.655</Data>
+      <Data Name="ProcessGuid">{365abb72-0bac-5cda-0000-0010c5940300}</Data>
+      <Data Name="ProcessId">2824</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.16</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49158</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.17</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">58172</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T00:32:22.775274600Z" />
+      <EventRecordID>17431</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2028" ThreadID="2016" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 00:32:19.388</Data>
+      <Data Name="ProcessGuid">{365abb72-0bac-5cda-0000-0010c5940300}</Data>
+      <Data Name="ProcessId">2824</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.16</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49158</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.17</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">55099</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T00:32:36.775274600Z" />
+      <EventRecordID>17434</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2028" ThreadID="2016" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 00:32:34.403</Data>
+      <Data Name="ProcessGuid">{365abb72-0bac-5cda-0000-0010c5940300}</Data>
+      <Data Name="ProcessId">2824</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.16</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49158</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.17</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">55101</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+</root>

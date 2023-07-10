@@ -1,0 +1,202 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:42:51.504059000Z" />
+      <EventRecordID>5589</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:42:51.494</Data>
+      <Data Name="ProcessGuid">{365abb72-b138-5c8e-0000-001004f51200}</Data>
+      <Data Name="ProcessId">848</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\keylogger_directx.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000\Software\Microsoft\DirectInput\MostRecentApplication\Version</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:42:51.504059000Z" />
+      <EventRecordID>5590</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:42:51.494</Data>
+      <Data Name="ProcessGuid">{365abb72-b138-5c8e-0000-001004f51200}</Data>
+      <Data Name="ProcessId">848</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\keylogger_directx.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000\Software\Microsoft\DirectInput\MostRecentApplication\Name</Data>
+      <Data Name="Details">KEYLOGGER_DIRECTX.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:42:51.504059000Z" />
+      <EventRecordID>5591</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:42:51.494</Data>
+      <Data Name="ProcessGuid">{365abb72-b138-5c8e-0000-001004f51200}</Data>
+      <Data Name="ProcessId">848</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\keylogger_directx.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000\Software\Microsoft\DirectInput\MostRecentApplication\Id</Data>
+      <Data Name="Details">KEYLOGGER_DIRECTX.EXE4755D1CB0002A410</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:42:51.504059000Z" />
+      <EventRecordID>5592</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:42:51.494</Data>
+      <Data Name="ProcessGuid">{365abb72-b138-5c8e-0000-001004f51200}</Data>
+      <Data Name="ProcessId">848</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\keylogger_directx.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000\Software\Microsoft\DirectInput\MostRecentApplication\MostRecentStart</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:43:12.784659000Z" />
+      <EventRecordID>5597</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:43:12.774</Data>
+      <Data Name="ProcessGuid">{365abb72-b160-5c8e-0000-0010253d1500}</Data>
+      <Data Name="ProcessId">136</Data>
+      <Data Name="Image">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Interactive services detection</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">UI0Detect.exe 220</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=8344FD4FCE927880AA1AA7681D4927E5,IMPHASH=5DE0CABE853D959C3319B51C8EC562E6</Data>
+      <Data Name="ParentProcessGuid">{365abb72-a6d3-5c8e-0000-0010126f0100}</Data>
+      <Data Name="ParentProcessId">1768</Data>
+      <Data Name="ParentImage">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\UI0Detect.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:43:16.309727800Z" />
+      <EventRecordID>5598</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:43:16.279</Data>
+      <Data Name="ProcessGuid">{365abb72-b164-5c8e-0000-0010543f1500}</Data>
+      <Data Name="ProcessId">3312</Data>
+      <Data Name="Image">C:\Windows\System32\slui.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Activation Client</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\System32\slui.exe -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=D861EB4D6719D6738270E6A376B87F18,IMPHASH=B54B63A98C9E12C1902D75D180ABBF38</Data>
+      <Data Name="ParentProcessGuid">{365abb72-173d-5c8f-0000-00102a6a0000}</Data>
+      <Data Name="ParentProcessId">608</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch</Data>
+    </EventData>
+  </Event>
+</root>

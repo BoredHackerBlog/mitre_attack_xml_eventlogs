@@ -1,0 +1,99 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-26T09:20:49.101081900Z" />
+      <EventRecordID>57278</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1112,technique_name=Modify Registry</Data>
+      <Data Name="UtcTime">2022-01-26 09:20:49.101</Data>
+      <Data Name="ProcessGuid">{a57649d1-1271-61f1-315a-8e1500000000}</Data>
+      <Data Name="ProcessId">1524</Data>
+      <Data Name="Image">C:\Windows\System32\reg.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Registry Console Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">reg.exe</Data>
+      <Data Name="CommandLine">reg  add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{a57649d1-1238-61f1-b2d8-861500000000}</Data>
+      <Data Name="LogonId">0x1586d8b2</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=0873F40DE395DE017495ED5C7E693AFB55E9F867,MD5=A3F446F1E2B8C6ECE56F608FB32B8DC6,SHA256=849F54DC526EA18D59ABAF4904CB11BC15B982D2952B971F2E1B6FBF8C974B39,IMPHASH=A069A88BBB8016324D7EC0A0EEC459EB</Data>
+      <Data Name="ParentProcessGuid">{a57649d1-124e-61f1-503d-8e1500000000}</Data>
+      <Data Name="ParentProcessId">4924</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-26T09:20:49.101081900Z" />
+      <EventRecordID>57279</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1003,technique_name=Credential Dumping</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-01-26 09:20:49.101</Data>
+      <Data Name="ProcessGuid">{a57649d1-1271-61f1-315a-8e1500000000}</Data>
+      <Data Name="ProcessId">1524</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\SecurityProviders\WDigest</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-26T09:20:52.811383900Z" />
+      <EventRecordID>57280</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1003,technique_name=Credential Dumping</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-01-26 09:20:52.811</Data>
+      <Data Name="ProcessGuid">{a57649d1-1271-61f1-315a-8e1500000000}</Data>
+      <Data Name="ProcessId">1524</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\SecurityProviders\WDigest\UseLogonCredential</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+</root>

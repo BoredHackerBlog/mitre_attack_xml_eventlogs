@@ -1,0 +1,719 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:24.224938100Z" />
+      <EventRecordID>1934511</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="712" ThreadID="740" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-4230534742-2542757381-3142984815-1111</SubjectUserSid>
+        <SubjectUserName>admmig</SubjectUserName>
+        <SubjectDomainName>OFFSEC</SubjectDomainName>
+        <SubjectLogonId>0x14f509e2</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:24.794841800Z" />
+      <EventRecordID>1934512</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5104" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="NewProcessId">0x8cc</Data>
+      <Data Name="NewProcessName">C:\TOOLS\CreateHiddenAccount_upx_v0.2.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x12ac</Data>
+      <Data Name="CommandLine">CreateHiddenAccount_upx_v0.2.exe  -u 3teamssixf -p Passw0rd</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:24.845238100Z" />
+      <EventRecordID>1934513</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="NewProcessId">0xd08</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\netdom.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x8cc</Data>
+      <Data Name="CommandLine">netdom query pdc</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4656</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.001562200Z" />
+      <EventRecordID>1934514</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">FS03VULN</Data>
+      <Data Name="HandleId">0xe9a9291c30</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%5392
+				%%5396
+				%%5401
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0x211</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1e0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.001562200Z" />
+      <EventRecordID>1934515</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">-</Data>
+      <Data Name="MemberSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="TargetUserName">None</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-513</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4720</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.002561700Z" />
+      <EventRecordID>1934516</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">3teamssixf$</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">3teamssixf$</Data>
+      <Data Name="DisplayName">%%1793</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">%%1793</Data>
+      <Data Name="HomePath">%%1793</Data>
+      <Data Name="ScriptPath">%%1793</Data>
+      <Data Name="ProfilePath">%%1793</Data>
+      <Data Name="UserWorkstations">%%1793</Data>
+      <Data Name="PasswordLastSet">%%1794</Data>
+      <Data Name="AccountExpires">%%1794</Data>
+      <Data Name="PrimaryGroupId">513</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">0x0</Data>
+      <Data Name="NewUacValue">0x15</Data>
+      <Data Name="UserAccountControl">
+		%%2080
+		%%2082
+		%%2084</Data>
+      <Data Name="UserParameters">%%1793</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">%%1797</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4722</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.002561700Z" />
+      <EventRecordID>1934517</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">3teamssixf$</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4738</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.002561700Z" />
+      <EventRecordID>1934518</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="Dummy">-</Data>
+      <Data Name="TargetUserName">3teamssixf$</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">3teamssixf$</Data>
+      <Data Name="DisplayName">3teamssixf$</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">%%1793</Data>
+      <Data Name="HomePath">%%1793</Data>
+      <Data Name="ScriptPath">%%1793</Data>
+      <Data Name="ProfilePath">%%1793</Data>
+      <Data Name="UserWorkstations">%%1793</Data>
+      <Data Name="PasswordLastSet">1/24/2022 5:03:25 PM</Data>
+      <Data Name="AccountExpires">%%1794</Data>
+      <Data Name="PrimaryGroupId">513</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">0x15</Data>
+      <Data Name="NewUacValue">0x210</Data>
+      <Data Name="UserAccountControl">
+		%%2048
+		%%2050
+		%%2089</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">%%1797</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4724</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.002561700Z" />
+      <EventRecordID>1934519</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">3teamssixf$</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4732</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.004876800Z" />
+      <EventRecordID>1934520</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">-</Data>
+      <Data Name="MemberSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4656</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.005873500Z" />
+      <EventRecordID>1934521</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_ALIAS</Data>
+      <Data Name="ObjectName">DOMAINS\Builtin\Aliases\00000220</Data>
+      <Data Name="HandleId">0xe9a9290e80</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%5424
+				%%5425
+				%%5426
+				%%5427
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1e0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4656</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.008872700Z" />
+      <EventRecordID>1934522</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">DOMAINS\Account\Users\000003F0</Data>
+      <Data Name="HandleId">0xe9a9292e70</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0x10000</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1e0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4656</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.008872700Z" />
+      <EventRecordID>1934523</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_ALIAS</Data>
+      <Data Name="ObjectName">DOMAINS\Builtin\Aliases\00000220</Data>
+      <Data Name="HandleId">0xe9a9290560</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%5425
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0x2</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1e0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4733</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.008872700Z" />
+      <EventRecordID>1934524</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">-</Data>
+      <Data Name="MemberSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4729</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.009874100Z" />
+      <EventRecordID>1934525</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">-</Data>
+      <Data Name="MemberSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="TargetUserName">None</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-513</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4726</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.009874100Z" />
+      <EventRecordID>1934526</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">3teamssixf$</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4660</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12804</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.009874100Z" />
+      <EventRecordID>1934527</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="HandleId">0xe9a9292e70</Data>
+      <Data Name="ProcessId">0x1e0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.012872800Z" />
+      <EventRecordID>1934528</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="NewProcessId">0x101c</Data>
+      <Data Name="NewProcessName">C:\Windows\regedit.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x8cc</Data>
+      <Data Name="CommandLine">regedit /s .sTRmxJkRFoTFaPRXBeavZhjaAYNvpYko.reg</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4656</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.035923100Z" />
+      <EventRecordID>1934529</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">DOMAINS\Account\Users\000003F0</Data>
+      <Data Name="HandleId">0xe9a9290e80</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1538
+				%%1539
+				%%5444
+				%%5445
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0x60030</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1e0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4738</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.035923100Z" />
+      <EventRecordID>1934530</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1496" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="Dummy">-</Data>
+      <Data Name="TargetUserName">3teamssixf$</Data>
+      <Data Name="TargetDomainName">FS03VULN</Data>
+      <Data Name="TargetSid">S-1-5-21-2721507831-1374043488-2540227515-1008</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">3teamssixf$</Data>
+      <Data Name="DisplayName">3teamssixf$</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">%%1793</Data>
+      <Data Name="HomePath">%%1793</Data>
+      <Data Name="ScriptPath">%%1793</Data>
+      <Data Name="ProfilePath">%%1793</Data>
+      <Data Name="UserWorkstations">%%1793</Data>
+      <Data Name="PasswordLastSet">5/7/2020 1:39:46 PM</Data>
+      <Data Name="AccountExpires">%%1794</Data>
+      <Data Name="PrimaryGroupId">513</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">0x10</Data>
+      <Data Name="NewUacValue">0x10</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">%%1793</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">%%1797</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-24T17:03:25.039922300Z" />
+      <EventRecordID>1934531</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x14f509e2</Data>
+      <Data Name="NewProcessId">0x3e0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\netdom.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x8cc</Data>
+      <Data Name="CommandLine">netdom query pdc</Data>
+    </EventData>
+  </Event>
+</root>

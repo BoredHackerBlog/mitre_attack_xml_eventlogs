@@ -1,0 +1,117 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T20:40:12.867822200Z" />
+      <EventRecordID>82849</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1059,technique_name=Command-Line Interface</Data>
+      <Data Name="UtcTime">2021-10-21 20:40:12.867</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-d02c-6171-1203-000000001200}</Data>
+      <Data Name="ProcessId">2032</Data>
+      <Data Name="Image">C:\TOOLS\Mimikatzx64\mimikatz.exe</Data>
+      <Data Name="FileVersion">2.2.0.0</Data>
+      <Data Name="Description">mimikatz for Windows</Data>
+      <Data Name="Product">mimikatz</Data>
+      <Data Name="Company">gentilkiwi (Benjamin DELPY)</Data>
+      <Data Name="OriginalFileName">mimikatz.exe</Data>
+      <Data Name="CommandLine">mimikatz.exe</Data>
+      <Data Name="CurrentDirectory">C:\TOOLS\Mimikatzx64\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{7cf65fc7-7abf-616e-5fc6-f40100000000}</Data>
+      <Data Name="LogonId">0x1f4c65f</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=D241DF7B9D2EC0B8194751CD5CE153E27CC40FA4,MD5=A3CB3B02A683275F7E0A0F8A9A5C9E07,SHA256=31EB1DE7E840A342FD468E558E5AB627BCB4C542A8FE01AEC4D5BA01D539A0FC,IMPHASH=DBDEA7B557F0E6B5D9E18ABE9CE5220A</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-886c-616e-b201-000000001200}</Data>
+      <Data Name="ParentProcessId">2908</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T20:40:43.120486400Z" />
+      <EventRecordID>82852</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1059,technique_name=Command-Line Interface</Data>
+      <Data Name="UtcTime">2021-10-21 20:40:43.120</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-d04b-6171-1303-000000001200}</Data>
+      <Data Name="ProcessId">5040</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{7cf65fc7-d04b-6171-a4de-e60200000000}</Data>
+      <Data Name="LogonId">0x2e6dea4</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=7C3D7281E1151FE4127923F4B4C3CD36438E1A12,MD5=F5AE03DE0AD60F5B17B82F2CD68402FE,SHA256=6F88FB88FFB0F1D5465C2826E5B4F523598B1B8378377C8378FFEBC171BAD18B,IMPHASH=77AED1ADAF24B344F08C8AD1432908C3</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-d02c-6171-1203-000000001200}</Data>
+      <Data Name="ParentProcessId">2032</Data>
+      <Data Name="ParentImage">C:\TOOLS\Mimikatzx64\mimikatz.exe</Data>
+      <Data Name="ParentCommandLine">mimikatz.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T20:40:43.136112500Z" />
+      <EventRecordID>82853</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-10-21 20:40:43.136</Data>
+      <Data Name="SourceProcessGUID">{7cf65fc7-d02c-6171-1203-000000001200}</Data>
+      <Data Name="SourceProcessId">2032</Data>
+      <Data Name="SourceThreadId">4056</Data>
+      <Data Name="SourceImage">C:\TOOLS\Mimikatzx64\mimikatz.exe</Data>
+      <Data Name="TargetProcessGUID">{7cf65fc7-6649-6165-0b00-000000001200}</Data>
+      <Data Name="TargetProcessId">512</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1010</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\system32\KERNELBASE.dll+2d8e|C:\TOOLS\Mimikatzx64\mimikatz.exe+bcbda|C:\TOOLS\Mimikatzx64\mimikatz.exe+be7bd|C:\TOOLS\Mimikatzx64\mimikatz.exe+be650|C:\TOOLS\Mimikatzx64\mimikatz.exe+84f28|C:\TOOLS\Mimikatzx64\mimikatz.exe+84d60|C:\TOOLS\Mimikatzx64\mimikatz.exe+84b2b|C:\TOOLS\Mimikatzx64\mimikatz.exe+c39a9|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+</root>

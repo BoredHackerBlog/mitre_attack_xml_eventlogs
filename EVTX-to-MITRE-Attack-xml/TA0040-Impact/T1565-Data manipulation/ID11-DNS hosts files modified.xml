@@ -1,0 +1,29 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-12T12:01:18.896770800Z" />
+      <EventRecordID>50530</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-12-12 12:01:18.896</Data>
+      <Data Name="ProcessGuid">{a57649d1-e44f-61b5-d88f-850800000000}</Data>
+      <Data Name="ProcessId">2592</Data>
+      <Data Name="Image">C:\Program Files (x86)\Notepad++\notepad++.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\drivers\etc\hosts</Data>
+      <Data Name="CreationUtcTime">2013-08-22 13:25:43.270</Data>
+    </EventData>
+  </Event>
+</root>

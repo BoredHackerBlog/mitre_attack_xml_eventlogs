@@ -1,0 +1,2467 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:16.296125600Z" />
+      <EventRecordID>243508</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:16.290</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f60-5e75-0000-001081be1d00}</Data>
+      <Data Name="ProcessId">2276</Data>
+      <Data Name="Image">C:\Windows\System32\UsoClient.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1007 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">UsoClient</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">UsoClient</Data>
+      <Data Name="CommandLine">usoclient  StartInteractiveScan</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\Tools\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-9dc3-5e75-0000-00205f930200}</Data>
+      <Data Name="LogonId">0x2935f</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EBF56AD89D4740359D5D3D5370B31E56614BBB79,MD5=39750D33D277617B322ADBB917F7B626,SHA256=DF3900CDC3C6F023037AAF2D4407C4E8AAA909013A69539FB4688E2BD099DB85,IMPHASH=2510E8A4554AEF2CAF0A913BE015929F</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9e06-5e75-0000-00107d541000}</Data>
+      <Data Name="ParentProcessId">6088</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:16.507729300Z" />
+      <EventRecordID>243509</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3512" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Persistence - Suspicious Schedule.Service Module Load</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:16.474</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f60-5e75-0000-0010e7cc1d00}</Data>
+      <Data Name="ProcessId">7696</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\taskschd.dll</Data>
+      <Data Name="FileVersion">10.0.17763.831 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Task Scheduler COM API</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">taskschd.dll</Data>
+      <Data Name="Hashes">SHA1=60FC364639C2264F76A00B153AC153751CC179F8,MD5=33446D4A3C3F2A2CD1051F91649C02C3,SHA256=DEBD522F85D48FD8244F67B478DE85167F0EDE6C341E3F3A0272BEB8D984477E,IMPHASH=8C2ED772723C9E5FAEA539B0F8C1C8E7</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.016552300Z" />
+      <EventRecordID>243510</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Persistence - Suspicious Schedule.Service Module Load</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:16.957</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f60-5e75-0000-00104ada1d00}</Data>
+      <Data Name="ProcessId">4696</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\taskschd.dll</Data>
+      <Data Name="FileVersion">10.0.17763.831 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Task Scheduler COM API</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">taskschd.dll</Data>
+      <Data Name="Hashes">SHA1=60FC364639C2264F76A00B153AC153751CC179F8,MD5=33446D4A3C3F2A2CD1051F91649C02C3,SHA256=DEBD522F85D48FD8244F67B478DE85167F0EDE6C341E3F3A0272BEB8D984477E,IMPHASH=8C2ED772723C9E5FAEA539B0F8C1C8E7</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.980544100Z" />
+      <EventRecordID>243511</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3512" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.488</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.980991700Z" />
+      <EventRecordID>243512</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.504</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-0010686a1e00}</Data>
+      <Data Name="ProcessId">4848</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.982057800Z" />
+      <EventRecordID>243513</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.504</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.992377600Z" />
+      <EventRecordID>243514</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.511</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-0010736b1e00}</Data>
+      <Data Name="ProcessId">8116</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.996004600Z" />
+      <EventRecordID>243515</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.504</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.997235300Z" />
+      <EventRecordID>243516</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.518</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-00109b6c1e00}</Data>
+      <Data Name="ProcessId">6620</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:17.998461500Z" />
+      <EventRecordID>243517</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.520</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-0010686a1e00}</Data>
+      <Data Name="ProcessId">4848</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.003266800Z" />
+      <EventRecordID>243518</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.520</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-0010736b1e00}</Data>
+      <Data Name="ProcessId">8116</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.005487700Z" />
+      <EventRecordID>243519</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.520</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.007678000Z" />
+      <EventRecordID>243520</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.533</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-00103d6f1e00}</Data>
+      <Data Name="ProcessId">7124</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.011502900Z" />
+      <EventRecordID>243521</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.535</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-00109b6c1e00}</Data>
+      <Data Name="ProcessId">6620</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.011985900Z" />
+      <EventRecordID>243522</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.535</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.014591500Z" />
+      <EventRecordID>243523</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.544</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-001056711e00}</Data>
+      <Data Name="ProcessId">7380</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.018450900Z" />
+      <EventRecordID>243524</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.551</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-00103d6f1e00}</Data>
+      <Data Name="ProcessId">7124</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.024262900Z" />
+      <EventRecordID>243525</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.567</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-001056711e00}</Data>
+      <Data Name="ProcessId">7380</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.042575300Z" />
+      <EventRecordID>243526</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.675</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.046159400Z" />
+      <EventRecordID>243527</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.682</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-001059841e00}</Data>
+      <Data Name="ProcessId">8076</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:18.050631900Z" />
+      <EventRecordID>243528</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:17.691</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-001059841e00}</Data>
+      <Data Name="ProcessId">8076</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:19.873722200Z" />
+      <EventRecordID>243529</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Suspicious ImageLoad - Possible Memdump</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:19.863</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f63-5e75-0000-0010bcd01f00}</Data>
+      <Data Name="ProcessId">6420</Data>
+      <Data Name="Image">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17763.1090_none_5715d73398f9ea47\TiWorker.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\dbghelp.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Image Helper</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">DBGHELP.DLL</Data>
+      <Data Name="Hashes">SHA1=8B5BC2EAA00C530DF0FF139635E428FA4C5D7AA8,MD5=B0A68C5BB8D5493F1AF967F0FDD80382,SHA256=2CF0972DC8A67D863AD1A6205B66C80865ACC11F7E3F67B4A76C162655EE0FEE,IMPHASH=AB902346D2BD8706EE70C87E00136BAC</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:19.877680900Z" />
+      <EventRecordID>243530</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Suspicious ImageLoad - Possible Memdump</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:19.876</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f63-5e75-0000-0010bcd01f00}</Data>
+      <Data Name="ProcessId">6420</Data>
+      <Data Name="Image">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.17763.1090_none_5715d73398f9ea47\TiWorker.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\dbgcore.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Core Debugging Helpers</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">DBGCORE.DLL</Data>
+      <Data Name="Hashes">SHA1=E3FA87C983008D4D2A5D31708415F88548FC7702,MD5=88E88D8C1C663769BDD722000A7EB5A7,SHA256=C84BECA73EA45D3C53D9C42CD6A37CC0CC07FF57D9CFEE113CDF70F640572AEF,IMPHASH=9D75F08EA29885182B136CE4FF854114</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.187039100Z" />
+      <EventRecordID>243531</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:24.972</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.189133900Z" />
+      <EventRecordID>243532</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:24.985</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f68-5e75-0000-001079652000}</Data>
+      <Data Name="ProcessId">3300</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.192553400Z" />
+      <EventRecordID>243533</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:24.991</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.195377000Z" />
+      <EventRecordID>243534</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:24.993</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f68-5e75-0000-0010b9662000}</Data>
+      <Data Name="ProcessId">7420</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.205210700Z" />
+      <EventRecordID>243535</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:24.991</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f68-5e75-0000-001079652000}</Data>
+      <Data Name="ProcessId">3300</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.209504300Z" />
+      <EventRecordID>243536</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:24.991</Data>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ProcessId">7420</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.213516600Z" />
+      <EventRecordID>243537</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.008</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.215293300Z" />
+      <EventRecordID>243538</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.021</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-00106f6a2000}</Data>
+      <Data Name="ProcessId">2536</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.218211100Z" />
+      <EventRecordID>243539</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.024</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.221386000Z" />
+      <EventRecordID>243540</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.029</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010946b2000}</Data>
+      <Data Name="ProcessId">1828</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.224263600Z" />
+      <EventRecordID>243541</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.024</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-00106f6a2000}</Data>
+      <Data Name="ProcessId">2536</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.230114400Z" />
+      <EventRecordID>243542</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.043</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010946b2000}</Data>
+      <Data Name="ProcessId">1828</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.232879800Z" />
+      <EventRecordID>243543</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.059</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.234543000Z" />
+      <EventRecordID>243544</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.077</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010476f2000}</Data>
+      <Data Name="ProcessId">7836</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.242652300Z" />
+      <EventRecordID>243545</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.094</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010476f2000}</Data>
+      <Data Name="ProcessId">7836</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.247027800Z" />
+      <EventRecordID>243546</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.112</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.250487900Z" />
+      <EventRecordID>243547</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.122</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010de732000}</Data>
+      <Data Name="ProcessId">6400</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.255498800Z" />
+      <EventRecordID>243548</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.126</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010de732000}</Data>
+      <Data Name="ProcessId">6400</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.388250200Z" />
+      <EventRecordID>243549</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.385</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.392464300Z" />
+      <EventRecordID>243550</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.388</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-001055912000}</Data>
+      <Data Name="ProcessId">8160</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.401237000Z" />
+      <EventRecordID>243551</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.385</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.421856600Z" />
+      <EventRecordID>243552</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.397</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-001033922000}</Data>
+      <Data Name="ProcessId">6572</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.425419300Z" />
+      <EventRecordID>243553</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.401</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-001055912000}</Data>
+      <Data Name="ProcessId">8160</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.434102600Z" />
+      <EventRecordID>243554</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.420</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-001033922000}</Data>
+      <Data Name="ProcessId">6572</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.440756300Z" />
+      <EventRecordID>243555</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.438</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.443845800Z" />
+      <EventRecordID>243556</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.441</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-00102f962000}</Data>
+      <Data Name="ProcessId">6136</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.451200400Z" />
+      <EventRecordID>243557</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.438</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.459240100Z" />
+      <EventRecordID>243558</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.452</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-001035972000}</Data>
+      <Data Name="ProcessId">1388</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.463270300Z" />
+      <EventRecordID>243559</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.455</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-00102f962000}</Data>
+      <Data Name="ProcessId">6136</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.485606700Z" />
+      <EventRecordID>243560</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.473</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-001035972000}</Data>
+      <Data Name="ProcessId">1388</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.486693000Z" />
+      <EventRecordID>243561</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.473</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.499077200Z" />
+      <EventRecordID>243562</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.488</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-00105b9a2000}</Data>
+      <Data Name="ProcessId">2028</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.513362000Z" />
+      <EventRecordID>243563</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.506</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-00105b9a2000}</Data>
+      <Data Name="ProcessId">2028</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.542863000Z" />
+      <EventRecordID>243564</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.539</Data>
+      <Data Name="ProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ProcessId">1652</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.548464500Z" />
+      <EventRecordID>243565</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.544</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010729f2000}</Data>
+      <Data Name="ProcessId">3536</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dbc-5e75-0000-00102c390100}</Data>
+      <Data Name="ParentProcessId">1652</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:25.569133800Z" />
+      <EventRecordID>243566</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">DLL Hijack - Update Session Orchestrator svc</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:25.557</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f69-5e75-0000-0010729f2000}</Data>
+      <Data Name="ProcessId">3536</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\WindowsCoreDeviceInfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=4B4F372F74C0048CDD66704BB06BD11A842DF6AE,MD5=BA646D4D090C43EF8F15CA7B468EE25C,SHA256=9DB9D7A8AFD33E3E1936FC591A3ADD3FD720E5E7192E3F27CF7382D2D0411647,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:39.226538100Z" />
+      <EventRecordID>243567</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">suspicious execution path</Data>
+      <Data Name="UtcTime">2020-03-21 05:00:39.222</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f77-5e75-0000-0010d2e62000}</Data>
+      <Data Name="ProcessId">3364</Data>
+      <Data Name="Image">C:\Users\Public\Tools\nc.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">nc.exe  127.0.0.1 1337</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\Tools\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-9dc3-5e75-0000-00205f930200}</Data>
+      <Data Name="LogonId">0x2935f</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=08664F5C3E07862AB9B531848AC92D08C8C6BA5A,MD5=E0DB1D3D47E312EF62E5B0C74DCEAFE5,SHA256=B3B207DFAB2F429CC352BA125BE32A0CAE69FE4BF8563AB7D0128BBA8C57A71C,IMPHASH=98CE7B6533CBD67993E36DAFB4E95946</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9e06-5e75-0000-00107d541000}</Data>
+      <Data Name="ParentProcessId">6088</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:39.441933000Z" />
+      <EventRecordID>243568</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:39.417</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f77-5e75-0000-001090f32000}</Data>
+      <Data Name="ProcessId">2416</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9f61-5e75-0000-0010686a1e00}</Data>
+      <Data Name="ParentProcessId">4848</Data>
+      <Data Name="ParentImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">rundll32 windowscoredeviceinfo.dll,CreateBackdoor</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:40.502366200Z" />
+      <EventRecordID>243569</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:33.272</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f61-5e75-0000-0010686a1e00}</Data>
+      <Data Name="ProcessId">4848</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49674</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">1337</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:45.087155800Z" />
+      <EventRecordID>243570</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:45.082</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f7d-5e75-0000-00104e062100}</Data>
+      <Data Name="ProcessId">2484</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">whoami.exe</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-9dba-5e75-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=47D7864D26FC67E0D60391CBF170D33DA518C322,MD5=43C2D3293AD939241DF61B3630A9D3B6,SHA256=1D5491E3C468EE4B4EF6EDFF4BBC7D06EE83180F6F0B1576763EA2EFE049493A,IMPHASH=7FF0758B766F747CE57DFAC70743FB88</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9f77-5e75-0000-001090f32000}</Data>
+      <Data Name="ParentProcessId">2416</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-03-21T05:00:54.689567800Z" />
+      <EventRecordID>243571</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2860" ThreadID="3508" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-03-21 05:00:54.684</Data>
+      <Data Name="ProcessGuid">{747f3d96-9f86-5e75-0000-00101a9f2100}</Data>
+      <Data Name="ProcessId">4680</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s fdPHost</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-9dbb-5e75-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9dba-5e75-0000-00106a520000}</Data>
+      <Data Name="ParentProcessId">592</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+</root>

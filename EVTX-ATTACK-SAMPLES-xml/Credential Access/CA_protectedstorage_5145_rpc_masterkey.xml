@@ -1,0 +1,45 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-19T13:06:52.199855800Z" />
+      <EventRecordID>886983</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="868" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-107103</Data>
+      <Data Name="SubjectUserName">backdoor</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x4e5197</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">52415</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">protected_storage</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+</root>

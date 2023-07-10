@@ -1,0 +1,46 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>150</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000008000</Keywords>
+      <TimeCreated SystemTime="2021-05-18T21:18:40.607018500Z" />
+      <EventRecordID>11645</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2320" ThreadID="3384" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData Name="DNS_EVENT_PLUGIN_INIT_FAILED">
+      <Data Name="param1">.\mimilib.dll</Data>
+      <Binary>7E000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>150</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000008000</Keywords>
+      <TimeCreated SystemTime="2021-05-18T21:23:27.038305800Z" />
+      <EventRecordID>11659</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3880" ThreadID="444" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData Name="DNS_EVENT_PLUGIN_INIT_FAILED">
+      <Data Name="param1">.\mimilib.dll</Data>
+      <Binary>7E000000</Binary>
+    </EventData>
+  </Event>
+</root>

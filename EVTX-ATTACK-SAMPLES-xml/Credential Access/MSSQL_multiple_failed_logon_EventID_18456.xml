@@ -1,0 +1,202 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.171339300Z" />
+      <EventRecordID>13026</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>sa</Data>
+      <Data> Reason: Password did not match that for the login provided.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.187637700Z" />
+      <EventRecordID>13027</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_SQLResourceSigningCertificate##</Data>
+      <Data> Reason: Attempting to use an NT account name with SQL Server Authentication.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.202731600Z" />
+      <EventRecordID>13028</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_SQLReplicationSigningCertificate##</Data>
+      <Data> Reason: Attempting to use an NT account name with SQL Server Authentication.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.202731600Z" />
+      <EventRecordID>13029</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_SQLAuthenticatorCertificate##</Data>
+      <Data> Reason: Attempting to use an NT account name with SQL Server Authentication.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.222452700Z" />
+      <EventRecordID>13030</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_PolicySigningCertificate##</Data>
+      <Data> Reason: Attempting to use an NT account name with SQL Server Authentication.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.233944300Z" />
+      <EventRecordID>13031</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_SmoExtendedSigningCertificate##</Data>
+      <Data> Reason: Attempting to use an NT account name with SQL Server Authentication.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.248423100Z" />
+      <EventRecordID>13032</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_PolicyEventProcessingLogin##</Data>
+      <Data> Reason: An error occurred while evaluating the password.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.248883200Z" />
+      <EventRecordID>13033</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_PolicyTsqlExecutionLogin##</Data>
+      <Data> Reason: An error occurred while evaluating the password.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.266435700Z" />
+      <EventRecordID>13034</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>##MS_AgentSigningCertificate##</Data>
+      <Data> Reason: Attempting to use an NT account name with SQL Server Authentication.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQLSERVER" />
+      <EventID Qualifiers="49152">18456</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-04T13:46:01.279825200Z" />
+      <EventRecordID>13035</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>root</Data>
+      <Data> Reason: Password did not match that for the login provided.</Data>
+      <Data> [CLIENT: 10.0.2.17]</Data>
+      <Binary>184800000E0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,281 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>823</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>49</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:09:16.280929800Z" />
+      <EventRecordID>4</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="4012" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+        <OldDefaultPrinter>-</OldDefaultPrinter>
+        <NewDefaultPrinter>Kiwi Legit Printer</NewDefaultPrinter>
+        <Status>0x0</Status>
+        <Module>spoolsv.exe</Module>
+      </ChangingDefaultPrinter>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>823</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>49</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:12:33.464241900Z" />
+      <EventRecordID>5</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2992" ThreadID="3944" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+        <OldDefaultPrinter>-</OldDefaultPrinter>
+        <NewDefaultPrinter>Microsoft XPS Document Writer (redirected 2),winspool,TS002</NewDefaultPrinter>
+        <Status>0x7a</Status>
+        <Module>winspool.drv</Module>
+      </ChangingDefaultPrinter>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>823</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>49</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:12:47.323575700Z" />
+      <EventRecordID>6</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="2760" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+        <OldDefaultPrinter>-</OldDefaultPrinter>
+        <NewDefaultPrinter>Kiwi Legit Printer</NewDefaultPrinter>
+        <Status>0x0</Status>
+        <Module>spoolsv.exe</Module>
+      </ChangingDefaultPrinter>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>302</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>10</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:21.369976800Z" />
+      <EventRecordID>150</EventRecordID>
+      <Correlation ActivityID="{c43202e9-cb0f-0000-d030-32c40fcbd701}" />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <PrinterDeletionPending xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>Kiwi Legit Printer</Param1>
+      </PrinterDeletionPending>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>849</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>31</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000020</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:21.369976800Z" />
+      <EventRecordID>151</EventRecordID>
+      <Correlation ActivityID="{c43202e9-cb0f-0000-d030-32c40fcbd701}" />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <PrinterSharing xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <PrinterName>Kiwi Legit Printer</PrinterName>
+        <ShareName>Kiwi Legit Printer</ShareName>
+      </PrinterSharing>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>301</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:21.369976800Z" />
+      <EventRecordID>152</EventRecordID>
+      <Correlation ActivityID="{c43202e9-cb0f-0000-d030-32c40fcbd701}" />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <PrinterDeleted xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>Kiwi Legit Printer</Param1>
+      </PrinterDeleted>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>316</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000900</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:27.309949500Z" />
+      <EventRecordID>153</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <DriverAdded xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>Generic / Text Only</Param1>
+        <Param2>Windows x64</Param2>
+        <Param3>Version-3</Param3>
+        <Param4>UNIDRV.DLL, UNIDRVUI.DLL, TTY.GPD, UNIDRV.HLP, TTYRES.DLL, TTY.INI, TTY.DLL, TTYUI.DLL, TTYUI.HLP, UNIRES.DLL, STDNAMES.GPD, STDDTYPE.GDL, STDSCHEM.GDL, STDSCHMX.GDL</Param4>
+      </DriverAdded>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>823</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>49</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:27.403699600Z" />
+      <EventRecordID>7</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+        <OldDefaultPrinter>
+        </OldDefaultPrinter>
+        <NewDefaultPrinter>Kiwi Legit Printer,winspool,FILE:</NewDefaultPrinter>
+        <Status>0x0</Status>
+        <Module>spoolsv.exe</Module>
+      </ChangingDefaultPrinter>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>848</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>30</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000020</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:27.466200500Z" />
+      <EventRecordID>154</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <PrinterSharing xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <PrinterName>Kiwi Legit Printer</PrinterName>
+        <ShareName>Kiwi Legit Printer</ShareName>
+      </PrinterSharing>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>823</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>49</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:27.559950200Z" />
+      <EventRecordID>8</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+        <OldDefaultPrinter>-</OldDefaultPrinter>
+        <NewDefaultPrinter>Kiwi Legit Printer</NewDefaultPrinter>
+        <Status>0x0</Status>
+        <Module>spoolsv.exe</Module>
+      </ChangingDefaultPrinter>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>300</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:14:27.559950200Z" />
+      <EventRecordID>155</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2552" ThreadID="4028" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterCreated xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>Kiwi Legit Printer</Param1>
+      </PrinterCreated>
+    </UserData>
+  </Event>
+</root>

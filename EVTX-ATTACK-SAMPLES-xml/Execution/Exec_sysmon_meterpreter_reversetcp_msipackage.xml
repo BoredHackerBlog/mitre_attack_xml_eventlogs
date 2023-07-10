@@ -1,0 +1,292 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>2</EventID>
+      <Version>4</Version>
+      <Level>4</Level>
+      <Task>2</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:48:58.901476000Z" />
+      <EventRecordID>10147</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:48:58.901</Data>
+      <Data Name="ProcessGuid">{365abb72-d0da-5cc8-0000-00109b5a3c00}</Data>
+      <Data Name="ProcessId">868</Data>
+      <Data Name="Image">C:\Windows\System32\msiexec.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\302a23.msi</Data>
+      <Data Name="CreationUtcTime">2019-04-30 22:43:38.892</Data>
+      <Data Name="PreviousCreationUtcTime">2019-04-30 22:48:58.901</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:48:59.260851000Z" />
+      <EventRecordID>10148</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:48:59.151</Data>
+      <Data Name="ProcessGuid">{365abb72-d0db-5cc8-0000-0010488a3c00}</Data>
+      <Data Name="ProcessId">1892</Data>
+      <Data Name="Image">C:\Windows\System32\VSSVC.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft« Volume Shadow Copy Service</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\vssvc.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-4322-5cc9-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=99894AEF71D9D3527F392CD71F66571110593876,MD5=209A3B1901B83AEB8527ED211CCE9E4C,SHA256=1A431F6409F8E0531F600F8F988ECECECB902DA26BBAAF1DE74A5CAC29A7CB44,IMPHASH=212B2417B4778F3EE9DE3F60458E953F</Data>
+      <Data Name="ParentProcessGuid">{365abb72-4321-5cc9-0000-001070530000}</Data>
+      <Data Name="ParentProcessId">464</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>2</EventID>
+      <Version>4</Version>
+      <Level>4</Level>
+      <Task>2</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:49:08.760851000Z" />
+      <EventRecordID>10149</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:49:07.901</Data>
+      <Data Name="ProcessGuid">{365abb72-d0da-5cc8-0000-0010216f3c00}</Data>
+      <Data Name="ProcessId">2080</Data>
+      <Data Name="Image">C:\Windows\system32\msiexec.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Installer\304d1c.msi</Data>
+      <Data Name="CreationUtcTime">2019-04-30 22:43:38.892</Data>
+      <Data Name="PreviousCreationUtcTime">2019-04-30 22:49:07.854</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:49:09.542101000Z" />
+      <EventRecordID>10150</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-04-30 22:49:08.432</Data>
+      <Data Name="ProcessGuid">{365abb72-d0da-5cc8-0000-0010216f3c00}</Data>
+      <Data Name="ProcessId">2080</Data>
+      <Data Name="Image">C:\Windows\system32\msiexec.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\InProgress\(Default)</Data>
+      <Data Name="Details">C:\Windows\Installer\304d1d.ipi</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:49:09.760851000Z" />
+      <EventRecordID>10151</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:49:08.604</Data>
+      <Data Name="ProcessGuid">{365abb72-d0e4-5cc8-0000-00103cb73e00}</Data>
+      <Data Name="ProcessId">3680</Data>
+      <Data Name="Image">C:\Windows\Installer\MSI4FFD.tmp</Data>
+      <Data Name="FileVersion">2.2.14</Data>
+      <Data Name="Description">ApacheBench command line utility</Data>
+      <Data Name="Product">Apache HTTP Server</Data>
+      <Data Name="Company">Apache Software Foundation</Data>
+      <Data Name="CommandLine">"C:\Windows\Installer\MSI4FFD.tmp"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-c494-5cc8-0000-0020e4ff0000}</Data>
+      <Data Name="LogonId">0xffe4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=06B1640F88EDC6A7CE3303CB14A505A86B061616,MD5=E40CF1CC132F25719F86F0FC5870910D,SHA256=A89385CCD4BE489CD069C65DA10A0B952CB3DE9090EF4C9F02E1368392CD66C5,IMPHASH=481F47BBB2C9C21E108D65F52B04C448</Data>
+      <Data Name="ParentProcessGuid">{365abb72-d0da-5cc8-0000-0010216f3c00}</Data>
+      <Data Name="ParentProcessId">2080</Data>
+      <Data Name="ParentImage">C:\Windows\System32\msiexec.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\msiexec.exe /V</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:49:09.792101000Z" />
+      <EventRecordID>10152</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:49:08.698</Data>
+      <Data Name="ProcessGuid">{365abb72-d0e4-5cc8-0000-001022b53e00}</Data>
+      <Data Name="ProcessId">2168</Data>
+      <Data Name="Image">C:\Windows\System32\msiexec.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\vbscript.dll</Data>
+      <Data Name="FileVersion">5.8.9600.16428</Data>
+      <Data Name="Description">Microsoft « VBScript</Data>
+      <Data Name="Product">Microsoft « VBScript</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="Hashes">SHA1=BCF66BE6C4D4FB0775E199C32EE2154AAC97F901,MD5=D4C89F6BCCC04D43BAC82F795A552DA5,SHA256=F7F7BF8C86CD2C6A27D20076B5713FBD60647CE0716DFEC0BB65895E92AE0830,IMPHASH=9F8EEA636265FC0065E869A2EAEFE7AF</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:49:10.198351000Z" />
+      <EventRecordID>10153</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:49:09.276</Data>
+      <Data Name="ProcessGuid">{365abb72-d0e5-5cc8-0000-0010dadf3e00}</Data>
+      <Data Name="ProcessId">2892</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-c494-5cc8-0000-0020e4ff0000}</Data>
+      <Data Name="LogonId">0xffe4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-d0e4-5cc8-0000-00103cb73e00}</Data>
+      <Data Name="ParentProcessId">3680</Data>
+      <Data Name="ParentImage">C:\Windows\Installer\MSI4FFD.tmp</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\Installer\MSI4FFD.tmp"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T22:52:27.588976000Z" />
+      <EventRecordID>10154</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1936" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 22:52:27.588</Data>
+      <Data Name="ProcessGuid">{365abb72-d1ab-5cc8-0000-0010db1e4400}</Data>
+      <Data Name="ProcessId">1372</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-c494-5cc8-0000-0020e4ff0000}</Data>
+      <Data Name="LogonId">0xffe4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=DC058F52AD8ACBD316827B6DCAC2434AB3CC515C,MD5=0EBF71E33EF09CA65D9683AFA999C473,SHA256=599EFD455AEEEFE2044A9B597061F271595033F5D0DF2C99DFDBCA8394BBCEC3,IMPHASH=C5352B949915AB8CD5E1844790D19274</Data>
+      <Data Name="ParentProcessGuid">{365abb72-d0e5-5cc8-0000-0010dadf3e00}</Data>
+      <Data Name="ParentProcessId">2892</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd</Data>
+    </EventData>
+  </Event>
+</root>

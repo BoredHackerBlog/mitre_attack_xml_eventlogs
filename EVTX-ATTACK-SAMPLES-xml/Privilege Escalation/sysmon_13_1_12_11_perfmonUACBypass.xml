@@ -1,0 +1,171 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-10T12:21:57.077543500Z" />
+      <EventRecordID>15634</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2016" ThreadID="2012" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-10 12:21:57.061</Data>
+      <Data Name="ProcessGuid">{365abb72-6ce5-5cd5-0000-00104bc61b00}</Data>
+      <Data Name="ProcessId">4076</Data>
+      <Data Name="Image">C:\Python27\python.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">python  winpwnage.py -u uac -i 7 -p c:\Windows\System32\cmd.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-67b5-5cd5-0000-00204f3a0100}</Data>
+      <Data Name="LogonId">0x13a4f</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=ECA93AAAA5039E12D2F0CC3F0C8F5AF8FDB15C71,MD5=E11683E4A1E88666DD5E0331F969E0C6,SHA256=B6B4BD10303797C209C4F3C3FCC863A925A77AE2C38090FB8B3FF1BF9C4DDE84,IMPHASH=F3F3DE6C332CF6049756A5B794EBD0C5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6818-5cd5-0000-0010b4620900}</Data>
+      <Data Name="ParentProcessId">3900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-10T12:21:57.286666700Z" />
+      <EventRecordID>15635</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2016" ThreadID="2012" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-10 12:21:57.270</Data>
+      <Data Name="ProcessGuid">{365abb72-6ce5-5cd5-0000-00104bc61b00}</Data>
+      <Data Name="ProcessId">4076</Data>
+      <Data Name="Image">c:\python27\python.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000\Volatile Environment\SYSTEMROOT</Data>
+      <Data Name="Details">c:\users\ieuser\appdata\local\temp</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-10T12:22:02.434314700Z" />
+      <EventRecordID>15636</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2016" ThreadID="2012" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-10 12:22:02.434</Data>
+      <Data Name="ProcessGuid">{365abb72-6ce5-5cd5-0000-00104bc61b00}</Data>
+      <Data Name="ProcessId">4076</Data>
+      <Data Name="Image">c:\python27\python.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\system32\mmc.exe</Data>
+      <Data Name="CreationUtcTime">2019-05-10 12:06:06.896</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-10T12:22:08.465096100Z" />
+      <EventRecordID>15637</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2016" ThreadID="2012" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-10 12:22:08.217</Data>
+      <Data Name="ProcessGuid">{365abb72-6cf0-5cd5-0000-0010140f1c00}</Data>
+      <Data Name="ProcessId">1644</Data>
+      <Data Name="Image">C:\Users\IEUser\AppData\Local\Temp\system32\mmc.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"c:\users\ieuser\appdata\local\temp\system32\mmc.exe" "c:\users\ieuser\appdata\local\temp\system32\perfmon.msc"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-67b5-5cd5-0000-0020113a0100}</Data>
+      <Data Name="LogonId">0x13a11</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6cf0-5cd5-0000-0010670c1c00}</Data>
+      <Data Name="ParentProcessId">3396</Data>
+      <Data Name="ParentImage">C:\Windows\System32\perfmon.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\perfmon.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-10T12:22:13.897461100Z" />
+      <EventRecordID>15638</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2016" ThreadID="2012" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">DeleteValue</Data>
+      <Data Name="UtcTime">2019-05-10 12:22:13.879</Data>
+      <Data Name="ProcessGuid">{365abb72-6ce5-5cd5-0000-00104bc61b00}</Data>
+      <Data Name="ProcessId">4076</Data>
+      <Data Name="Image">c:\python27\python.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000\Volatile Environment\SYSTEMROOT</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,102 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>5007</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-16T08:44:06.473850300Z" />
+      <EventRecordID>454</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2988" ThreadID="3524" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Old Value">HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths\C:\TOOLS\mimikatz.exe = 0x0</Data>
+      <Data Name="New Value">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>5007</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-16T08:44:27.222824500Z" />
+      <EventRecordID>455</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2988" ThreadID="4724" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Old Value">
+      </Data>
+      <Data Name="New Value">HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths\C:\TOOLS\mimikatz = 0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>5007</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-16T08:44:51.331997900Z" />
+      <EventRecordID>456</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2988" ThreadID="10652" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Old Value">
+      </Data>
+      <Data Name="New Value">HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes\virus.exe = 0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>5007</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-16T08:45:04.144627200Z" />
+      <EventRecordID>457</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2988" ThreadID="3524" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Old Value">
+      </Data>
+      <Data Name="New Value">HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Extensions\.mimi = 0x0</Data>
+    </EventData>
+  </Event>
+</root>

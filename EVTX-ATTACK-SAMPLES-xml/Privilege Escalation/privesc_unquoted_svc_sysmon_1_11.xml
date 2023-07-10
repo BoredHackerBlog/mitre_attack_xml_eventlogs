@@ -1,0 +1,3621 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:18:47.143475300Z" />
+      <EventRecordID>27292</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2752" ThreadID="3576" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - Potential PrivEsc via unquoted Service</Data>
+      <Data Name="UtcTime">2020-04-25 22:18:47.120</Data>
+      <Data Name="ProcessGuid">{747f3d96-b521-5ea4-0000-00108c171300}</Data>
+      <Data Name="ProcessId">5712</Data>
+      <Data Name="Image">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="TargetFilename">C:\program.exe</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:18:47.120</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:00.308479600Z" />
+      <EventRecordID>27322</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2752" ThreadID="3576" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:00.127</Data>
+      <Data Name="ProcessGuid">{747f3d96-b754-5ea4-0000-00104f0a2500}</Data>
+      <Data Name="ProcessId">6244</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Logon User Interface Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">logonui.exe</Data>
+      <Data Name="CommandLine">"LogonUI.exe" /flags:0x4 /state0:0xa38bd055 /state1:0x41c64e6d</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-3384-5ea5-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=E1AB36E5C3C1453C592E2901330EB13C5D29B351,MD5=33F89DD9629CB0422A2C17268376232D,SHA256=9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071,IMPHASH=B9B0B64B08B38276711093CA94348D39</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">572</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:02.057201000Z" />
+      <EventRecordID>27334</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2752" ThreadID="3576" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:01.724</Data>
+      <Data Name="ProcessGuid">{747f3d96-b755-5ea4-0000-0010d06e2500}</Data>
+      <Data Name="ProcessId">4484</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-3384-5ea5-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">596</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:20.134560600Z" />
+      <EventRecordID>27372</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:11.037</Data>
+      <Data Name="ProcessGuid">{747f3d96-b75f-5ea4-0000-0010622c0000}</Data>
+      <Data Name="ProcessId">300</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1131 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Session Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">smss.exe</Data>
+      <Data Name="CommandLine">\SystemRoot\System32\smss.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=5B61A25931437D4210EE3CBC8AE3A337B62F3DF0,MD5=38E6700BAA0E5484D2E00EC980FDD2E0,SHA256=B6E357B520478920810317B363AA539595D386BC5EF3D5CF9581F325026BA397,IMPHASH=BC32B6662261DE8469D6EB034C62A6A5</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b75f-5ea4-0000-0010eb030000}</Data>
+      <Data Name="ParentProcessId">4</Data>
+      <Data Name="ParentImage">System</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:22.312741400Z" />
+      <EventRecordID>27373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:14.321</Data>
+      <Data Name="ProcessGuid">{747f3d96-b762-5ea4-0000-00108b3c0000}</Data>
+      <Data Name="ProcessId">328</Data>
+      <Data Name="Image">C:\Windows\System32\autochk.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Auto Check Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">AutoChk.Exe</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\autochk.exe *</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=2E6C38958917FB86F09026D41337C7460EFBE5F5,MD5=990D01F2A6D10A33C382191A24BBAAAF,SHA256=644417B839762A3325920A87C3D955CA974A4EC1D6F008216910267435921255,IMPHASH=262DAC4DB20D08B06C59A7F5DBE43E61</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b75f-5ea4-0000-0010622c0000}</Data>
+      <Data Name="ParentProcessId">300</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:22.596352500Z" />
+      <EventRecordID>27374</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:15.727</Data>
+      <Data Name="ProcessGuid">{747f3d96-b763-5ea4-0000-00106a480000}</Data>
+      <Data Name="ProcessId">388</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1131 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Session Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">smss.exe</Data>
+      <Data Name="CommandLine">\SystemRoot\System32\smss.exe 000000cc 00000084 </Data>
+      <Data Name="CurrentDirectory">C:\Windows\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=5B61A25931437D4210EE3CBC8AE3A337B62F3DF0,MD5=38E6700BAA0E5484D2E00EC980FDD2E0,SHA256=B6E357B520478920810317B363AA539595D386BC5EF3D5CF9581F325026BA397,IMPHASH=BC32B6662261DE8469D6EB034C62A6A5</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b75f-5ea4-0000-0010622c0000}</Data>
+      <Data Name="ParentProcessId">300</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:22.630819500Z" />
+      <EventRecordID>27377</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:15.990</Data>
+      <Data Name="ProcessGuid">{747f3d96-b763-5ea4-0000-001034490000}</Data>
+      <Data Name="ProcessId">396</Data>
+      <Data Name="Image">C:\Windows\System32\csrss.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Client Server Runtime Process</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">CSRSS.Exe</Data>
+      <Data Name="CommandLine">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=779B8AFC3FA2528B090F400EF3D592E0E2775955,MD5=7D64128BC1EECE41196858897596EBC8,SHA256=FB40ED0FFA6BC795923A941DAB6B7D6B43583D0F152A6DF4D8953D2C1A0CB417,IMPHASH=A96FA9912E09E361274AD77F1A4B252C</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b763-5ea4-0000-00106a480000}</Data>
+      <Data Name="ParentProcessId">388</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 000000cc 00000084 </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:23.220481500Z" />
+      <EventRecordID>27380</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.128</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010794d0000}</Data>
+      <Data Name="ProcessId">460</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1131 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Session Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">smss.exe</Data>
+      <Data Name="CommandLine">\SystemRoot\System32\smss.exe 000000d8 00000084 </Data>
+      <Data Name="CurrentDirectory">C:\Windows\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=5B61A25931437D4210EE3CBC8AE3A337B62F3DF0,MD5=38E6700BAA0E5484D2E00EC980FDD2E0,SHA256=B6E357B520478920810317B363AA539595D386BC5EF3D5CF9581F325026BA397,IMPHASH=BC32B6662261DE8469D6EB034C62A6A5</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b75f-5ea4-0000-0010622c0000}</Data>
+      <Data Name="ParentProcessId">300</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:23.222519500Z" />
+      <EventRecordID>27383</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.130</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010904d0000}</Data>
+      <Data Name="ProcessId">468</Data>
+      <Data Name="Image">C:\Windows\System32\wininit.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Start-Up Application</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">WinInit.exe</Data>
+      <Data Name="CommandLine">wininit.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=389E257A924EA521E830C31712494D33B38841A8,MD5=4E20895E641F2C3E68AB3DB91A1A16F1,SHA256=13AD43EE6D19DFC9709C3106D796BC3F21791A564E443D042A5AA117F2680649,IMPHASH=C2F90ACB28AF147D0D0C3408B9EE38C5</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b763-5ea4-0000-00106a480000}</Data>
+      <Data Name="ParentProcessId">388</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 000000cc 00000084 </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:23.224528100Z" />
+      <EventRecordID>27385</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.143</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010714e0000}</Data>
+      <Data Name="ProcessId">476</Data>
+      <Data Name="Image">C:\Windows\System32\csrss.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Client Server Runtime Process</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">CSRSS.Exe</Data>
+      <Data Name="CommandLine">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=779B8AFC3FA2528B090F400EF3D592E0E2775955,MD5=7D64128BC1EECE41196858897596EBC8,SHA256=FB40ED0FFA6BC795923A941DAB6B7D6B43583D0F152A6DF4D8953D2C1A0CB417,IMPHASH=A96FA9912E09E361274AD77F1A4B252C</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-0010794d0000}</Data>
+      <Data Name="ParentProcessId">460</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 000000d8 00000084 </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:23.876282300Z" />
+      <EventRecordID>27388</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.240</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-001096530000}</Data>
+      <Data Name="ProcessId">568</Data>
+      <Data Name="Image">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1075 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Logon Application</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">WINLOGON.EXE</Data>
+      <Data Name="CommandLine">winlogon.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=573ED5AED255DCEC948BCEA8C28EC9F3802A2E64,MD5=E8B1A6B8C6EA5972C123A816DF237AF8,SHA256=290C8C4B387B669B3988938D0083AA4B210365FB0855EAE010F49062A9DDEB04,IMPHASH=A5F3EBEF8618DCA7C7ACCF623BABBB86</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-0010794d0000}</Data>
+      <Data Name="ParentProcessId">460</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 000000d8 00000084 </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:24.049688700Z" />
+      <EventRecordID>27390</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.295</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ProcessId">584</Data>
+      <Data Name="Image">C:\Windows\System32\services.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1075 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Services and Controller app</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">services.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\services.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=617A0A0BAAB180541DB739C4A6851D784943C317,MD5=DB896369FB58241ADF28515E3765C514,SHA256=A2E369DF26C88015FE1F97C7542D6023B5B1E4830C25F94819507EE5BCB1DFCC,IMPHASH=7D2820FC8CAF521DC2058168B480D204</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-0010904d0000}</Data>
+      <Data Name="ParentProcessId">468</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wininit.exe</Data>
+      <Data Name="ParentCommandLine">wininit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:24.054185900Z" />
+      <EventRecordID>27393</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.341</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-001075590000}</Data>
+      <Data Name="ProcessId">616</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Local Security Authority Process</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">lsass.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=0FB26350106C9BDD196D4E7D01EB30007663687C,MD5=568C5CBF9877F6B9E39D1E7CA0FF0A36,SHA256=BBC83E4759D4B82BAD31E371AD679AA414C72273BF97CEE5AED8337ED8A4D79F,IMPHASH=09FDE88C65E2BC5F1F90E96B673C52B1</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-0010904d0000}</Data>
+      <Data Name="ParentProcessId">468</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wininit.exe</Data>
+      <Data Name="ParentCommandLine">wininit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:24.188398500Z" />
+      <EventRecordID>27417</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.555</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-00105b6c0000}</Data>
+      <Data Name="ProcessId">732</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p -s PlugPlay</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:24.194413700Z" />
+      <EventRecordID>27420</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.578</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010fe6f0000}</Data>
+      <Data Name="ProcessId">808</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.198770500Z" />
+      <EventRecordID>27438</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.783</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010debf0000}</Data>
+      <Data Name="ProcessId">992</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Logon User Interface Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">logonui.exe</Data>
+      <Data Name="CommandLine">"LogonUI.exe" /flags:0x2 /state0:0xa3b08855 /state1:0x41c64e6d</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=E1AB36E5C3C1453C592E2901330EB13C5D29B351,MD5=33F89DD9629CB0422A2C17268376232D,SHA256=9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071,IMPHASH=B9B0B64B08B38276711093CA94348D39</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-001096530000}</Data>
+      <Data Name="ParentProcessId">568</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.211506400Z" />
+      <EventRecordID>27442</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.785</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-001035c00000}</Data>
+      <Data Name="ProcessId">1000</Data>
+      <Data Name="Image">C:\Windows\System32\dwm.exe</Data>
+      <Data Name="FileVersion">10.0.17763.831 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Desktop Window Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">dwm.exe</Data>
+      <Data Name="CommandLine">"dwm.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">Window Manager\DWM-1</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020f6bf0000}</Data>
+      <Data Name="LogonId">0xbff6</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=2371C02842FD9670FA47B2EAE4CB08FA7A6070C1,MD5=5CE3CCA35D8B19967B25806B7FF69D0F,SHA256=5954A267C8F271798EC0AC18D5F67F21A70B47258B10601511CA2109FFFDCF71,IMPHASH=CC05EDB80F10F1D5E7EC964B8C83F969</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-001096530000}</Data>
+      <Data Name="ParentProcessId">568</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.225729600Z" />
+      <EventRecordID>27445</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.801</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-00105fc20000}</Data>
+      <Data Name="ProcessId">1020</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.418816900Z" />
+      <EventRecordID>27457</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.855</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010eac90000}</Data>
+      <Data Name="ProcessId">636</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.432119800Z" />
+      <EventRecordID>27469</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:16.929</Data>
+      <Data Name="ProcessGuid">{747f3d96-b764-5ea4-0000-0010a5d20000}</Data>
+      <Data Name="ProcessId">1104</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.482737200Z" />
+      <EventRecordID>27470</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.008</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-001032d70000}</Data>
+      <Data Name="ProcessId">1156</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s ProfSvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.485345000Z" />
+      <EventRecordID>27474</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.053</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-001089dd0000}</Data>
+      <Data Name="ProcessId">1212</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.487154100Z" />
+      <EventRecordID>27475</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.064</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010dcdf0000}</Data>
+      <Data Name="ProcessId">1240</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s UserManager</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.600572600Z" />
+      <EventRecordID>27479</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.115</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00109fe80000}</Data>
+      <Data Name="ProcessId">1308</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s nsi</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:25.603617000Z" />
+      <EventRecordID>27483</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.161</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00104fee0000}</Data>
+      <Data Name="ProcessId">1360</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.158042700Z" />
+      <EventRecordID>27488</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.190</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00107df10000}</Data>
+      <Data Name="ProcessId">1380</Data>
+      <Data Name="Image">C:\Windows\System32\upfc.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Updateability From SCM</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">upfc.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\Upfc.exe /launchtype boot /cv pVnjz5d3jkOKEwXZiJ9/ng.0</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=D35A6D77ACF8E9AC80E345BDE15032AE632A976D,MD5=AC3DA8AAC02C94DC65ECDF9548E6372D,SHA256=AE4B0E81C601521DA974D53E44295C98331CED7C9CC2F260434E6BC0C475DDA3,IMPHASH=B3371ED99D25FEFF460973E2D1E5A076</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.303168900Z" />
+      <EventRecordID>27492</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.316</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010edfc0000}</Data>
+      <Data Name="ProcessId">1500</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k NetworkService -p -s NlaSvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.507599900Z" />
+      <EventRecordID>27496</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.344</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-001055010100}</Data>
+      <Data Name="ProcessId">1536</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k NetworkService -p -s Dnscache</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.536826000Z" />
+      <EventRecordID>27500</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.398</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010550a0100}</Data>
+      <Data Name="ProcessId">1616</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s EventSystem</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.540338800Z" />
+      <EventRecordID>27501</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.399</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00108b0a0100}</Data>
+      <Data Name="ProcessId">1624</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s SysMain</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.542109400Z" />
+      <EventRecordID>27502</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.402</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010ea0a0100}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k netsvcs -p -s Themes</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.558091000Z" />
+      <EventRecordID>27506</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.430</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00102b0f0100}</Data>
+      <Data Name="ProcessId">1676</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalService -p -s netprofm</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.632683700Z" />
+      <EventRecordID>27524</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.476</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-001028190100}</Data>
+      <Data Name="ProcessId">1780</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s SENS</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.635281400Z" />
+      <EventRecordID>27528</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.513</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010831f0100}</Data>
+      <Data Name="ProcessId">1876</Data>
+      <Data Name="Image">C:\Windows\System32\dxgiadaptercache.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">DXGI Adapter Cache</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">DXGIAdapterCache.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\dxgiadaptercache.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=898AD000DF8317837B5CF97FA32509739346EDDB,MD5=CEA17E28EFF3B2EED6B49B5DDCC7327F,SHA256=BA598EFD9D9C4449DEAC83F78CEC893AA127F31767902D6DD69A157B65450240,IMPHASH=88A45A1AD2822D23AF808E0A0C8194B7</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-0010a5d20000}</Data>
+      <Data Name="ParentProcessId">1104</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.642035500Z" />
+      <EventRecordID>27535</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.543</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00109b240100}</Data>
+      <Data Name="ProcessId">1912</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s FontCache</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.643837500Z" />
+      <EventRecordID>27537</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.546</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-001031250100}</Data>
+      <Data Name="ProcessId">1920</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s AudioEndpointBuilder</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.645870600Z" />
+      <EventRecordID>27541</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.554</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010be260100}</Data>
+      <Data Name="ProcessId">1936</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s WinHttpAutoProxySvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:26.652690700Z" />
+      <EventRecordID>27545</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.585</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010572d0100}</Data>
+      <Data Name="ProcessId">1996</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.196616100Z" />
+      <EventRecordID>27553</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.650</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00107a380100}</Data>
+      <Data Name="ProcessId">1440</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.198584300Z" />
+      <EventRecordID>27554</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.652</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00100b390100}</Data>
+      <Data Name="ProcessId">1552</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.473253000Z" />
+      <EventRecordID>27565</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.709</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010aa430100}</Data>
+      <Data Name="ProcessId">2076</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.481891800Z" />
+      <EventRecordID>27570</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.764</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-00106b420100}</Data>
+      <Data Name="ProcessId">2056</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Logs\dosvc.20200425_221917_750.etl</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:17.750</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.484186800Z" />
+      <EventRecordID>27575</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.775</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-0010344d0100}</Data>
+      <Data Name="ProcessId">2204</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k netsvcs -p -s ShellHWDetection</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.583529200Z" />
+      <EventRecordID>27585</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:17.936</Data>
+      <Data Name="ProcessGuid">{747f3d96-b765-5ea4-0000-001016620100}</Data>
+      <Data Name="ProcessId">2364</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Winmgmt</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.764785000Z" />
+      <EventRecordID>27589</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.022</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010c4680100}</Data>
+      <Data Name="ProcessId">2408</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k NetworkService -p -s LanmanWorkstation</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.836618400Z" />
+      <EventRecordID>27597</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.062</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010366f0100}</Data>
+      <Data Name="ProcessId">2476</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k NetSvcs -p -s iphlpsvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.838641100Z" />
+      <EventRecordID>27605</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.067</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-001019700100}</Data>
+      <Data Name="ProcessId">2488</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted -p -s PolicyAgent</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.855101000Z" />
+      <EventRecordID>27606</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.068</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-001046700100}</Data>
+      <Data Name="ProcessId">2496</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s IKEEXT</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:27.970533600Z" />
+      <EventRecordID>27618</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.165</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010a4790100}</Data>
+      <Data Name="ProcessId">2632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k NetworkService -p -s CryptSvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.014998800Z" />
+      <EventRecordID>27619</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.166</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010067a0100}</Data>
+      <Data Name="ProcessId">2640</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k utcsvc -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.063356300Z" />
+      <EventRecordID>27623</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.221</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010de7e0100}</Data>
+      <Data Name="ProcessId">2704</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork -p -s DPS</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.065530400Z" />
+      <EventRecordID>27628</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.238</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010a7800100}</Data>
+      <Data Name="ProcessId">2736</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s LanmanServer</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.068155800Z" />
+      <EventRecordID>27632</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.271</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-001074830100}</Data>
+      <Data Name="ProcessId">2772</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s SstpSvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.079324700Z" />
+      <EventRecordID>27635</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.316</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010d4880100}</Data>
+      <Data Name="ProcessId">2848</Data>
+      <Data Name="Image">C:\Windows\System32\wlms\wlms.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows License Monitoring Service</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">wlms.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\wlms\wlms.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=42D56EA9DF9576E2193499EE25C27244EAC4ED6B,MD5=4E72A0A91ED9A811FA75A6D8EEC24DE3,SHA256=487A3B61FEFDDC758B2455DF2C8E666D3FCC4E75D8C0A6B56D0AD2732F9F3C48,IMPHASH=C4858787B32BE55BB0085C7B777727C2</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.080717200Z" />
+      <EventRecordID>27636</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - Potential Unquoted Service Exploit</Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.317</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010e7880100}</Data>
+      <Data Name="ProcessId">2856</Data>
+      <Data Name="Image">C:\program.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">c:\Program Files\vulnsvc\mmm.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.086837000Z" />
+      <EventRecordID>27641</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.329</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010038a0100}</Data>
+      <Data Name="ProcessId">2876</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s WpnService</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.096049100Z" />
+      <EventRecordID>27644</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.357</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-00104a8d0100}</Data>
+      <Data Name="ProcessId">2900</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TrkWks</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:28.465652900Z" />
+      <EventRecordID>27650</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:18.525</Data>
+      <Data Name="ProcessGuid">{747f3d96-b766-5ea4-0000-0010baa10100}</Data>
+      <Data Name="ProcessId">3044</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalService -p -s WdiServiceHost</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:32.050869400Z" />
+      <EventRecordID>27727</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:19.844</Data>
+      <Data Name="ProcessGuid">{747f3d96-b767-5ea4-0000-0010fe2e0200}</Data>
+      <Data Name="ProcessId">3752</Data>
+      <Data Name="Image">C:\Windows\System32\sihost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1075 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Shell Infrastructure Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">sihost.exe</Data>
+      <Data Name="CommandLine">sihost.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=A72247134CA39DA0B1F706F6B339DC912C0EE0D3,MD5=F6A576DCC3EA8F62B8818434B163D25B,SHA256=FDF2362A69C542996A8AC84B938DE62CA97AC209762171D2F8B6B543D3A966D0,IMPHASH=D79FA753A3003DE97EDFC038DF32C136</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b765-5ea4-0000-0010dcdf0000}</Data>
+      <Data Name="ParentProcessId">1240</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s UserManager</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:32.058331500Z" />
+      <EventRecordID>27728</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:19.856</Data>
+      <Data Name="ProcessGuid">{747f3d96-b767-5ea4-0000-0010d0310200}</Data>
+      <Data Name="ProcessId">3760</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:32.097570700Z" />
+      <EventRecordID>27730</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:19.960</Data>
+      <Data Name="ProcessGuid">{747f3d96-b767-5ea4-0000-001097430200}</Data>
+      <Data Name="ProcessId">3820</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:32.358995800Z" />
+      <EventRecordID>27747</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:20.786</Data>
+      <Data Name="ProcessGuid">{747f3d96-b768-5ea4-0000-00106fae0200}</Data>
+      <Data Name="ProcessId">4264</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s CDPSvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:35.125770000Z" />
+      <EventRecordID>27753</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:21.838</Data>
+      <Data Name="ProcessGuid">{747f3d96-b769-5ea4-0000-00101d9c0300}</Data>
+      <Data Name="ProcessId">4536</Data>
+      <Data Name="Image">C:\Windows\System32\userinit.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Userinit Logon Application</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">USERINIT.EXE</Data>
+      <Data Name="CommandLine">C:\Windows\system32\userinit.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=470C3E60F9B2B6D83F95C7916A5361E34DEC3471,MD5=BF8825D08BC235F0609CA8BBEF4E179C,SHA256=1FE7F7C59EC7EAA276739FA85F7DDA6136D81184E0AEB385B6AC9FEAAA8C4394,IMPHASH=8419D97ABDFEB6C320F0C39028647572</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-001096530000}</Data>
+      <Data Name="ParentProcessId">568</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:35.236921400Z" />
+      <EventRecordID>27759</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:22.032</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ProcessId">4600</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1131 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">EXPLORER.EXE</Data>
+      <Data Name="CommandLine">C:\Windows\Explorer.EXE</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=421C8FE40D4A8B70547DCCD21D924B3C58C26F89,MD5=E883B381FDAD6E3125938DCB4EA798BB,SHA256=833500E09588EFA91056C81D86E5773173ADD278E0603E5C90315487117EEEBB,IMPHASH=6D78CE65118DF73A9E7BEAC9366C186A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b769-5ea4-0000-00101d9c0300}</Data>
+      <Data Name="ParentProcessId">4536</Data>
+      <Data Name="ParentImage">C:\Windows\System32\userinit.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\userinit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:36.984165300Z" />
+      <EventRecordID>27792</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:26.750</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76e-5ea4-0000-001034090600}</Data>
+      <Data Name="ProcessId">5632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\LocalService\AppData\Local\Packages\warp_jit_81c7ad1a-a25c-4a75-b512-788e5de33cfe</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:26.750</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:36.984310100Z" />
+      <EventRecordID>27793</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:26.750</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76e-5ea4-0000-001034090600}</Data>
+      <Data Name="ProcessId">5632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\LocalService\AppData\Local\Packages\warp_jit_81c7ad1a-a25c-4a75-b512-788e5de33cfe\AC</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:26.750</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:36.984579200Z" />
+      <EventRecordID>27794</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:26.766</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76e-5ea4-0000-001034090600}</Data>
+      <Data Name="ProcessId">5632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\LocalService\AppData\Local\Packages\warp_jit_81c7ad1a-a25c-4a75-b512-788e5de33cfe\AC\Temp</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:26.766</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:36.984650100Z" />
+      <EventRecordID>27795</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:26.766</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76e-5ea4-0000-001034090600}</Data>
+      <Data Name="ProcessId">5632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\LocalService\AppData\Local\Packages\warp_jit_81c7ad1a-a25c-4a75-b512-788e5de33cfe\AC\INetCache</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:26.766</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:36.984719600Z" />
+      <EventRecordID>27796</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:26.766</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76e-5ea4-0000-001034090600}</Data>
+      <Data Name="ProcessId">5632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\LocalService\AppData\Local\Packages\warp_jit_81c7ad1a-a25c-4a75-b512-788e5de33cfe\AC\INetHistory</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:26.766</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:36.984818700Z" />
+      <EventRecordID>27797</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:26.766</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76e-5ea4-0000-001034090600}</Data>
+      <Data Name="ProcessId">5632</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\ServiceProfiles\LocalService\AppData\Local\Packages\warp_jit_81c7ad1a-a25c-4a75-b512-788e5de33cfe\AC\INetCookies</Data>
+      <Data Name="CreationUtcTime">2020-04-25 22:19:26.766</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:37.209189600Z" />
+      <EventRecordID>27803</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:27.149</Data>
+      <Data Name="ProcessGuid">{747f3d96-b76f-5ea4-0000-0010624d0600}</Data>
+      <Data Name="ProcessId">5840</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32.exe AppXDeploymentExtensions.OneCore.dll,ShellRefresh</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b769-5ea4-0000-001000800300}</Data>
+      <Data Name="ParentProcessId">4472</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k wsappx -p -s AppXSvc</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:40.692924200Z" />
+      <EventRecordID>27840</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:34.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-b776-5ea4-0000-0010a74d0b00}</Data>
+      <Data Name="ProcessId">6964</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:19:40.712488200Z" />
+      <EventRecordID>27841</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:19:34.611</Data>
+      <Data Name="ProcessGuid">{747f3d96-b776-5ea4-0000-001006590b00}</Data>
+      <Data Name="ProcessId">7000</Data>
+      <Data Name="Image">C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_18.2002.1101.0_x64__8wekyb3d8bbwe\LocalBridge.exe</Data>
+      <Data Name="FileVersion">18.2002.1101.0</Data>
+      <Data Name="Description">LocalBridge</Data>
+      <Data Name="Product">LocalBridge</Data>
+      <Data Name="Company">
+      </Data>
+      <Data Name="OriginalFileName">LocalBridge.exe</Data>
+      <Data Name="CommandLine">"C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_18.2002.1101.0_x64__8wekyb3d8bbwe\LocalBridge.exe" /InvokerPRAID: Microsoft.MicrosoftOfficeHub notifications</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=723A4542BDEBD6BAC53008073369C476AE0C168E,MD5=405958774EEEF0EC5774764676FE94C4,SHA256=AA4D0C64AC44EA11BCEC87CF7A73BC479DB9047C21D544341B07558E0C1773B5,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b776-5ea4-0000-001025270b00}</Data>
+      <Data Name="ParentProcessId">6924</Data>
+      <Data Name="ParentImage">C:\Windows\System32\RuntimeBroker.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\System32\RuntimeBroker.exe -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:11.341815600Z" />
+      <EventRecordID>27957</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:11.269</Data>
+      <Data Name="ProcessGuid">{747f3d96-b79b-5ea4-0000-00105bd50f00}</Data>
+      <Data Name="ProcessId">6656</Data>
+      <Data Name="Image">C:\Windows\System32\eventvwr.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Event Viewer Snapin Launcher</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">eventvwr.exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\eventvwr.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=1AF3BB8D63A0ED48DF1F1706B791404DEE28524F,MD5=43129C3BFC9746CE9FFE8E45D10FE050,SHA256=BC87E4F462F00B826EC09AC16B625D0F70439C48FC04A52A41B4CD9E78401F70,IMPHASH=5843AE9886BB500E05E07EE59BB5AD42</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:11.402474100Z" />
+      <EventRecordID>27958</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:11.317</Data>
+      <Data Name="ProcessGuid">{747f3d96-b79b-5ea4-0000-001075da0f00}</Data>
+      <Data Name="ProcessId">6648</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">10.0.17763.404 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">consent.exe</Data>
+      <Data Name="CommandLine">consent.exe 6964 318 0000021FF2606500</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=9329B2362078DE27242DD4534F588AF3264BF0BF,MD5=27992D7EBE51AEC655A088DE88BAD5C9,SHA256=8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6,IMPHASH=522D83761201075834F05037F5307949</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b776-5ea4-0000-0010a74d0b00}</Data>
+      <Data Name="ParentProcessId">6964</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:11.516566100Z" />
+      <EventRecordID>27970</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:11.513</Data>
+      <Data Name="ProcessGuid">{747f3d96-b79b-5ea4-0000-001001fc0f00}</Data>
+      <Data Name="ProcessId">748</Data>
+      <Data Name="Image">C:\Windows\System32\eventvwr.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Event Viewer Snapin Launcher</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">eventvwr.exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\eventvwr.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00206cd30100}</Data>
+      <Data Name="LogonId">0x1d36c</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=1AF3BB8D63A0ED48DF1F1706B791404DEE28524F,MD5=43129C3BFC9746CE9FFE8E45D10FE050,SHA256=BC87E4F462F00B826EC09AC16B625D0F70439C48FC04A52A41B4CD9E78401F70,IMPHASH=5843AE9886BB500E05E07EE59BB5AD42</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:16.073653700Z" />
+      <EventRecordID>27983</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Discovery - domain time</Data>
+      <Data Name="UtcTime">2020-04-25 22:20:16.041</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7a0-5ea4-0000-001026d11000}</Data>
+      <Data Name="ProcessId">7056</Data>
+      <Data Name="Image">C:\BGinfo\BGINFO.EXE</Data>
+      <Data Name="FileVersion">4.20</Data>
+      <Data Name="Description">BGInfo - Wallpaper text configurator</Data>
+      <Data Name="Product">BGInfo</Data>
+      <Data Name="Company">Sysinternals</Data>
+      <Data Name="OriginalFileName">Bginfo.exe</Data>
+      <Data Name="CommandLine">"C:\BGinfo\BGINFO.EXE" /accepteula /ic:\bginfo\bgconfig.bgi /timer:0</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=1CEE3FA8419BDF4CBC266461277E3FDD9B93DE25,MD5=3652BA8B882BF6C69AF70CE73CF0D616,SHA256=0362CD6E7B318AB9A4C74DAF229F11BB795A2CE553EA024CB49143456C27C41D,IMPHASH=6EC19FF15BC88DDEDB96115003A96430</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:16.165482600Z" />
+      <EventRecordID>27991</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:16.141</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7a0-5ea4-0000-001027d81000}</Data>
+      <Data Name="ProcessId">7088</Data>
+      <Data Name="Image">C:\Windows\System32\SecurityHealthService.exe</Data>
+      <Data Name="FileVersion">4.18.1807.16384 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Security Health Service</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">SecurityHealthService.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\SecurityHealthService.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=99FD6286539D36B93D1255473D75E14E14C7A9AE,MD5=3ECF427D2F76A86676DFB4A67EDDEF64,SHA256=6AD58BB7707259E0EB1599400A603134550B344CD86AB73B04D9DEF937D6A1C6,IMPHASH=F5BD79DC95E0303BDD85756328F16293</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:16.965344200Z" />
+      <EventRecordID>27999</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:16.938</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7a0-5ea4-0000-00108d131100}</Data>
+      <Data Name="ProcessId">3376</Data>
+      <Data Name="Image">C:\Users\IEUser\AppData\Local\Microsoft\OneDrive\19.232.1124.0012\FileCoAuth.exe</Data>
+      <Data Name="FileVersion">19.232.1124.0012</Data>
+      <Data Name="Description">Microsoft OneDriveFile Co-Authoring Executable</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">FileCoAuth.exe</Data>
+      <Data Name="CommandLine">C:\Users\IEUser\AppData\Local\Microsoft\OneDrive\19.232.1124.0012\FileCoAuth.exe -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=61E5471B3D1B1FCF6D7ACAACB16E20AC759A6382,MD5=69FBC6D5F49A65860266E17018C55429,SHA256=BF5DD8456747FBA334FE22A5AA4BCC88B61BFBC7D5AC7990CC271C447DEB3409,IMPHASH=7AFCE357D7EB35125ABAE0BB8AB443EC</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-0010fe6f0000}</Data>
+      <Data Name="ParentProcessId">808</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:18.975199500Z" />
+      <EventRecordID>28043</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:18.928</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7a2-5ea4-0000-0010982f1200}</Data>
+      <Data Name="ProcessId">864</Data>
+      <Data Name="Image">C:\Users\IEUser\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+      <Data Name="FileVersion">19.232.1124.0012</Data>
+      <Data Name="Description">Microsoft OneDrive</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">OneDrive.exe</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=C58446B3ABB7047BE3A581CCFD76329261BD5B9F,MD5=A82BFD1BBA73F453B27F146930AA8256,SHA256=6048931C40EFE6B73A6A541678D866E82C9ABEBA780FA61EB934AF124FB8F1BC,IMPHASH=67FA439780BDB54E74C4FA7BF8E5F089</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:21.251393800Z" />
+      <EventRecordID>28049</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:21.199</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7a5-5ea4-0000-0010cab51300}</Data>
+      <Data Name="ProcessId">3256</Data>
+      <Data Name="Image">C:\Windows\regedit.exe</Data>
+      <Data Name="FileVersion">10.0.17763.168 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Registry Editor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">REGEDIT.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\regedit.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00209bd30100}</Data>
+      <Data Name="LogonId">0x1d39b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=1D72449F04F2287A31A91024FC3E3ADA33322E72,MD5=A3668018735B59050AD123A5A8CDC184,SHA256=FF3B56204F0CEA172AEFB178E05A32C3C3C0BE93F29DD4C2DF46A6DE07BB5152,IMPHASH=7FEBF576192E34BDF7D07877CBACC413</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:21.263232900Z" />
+      <EventRecordID>28050</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:21.230</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7a5-5ea4-0000-0010eab91300}</Data>
+      <Data Name="ProcessId">7036</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">10.0.17763.404 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">consent.exe</Data>
+      <Data Name="CommandLine">consent.exe 6964 258 0000021FF266EC20</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=9329B2362078DE27242DD4534F588AF3264BF0BF,MD5=27992D7EBE51AEC655A088DE88BAD5C9,SHA256=8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6,IMPHASH=522D83761201075834F05037F5307949</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b776-5ea4-0000-0010a74d0b00}</Data>
+      <Data Name="ParentProcessId">6964</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:20:26.261381900Z" />
+      <EventRecordID>28072</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:20:26.252</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7aa-5ea4-0000-001066001700}</Data>
+      <Data Name="ProcessId">4480</Data>
+      <Data Name="Image">C:\Windows\regedit.exe</Data>
+      <Data Name="FileVersion">10.0.17763.168 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Registry Editor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">REGEDIT.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\regedit.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-b767-5ea4-0000-00206cd30100}</Data>
+      <Data Name="LogonId">0x1d36c</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=1D72449F04F2287A31A91024FC3E3ADA33322E72,MD5=A3668018735B59050AD123A5A8CDC184,SHA256=FF3B56204F0CEA172AEFB178E05A32C3C3C0BE93F29DD4C2DF46A6DE07BB5152,IMPHASH=7FEBF576192E34BDF7D07877CBACC413</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b76a-5ea4-0000-0010eeb50300}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:21:08.564350200Z" />
+      <EventRecordID>28134</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:21:08.560</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7d4-5ea4-0000-0010e09b1700}</Data>
+      <Data Name="ProcessId">2792</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation -p -s SSDPSRV</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:21:18.412316300Z" />
+      <EventRecordID>28154</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:21:18.407</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7de-5ea4-0000-0010fa4e1800}</Data>
+      <Data Name="ProcessId">6548</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k NetworkService -p</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:21:19.340027200Z" />
+      <EventRecordID>28169</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:21:19.335</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7df-5ea4-0000-001052671800}</Data>
+      <Data Name="ProcessId">992</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k NetworkService -p -s WinRM</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-04-25T22:21:19.629630600Z" />
+      <EventRecordID>28173</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2796" ThreadID="3572" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-04-25 22:21:19.623</Data>
+      <Data Name="ProcessGuid">{747f3d96-b7df-5ea4-0000-001080711800}</Data>
+      <Data Name="ProcessId">1396</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s wscsvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-b764-5ea4-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b764-5ea4-0000-00106f550000}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+</root>

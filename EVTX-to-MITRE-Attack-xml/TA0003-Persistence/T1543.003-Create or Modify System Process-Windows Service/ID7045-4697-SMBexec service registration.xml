@@ -1,0 +1,56 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-13T12:55:45.250084500Z" />
+      <EventRecordID>1467331</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="4544" />
+      <Channel>System</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">BTOBTO</Data>
+      <Data Name="ImagePath">%COMSPEC% /Q /c echo cd  ^&gt; \\127.0.0.1\C$\__output 2^&gt;^&amp;1 &gt; %TEMP%\execute.bat &amp; %COMSPEC% /Q /c %TEMP%\execute.bat &amp; del %TEMP%\execute.bat</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">demand start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4697</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12289</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-13T12:55:45.250905500Z" />
+      <EventRecordID>236864754</EventRecordID>
+      <Correlation ActivityID="{d96638da-e4f9-0001-f038-66d9f9e4d701}" />
+      <Execution ProcessID="596" ThreadID="4516" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2cff42b44</Data>
+      <Data Name="ServiceName">BTOBTO</Data>
+      <Data Name="ServiceFileName">%COMSPEC% /Q /c echo cd  ^&gt; \\127.0.0.1\C$\__output 2^&gt;^&amp;1 &gt; %TEMP%\execute.bat &amp; %COMSPEC% /Q /c %TEMP%\execute.bat &amp; del %TEMP%\execute.bat</Data>
+      <Data Name="ServiceType">0x10</Data>
+      <Data Name="ServiceStartType">3</Data>
+      <Data Name="ServiceAccount">LocalSystem</Data>
+    </EventData>
+  </Event>
+</root>

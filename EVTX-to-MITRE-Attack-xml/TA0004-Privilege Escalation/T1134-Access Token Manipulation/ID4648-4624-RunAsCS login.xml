@@ -1,0 +1,202 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-07T22:05:06.936880900Z" />
+      <EventRecordID>1635998</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="728" ThreadID="3320" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-4230534742-2542757381-3142984815-1111</SubjectUserSid>
+        <SubjectUserName>admmig</SubjectUserName>
+        <SubjectDomainName>OFFSEC</SubjectDomainName>
+        <SubjectLogonId>0x8b0aad6</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-07T22:05:07.640030700Z" />
+      <EventRecordID>1635999</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="508" ThreadID="1620" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8b0aad6</Data>
+      <Data Name="LogonGuid">{c4c6d57e-67c1-4d4c-700c-d078b36c742c}</Data>
+      <Data Name="TargetUserName">test10</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonGuid">{b1def3be-3614-0b9b-d23b-60c8ff7b760c}</Data>
+      <Data Name="TargetServerName">localhost</Data>
+      <Data Name="TargetInfo">localhost</Data>
+      <Data Name="ProcessId">0x9d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-07T22:05:07.640030700Z" />
+      <EventRecordID>1636000</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="508" ThreadID="1620" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8b0aad6</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1299</Data>
+      <Data Name="TargetUserName">test10</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0xf16a5b8</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">FS03</Data>
+      <Data Name="LogonGuid">{b1def3be-3614-0b9b-d23b-60c8ff7b760c}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x9d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-07T22:05:07.640030700Z" />
+      <EventRecordID>1636001</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2644" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xd7c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x9d0</Data>
+      <Data Name="CommandLine">/c whoami</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">test10</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0xf16a5b8</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-07T22:05:07.640030700Z" />
+      <EventRecordID>1636002</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2644" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1299</Data>
+      <Data Name="SubjectUserName">test10</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xf16a5b8</Data>
+      <Data Name="NewProcessId">0x438</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xd7c</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-01-07T22:05:07.655655400Z" />
+      <EventRecordID>1636003</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2644" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1299</Data>
+      <Data Name="SubjectUserName">test10</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xf16a5b8</Data>
+      <Data Name="NewProcessId">0x234</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xd7c</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+    </EventData>
+  </Event>
+</root>

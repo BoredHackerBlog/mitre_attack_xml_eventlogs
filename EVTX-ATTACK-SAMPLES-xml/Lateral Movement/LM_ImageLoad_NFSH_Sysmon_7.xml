@@ -1,0 +1,74 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T21:40:30.910085800Z" />
+      <EventRecordID>345820</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6964" ThreadID="4396" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-06 21:40:30.884</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-50ee-5f7c-0000-0010237c0000}</Data>
+      <Data Name="ProcessId">636</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ImageLoaded">\\172.16.66.254\shared\lsadb.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=A205D58173502270A59A6093FA6E9CE382A943AB,MD5=6666492B0246D6AC8B13DA6870314CFC,SHA256=266E4E2970FFB24EE63108F25AAC6EE8359F86728D045097D6E6309CE249BD70,IMPHASH=8DEF796746DD54062D5B3186EEF39356</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T21:40:42.943536400Z" />
+      <EventRecordID>345821</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6964" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-06 21:40:42.930</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-50ee-5f7c-0000-0010237c0000}</Data>
+      <Data Name="ProcessId">636</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ImageLoaded">\\172.16.66.254\shared\lsadb.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=A205D58173502270A59A6093FA6E9CE382A943AB,MD5=6666492B0246D6AC8B13DA6870314CFC,SHA256=266E4E2970FFB24EE63108F25AAC6EE8359F86728D045097D6E6309CE249BD70,IMPHASH=8DEF796746DD54062D5B3186EEF39356</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+</root>

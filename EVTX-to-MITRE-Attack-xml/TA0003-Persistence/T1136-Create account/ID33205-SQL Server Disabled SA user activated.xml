@@ -1,0 +1,49 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:27:15.106459100Z" />
+      <EventRecordID>58774</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:27:10.1814924
+sequence_number:1
+action_id:LGEA
+succeeded:true
+is_column_permission:false
+session_id:55
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:1
+user_defined_event_id:0
+class_type:SL
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:5692F9F0-9FB1-4685-975A-670D3C6157B0
+session_server_principal_name:OFFSEC\admmig
+server_principal_name:OFFSEC\admmig
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb57040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:sa
+statement:ALTER LOGIN [sa] ENABLE
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

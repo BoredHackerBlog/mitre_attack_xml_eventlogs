@@ -1,0 +1,83 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-CAPI2" Guid="{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}" />
+      <EventID>70</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>70</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000080</Keywords>
+      <TimeCreated SystemTime="2020-07-11T13:21:11.693103000Z" />
+      <EventRecordID>13969076</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5708" ThreadID="5712" />
+      <Channel>Microsoft-Windows-CAPI2/Operational</Channel>
+      <Computer>wec02</Computer>
+      <Security UserID="S-1-5-21-1153173314-1076311963-3278442693-500" />
+    </System>
+    <UserData>
+      <CryptAcquireCertificatePrivateKey>
+        <Certificate fileRef="3CD6B0EFAF68549EFE9ED2316426FCD7FF81A6A8.cer" subjectName="wec02.offsec.lan" />
+        <Flags value="10000" CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG="true" />
+        <EventAuxInfo ProcessName="mimikatz.exe" />
+        <CorrelationAuxInfo TaskId="{973F48B9-7001-410B-A904-B1DD8692B60A}" SeqNumber="2" />
+        <Result value="0" />
+      </CryptAcquireCertificatePrivateKey>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-CAPI2" Guid="{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}" />
+      <EventID>70</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>70</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000080</Keywords>
+      <TimeCreated SystemTime="2020-07-11T13:21:17.514076200Z" />
+      <EventRecordID>13969094</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5708" ThreadID="5712" />
+      <Channel>Microsoft-Windows-CAPI2/Operational</Channel>
+      <Computer>wec02</Computer>
+      <Security UserID="S-1-5-21-1153173314-1076311963-3278442693-500" />
+    </System>
+    <UserData>
+      <CryptAcquireCertificatePrivateKey>
+        <Certificate fileRef="3CD6B0EFAF68549EFE9ED2316426FCD7FF81A6A8.cer" subjectName="wec02.offsec.lan" />
+        <Flags value="10000" CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG="true" />
+        <EventAuxInfo ProcessName="mimikatz.exe" />
+        <CorrelationAuxInfo TaskId="{4254EC74-97ED-4EF5-A12B-8CB3F120BDD1}" SeqNumber="2" />
+        <Result value="0" />
+      </CryptAcquireCertificatePrivateKey>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-CAPI2" Guid="{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}" />
+      <EventID>70</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>70</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000080</Keywords>
+      <TimeCreated SystemTime="2020-07-11T13:21:18.640983500Z" />
+      <EventRecordID>13969096</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5708" ThreadID="5712" />
+      <Channel>Microsoft-Windows-CAPI2/Operational</Channel>
+      <Computer>wec02</Computer>
+      <Security UserID="S-1-5-21-1153173314-1076311963-3278442693-500" />
+    </System>
+    <UserData>
+      <CryptAcquireCertificatePrivateKey>
+        <Certificate fileRef="3CD6B0EFAF68549EFE9ED2316426FCD7FF81A6A8.cer" subjectName="wec02.offsec.lan" />
+        <Flags value="10000" CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG="true" />
+        <EventAuxInfo ProcessName="mimikatz.exe" />
+        <CorrelationAuxInfo TaskId="{3BCB843F-0FC0-4408-982A-256E321B13D1}" SeqNumber="2" />
+        <Result value="0" />
+      </CryptAcquireCertificatePrivateKey>
+    </UserData>
+  </Event>
+</root>

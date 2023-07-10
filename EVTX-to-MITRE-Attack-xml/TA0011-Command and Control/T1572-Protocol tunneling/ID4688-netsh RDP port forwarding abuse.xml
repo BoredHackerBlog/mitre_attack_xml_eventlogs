@@ -1,0 +1,295 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:17:56.988221500Z" />
+      <EventRecordID>1953362</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="940" ThreadID="3720" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-4230534742-2542757381-3142984815-1111</SubjectUserSid>
+        <SubjectUserName>admmig</SubjectUserName>
+        <SubjectDomainName>OFFSEC</SubjectDomainName>
+        <SubjectLogonId>0x46b7b4</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:17:58.582712600Z" />
+      <EventRecordID>1953363</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4700" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46b7b4</Data>
+      <Data Name="NewProcessId">0x578</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\netsh.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0xa38</Data>
+      <Data Name="CommandLine">netsh  I p a v l=8001 listena=0.0.0.0 connectp=3389 c=1.1.1.1</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:18:04.312222200Z" />
+      <EventRecordID>1953364</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5784" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46b7b4</Data>
+      <Data Name="NewProcessId">0x1048</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\netsh.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0xa38</Data>
+      <Data Name="CommandLine">netsh  interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=48333 connectaddress=127.0.0.1 connectport=80</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:18:06.940383700Z" />
+      <EventRecordID>1953365</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5784" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46b7b4</Data>
+      <Data Name="NewProcessId">0x46c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\netsh.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0xa38</Data>
+      <Data Name="CommandLine">netsh  interface portproxy reset</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4964</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:18:12.941880500Z" />
+      <EventRecordID>1953366</EventRecordID>
+      <Correlation ActivityID="{38068009-512d-0000-1d80-06382d51d701}" />
+      <Execution ProcessID="556" ThreadID="1528" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-20</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e4</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x322e5b7</Data>
+      <Data Name="TargetLogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="SidList">
+		%{S-1-5-21-4230534742-2542757381-3142984815-1613}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:18:12.941886500Z" />
+      <EventRecordID>1953367</EventRecordID>
+      <Correlation ActivityID="{38068009-512d-0000-1d80-06382d51d701}" />
+      <Execution ProcessID="556" ThreadID="1528" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x322e5b7</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:18:12.942875800Z" />
+      <EventRecordID>1953368</EventRecordID>
+      <Correlation ActivityID="{38068009-512d-0000-1d80-06382d51d701}" />
+      <Execution ProcessID="556" ThreadID="1528" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x322e5b7</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{f2a542f7-28fc-3528-08f8-42515e717312}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">56061</Data>
+      <Data Name="ImpersonationLevel">%%1832</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T12:18:12.942910300Z" />
+      <EventRecordID>1953369</EventRecordID>
+      <Correlation ActivityID="{38068009-512d-0000-1d80-06382d51d701}" />
+      <Execution ProcessID="556" ThreadID="1528" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x322e5b7</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-21-4230534742-2542757381-3142984815-513}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-544}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-4230534742-2542757381-3142984815-1605}
+		%{S-1-5-21-4230534742-2542757381-3142984815-1613}
+		%{S-1-5-21-4230534742-2542757381-3142984815-1172}
+		%{S-1-5-21-4230534742-2542757381-3142984815-512}
+		%{S-1-5-21-4230534742-2542757381-3142984815-1190}
+		%{S-1-5-21-4230534742-2542757381-3142984815-518}
+		%{S-1-5-21-4230534742-2542757381-3142984815-1198}
+		%{S-1-5-21-4230534742-2542757381-3142984815-519}
+		%{S-1-18-1}
+		%{S-1-5-21-4230534742-2542757381-3142984815-572}
+		%{S-1-16-12288}</Data>
+    </EventData>
+  </Event>
+</root>

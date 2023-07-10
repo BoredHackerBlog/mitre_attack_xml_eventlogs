@@ -1,0 +1,44 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>771</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000008000</Keywords>
+      <TimeCreated SystemTime="2021-05-18T21:33:49.548062100Z" />
+      <EventRecordID>11683</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="180" ThreadID="4116" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>770</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000008000</Keywords>
+      <TimeCreated SystemTime="2021-05-18T21:33:49.548065300Z" />
+      <EventRecordID>11684</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="180" ThreadID="4116" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData Name="DNS_EVENT_PLUGIN_DLL_LOAD_OK">
+      <Data Name="param1">C:\TOOLS\Mimikatz-fev-2020\mimilib.dll</Data>
+      <Data Name="param2">rootdc1.offsec.lan</Data>
+    </EventData>
+  </Event>
+</root>

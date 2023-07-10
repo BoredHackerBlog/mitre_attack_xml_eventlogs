@@ -1,0 +1,239 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:52.553053900Z" />
+      <EventRecordID>110429</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-02 18:01:52.545</Data>
+      <Data Name="ProcessGuid">{747f3d96-b49d-5ead-0000-001029febe00}</Data>
+      <Data Name="ProcessId">7212</Data>
+      <Data Name="Image">C:\Users\IEUser\Tools\PrivEsc\PrintSpoofer.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:54.855306900Z" />
+      <EventRecordID>110430</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-02 18:01:54.854</Data>
+      <Data Name="ProcessGuid">{747f3d96-b592-5ead-0000-0010eccbc200}</Data>
+      <Data Name="ProcessId">6760</Data>
+      <Data Name="Image">C:\Users\IEUser\Tools\PrivEsc\PrintSpoofer.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">PrintSpoofer.exe  -i -c powershell.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Tools\PrivEsc\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-ec3c-5eac-0000-0020b1120800}</Data>
+      <Data Name="LogonId">0x812b1</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=5B4E523679205CAA3ADB9088E85D9C7DDBDE6E1A,MD5=A8DCC71A50B553CF0D5EE178B8F9B303,SHA256=901E01E7DB37A4328FF4C894927F05BFFF4CAE8D4C79C9D901439CBE9DDA4A66,IMPHASH=6654DFAC18B9CEE524F0065DAE2D8570</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-a51d-5ead-0000-0010ab3d6800}</Data>
+      <Data Name="ParentProcessId">5428</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:54.863989000Z" />
+      <EventRecordID>110431</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Possible PrivEsc attempt - Rogue Spoolss Named Pipe</Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2020-05-02 18:01:54.857</Data>
+      <Data Name="ProcessGuid">{747f3d96-b592-5ead-0000-0010eccbc200}</Data>
+      <Data Name="ProcessId">6760</Data>
+      <Data Name="PipeName">\9023de59-e026-4da5-97dd-913597cd038f\pipe\spoolss</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\PrintSpoofer.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:54.864268600Z" />
+      <EventRecordID>110432</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-05-02 18:01:54.863</Data>
+      <Data Name="ProcessGuid">{747f3d96-b592-5ead-0000-0010eccbc200}</Data>
+      <Data Name="ProcessId">6760</Data>
+      <Data Name="PipeName">\spoolss</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\PrintSpoofer.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:54.864735200Z" />
+      <EventRecordID>110433</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Possible PrivEsc attempt - Rogue Spoolss Named Pipe</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-05-02 18:01:54.863</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ab8-5ead-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\9023de59-e026-4da5-97dd-913597cd038f\pipe\spoolss</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:54.867394100Z" />
+      <EventRecordID>110434</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-02 18:01:54.866</Data>
+      <Data Name="ProcessGuid">{747f3d96-b592-5ead-0000-0010d4cdc200}</Data>
+      <Data Name="ProcessId">1428</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows PowerShell</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">PowerShell.EXE</Data>
+      <Data Name="CommandLine">powershell.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-6abb-5ead-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=6CBCE4A295C163791B60FC23D285E6D84F28EE4C,MD5=7353F60B1739074EB17C5F4DDDEFE239,SHA256=DE96A6E69944335375DC1AC238336066889D9FFC7D73628EF4FE1B1B160AB32C,IMPHASH=741776AACCFC5B71FF59832DCDCACE0F</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b592-5ead-0000-0010eccbc200}</Data>
+      <Data Name="ParentProcessId">6760</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Tools\PrivEsc\PrintSpoofer.exe</Data>
+      <Data Name="ParentCommandLine">PrintSpoofer.exe  -i -c powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-02T18:01:57.418442300Z" />
+      <EventRecordID>110435</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3068" ThreadID="2232" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-02 18:01:57.417</Data>
+      <Data Name="ProcessGuid">{747f3d96-b595-5ead-0000-00106bfdc200}</Data>
+      <Data Name="ProcessId">6004</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">whoami.exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\whoami.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-6abb-5ead-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=47D7864D26FC67E0D60391CBF170D33DA518C322,MD5=43C2D3293AD939241DF61B3630A9D3B6,SHA256=1D5491E3C468EE4B4EF6EDFF4BBC7D06EE83180F6F0B1576763EA2EFE049493A,IMPHASH=7FF0758B766F747CE57DFAC70743FB88</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-b592-5ead-0000-0010d4cdc200}</Data>
+      <Data Name="ParentProcessId">1428</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell.exe</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,421 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:32:57.348250400Z" />
+      <EventRecordID>556683</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3232" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-07 23:32:57.315</Data>
+      <Data Name="ProcessGuid">{747f3d96-1829-610f-0000-0010a33fd200}</Data>
+      <Data Name="ProcessId">3424</Data>
+      <Data Name="Image">C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</Data>
+      <Data Name="FileVersion">14.0.4762.1000</Data>
+      <Data Name="Description">Microsoft Word</Data>
+      <Data Name="Product">Microsoft Office 2010</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">WinWord.exe</Data>
+      <Data Name="CommandLine">"C:\Program Files\Microsoft Office\Office14\WINWORD.EXE" /n "C:\Users\IEUser\Desktop\stats.doc"</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-1231-610f-0000-002057a80700}</Data>
+      <Data Name="LogonId">0x7a857</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=FEA4E441ECCC4F8A1FB1E4480C5BC34F2D200BB6,MD5=9C82A9B1BD5C42B62B9AA2657B042819,SHA256=C0A081E6D5E0279BE4503F26F0B01BCEDEEBF1DFB95FCBE4FB935F881D111DA0,IMPHASH=95F22E616B94E4C93D5CCC1BBF0EC78B</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-1239-610f-0000-0010d0210a00}</Data>
+      <Data Name="ParentProcessId">600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12801</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:00.588510400Z" />
+      <EventRecordID>340232</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1068" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x7a857</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Classes\CLSID\{c08afd90-f2a1-11d1-8455-00a0c91f3880}</Data>
+      <Data Name="HandleId">0x7a4</Data>
+      <Data Name="AccessList">%%4432
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0xd60</Data>
+      <Data Name="ProcessName">C:\Program Files\Microsoft Office\Office14\WINWORD.EXE</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12801</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:00.594949400Z" />
+      <EventRecordID>340233</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1068" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x7a857</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Classes\CLSID\{c08afd90-f2a1-11d1-8455-00a0c91f3880}</Data>
+      <Data Name="HandleId">0x15a8</Data>
+      <Data Name="AccessList">%%4432
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x380</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12801</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:00.595251900Z" />
+      <EventRecordID>340234</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1068" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x7a857</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Classes\CLSID\{c08afd90-f2a1-11d1-8455-00a0c91f3880}\LocalServer32</Data>
+      <Data Name="HandleId">0xb34</Data>
+      <Data Name="AccessList">%%4432
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x380</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12801</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:00.595338200Z" />
+      <EventRecordID>340235</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1068" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x7a857</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Classes\AppID\{c08afd90-f2a1-11d1-8455-00a0c91f3880}</Data>
+      <Data Name="HandleId">0xb34</Data>
+      <Data Name="AccessList">%%4432
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x380</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12801</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:00.595410700Z" />
+      <EventRecordID>340236</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1068" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x7a857</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Classes\AppID\{c08afd90-f2a1-11d1-8455-00a0c91f3880}</Data>
+      <Data Name="HandleId">0xc88</Data>
+      <Data Name="AccessList">%%4432
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x380</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12801</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:00.610059200Z" />
+      <EventRecordID>340237</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1068" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x7a857</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Classes\CLSID\{c08afd90-f2a1-11d1-8455-00a0c91f3880}</Data>
+      <Data Name="HandleId">0x3708</Data>
+      <Data Name="AccessList">%%4432
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x258</Data>
+      <Data Name="ProcessName">C:\Windows\explorer.exe</Data>
+      <Data Name="ResourceAttributes">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:01.103287100Z" />
+      <EventRecordID>556720</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3232" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-07 23:33:01.091</Data>
+      <Data Name="ProcessGuid">{747f3d96-182d-610f-0000-00106f40d300}</Data>
+      <Data Name="ProcessId">9932</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\mshta.exe</Data>
+      <Data Name="FileVersion">11.00.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Microsoft (R) HTML Application host</Data>
+      <Data Name="Product">Internet Explorer</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">MSHTA.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\SysWOW64\mshta.exe" "C:\Users\Public\memViewData.hta" {1E460BD7-F1C3-4B2E-88BF-4E770A288AF5}{1E460BD7-F1C3-4B2E-88BF-4E770A288AF5} </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-1231-610f-0000-002057a80700}</Data>
+      <Data Name="LogonId">0x7a857</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EE1ED6AEA892E2ABCFA64D9D51078EFDFAEA6253,MD5=4DBAFC3C0B7A9CAA67D6C2C3D99422F2,SHA256=12C94C614FB752DC1F6797B5FB3AD67719E3C924FACDA35DC36792C8E5AC45FC,IMPHASH=4CB8A74361E70A5FF774A0A1A7C65989</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-1239-610f-0000-0010d0210a00}</Data>
+      <Data Name="ParentProcessId">600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:01.176666600Z" />
+      <EventRecordID>556726</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3232" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-07 23:33:01.121</Data>
+      <Data Name="ProcessGuid">{747f3d96-182d-610f-0000-00100344d300}</Data>
+      <Data Name="ProcessId">11196</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k LocalService -p -s fdPHost</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-90af-610f-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">632</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:08.346260600Z" />
+      <EventRecordID>556863</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3232" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-07 23:33:08.339</Data>
+      <Data Name="ProcessGuid">{747f3d96-1834-610f-0000-00105fe5d300}</Data>
+      <Data Name="ProcessId">6576</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\rundll32.exe" c:\users\public\memViewData.jpg,PluginInit</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-1231-610f-0000-002057a80700}</Data>
+      <Data Name="LogonId">0x7a857</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=6778DAD71C8B06264CF2929A5242D2612D3EB026,MD5=2F633406BC9875AA48D6CC5884B70862,SHA256=26E68D4381774A6FD0BF5CA2EACEF55F2AB28536E3176A1C6362DFFC68B22B8A,IMPHASH=BB17B2FBBFF4BBF5EBDCA7D0BB9E4A5B</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-182d-610f-0000-00106f40d300}</Data>
+      <Data Name="ParentProcessId">9932</Data>
+      <Data Name="ParentImage">C:\Windows\SysWOW64\mshta.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\SysWOW64\mshta.exe" "C:\Users\Public\memViewData.hta" {1E460BD7-F1C3-4B2E-88BF-4E770A288AF5}{1E460BD7-F1C3-4B2E-88BF-4E770A288AF5} </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-07T23:33:15.303423500Z" />
+      <EventRecordID>557006</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3232" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-07 23:33:15.285</Data>
+      <Data Name="ProcessGuid">{747f3d96-183b-610f-0000-0010dc6cd400}</Data>
+      <Data Name="ProcessId">11324</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd /c start /min C:\Users\Public\KDECO.bat reg delete hkcu\Environment /v windir /f &amp;&amp; REM \system32\AppHostRegistrationVerifier.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-1231-610f-0000-002057a80700}</Data>
+      <Data Name="LogonId">0x7a857</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">1108</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,591 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:44:46.414860900Z" />
+      <EventRecordID>335</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-01-14 20:44:46.393</Data>
+      <Data Name="ProcessGuid">{747f3d96-283e-5e1e-0000-0010772c7a00}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKCR\ms-browser\shell\open\command\(Default)</Data>
+      <Data Name="Details">cmd.exe /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:44:50.353148800Z" />
+      <EventRecordID>336</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:44:50.348</Data>
+      <Data Name="ProcessGuid">{747f3d96-2842-5e1e-0000-00100c417a00}</Data>
+      <Data Name="ProcessId">4180</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 url.dll,FileProtocolHandler ms-browser://</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-2842-5e1e-0000-0020ff3a7a00}</Data>
+      <Data Name="LogonId">0x7a3aff</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2842-5e1e-0000-0010903c7a00}</Data>
+      <Data Name="ParentProcessId">1628</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:44:51.016110900Z" />
+      <EventRecordID>337</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:44:50.978</Data>
+      <Data Name="ProcessGuid">{747f3d96-2842-5e1e-0000-0010745e7a00}</Data>
+      <Data Name="ProcessId">1568</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"cmd.exe" /c notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-2842-5e1e-0000-0020ff3a7a00}</Data>
+      <Data Name="LogonId">0x7a3aff</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=08CC2E8DCA652BDDA1ACCA9C446560D4BC1BCDF9,MD5=0D088F5BCFA8F086FBA163647CD80CAB,SHA256=9023F8AAEDA4A1DA45AC477A81B5BBE4128E413F19A0ABFA3715465AD66ED5CD,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2842-5e1e-0000-00100c417a00}</Data>
+      <Data Name="ParentProcessId">4180</Data>
+      <Data Name="ParentImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">rundll32 url.dll,FileProtocolHandler ms-browser://</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:44:51.122589400Z" />
+      <EventRecordID>338</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:44:51.118</Data>
+      <Data Name="ProcessGuid">{747f3d96-2843-5e1e-0000-0010b1687a00}</Data>
+      <Data Name="ProcessId">676</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-2842-5e1e-0000-0020ff3a7a00}</Data>
+      <Data Name="LogonId">0x7a3aff</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=60733DE225B5C4BFC42FB79E5D1A4F6683243E4A,MD5=782877B30735ABD1EAE241F13145F664,SHA256=E46B3CA5A0EBB4A6979F852F50E22BD08C9F2D0206CC04383978BE0172AC88EE,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2842-5e1e-0000-0010745e7a00}</Data>
+      <Data Name="ParentProcessId">1568</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd.exe" /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:46:39.313281400Z" />
+      <EventRecordID>339</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-01-14 20:46:39.297</Data>
+      <Data Name="ProcessGuid">{747f3d96-28af-5e1e-0000-00103fd77b00}</Data>
+      <Data Name="ProcessId">4052</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKCR\ms-browser\shell\open\command\(Default)</Data>
+      <Data Name="Details">cmd.exe /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:46:43.237922500Z" />
+      <EventRecordID>340</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:46:43.232</Data>
+      <Data Name="ProcessGuid">{747f3d96-28b3-5e1e-0000-00101df17b00}</Data>
+      <Data Name="ProcessId">3412</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32 url.dll,OpenURL ms-browser://</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-28b3-5e1e-0000-002057eb7b00}</Data>
+      <Data Name="LogonId">0x7beb57</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-28b3-5e1e-0000-0010caec7b00}</Data>
+      <Data Name="ParentProcessId">1632</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:46:43.819347700Z" />
+      <EventRecordID>341</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:46:43.675</Data>
+      <Data Name="ProcessGuid">{747f3d96-28b3-5e1e-0000-001032047c00}</Data>
+      <Data Name="ProcessId">1656</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"cmd.exe" /c notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-28b3-5e1e-0000-002057eb7b00}</Data>
+      <Data Name="LogonId">0x7beb57</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=08CC2E8DCA652BDDA1ACCA9C446560D4BC1BCDF9,MD5=0D088F5BCFA8F086FBA163647CD80CAB,SHA256=9023F8AAEDA4A1DA45AC477A81B5BBE4128E413F19A0ABFA3715465AD66ED5CD,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-28b3-5e1e-0000-00101df17b00}</Data>
+      <Data Name="ParentProcessId">3412</Data>
+      <Data Name="ParentImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">rundll32 url.dll,OpenURL ms-browser://</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:46:43.836400200Z" />
+      <EventRecordID>342</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:46:43.746</Data>
+      <Data Name="ProcessGuid">{747f3d96-28b3-5e1e-0000-0010900a7c00}</Data>
+      <Data Name="ProcessId">2964</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-28b3-5e1e-0000-002057eb7b00}</Data>
+      <Data Name="LogonId">0x7beb57</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=60733DE225B5C4BFC42FB79E5D1A4F6683243E4A,MD5=782877B30735ABD1EAE241F13145F664,SHA256=E46B3CA5A0EBB4A6979F852F50E22BD08C9F2D0206CC04383978BE0172AC88EE,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-28b3-5e1e-0000-001032047c00}</Data>
+      <Data Name="ParentProcessId">1656</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd.exe" /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:13.125541500Z" />
+      <EventRecordID>343</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-01-14 20:48:13.110</Data>
+      <Data Name="ProcessGuid">{747f3d96-290d-5e1e-0000-00100de97c00}</Data>
+      <Data Name="ProcessId">4388</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKCR\ms-browser\shell\open\command\(Default)</Data>
+      <Data Name="Details">cmd.exe /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:17.044002000Z" />
+      <EventRecordID>344</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:48:16.990</Data>
+      <Data Name="ProcessGuid">{747f3d96-2910-5e1e-0000-001053f57c00}</Data>
+      <Data Name="ProcessId">4448</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe /c start ms-browser://</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-2910-5e1e-0000-002082ef7c00}</Data>
+      <Data Name="LogonId">0x7cef82</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=08CC2E8DCA652BDDA1ACCA9C446560D4BC1BCDF9,MD5=0D088F5BCFA8F086FBA163647CD80CAB,SHA256=9023F8AAEDA4A1DA45AC477A81B5BBE4128E413F19A0ABFA3715465AD66ED5CD,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2910-5e1e-0000-0010f5f07c00}</Data>
+      <Data Name="ParentProcessId">4612</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:17.412145800Z" />
+      <EventRecordID>345</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:48:17.270</Data>
+      <Data Name="ProcessGuid">{747f3d96-2911-5e1e-0000-0010d80a7d00}</Data>
+      <Data Name="ProcessId">2416</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"cmd.exe" /c notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-2910-5e1e-0000-002082ef7c00}</Data>
+      <Data Name="LogonId">0x7cef82</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=08CC2E8DCA652BDDA1ACCA9C446560D4BC1BCDF9,MD5=0D088F5BCFA8F086FBA163647CD80CAB,SHA256=9023F8AAEDA4A1DA45AC477A81B5BBE4128E413F19A0ABFA3715465AD66ED5CD,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2910-5e1e-0000-001053f57c00}</Data>
+      <Data Name="ParentProcessId">4448</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c start ms-browser://</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:17.447948700Z" />
+      <EventRecordID>346</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:48:17.363</Data>
+      <Data Name="ProcessGuid">{747f3d96-2911-5e1e-0000-00109c137d00}</Data>
+      <Data Name="ProcessId">1344</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-2910-5e1e-0000-002082ef7c00}</Data>
+      <Data Name="LogonId">0x7cef82</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=60733DE225B5C4BFC42FB79E5D1A4F6683243E4A,MD5=782877B30735ABD1EAE241F13145F664,SHA256=E46B3CA5A0EBB4A6979F852F50E22BD08C9F2D0206CC04383978BE0172AC88EE,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2911-5e1e-0000-0010d80a7d00}</Data>
+      <Data Name="ParentProcessId">2416</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd.exe" /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:41.336042500Z" />
+      <EventRecordID>347</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-01-14 20:48:41.329</Data>
+      <Data Name="ProcessGuid">{747f3d96-290d-5e1e-0000-00100de97c00}</Data>
+      <Data Name="ProcessId">4388</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKCR\ms-browser\shell\open\command\(Default)</Data>
+      <Data Name="Details">cmd.exe /c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:45.243751700Z" />
+      <EventRecordID>348</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:48:45.193</Data>
+      <Data Name="ProcessGuid">{747f3d96-292d-5e1e-0000-0010f5597d00}</Data>
+      <Data Name="ProcessId">3828</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.348 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">EXPLORER.EXE</Data>
+      <Data Name="CommandLine">explorer ms-browser://</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-292d-5e1e-0000-0020cd587d00}</Data>
+      <Data Name="LogonId">0x7d58cd</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=3EB9D6F8F4448CB1FD6478189EDEBE3D70477EA7,MD5=2F62005FCEA7430BB871A56F7700F81C,SHA256=B759293373A11D1A972873A902BC64B2C9690AB947CE4A185CD047195521296D,IMPHASH=0B98A47B3DAF2EE45939EF2A0F188959</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-2910-5e1e-0000-0010f5f07c00}</Data>
+      <Data Name="ParentProcessId">4612</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-14T20:48:45.293727400Z" />
+      <EventRecordID>349</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1840" ThreadID="8032" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-14 20:48:45.285</Data>
+      <Data Name="ProcessGuid">{747f3d96-292d-5e1e-0000-001025607d00}</Data>
+      <Data Name="ProcessId">6020</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.348 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">EXPLORER.EXE</Data>
+      <Data Name="CommandLine">C:\Windows\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-23a3-5e1e-0000-0020a6650500}</Data>
+      <Data Name="LogonId">0x565a6</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=3EB9D6F8F4448CB1FD6478189EDEBE3D70477EA7,MD5=2F62005FCEA7430BB871A56F7700F81C,SHA256=B759293373A11D1A972873A902BC64B2C9690AB947CE4A185CD047195521296D,IMPHASH=0B98A47B3DAF2EE45939EF2A0F188959</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">752</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+</root>

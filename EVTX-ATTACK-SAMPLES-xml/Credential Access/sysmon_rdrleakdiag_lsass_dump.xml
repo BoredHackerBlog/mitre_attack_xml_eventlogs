@@ -1,0 +1,150 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-28T12:47:36.197943700Z" />
+      <EventRecordID>5226</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2848" ThreadID="2328" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-PIU87N6</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-09-28 12:47:36.192</Data>
+      <Data Name="ProcessGuid">{bc47d85c-db68-5f71-0000-0010b237ab01}</Data>
+      <Data Name="ProcessId">3352</Data>
+      <Data Name="Image">C:\Windows\System32\rdrleakdiag.exe</Data>
+      <Data Name="FileVersion">10.0.19041.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Microsoft Windows Resource Leak Diagnostic</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RdrLeakDiag.exe</Data>
+      <Data Name="CommandLine">rdrleakdiag.exe  /p 668 /o C:\Users\wanwan\Desktop /fullmemdmp /snap</Data>
+      <Data Name="CurrentDirectory">C:\Users\wanwan\Desktop\SysinternalsSuite\</Data>
+      <Data Name="User">DESKTOP-PIU87N6\wanwan</Data>
+      <Data Name="LogonGuid">{bc47d85c-6e10-5f68-0000-0020900b0300}</Data>
+      <Data Name="LogonId">0x30b90</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=C04F4FB2C7B44E19E85908459D3F0085,SHA256=D66E1EE7970598A5F34FD4B468B5B7705219E80A8A2784E7B18564831FCA797C,IMPHASH=5D87ACDE58B6E042FB38FE42B86E9C25</Data>
+      <Data Name="ParentProcessGuid">{bc47d85c-9569-5f71-0000-0010d9fd8300}</Data>
+      <Data Name="ParentProcessId">1456</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\WINDOWS\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-28T12:47:36.206545600Z" />
+      <EventRecordID>5227</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2848" ThreadID="2328" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-PIU87N6</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-09-28 12:47:36.204</Data>
+      <Data Name="SourceProcessGuid">{bc47d85c-db68-5f71-0000-0010b237ab01}</Data>
+      <Data Name="SourceProcessId">3352</Data>
+      <Data Name="SourceImage">C:\Windows\System32\rdrleakdiag.exe</Data>
+      <Data Name="TargetProcessGuid">{bc47d85c-faa9-5f68-0000-0010d9590000}</Data>
+      <Data Name="TargetProcessId">668</Data>
+      <Data Name="TargetImage">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="NewThreadId">3468</Data>
+      <Data Name="StartAddress">0x00007FF8C72C5EC0</Data>
+      <Data Name="StartModule">C:\WINDOWS\SYSTEM32\ntdll.dll</Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-28T12:47:36.215504100Z" />
+      <EventRecordID>5228</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2848" ThreadID="2328" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-PIU87N6</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-09-28 12:47:36.212</Data>
+      <Data Name="ProcessGuid">{bc47d85c-db68-5f71-0000-00109138ab01}</Data>
+      <Data Name="ProcessId">7468</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="FileVersion">10.0.19041.488 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Local Security Authority Process</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">lsass.exe</Data>
+      <Data Name="CommandLine">C:\WINDOWS\system32\lsass.exe</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{bc47d85c-faa9-5f68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">MD5=BBBA8CE22384213070D0B9511EA181C5,SHA256=C41F0ECA09CBCEC776E807522C048A9E7A2D92CC3B4ECCDE2F8F6C42536AD094,IMPHASH=09FDE88C65E2BC5F1F90E96B673C52B1</Data>
+      <Data Name="ParentProcessGuid">{bc47d85c-faa9-5f68-0000-0010d9590000}</Data>
+      <Data Name="ParentProcessId">668</Data>
+      <Data Name="ParentImage">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ParentCommandLine">C:\WINDOWS\system32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-28T12:47:36.630448100Z" />
+      <EventRecordID>5229</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2848" ThreadID="2328" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-PIU87N6</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-09-28 12:47:36.624</Data>
+      <Data Name="ProcessGuid">{bc47d85c-db68-5f71-0000-0010b237ab01}</Data>
+      <Data Name="ProcessId">3352</Data>
+      <Data Name="Image">C:\WINDOWS\system32\rdrleakdiag.exe</Data>
+      <Data Name="TargetFilename">C:\Users\wanwan\Desktop\minidump_668.dmp</Data>
+      <Data Name="CreationUtcTime">2020-09-28 12:47:36.624</Data>
+    </EventData>
+  </Event>
+</root>

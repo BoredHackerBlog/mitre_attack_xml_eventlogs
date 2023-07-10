@@ -1,0 +1,301 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:02.319552200Z" />
+      <EventRecordID>10920364</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:02.278</Data>
+      <Data Name="ProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ProcessId">28176</Data>
+      <Data Name="Image">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="FileVersion">5.812.10240.16384</Data>
+      <Data Name="Description">Microsoft « Console Based Script Host</Data>
+      <Data Name="Product">Microsoft « Windows Script Host</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">cscript.exe</Data>
+      <Data Name="CommandLine">cscript.exe  //e:jscript testme.js</Data>
+      <Data Name="CurrentDirectory">C:\Users\bouss\Desktop\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3c1a-6169-0000-0020c2790700}</Data>
+      <Data Name="LogonId">0x779c2</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=C3D511D4CF77C50D00A5264C6BB3AE44E5008831,MD5=B8454647EFC71192BF7B1572D18F7BD8,SHA256=C69648B049E35FF96523C911737A0481D52DD06508A561094A4FA895A30A6535,IMPHASH=2B44D2206B9865383429E9C1524F1CAC</Data>
+      <Data Name="ParentProcessGuid">{00247c92-85c9-6170-0000-001008e62b6b}</Data>
+      <Data Name="ParentProcessId">24148</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:02.999506200Z" />
+      <EventRecordID>10920367</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:02.943</Data>
+      <Data Name="ProcessGuid">{00247c92-94d6-6171-0000-00103f5a967b}</Data>
+      <Data Name="ProcessId">15156</Data>
+      <Data Name="Image">C:\Windows\System32\cmdkey.exe</Data>
+      <Data Name="FileVersion">10.0.19041.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Credential Manager Command Line Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">cmdkey.exe</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\cmdkey.exe" /generic:Microsoft_Windows_Shell_ZipFolder:filename=C:\Users\bouss\AppData\Local\Temp\lync.zip /pass:tWIMmIF /user:""</Data>
+      <Data Name="CurrentDirectory">C:\Users\bouss\Desktop\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3c1a-6169-0000-0020c2790700}</Data>
+      <Data Name="LogonId">0x779c2</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B0DE4D5F0E178002E02C66DAF064DFD3FF1DBDE6,MD5=F9C20642B4CFCE4517F4F26B6305607C,SHA256=14BCC1901C5CCA8E91A6400050308752916AC861BDD52CF3A44DC7EF46830282,IMPHASH=03AD7A1AF78BF7A500FB199CABE4C34A</Data>
+      <Data Name="ParentProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ParentProcessId">28176</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="ParentCommandLine">cscript.exe  //e:jscript testme.js</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:03.398717300Z" />
+      <EventRecordID>10920369</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:03.397</Data>
+      <Data Name="ProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ProcessId">28176</Data>
+      <Data Name="Image">C:\windows\system32\cscript.exe</Data>
+      <Data Name="TargetFilename">C:\Users\bouss\AppData\Local\Temp\lync.zip</Data>
+      <Data Name="CreationUtcTime">2021-10-21 12:05:31.740</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:12.523359500Z" />
+      <EventRecordID>10920370</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:12.522</Data>
+      <Data Name="ProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ProcessId">28176</Data>
+      <Data Name="Image">C:\windows\system32\cscript.exe</Data>
+      <Data Name="TargetFilename">C:\Users\bouss\AppData\Local\Temp\Temp3_lync.zip</Data>
+      <Data Name="CreationUtcTime">2021-10-21 16:27:12.521</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:12.549955700Z" />
+      <EventRecordID>10920378</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:12.549</Data>
+      <Data Name="ProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ProcessId">28176</Data>
+      <Data Name="Image">C:\windows\system32\cscript.exe</Data>
+      <Data Name="TargetFilename">C:\Users\bouss\AppData\Local\Temp\Temp3_lync.zip\i.exe</Data>
+      <Data Name="CreationUtcTime">2021-10-21 16:27:12.548</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:12.858588600Z" />
+      <EventRecordID>10920379</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:12.839</Data>
+      <Data Name="ProcessGuid">{00247c92-94e0-6171-0000-00107424987b}</Data>
+      <Data Name="ProcessId">17264</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Temp\Temp3_lync.zip\i.exe</Data>
+      <Data Name="FileVersion">10.0.18362.449 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\Users\bouss\AppData\Local\Temp\Temp3_lync.zip\i.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\bouss\Desktop\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3c1a-6169-0000-0020c2790700}</Data>
+      <Data Name="LogonId">0x779c2</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8DCA9749CD48D286950E7A9FA1088C937CBCCAD4,MD5=D7AB69FAD18D4A643D84A271DFC0DBDF,SHA256=FF79D3C4A0B7EB191783C323AB8363EBD1FD10BE58D8BCC96B07067743CA81D5,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ParentProcessId">28176</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="ParentCommandLine">cscript.exe  //e:jscript testme.js</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:12.946958000Z" />
+      <EventRecordID>10920381</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:12.925</Data>
+      <Data Name="ProcessGuid">{00247c92-94e0-6171-0000-0010b84d987b}</Data>
+      <Data Name="ProcessId">19000</Data>
+      <Data Name="Image">C:\Windows\System32\cmdkey.exe</Data>
+      <Data Name="FileVersion">10.0.19041.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Credential Manager Command Line Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">cmdkey.exe</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\cmdkey.exe" /delete Microsoft_Windows_Shell_ZipFolder:filename=C:\Users\bouss\AppData\Local\Temp\lync.zip</Data>
+      <Data Name="CurrentDirectory">C:\Users\bouss\Desktop\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3c1a-6169-0000-0020c2790700}</Data>
+      <Data Name="LogonId">0x779c2</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B0DE4D5F0E178002E02C66DAF064DFD3FF1DBDE6,MD5=F9C20642B4CFCE4517F4F26B6305607C,SHA256=14BCC1901C5CCA8E91A6400050308752916AC861BDD52CF3A44DC7EF46830282,IMPHASH=03AD7A1AF78BF7A500FB199CABE4C34A</Data>
+      <Data Name="ParentProcessGuid">{00247c92-94d6-6171-0000-00100514967b}</Data>
+      <Data Name="ParentProcessId">28176</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="ParentCommandLine">cscript.exe  //e:jscript testme.js</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T16:27:14.015783300Z" />
+      <EventRecordID>10920383</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5396" ThreadID="7692" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-10-21 16:27:12.873</Data>
+      <Data Name="ProcessGuid">{00247c92-94e0-6171-0000-00104337987b}</Data>
+      <Data Name="ProcessId">26868</Data>
+      <Data Name="Image">C:\Program Files\Elastic\Endpoint\elastic-endpoint.exe</Data>
+      <Data Name="FileVersion">7.15.0</Data>
+      <Data Name="Description">Elastic Endpoint Security</Data>
+      <Data Name="Product">Elastic Endpoint Security</Data>
+      <Data Name="Company">Elastic N.V.</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">"C:\Program Files\Elastic\Endpoint\elastic-endpoint.exe"  popup "Malicious Behavior Detection Alert" "Elastic Security detected Execution via Renamed Signed Binary Proxy" "C:\Program Files\Elastic\Endpoint\cache\resources\elastic-endpoint-security.png"</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3c1a-6169-0000-0020c2790700}</Data>
+      <Data Name="LogonId">0x779c2</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=452A763CC4AFDA56FE02C459BFE1347523A2D442,MD5=480316339EAA6F5B61F5D214EBE818E0,SHA256=29D971A20616674C4EA9D8C53539A5EFA3D67B04E7123333073F043AFDFE4C1E,IMPHASH=7209092616F76E2E6DDAF74DFC299CB7</Data>
+      <Data Name="ParentProcessGuid">{00247c92-3c1b-6169-0000-0010c77b0800}</Data>
+      <Data Name="ParentProcessId">4944</Data>
+      <Data Name="ParentImage">C:\Program Files\Elastic\Endpoint\elastic-endpoint.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Elastic\Endpoint\elastic-endpoint.exe" run</Data>
+    </EventData>
+  </Event>
+</root>

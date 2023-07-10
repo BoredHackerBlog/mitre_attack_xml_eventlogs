@@ -1,0 +1,134 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:10:37.041797300Z" />
+      <EventRecordID>1</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3912" ThreadID="400" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Server listening on :: port 22.</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:10:37.041893800Z" />
+      <EventRecordID>2</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3912" ThreadID="400" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Server listening on 0.0.0.0 port 22.</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:19:29.792895300Z" />
+      <EventRecordID>3</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6892" ThreadID="2532" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Server listening on :: port 22.</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:19:29.793004100Z" />
+      <EventRecordID>4</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6892" ThreadID="2532" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Server listening on 0.0.0.0 port 22.</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T10:40:45.284756600Z" />
+      <EventRecordID>5</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2084" ThreadID="3216" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Server listening on :: port 22.</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T10:40:45.284839300Z" />
+      <EventRecordID>6</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2084" ThreadID="3216" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Server listening on 0.0.0.0 port 22.</Data>
+    </EventData>
+  </Event>
+</root>

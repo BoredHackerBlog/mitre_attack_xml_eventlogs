@@ -1,0 +1,353 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:42.331810800Z" />
+      <EventRecordID>8112</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:42.316</Data>
+      <Data Name="ProcessGuid">{365abb72-3ece-5d0b-0000-00107f7f1a00}</Data>
+      <Data Name="ProcessId">1284</Data>
+      <Data Name="Image">C:\Windows\System32\NETSTAT.EXE</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">TCP/IP Netstat Command</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\NETSTAT.EXE"  -na</Data>
+      <Data Name="CurrentDirectory">C:\ProgramData\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-3991-5d0b-0000-002029350100}</Data>
+      <Data Name="LogonId">0x13529</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=F08D57DD80AEDDD7645CBDF27E5AF5EDF99C1F46,MD5=32297BB17E6EC700D0FC869F9ACAF561,SHA256=986F524F38B973531002DCEB17414BF8C691B60FB0EA2E4C53C3C7BD3F9EE54E,IMPHASH=4F363D04B89AE69BC1DC8E2A6305E862</Data>
+      <Data Name="ParentProcessGuid">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="ParentProcessId">816</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:42.331810800Z" />
+      <EventRecordID>8113</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:42.331</Data>
+      <Data Name="SourceProcessGUID">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="SourceProcessId">816</Data>
+      <Data Name="SourceThreadId">2000</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-3ece-5d0b-0000-00107f7f1a00}</Data>
+      <Data Name="TargetProcessId">1284</Data>
+      <Data Name="TargetImage">C:\Windows\system32\NETSTAT.EXE</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01BE1547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+553119|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+55371a|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:48.909935800Z" />
+      <EventRecordID>8114</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:48.894</Data>
+      <Data Name="ProcessGuid">{365abb72-3ed4-5d0b-0000-00106c871a00}</Data>
+      <Data Name="ProcessId">888</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"cmd"</Data>
+      <Data Name="CurrentDirectory">c:\ProgramData\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-3991-5d0b-0000-002029350100}</Data>
+      <Data Name="LogonId">0x13529</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="ParentProcessId">816</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:48.909935800Z" />
+      <EventRecordID>8115</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:48.894</Data>
+      <Data Name="SourceProcessGUID">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="SourceProcessId">816</Data>
+      <Data Name="SourceThreadId">2000</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-3ed4-5d0b-0000-00106c871a00}</Data>
+      <Data Name="TargetProcessId">888</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01BE1547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+553119|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+55371a|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+552676|UNKNOWN(046A1BCD)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:48.925560800Z" />
+      <EventRecordID>8116</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:48.909</Data>
+      <Data Name="ProcessGuid">{365abb72-3ed4-5d0b-0000-0010b2871a00}</Data>
+      <Data Name="ProcessId">1440</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"cmd"</Data>
+      <Data Name="CurrentDirectory">c:\ProgramData\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-3991-5d0b-0000-002029350100}</Data>
+      <Data Name="LogonId">0x13529</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="ParentProcessId">816</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:48.925560800Z" />
+      <EventRecordID>8117</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:48.909</Data>
+      <Data Name="SourceProcessGUID">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="SourceProcessId">816</Data>
+      <Data Name="SourceThreadId">2000</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-3ed4-5d0b-0000-0010b2871a00}</Data>
+      <Data Name="TargetProcessId">1440</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01BE1547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+553119|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\e10fc0c922927179f29b495cf47d62dc\System.ni.dll+55371a|UNKNOWN(046A1C49)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)|UNKNOWN(00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:50.378685800Z" />
+      <EventRecordID>8118</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:48.721</Data>
+      <Data Name="ProcessGuid">{365abb72-3d05-5d0b-0000-001004220d00}</Data>
+      <Data Name="ProcessId">816</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.13</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">4444</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">38208</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:52.956810800Z" />
+      <EventRecordID>8119</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:52.956</Data>
+      <Data Name="ProcessGuid">{365abb72-3ed8-5d0b-0000-0010398f1a00}</Data>
+      <Data Name="ProcessId">1476</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">c:\ProgramData\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-3991-5d0b-0000-002029350100}</Data>
+      <Data Name="LogonId">0x13529</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=DC058F52AD8ACBD316827B6DCAC2434AB3CC515C,MD5=0EBF71E33EF09CA65D9683AFA999C473,SHA256=599EFD455AEEEFE2044A9B597061F271595033F5D0DF2C99DFDBCA8394BBCEC3,IMPHASH=C5352B949915AB8CD5E1844790D19274</Data>
+      <Data Name="ParentProcessGuid">{365abb72-3ed4-5d0b-0000-0010b2871a00}</Data>
+      <Data Name="ParentProcessId">1440</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-20T08:07:58.816185800Z" />
+      <EventRecordID>8120</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2020" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-20 08:07:58.784</Data>
+      <Data Name="ProcessGuid">{365abb72-3ede-5d0b-0000-001032961a00}</Data>
+      <Data Name="ProcessId">3820</Data>
+      <Data Name="Image">C:\Windows\System32\systeminfo.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Displays system information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">systeminfo</Data>
+      <Data Name="CurrentDirectory">c:\ProgramData\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-3991-5d0b-0000-002029350100}</Data>
+      <Data Name="LogonId">0x13529</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=5A3D9211F06A9D4B4DE16AB40E02EC2D5F8C258E,MD5=258B2ED54FC7F74E2FDCCE5861549C1A,SHA256=DCE2C5EA1DA23E63EEFF2620141FBC2CA45FC4A64F40AF89E722F4B5FAFED27C,IMPHASH=C4E7D54B41A3FB8BFD24209B32BF260D</Data>
+      <Data Name="ParentProcessGuid">{365abb72-3ed4-5d0b-0000-0010b2871a00}</Data>
+      <Data Name="ParentProcessId">1440</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd"</Data>
+    </EventData>
+  </Event>
+</root>

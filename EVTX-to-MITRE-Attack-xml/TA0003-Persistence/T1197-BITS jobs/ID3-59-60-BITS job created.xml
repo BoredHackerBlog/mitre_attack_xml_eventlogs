@@ -1,0 +1,145 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>3</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:07:21.043356000Z" />
+      <EventRecordID>10260</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1104" ThreadID="9132" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="jobTitle">hackingarticles</Data>
+      <Data Name="jobId">{5f2863d6-e0ab-4470-8530-8f129b46177a}</Data>
+      <Data Name="jobOwner">OFFSEC\admmig</Data>
+      <Data Name="processPath">C:\Windows\System32\bitsadmin.exe</Data>
+      <Data Name="processId">7680</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>310</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:07:21.218334400Z" />
+      <EventRecordID>10261</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1104" ThreadID="3788" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="ErrorCode">2147942450</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>59</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>1</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:07:21.231950700Z" />
+      <EventRecordID>10262</EventRecordID>
+      <Correlation ActivityID="{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}" />
+      <Execution ProcessID="1104" ThreadID="3788" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="transferId">{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}</Data>
+      <Data Name="name">hackingarticles</Data>
+      <Data Name="Id">{5f2863d6-e0ab-4470-8530-8f129b46177a}</Data>
+      <Data Name="url">https://www.ma-neobanque.com/wp-content/uploads/2020/11/carte-max-premium.jpg</Data>
+      <Data Name="peer">
+      </Data>
+      <Data Name="fileTime">2020-11-16T17:00:19.000000000Z</Data>
+      <Data Name="fileLength">50813</Data>
+      <Data Name="bytesTotal">50813</Data>
+      <Data Name="bytesTransferred">0</Data>
+      <Data Name="bytesTransferredFromPeer">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>60</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>2</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:07:47.830869100Z" />
+      <EventRecordID>10263</EventRecordID>
+      <Correlation ActivityID="{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}" />
+      <Execution ProcessID="1104" ThreadID="9132" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="transferId">{746fd3d9-d296-42da-9f9c-b7ff6fa9151b}</Data>
+      <Data Name="name">hackingarticles</Data>
+      <Data Name="Id">{5f2863d6-e0ab-4470-8530-8f129b46177a}</Data>
+      <Data Name="url">https://www.ma-neobanque.com/wp-content/uploads/2020/11/carte-max-premium.jpg</Data>
+      <Data Name="peer">
+      </Data>
+      <Data Name="hr">0</Data>
+      <Data Name="fileTime">2020-11-16T17:00:19.000000000Z</Data>
+      <Data Name="fileLength">50813</Data>
+      <Data Name="bytesTotal">50813</Data>
+      <Data Name="bytesTransferred">50813</Data>
+      <Data Name="proxy">
+      </Data>
+      <Data Name="peerProtocolFlags">0</Data>
+      <Data Name="bytesTransferredFromPeer">0</Data>
+      <Data Name="AdditionalInfoHr">0</Data>
+      <Data Name="PeerContextInfo">0</Data>
+      <Data Name="bandwidthLimit">18446744073709551615</Data>
+      <Data Name="ignoreBandwidthLimitsOnLan">false</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>4</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:07:47.839043900Z" />
+      <EventRecordID>10264</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1104" ThreadID="4880" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="jobTitle">hackingarticles</Data>
+      <Data Name="jobId">{5f2863d6-e0ab-4470-8530-8f129b46177a}</Data>
+      <Data Name="jobOwner">OFFSEC\admmig</Data>
+      <Data Name="fileCount">1</Data>
+      <Data Name="bytesTransferred">50813</Data>
+      <Data Name="bytesTransferredFromPeer">0</Data>
+    </EventData>
+  </Event>
+</root>

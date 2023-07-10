@@ -1,0 +1,273 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:44:49.642770600Z" />
+      <EventRecordID>343364</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="4748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 10:44:49.379</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8721-5fbf-0000-001009894600}</Data>
+      <Data Name="ProcessId">6320</Data>
+      <Data Name="Image">C:\Users\lgreen\Downloads\PrivEsc\pocacct.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">pocacct.exe  payload.dll</Data>
+      <Data Name="CurrentDirectory">C:\Users\lgreen\Downloads\PrivEsc\</Data>
+      <Data Name="User">3B\lgreen</Data>
+      <Data Name="LogonGuid">{6a3c3ef2-817e-5fbf-0000-0020bedf0200}</Data>
+      <Data Name="LogonId">0x2dfbe</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=4BEA4EFEAE0F2D94DF3399DF94E278C937FFC458,MD5=043D7846BC981582EE506B3052FA45B4,SHA256=EBED970DC8478636FF646810D772336FC87373F12035F0E250C1F0644B330384,IMPHASH=A7C78079BE64001E19CB06E2155EEB12</Data>
+      <Data Name="ParentProcessGuid">{6a3c3ef2-83b6-5fbf-0000-001061b61800}</Data>
+      <Data Name="ParentProcessId">4912</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:44:53.386064800Z" />
+      <EventRecordID>343365</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="4748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-11-26 10:44:53.140</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8168-5fbf-0000-0010435a0100}</Data>
+      <Data Name="ProcessId">2032</Data>
+      <Data Name="Image">C:\WINDOWS\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\CVE-2020-1030\SpoolDirectory</Data>
+      <Data Name="Details">(Empty)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:45:07.422271500Z" />
+      <EventRecordID>343366</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="4748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-11-26 10:45:07.421</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8168-5fbf-0000-0010435a0100}</Data>
+      <Data Name="ProcessId">2032</Data>
+      <Data Name="Image">C:\WINDOWS\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\CVE-2020-1030\SpoolDirectory</Data>
+      <Data Name="Details">C:\Windows\System32\spool\drivers\x64\4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:45:07.433265600Z" />
+      <EventRecordID>343367</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="4748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-11-26 10:45:07.432</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8168-5fbf-0000-0010435a0100}</Data>
+      <Data Name="ProcessId">2032</Data>
+      <Data Name="Image">C:\WINDOWS\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\CVE-2020-1030\CopyFiles\Payload\Module</Data>
+      <Data Name="Details">AppVTerminator.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:45:07.686999600Z" />
+      <EventRecordID>343368</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="7540" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 10:45:07.672</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8168-5fbf-0000-0010435a0100}</Data>
+      <Data Name="ProcessId">2032</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\AppVTerminator.dll</Data>
+      <Data Name="FileVersion">10.0.18362.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Microsoft Application Virtualization Terminator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="Hashes">SHA1=D66B48C663F435419913D65E64ED4845CB9BC882,MD5=0419B6B1CCE7FA295A3DC1823E0AD685,SHA256=60BCF03195AE55304114E4AECD800C15C3F15DDDC91B742B4F5A9624494CCA65,IMPHASH=F578F8B5F8EA1AA29D7B69CDB8565B2E</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:45:14.007362600Z" />
+      <EventRecordID>343369</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="4748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 10:45:13.941</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8739-5fbf-0000-001075514700}</Data>
+      <Data Name="ProcessId">8716</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="FileVersion">10.0.18362.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Spooler SubSystem App</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\WINDOWS\System32\spoolsv.exe</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{6a3c3ef2-8160-5fbf-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=119662BE674BF95EC85F0AA9690B4F06DE272C17,MD5=217A5227E768CC42CF52B2902C7EFA8C,SHA256=13B3E4725F07A2371B7B45BB3E53ED14438ABC38CED045D50BFF3DC840680C59,IMPHASH=3908F13E6362FF821A5A7A58C7C88A99</Data>
+      <Data Name="ParentProcessGuid">{6a3c3ef2-8160-5fbf-0000-0010cc790000}</Data>
+      <Data Name="ParentProcessId">604</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\WINDOWS\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:45:23.237651500Z" />
+      <EventRecordID>343370</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="4748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-11-26 10:45:23.220</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8739-5fbf-0000-001075514700}</Data>
+      <Data Name="ProcessId">8716</Data>
+      <Data Name="Image">C:\WINDOWS\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\CVE-2020-1030\CopyFiles\Payload\Module</Data>
+      <Data Name="Details">C:\Windows\System32\spool\drivers\x64\4\payload.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T10:45:24.216387700Z" />
+      <EventRecordID>343371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8124" ThreadID="7540" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 10:45:23.976</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-8739-5fbf-0000-001075514700}</Data>
+      <Data Name="ProcessId">8716</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\spool\drivers\x64\4\payload.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=4B0D3EF916C4D5E4249DC62E0A1A2307C495E3FB,MD5=C957DB23045704214C1A53260598FC85,SHA256=7C1B045BB80761F9E9EDD9B8B7A53D9C374CA0C78926F7AEE1EACCC32EC3B198,IMPHASH=8DEF796746DD54062D5B3186EEF39356</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+</root>

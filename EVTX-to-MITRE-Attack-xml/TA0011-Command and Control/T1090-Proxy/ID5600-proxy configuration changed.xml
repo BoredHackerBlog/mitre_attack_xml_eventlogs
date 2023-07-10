@@ -1,0 +1,254 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:22:34.833516600Z" />
+      <EventRecordID>5</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-0124-0000-c528-17004c040000}" />
+      <Execution ProcessID="1100" ThreadID="2220" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">
+      </Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:22:34.835985100Z" />
+      <EventRecordID>6</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-0129-0000-c528-17004c040000}" />
+      <Execution ProcessID="1100" ThreadID="2220" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">
+      </Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:24:15.211905400Z" />
+      <EventRecordID>7</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-0145-0000-dcb0-18004c040000}" />
+      <Execution ProcessID="1100" ThreadID="2220" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">
+      </Data>
+      <Data Name="pwszProxy">
+      </Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:24:36.076008200Z" />
+      <EventRecordID>8</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-014e-0000-5802-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1244" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">
+      </Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:24:41.577044500Z" />
+      <EventRecordID>9</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-0190-0000-d417-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1244" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:24:41.580344400Z" />
+      <EventRecordID>10</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-0195-0000-d417-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1244" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:24:56.364287600Z" />
+      <EventRecordID>11</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-01b5-0000-a051-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1808" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:24:56.368073900Z" />
+      <EventRecordID>12</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-01ba-0000-a051-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1808" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">&lt;local&gt;</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:25:12.220053100Z" />
+      <EventRecordID>13</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-01c7-0000-848f-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1240" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">&lt;local&gt;</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinINet-Config" Guid="{5402e5ea-1bdd-4390-82be-e108f1e634f5}" />
+      <EventID>5600</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2023-04-14T08:25:12.223470800Z" />
+      <EventRecordID>14</EventRecordID>
+      <Correlation ActivityID="{ef4eb19a-01cc-0000-948f-19004c040000}" />
+      <Execution ProcessID="1100" ThreadID="1808" />
+      <Channel>Microsoft-Windows-WinINet-Config/ProxyConfigChanged</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-21-113448046-927799223-410490820-1001" />
+    </System>
+    <EventData>
+      <Data Name="fAutoDetect">false</Data>
+      <Data Name="pwszAutoConfigUrl">http://hacker-bypass.com/</Data>
+      <Data Name="pwszProxy">http://hacker-proxy.lan:123</Data>
+      <Data Name="pwszProxyBypass">http://internal.lan;&lt;local&gt;</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,372 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:42.385505600Z" />
+      <EventRecordID>4857</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 04:01:42.375</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa6-5cea-0000-001049b50a00}</Data>
+      <Data Name="ProcessId">3836</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+      <Data Name="FileVersion">8.0.1710.11</Data>
+      <Data Name="Description">Java(TM) Platform SE binary</Data>
+      <Data Name="Product">Java(TM) Platform SE 8</Data>
+      <Data Name="Company">Oracle Corporation</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\Desktop\info.rar\jjs.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\info.rar\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-0f31-5cea-0000-002062290100}</Data>
+      <Data Name="LogonId">0x12962</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8CC66ED54FBEFF205151898D65F6415400124553,MD5=64FDBD98584331982A15B1F2DF7F08DA,SHA256=B5DE10A0091B7AAF491BDB810BCE6DAB3F6B4A1C7A917722B5DE014E4A08B6EB,IMPHASH=D3310CE6CBCACB3A9F0809BC33E38ABE</Data>
+      <Data Name="ParentProcessGuid">{365abb72-0f32-5cea-0000-0010b5460100}</Data>
+      <Data Name="ParentProcessId">1372</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:42.545736000Z" />
+      <EventRecordID>4858</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2364" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Evasion - Possible DLL Side Loading via jjs.exe</Data>
+      <Data Name="UtcTime">2019-05-26 04:01:42.505</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa6-5cea-0000-001049b50a00}</Data>
+      <Data Name="ProcessId">3836</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\IEUser\Desktop\info.rar\jli.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=E6F33CBE295026319CF9DB3CA665BC2BC9D978AC,MD5=CE150468126EAE5D99359DDE3197B6EA,SHA256=02B95EF7A33A87CC2B3B6FD47DB03E711045974E1ECF631D3BA9E076E1E374E9,IMPHASH=D386CCEF9C3130690E1183697F8E3ED9</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:42.625851200Z" />
+      <EventRecordID>4859</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-26 04:01:42.565</Data>
+      <Data Name="ProcessGuid">{365abb72-8dbd-5cea-0000-0010d75d0000}</Data>
+      <Data Name="ProcessId">452</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\services\HxUpdateServiceInfo\Start</Data>
+      <Data Name="Details">DWORD (0x00000002)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:42.645880000Z" />
+      <EventRecordID>4860</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-26 04:01:42.565</Data>
+      <Data Name="ProcessGuid">{365abb72-8dbd-5cea-0000-0010d75d0000}</Data>
+      <Data Name="ProcessId">452</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\services\HxUpdateServiceInfo\ImagePath</Data>
+      <Data Name="Details">"C:\Users\IEUser\Desktop\info.rar\jjs.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:42.966340800Z" />
+      <EventRecordID>4861</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 04:01:42.946</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa6-5cea-0000-0010fec30a00}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+      <Data Name="FileVersion">8.0.1710.11</Data>
+      <Data Name="Description">Java(TM) Platform SE binary</Data>
+      <Data Name="Product">Java(TM) Platform SE 8</Data>
+      <Data Name="Company">Oracle Corporation</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\Desktop\info.rar\jjs.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-8dbd-5cea-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8CC66ED54FBEFF205151898D65F6415400124553,MD5=64FDBD98584331982A15B1F2DF7F08DA,SHA256=B5DE10A0091B7AAF491BDB810BCE6DAB3F6B4A1C7A917722B5DE014E4A08B6EB,IMPHASH=D3310CE6CBCACB3A9F0809BC33E38ABE</Data>
+      <Data Name="ParentProcessGuid">{365abb72-8dbd-5cea-0000-0010d75d0000}</Data>
+      <Data Name="ParentProcessId">452</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:42.966340800Z" />
+      <EventRecordID>4862</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Evasion - Possible DLL Side Loading via jjs.exe</Data>
+      <Data Name="UtcTime">2019-05-26 04:01:42.956</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa6-5cea-0000-0010fec30a00}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\IEUser\Desktop\info.rar\jli.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=E6F33CBE295026319CF9DB3CA665BC2BC9D978AC,MD5=CE150468126EAE5D99359DDE3197B6EA,SHA256=02B95EF7A33A87CC2B3B6FD47DB03E711045974E1ECF631D3BA9E076E1E374E9,IMPHASH=D386CCEF9C3130690E1183697F8E3ED9</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:43.567204800Z" />
+      <EventRecordID>4863</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 04:01:43.557</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa7-5cea-0000-001064c60a00}</Data>
+      <Data Name="ProcessId">3908</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-8dbd-5cea-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=4AF001B3C3816B860660CF2DE2C0FD3C1DFB4878,MD5=54A47F6B5E09A77E61649109C6A08866,SHA256=121118A0F5E0E8C933EFD28C9901E54E42792619A8A3A6D11E1F0025A7324BC2,IMPHASH=58E185299ECCA757FE68BA83A6495FDE</Data>
+      <Data Name="ParentProcessGuid">{365abb72-0fa6-5cea-0000-0010fec30a00}</Data>
+      <Data Name="ParentProcessId">3884</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Desktop\info.rar\jjs.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:43.567204800Z" />
+      <EventRecordID>4865</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 04:01:43.567</Data>
+      <Data Name="SourceProcessGuid">{365abb72-0fa6-5cea-0000-0010fec30a00}</Data>
+      <Data Name="SourceProcessId">3884</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-0fa7-5cea-0000-001064c60a00}</Data>
+      <Data Name="TargetProcessId">3908</Data>
+      <Data Name="TargetImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="NewThreadId">3916</Data>
+      <Data Name="StartAddress">0x00060000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:44.047896000Z" />
+      <EventRecordID>4873</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 04:01:44.047</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa6-5cea-0000-001049b50a00}</Data>
+      <Data Name="ProcessId">3836</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:44.598688000Z" />
+      <EventRecordID>4874</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 04:01:44.578</Data>
+      <Data Name="ProcessGuid">{365abb72-0fa6-5cea-0000-0010fec30a00}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\info.rar\jjs.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T04:01:47.082259200Z" />
+      <EventRecordID>4875</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="984" ThreadID="2352" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-26 04:01:47.052</Data>
+      <Data Name="ProcessGuid">{365abb72-0f32-5cea-0000-001004510100}</Data>
+      <Data Name="ProcessId">1416</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\DefaultSpoolDirectory</Data>
+      <Data Name="Details">C:\Windows\system32\spool\PRINTERS</Data>
+    </EventData>
+  </Event>
+</root>

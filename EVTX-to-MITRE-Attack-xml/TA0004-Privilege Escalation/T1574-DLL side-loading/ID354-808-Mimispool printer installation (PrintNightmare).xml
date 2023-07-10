@@ -1,0 +1,338 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>316</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000900</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.151083000Z" />
+      <EventRecordID>1</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <DriverAdded xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>Generic / Text Only</Param1>
+        <Param2>Windows x64</Param2>
+        <Param3>Version-3</Param3>
+        <Param4>UNIDRV.DLL, UNIDRVUI.DLL, TTY.GPD, UNIDRV.HLP, TTYRES.DLL, TTY.INI, TTY.DLL, TTYUI.DLL, TTYUI.HLP, UNIRES.DLL, STDNAMES.GPD, STDDTYPE.GDL, STDSCHEM.GDL, STDSCHMX.GDL</Param4>
+      </DriverAdded>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>300</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.229212900Z" />
+      <EventRecordID>2</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <PrinterCreated xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterCreated>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>304</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>24</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.229212900Z" />
+      <EventRecordID>3</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterUnPaused xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterUnPaused>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>306</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.229212900Z" />
+      <EventRecordID>4</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterSet xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterSet>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>306</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.244834500Z" />
+      <EventRecordID>5</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterSet xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterSet>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>354</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>36</Task>
+      <Opcode>12</Opcode>
+      <Keywords>0x8000000000000800</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.260460800Z" />
+      <EventRecordID>10</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <InitFailed xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>\\fs03vuln\Kiwi Legit Printer</Param1>
+        <Param2>\\fs03vuln\print$\W32X86\3\mimispool.dll</Param2>
+        <Param3>2. The system cannot find the file specified.
+</Param3>
+      </InitFailed>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>306</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.260460800Z" />
+      <EventRecordID>6</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterSet xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterSet>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>823</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>49</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.307336800Z" />
+      <EventRecordID>11</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3836" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <ChangingDefaultPrinter xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>
+        <OldDefaultPrinter>-</OldDefaultPrinter>
+        <NewDefaultPrinter>\\fs03vuln\Kiwi Legit Printer</NewDefaultPrinter>
+        <Status>0x0</Status>
+        <Module>spoolsv.exe</Module>
+      </ChangingDefaultPrinter>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>808</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>36</Task>
+      <Opcode>12</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.322960300Z" />
+      <EventRecordID>12</EventRecordID>
+      <Correlation ActivityID="{8811ec75-6f9c-4103-bb8a-eeed31fa139d}" />
+      <Execution ProcessID="1656" ThreadID="1572" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <LoadPluginFailed xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <PluginDllName>C:\Windows\system32\spool\DRIVERS\x64\3mimispool.dll</PluginDllName>
+        <ErrorCode>0x7e</ErrorCode>
+        <Context>110</Context>
+      </LoadPluginFailed>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>808</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>36</Task>
+      <Opcode>12</Opcode>
+      <Keywords>0x8000000000020000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.416714100Z" />
+      <EventRecordID>13</EventRecordID>
+      <Correlation ActivityID="{d19f08c0-2275-456e-8834-7ad4f8e0d662}" />
+      <Execution ProcessID="1656" ThreadID="1572" />
+      <Channel>Microsoft-Windows-PrintService/Admin</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <LoadPluginFailed xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <PluginDllName>C:\Windows\system32\spool\DRIVERS\x64\3mimispool.dll</PluginDllName>
+        <ErrorCode>0x7e</ErrorCode>
+        <Context>110</Context>
+      </LoadPluginFailed>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>302</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>10</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.432337200Z" />
+      <EventRecordID>7</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="2496" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterDeletionPending xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterDeletionPending>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>302</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>10</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.463587800Z" />
+      <EventRecordID>8</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="2496" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterDeletionPending xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8},1</Param1>
+      </PrinterDeletionPending>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>301</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000820</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.463587800Z" />
+      <EventRecordID>9</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="2496" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <PrinterDeleted xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>{BABBC1A0-F75A-44B0-92BC-57E20CEDA1D8}</Param1>
+      </PrinterDeleted>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PrintService" Guid="{747ef6fd-e535-4d16-b510-42c90f6873a1}" />
+      <EventID>317</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>9</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000900</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:28:26.494838000Z" />
+      <EventRecordID>10</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="3768" />
+      <Channel>Microsoft-Windows-PrintService/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <DriverDeleted xmlns="http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events">
+        <Param1>Generic / Text Only</Param1>
+      </DriverDeleted>
+    </UserData>
+  </Event>
+</root>

@@ -1,0 +1,97 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:06:55.604330400Z" />
+      <EventRecordID>113161</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:06:52.7755863
+sequence_number:1
+action_id:AL  
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:SA
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:213C535E-C4B0-4444-BF1F-31FF3F52F079
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:test-server-audit-spec
+statement:ALTER SERVER AUDIT SPECIFICATION [test-server-audit-spec]
+WITH (STATE = OFF)
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:06:55.604330400Z" />
+      <EventRecordID>113162</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:06:52.7755863
+sequence_number:1
+action_id:DR  
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:SA
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:CBFE583C-E6C7-4B88-887E-202A82B1057B
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:test-server-audit-spec
+statement:DROP SERVER AUDIT SPECIFICATION [test-server-audit-spec]
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

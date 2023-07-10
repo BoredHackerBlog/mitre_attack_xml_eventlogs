@@ -1,0 +1,441 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.741995900Z" />
+      <EventRecordID>48593</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1035,technique_name=Service Execution</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.741</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+      <Data Name="FileVersion">2.2</Data>
+      <Data Name="Description">Execute processes remotely</Data>
+      <Data Name="Product">Sysinternals PsExec</Data>
+      <Data Name="Company">Sysinternals - www.sysinternals.com</Data>
+      <Data Name="OriginalFileName">psexec.c</Data>
+      <Data Name="CommandLine">PsExec64.exe  -i -s cmd</Data>
+      <Data Name="CurrentDirectory">C:\TOOLS\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{a57649d1-9e9d-61a6-56ef-830000000000}</Data>
+      <Data Name="LogonId">0x83ef56</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=FB0A150601470195C47B4E8D87FCB3F50292BEB2,MD5=9321C107D1F7E336CDA550A2BF049108,SHA256=AD6B98C01EE849874E4B4502C3D7853196F6044240D3271E4AB3FC6E3C08E9A4,IMPHASH=159D56D406180A332FBC99290F30700E</Data>
+      <Data Name="ParentProcessGuid">{a57649d1-ace8-61a6-885b-920000000000}</Data>
+      <Data Name="ParentProcessId">532</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.757608800Z" />
+      <EventRecordID>48594</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1035,technique_name=Service Execution</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.757</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-4230534742-2542757381-3142984815-1111\Software\Sysinternals\PsExec\EulaAccepted</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.757608800Z" />
+      <EventRecordID>48595</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.757</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="CreationUtcTime">2021-12-04 21:17:29.604</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.773242200Z" />
+      <EventRecordID>48596</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.773</Data>
+      <Data Name="ProcessGuid">{a57649d1-92d8-61a4-2690-000000000000}</Data>
+      <Data Name="ProcessId">472</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\PSEXESVC\Start</Data>
+      <Data Name="Details">DWORD (0x00000003)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.773242200Z" />
+      <EventRecordID>48597</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.773</Data>
+      <Data Name="ProcessGuid">{a57649d1-92d8-61a4-2690-000000000000}</Data>
+      <Data Name="ProcessId">472</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\PSEXESVC\ImagePath</Data>
+      <Data Name="Details">%%SystemRoot%%\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.804487200Z" />
+      <EventRecordID>48598</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.788</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-2b62-dc0100000000}</Data>
+      <Data Name="ProcessId">4752</Data>
+      <Data Name="PipeName">\PSEXESVC</Data>
+      <Data Name="Image">C:\Windows\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.913885300Z" />
+      <EventRecordID>48599</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.913</Data>
+      <Data Name="ProcessGuid">{a57649d1-92d1-61a4-eb03-000000000000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\PSEXESVC</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.913885300Z" />
+      <EventRecordID>48600</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.913</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-2b62-dc0100000000}</Data>
+      <Data Name="ProcessId">4752</Data>
+      <Data Name="PipeName">\PSEXESVC-FS03VULN-2124-stdin</Data>
+      <Data Name="Image">C:\Windows\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.913885300Z" />
+      <EventRecordID>48601</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.913</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-2b62-dc0100000000}</Data>
+      <Data Name="ProcessId">4752</Data>
+      <Data Name="PipeName">\PSEXESVC-FS03VULN-2124-stdout</Data>
+      <Data Name="Image">C:\Windows\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.913885300Z" />
+      <EventRecordID>48602</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.913</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-2b62-dc0100000000}</Data>
+      <Data Name="ProcessId">4752</Data>
+      <Data Name="PipeName">\PSEXESVC-FS03VULN-2124-stderr</Data>
+      <Data Name="Image">C:\Windows\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.929497700Z" />
+      <EventRecordID>48603</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.929</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="PipeName">\PSEXESVC-FS03VULN-2124-stdin</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.929497700Z" />
+      <EventRecordID>48604</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.929</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="PipeName">\PSEXESVC-FS03VULN-2124-stdout</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.929497700Z" />
+      <EventRecordID>48605</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1077,technique_name=Windows Admin Shares</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.929</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="PipeName">\PSEXESVC-FS03VULN-2124-stderr</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:16.929497700Z" />
+      <EventRecordID>48606</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1059,technique_name=Command-Line Interface</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:16.929</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-0467-dc0100000000}</Data>
+      <Data Name="ProcessId">540</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"cmd" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{a57649d1-92d9-61a4-e703-000000000000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=7C3D7281E1151FE4127923F4B4C3CD36438E1A12,MD5=F5AE03DE0AD60F5B17B82F2CD68402FE,SHA256=6F88FB88FFB0F1D5465C2826E5B4F523598B1B8378377C8378FFEBC171BAD18B,IMPHASH=77AED1ADAF24B344F08C8AD1432908C3</Data>
+      <Data Name="ParentProcessGuid">{a57649d1-db54-61ab-2b62-dc0100000000}</Data>
+      <Data Name="ParentProcessId">4752</Data>
+      <Data Name="ParentImage">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-04T21:19:17.757697800Z" />
+      <EventRecordID>48607</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1700" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-12-04 21:19:10.604</Data>
+      <Data Name="ProcessGuid">{a57649d1-db54-61ab-775c-dc0100000000}</Data>
+      <Data Name="ProcessId">2124</Data>
+      <Data Name="QueryName">fs03vuln</Data>
+      <Data Name="QueryStatus">0</Data>
+      <Data Name="QueryResults">10.23.42.38;</Data>
+      <Data Name="Image">C:\TOOLS\PsExec64.exe</Data>
+    </EventData>
+  </Event>
+</root>

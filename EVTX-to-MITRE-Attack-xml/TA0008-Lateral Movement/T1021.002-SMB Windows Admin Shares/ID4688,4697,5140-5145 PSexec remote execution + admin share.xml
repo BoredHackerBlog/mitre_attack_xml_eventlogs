@@ -1,0 +1,1150 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.342397200Z" />
+      <EventRecordID>349321</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="5600" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x1375fbd</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b8c3a477-69db-d96f-f0c0-889ccecb69ee}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.343037400Z" />
+      <EventRecordID>349323</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.343355700Z" />
+      <EventRecordID>349324</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">PSEXESVC.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.343360400Z" />
+      <EventRecordID>349325</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">PSEXESVC.exe</Data>
+      <Data Name="AccessMask">0x2</Data>
+      <Data Name="AccessList">%%4417
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.347141000Z" />
+      <EventRecordID>349328</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="5600" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x1375fd8</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b8c3a477-69db-d96f-f0c0-889ccecb69ee}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56662</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.348456500Z" />
+      <EventRecordID>349332</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="5600" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x1375ff5</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b8c3a477-69db-d96f-f0c0-889ccecb69ee}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56663</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.348607900Z" />
+      <EventRecordID>349336</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="716" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x1376003</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b8c3a477-69db-d96f-f0c0-889ccecb69ee}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56664</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.360744700Z" />
+      <EventRecordID>349340</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="716" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x1376020</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b8c3a477-69db-d96f-f0c0-889ccecb69ee}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56666</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.362615700Z" />
+      <EventRecordID>349342</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1376020</Data>
+      <Data Name="ObjectServer">SC Manager</Data>
+      <Data Name="ObjectType">SC_MANAGER OBJECT</Data>
+      <Data Name="ObjectName">ServicesActive</Data>
+      <Data Name="HandleId">0xffff8000ef4fe9f8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%7168
+				%%7169
+				%%7170
+				%%7171
+				%%7172
+				%%7173
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x238</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4697</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12289</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.363393900Z" />
+      <EventRecordID>349343</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="716" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1376020</Data>
+      <Data Name="ServiceName">PSEXESVC</Data>
+      <Data Name="ServiceFileName">%SystemRoot%\PSEXESVC.exe</Data>
+      <Data Name="ServiceType">0x10</Data>
+      <Data Name="ServiceStartType">3</Data>
+      <Data Name="ServiceAccount">LocalSystem</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.364198700Z" />
+      <EventRecordID>349344</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1376020</Data>
+      <Data Name="ObjectServer">SC Manager</Data>
+      <Data Name="ObjectType">SERVICE OBJECT</Data>
+      <Data Name="ObjectName">PSEXESVC</Data>
+      <Data Name="HandleId">0xffff8000ef4fe9f8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%7184
+				%%7185
+				%%7186
+				%%7187
+				%%7188
+				%%7189
+				%%7190
+				%%7191
+				%%7192
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x238</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.366277000Z" />
+      <EventRecordID>349345</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xc24</Data>
+      <Data Name="NewProcessName">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x238</Data>
+      <Data Name="CommandLine">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.501341500Z" />
+      <EventRecordID>349346</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56663</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.501669100Z" />
+      <EventRecordID>349347</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">PSEXESVC</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.510128300Z" />
+      <EventRecordID>349349</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56664</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">cmd.exe</Data>
+      <Data Name="AccessMask">0x17019f</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.510133900Z" />
+      <EventRecordID>349350</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56664</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">cmd.exe</Data>
+      <Data Name="AccessMask">0x2</Data>
+      <Data Name="AccessList">%%4417
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.511697300Z" />
+      <EventRecordID>349351</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56662</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x20080</Data>
+      <Data Name="AccessList">%%1538
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.528453500Z" />
+      <EventRecordID>349352</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">PSEXESVC-WEC01-956-stdin</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.528963300Z" />
+      <EventRecordID>349353</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56663</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">PSEXESVC-WEC01-956-stdout</Data>
+      <Data Name="AccessMask">0x120089</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.529446000Z" />
+      <EventRecordID>349354</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1375fbd</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">56661</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">PSEXESVC-WEC01-956-stderr</Data>
+      <Data Name="AccessMask">0x120089</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.531035500Z" />
+      <EventRecordID>349355</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x15d4</Data>
+      <Data Name="NewProcessName">C:\Windows\cmd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xc24</Data>
+      <Data Name="CommandLine">"cmd.exe" -u demo\admmig -p Admin1235 -accepteula </Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:32.567937200Z" />
+      <EventRecordID>349356</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x10b0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x15d4</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:38.463241400Z" />
+      <EventRecordID>349357</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5624" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1548</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x15d4</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:40:42.263693200Z" />
+      <EventRecordID>349358</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3884" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x630</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x15d4</Data>
+      <Data Name="CommandLine">hostname</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:41:03.008106300Z" />
+      <EventRecordID>349359</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3884" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x590</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x1638</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cscript.exe" /nologo "MonitorKnowledgeDiscovery.vbs"</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:41:03.023281900Z" />
+      <EventRecordID>349360</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3884" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x494</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x590</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:42:03.014085100Z" />
+      <EventRecordID>349373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3572" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1050</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x1638</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cscript.exe" /nologo "MonitorKnowledgeDiscovery.vbs"</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:42:03.054138100Z" />
+      <EventRecordID>349374</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3572" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x478</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x1050</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:43:03.004492600Z" />
+      <EventRecordID>349387</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3572" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xf90</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x1638</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cscript.exe" /nologo "MonitorKnowledgeDiscovery.vbs"</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Program Files\Microsoft Monitoring Agent\Agent\MonitoringHost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T09:43:03.022311300Z" />
+      <EventRecordID>349388</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3572" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">SRVDEFENDER01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x548</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xf90</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+</root>

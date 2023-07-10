@@ -1,0 +1,138 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-19T17:35:16.207004200Z" />
+      <EventRecordID>1986542</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2320" ThreadID="3120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-TTEQ6PR</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2022-02-19 17:35:16.196</Data>
+      <Data Name="ProcessGuid">{08da6306-2a54-6211-0b01-000000001000}</Data>
+      <Data Name="ProcessId">1232</Data>
+      <Data Name="Image">C:\Users\win10\Desktop\SpoolFool-main\SpoolFool.exe</Data>
+      <Data Name="FileVersion">1.0.0.0</Data>
+      <Data Name="Description">SpoolFool</Data>
+      <Data Name="Product">SpoolFool</Data>
+      <Data Name="Company">Microsoft</Data>
+      <Data Name="OriginalFileName">SpoolFool.exe</Data>
+      <Data Name="CommandLine">"C:\Users\win10\Desktop\SpoolFool-main\SpoolFool.exe" -dll C:\ProgramData\Test.dll</Data>
+      <Data Name="CurrentDirectory">C:\Users\win10\Desktop\SpoolFool-main\</Data>
+      <Data Name="User">DESKTOP-TTEQ6PR\win10</Data>
+      <Data Name="LogonGuid">{08da6306-c704-6210-ef77-020000000000}</Data>
+      <Data Name="LogonId">0x277ef</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=2AEE1F5306E38D080D16A96B6C23895FFC6EE2FC,MD5=31EB70DC11AF05EC4D5CDA652396970C,SHA256=C0A7A797F39B509FD2D895B5731E79B57B350B85B20BE5A51C0A1BDA19321BD0,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744</Data>
+      <Data Name="ParentProcessGuid">{08da6306-29d8-6211-0801-000000001000}</Data>
+      <Data Name="ParentProcessId">7004</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -noexit -command Set-Location -literalPath 'C:\Users\win10\Desktop\SpoolFool-main'</Data>
+      <Data Name="ParentUser">DESKTOP-TTEQ6PR\win10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-19T17:35:16.301121600Z" />
+      <EventRecordID>1986612</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2320" ThreadID="3120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-TTEQ6PR</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2022-02-19 17:35:16.295</Data>
+      <Data Name="ProcessGuid">{08da6306-2a54-6211-0b01-000000001000}</Data>
+      <Data Name="ProcessId">1232</Data>
+      <Data Name="Image">C:\Users\win10\Desktop\SpoolFool-main\SpoolFool.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\4\Test.dll</Data>
+      <Data Name="CreationUtcTime">2022-02-19 17:35:16.295</Data>
+      <Data Name="User">DESKTOP-TTEQ6PR\win10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-19T17:35:16.316731500Z" />
+      <EventRecordID>1986639</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2320" ThreadID="3120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-TTEQ6PR</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-02-19 17:35:16.311</Data>
+      <Data Name="ProcessGuid">{08da6306-c703-6210-2700-000000001000}</Data>
+      <Data Name="ProcessId">1896</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\Microsoft XPS Document Writer v4\CopyFiles\Module</Data>
+      <Data Name="Details">C:\Windows\system32\spool\DRIVERS\x64\4\Test.dll</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-19T17:35:16.328564900Z" />
+      <EventRecordID>1986647</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2320" ThreadID="3124" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DESKTOP-TTEQ6PR</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2022-02-19 17:35:16.311</Data>
+      <Data Name="ProcessGuid">{08da6306-c703-6210-2700-000000001000}</Data>
+      <Data Name="ProcessId">1896</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\spool\drivers\x64\4\Test.dll</Data>
+      <Data Name="FileVersion">1.0.0.0</Data>
+      <Data Name="Description">ClassLibrary2</Data>
+      <Data Name="Product">ClassLibrary2</Data>
+      <Data Name="Company">-</Data>
+      <Data Name="OriginalFileName">ClassLibrary2.dll</Data>
+      <Data Name="Hashes">SHA1=9A6C506F3604E02F20154E2A7F29F577E2F973AA,MD5=36188F389FE0A1F12B4015AD3A090F55,SHA256=76AB7A463CAE7F04F7E17E7525FC3C0C085D35FA8C41BF6B1EAF599368E87F0F,IMPHASH=DAE02F32A21E03CE65412F6E56942DAA</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">-</Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+  </Event>
+</root>

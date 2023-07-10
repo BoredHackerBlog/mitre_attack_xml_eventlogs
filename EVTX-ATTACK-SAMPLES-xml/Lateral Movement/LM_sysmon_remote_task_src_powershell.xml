@@ -1,0 +1,119 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-15T15:00:07.957445600Z" />
+      <EventRecordID>589693</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3524" ThreadID="2756" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-12-15 15:00:07.950</Data>
+      <Data Name="ProcessGuid">{747f3d96-cf4b-5fd8-0000-00101ad58700}</Data>
+      <Data Name="ProcessId">6976</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\taskschd.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1282 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Task Scheduler COM API</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">taskschd.dll</Data>
+      <Data Name="Hashes">SHA1=109056E917E0F35274ABBFDAC0A857E2B38CBE7A,MD5=32DC07C87ACACFF07AFAD1A1B4EBBDE6,SHA256=D989A7250FBC9381E8DA436FA725DF342E47B7878C472D25C11F538C9E0858C3,IMPHASH=47DDF74C5BA1B9E2D8229FFA4922F841</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-15T15:00:15.695416600Z" />
+      <EventRecordID>589974</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3524" ThreadID="4288" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-12-15 15:00:14.467</Data>
+      <Data Name="ProcessGuid">{747f3d96-cf4b-5fd8-0000-00101ad58700}</Data>
+      <Data Name="ProcessId">6976</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">50007</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.17</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10CLONE</Data>
+      <Data Name="DestinationPort">135</Data>
+      <Data Name="DestinationPortName">epmap</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-15T15:00:15.695478400Z" />
+      <EventRecordID>589975</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3524" ThreadID="4288" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-12-15 15:00:14.470</Data>
+      <Data Name="ProcessGuid">{747f3d96-cf4b-5fd8-0000-00101ad58700}</Data>
+      <Data Name="ProcessId">6976</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">50008</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.17</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10CLONE</Data>
+      <Data Name="DestinationPort">49666</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+</root>

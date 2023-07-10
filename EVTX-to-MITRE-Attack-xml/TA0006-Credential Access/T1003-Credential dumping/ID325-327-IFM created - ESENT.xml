@@ -1,0 +1,98 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="ESENT" />
+      <EventID Qualifiers="0">216</EventID>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T19:36:36.537143900Z" />
+      <EventRecordID>442136</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>lsass</Data>
+      <Data>548</Data>
+      <Data>
+      </Data>
+      <Data>C:\Windows\NTDS\ntds.dit</Data>
+      <Data>\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy5\Windows\NTDS\ntds.dit</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="ESENT" />
+      <EventID Qualifiers="0">325</EventID>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T19:36:55.706960800Z" />
+      <EventRecordID>442150</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>NTDS</Data>
+      <Data>7148</Data>
+      <Data>
+      </Data>
+      <Data>2</Data>
+      <Data>c:\hacker\Active Directory\ntds.dit</Data>
+      <Data>0</Data>
+      <Data>[1] 0.000, [2] 0.000, [3] 0.031, [4] 0.000, [5] 0.000, [6] 0.016, [7] 0.000, [8] 0.000, [9] 0.015, [10] 0.000, [11] 0.000.</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="ESENT" />
+      <EventID Qualifiers="0">327</EventID>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T19:36:58.911038000Z" />
+      <EventRecordID>442151</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>NTDS</Data>
+      <Data>7148</Data>
+      <Data>
+      </Data>
+      <Data>2</Data>
+      <Data>c:\hacker\Active Directory\ntds.dit</Data>
+      <Data>0</Data>
+      <Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.078, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000.</Data>
+      <Data>0 0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="ESENT" />
+      <EventID Qualifiers="0">327</EventID>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-05T19:36:58.926651200Z" />
+      <EventRecordID>442152</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>NTDS</Data>
+      <Data>7148</Data>
+      <Data>
+      </Data>
+      <Data>1</Data>
+      <Data>C:\$SNAP_202106051936_VOLUMEC$\Windows\NTDS\ntds.dit</Data>
+      <Data>0</Data>
+      <Data>[1] 0.000, [2] 0.000, [3] 0.000, [4] 0.000, [5] 0.000, [6] 0.016, [7] 0.000, [8] 0.000, [9] 0.000, [10] 0.000, [11] 0.000, [12] 0.000.</Data>
+      <Data>0 0</Data>
+    </EventData>
+  </Event>
+</root>

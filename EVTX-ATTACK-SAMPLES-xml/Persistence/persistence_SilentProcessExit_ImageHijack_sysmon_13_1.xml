@@ -1,0 +1,507 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:37.897138600Z" />
+      <EventRecordID>8033</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:22:37.881</Data>
+      <Data Name="ProcessGuid">{365abb72-6f5d-5d0a-0000-00109b331300}</Data>
+      <Data Name="ProcessId">1356</Data>
+      <Data Name="Image">C:\Windows\System32\reg.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Registry Console Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">reg  add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v GlobalFlag /t REG_DWORD /d 512 </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020a4340100}</Data>
+      <Data Name="LogonId">0x134a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8BD131B03D6BA865B228CA8EE3239D2EF2B90B74,MD5=D69A9ABBB0D795F21995C2F48C1EB560,SHA256=36414C7E57AFA6136D77FD47F4C55102E35F2475FBCD719728DA7D14B1590E2A,IMPHASH=BC564726CFF18A49EBC14784593A51CA</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6d98-5d0a-0000-00109e420b00}</Data>
+      <Data Name="ParentProcessId">3924</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:41.709638600Z" />
+      <EventRecordID>8034</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-06-19 17:22:41.709</Data>
+      <Data Name="ProcessGuid">{365abb72-6f5d-5d0a-0000-00109b331300}</Data>
+      <Data Name="ProcessId">1356</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe\GlobalFlag</Data>
+      <Data Name="Details">DWORD (0x00000200)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:41.709638600Z" />
+      <EventRecordID>8035</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:22:41.709</Data>
+      <Data Name="ProcessGuid">{365abb72-6f61-5d0a-0000-0010db351300}</Data>
+      <Data Name="ProcessId">2504</Data>
+      <Data Name="Image">C:\Windows\System32\reg.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Registry Console Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">reg  add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit\notepad.exe" /v ReportingMode /t REG_DWORD /d 1 </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020a4340100}</Data>
+      <Data Name="LogonId">0x134a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8BD131B03D6BA865B228CA8EE3239D2EF2B90B74,MD5=D69A9ABBB0D795F21995C2F48C1EB560,SHA256=36414C7E57AFA6136D77FD47F4C55102E35F2475FBCD719728DA7D14B1590E2A,IMPHASH=BC564726CFF18A49EBC14784593A51CA</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6d98-5d0a-0000-00109e420b00}</Data>
+      <Data Name="ParentProcessId">3924</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:43.944013600Z" />
+      <EventRecordID>8036</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Persistence via SilentProcessExit hijack</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-06-19 17:22:43.912</Data>
+      <Data Name="ProcessGuid">{365abb72-6f61-5d0a-0000-0010db351300}</Data>
+      <Data Name="ProcessId">2504</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit\notepad.exe\ReportingMode</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:43.944013600Z" />
+      <EventRecordID>8037</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:22:43.928</Data>
+      <Data Name="ProcessGuid">{365abb72-6f63-5d0a-0000-0010f93a1300}</Data>
+      <Data Name="ProcessId">1956</Data>
+      <Data Name="Image">C:\Windows\System32\reg.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Registry Console Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">reg  add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit\notepad.exe" /v MonitorProcess /d "C:\windows\temp\evil.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020a4340100}</Data>
+      <Data Name="LogonId">0x134a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8BD131B03D6BA865B228CA8EE3239D2EF2B90B74,MD5=D69A9ABBB0D795F21995C2F48C1EB560,SHA256=36414C7E57AFA6136D77FD47F4C55102E35F2475FBCD719728DA7D14B1590E2A,IMPHASH=BC564726CFF18A49EBC14784593A51CA</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6d98-5d0a-0000-00109e420b00}</Data>
+      <Data Name="ParentProcessId">3924</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:45.694013600Z" />
+      <EventRecordID>8038</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Persistence via SilentProcessExit hijack</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-06-19 17:22:45.678</Data>
+      <Data Name="ProcessGuid">{365abb72-6f63-5d0a-0000-0010f93a1300}</Data>
+      <Data Name="ProcessId">1956</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentProcessExit\notepad.exe\MonitorProcess</Data>
+      <Data Name="Details">C:\windows\temp\evil.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:55.397138600Z" />
+      <EventRecordID>8039</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:22:55.381</Data>
+      <Data Name="ProcessGuid">{365abb72-6f6f-5d0a-0000-001046451300}</Data>
+      <Data Name="ProcessId">1352</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">notepad</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020a4340100}</Data>
+      <Data Name="LogonId">0x134a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=FC64B1EF19E7F35642B2A2EA5F5D9F4246866243,MD5=A4F6DF0E33E644E802C8798ED94D80EA,SHA256=B56AFE7165AD341A749D2D3BD925D879728A1FE4A4DF206145C1A69AA233F68B,IMPHASH=53A6715F589E88C4FD4541C81B4F57C3</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6d98-5d0a-0000-00109e420b00}</Data>
+      <Data Name="ParentProcessId">3924</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:22:58.944013600Z" />
+      <EventRecordID>8040</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:22:58.928</Data>
+      <Data Name="ProcessGuid">{365abb72-6f72-5d0a-0000-001004551300}</Data>
+      <Data Name="ProcessId">2112</Data>
+      <Data Name="Image">C:\Windows\Temp\evil.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\windows\temp\evil.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020a4340100}</Data>
+      <Data Name="LogonId">0x134a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6f72-5d0a-0000-0010eb501300}</Data>
+      <Data Name="ParentProcessId">2128</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WerFault.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\werfault.exe" -s -t 1340 -i 1352 -e 1352 -c 0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:23:01.928388600Z" />
+      <EventRecordID>8041</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:23:01.881</Data>
+      <Data Name="ProcessGuid">{365abb72-6f75-5d0a-0000-001082611300}</Data>
+      <Data Name="ProcessId">1224</Data>
+      <Data Name="Image">C:\Windows\System32\Macromed\Flash\FlashPlayerUpdateService.exe</Data>
+      <Data Name="FileVersion">30,0,0,134</Data>
+      <Data Name="Description">Adobe« Flash« Player Update Service 30.0 r0</Data>
+      <Data Name="Product">Adobe« Flash« Player Update Service</Data>
+      <Data Name="Company">Adobe Systems Incorporated</Data>
+      <Data Name="CommandLine">C:\Windows\system32\Macromed\Flash\FlashPlayerUpdateService.exe </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-eba5-5d0a-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F73252D1D103F0DEAD3725DC81AA6B9929392115,MD5=83F2FD354745C16CE5D5168432F7B4CE,SHA256=EBFDB6B0A90D752ED43992D00DE97F0457338BCDC12868FA51D238A15DB03562,IMPHASH=199C40F909C5F448ECBBEA46B5E39261</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6f75-5d0a-0000-0010595b1300}</Data>
+      <Data Name="ParentProcessId">3428</Data>
+      <Data Name="ParentImage">C:\Windows\System32\taskeng.exe</Data>
+      <Data Name="ParentCommandLine">taskeng.exe {9AAB3F76-4849-4F03-9560-B020B4D0233D} S-1-5-18:NT AUTHORITY\System:Service:</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:23:01.990888600Z" />
+      <EventRecordID>8042</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:23:01.990</Data>
+      <Data Name="ProcessGuid">{365abb72-6f75-5d0a-0000-0010e5671300}</Data>
+      <Data Name="ProcessId">272</Data>
+      <Data Name="Image">C:\Windows\System32\Macromed\Flash\FlashPlayerUpdateService.exe</Data>
+      <Data Name="FileVersion">30,0,0,134</Data>
+      <Data Name="Description">Adobe« Flash« Player Update Service 30.0 r0</Data>
+      <Data Name="Product">Adobe« Flash« Player Update Service</Data>
+      <Data Name="Company">Adobe Systems Incorporated</Data>
+      <Data Name="CommandLine">C:\Windows\system32\Macromed\Flash\FlashPlayerUpdateService.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-eba5-5d0a-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=F73252D1D103F0DEAD3725DC81AA6B9929392115,MD5=83F2FD354745C16CE5D5168432F7B4CE,SHA256=EBFDB6B0A90D752ED43992D00DE97F0457338BCDC12868FA51D238A15DB03562,IMPHASH=199C40F909C5F448ECBBEA46B5E39261</Data>
+      <Data Name="ParentProcessGuid">{365abb72-eba5-5d0a-0000-0010de5e0000}</Data>
+      <Data Name="ParentProcessId">480</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:23:02.350263600Z" />
+      <EventRecordID>8043</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:23:02.225</Data>
+      <Data Name="ProcessGuid">{365abb72-6f76-5d0a-0000-001064701300}</Data>
+      <Data Name="ProcessId">3744</Data>
+      <Data Name="Image">C:\Windows\System32\Macromed\Flash\FlashUtil32_30_0_0_134_Plugin.exe</Data>
+      <Data Name="FileVersion">30,0,0,134</Data>
+      <Data Name="Description">Adobe« Flash« Player Installer/Uninstaller 30.0 r0</Data>
+      <Data Name="Product">Adobe« Flash« Player Installer/Uninstaller</Data>
+      <Data Name="Company">Adobe Systems Incorporated</Data>
+      <Data Name="CommandLine">C:\Windows\system32\Macromed\Flash\FlashUtil32_30_0_0_134_Plugin.exe -check plugin</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020fc340100}</Data>
+      <Data Name="LogonId">0x134fc</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=4B3FDC6CB1D25C9CB5C3D0A214CA860F19E7DE8B,MD5=34AD903009C24CA2A07ACE1A9AE14420,SHA256=C62B9559AE94B5A79A6BB28BDD926477989A92E04D519A1F5839C9C504D5CF04,IMPHASH=2EC68C558A5F724AF82FD6229781023B</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6f76-5d0a-0000-0010b86b1300}</Data>
+      <Data Name="ParentProcessId">1704</Data>
+      <Data Name="ParentImage">C:\Windows\System32\taskeng.exe</Data>
+      <Data Name="ParentCommandLine">taskeng.exe {CF661A9C-C1B0-45D5-BC80-11E48F3A0B96} S-1-5-21-3583694148-1414552638-2922671848-1000:IEWIN7\IEUser:Interactive:LUA[1]</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:23:10.334638600Z" />
+      <EventRecordID>8044</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:23:08.928</Data>
+      <Data Name="ProcessGuid">{365abb72-6f7c-5d0a-0000-0010fe201400}</Data>
+      <Data Name="ProcessId">2396</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\notepad.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020fc340100}</Data>
+      <Data Name="LogonId">0x134fc</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=FC64B1EF19E7F35642B2A2EA5F5D9F4246866243,MD5=A4F6DF0E33E644E802C8798ED94D80EA,SHA256=B56AFE7165AD341A749D2D3BD925D879728A1FE4A4DF206145C1A69AA233F68B,IMPHASH=53A6715F589E88C4FD4541C81B4F57C3</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6d3f-5d0a-0000-00107d410600}</Data>
+      <Data Name="ParentProcessId">2828</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-19T17:23:11.694013600Z" />
+      <EventRecordID>8045</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="284" ThreadID="2076" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-19 17:23:11.678</Data>
+      <Data Name="ProcessGuid">{365abb72-6f7f-5d0a-0000-0010b66e1400}</Data>
+      <Data Name="ProcessId">3800</Data>
+      <Data Name="Image">C:\Windows\Temp\evil.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\windows\temp\evil.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-6d1b-5d0a-0000-0020fc340100}</Data>
+      <Data Name="LogonId">0x134fc</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6f7f-5d0a-0000-0010816a1400}</Data>
+      <Data Name="ParentProcessId">2856</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WerFault.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\werfault.exe" -s -t 3020 -i 2396 -e 2396 -c 0</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,497 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:37.185149300Z" />
+      <EventRecordID>238373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">suspicious execution path</Data>
+      <Data Name="UtcTime">2019-06-21 07:35:37.101</Data>
+      <Data Name="ProcessGuid">{ecad0485-88c9-5d0c-0000-0010348c1d00}</Data>
+      <Data Name="ProcessId">3572</Data>
+      <Data Name="Image">C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">Outflank-Dumpert.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\administrator\Desktop\x64\</Data>
+      <Data Name="User">insecurebank\Administrator</Data>
+      <Data Name="LogonGuid">{ecad0485-87e3-5d0c-0000-0020266a0f00}</Data>
+      <Data Name="LogonId">0xf6a26</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=3A41FF5A6CDEC8829876E0486A0072BC8D13DCF1,MD5=D4940C501545BCFD11D6DC75B5D0FEC9,SHA256=38879FE4AA25044DB241B093E6A1CF904BA9F4E999041C0CC039E2D5F7ABA044,IMPHASH=88788EE624180BE467F3C32F4720AA97</Data>
+      <Data Name="ParentProcessGuid">{ecad0485-8897-5d0c-0000-0010a2fa1c00}</Data>
+      <Data Name="ParentProcessId">3964</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:37.329185500Z" />
+      <EventRecordID>238374</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:37.316</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-88c9-5d0c-0000-0010348c1d00}</Data>
+      <Data Name="SourceProcessId">3572</Data>
+      <Data Name="SourceThreadId">3532</Data>
+      <Data Name="SourceImage">C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+134da|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+12e6d|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13f09|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13dae|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13c6e|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13f99|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:37.329185500Z" />
+      <EventRecordID>238375</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:37.324</Data>
+      <Data Name="ProcessGuid">{ecad0485-88c9-5d0c-0000-0010348c1d00}</Data>
+      <Data Name="ProcessId">3572</Data>
+      <Data Name="Image">C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\dumpert.dmp</Data>
+      <Data Name="CreationUtcTime">2019-06-21 06:53:03.227</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:37.377199000Z" />
+      <EventRecordID>238376</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:37.377</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-88c9-5d0c-0000-0010348c1d00}</Data>
+      <Data Name="SourceProcessId">3572</Data>
+      <Data Name="SourceThreadId">3532</Data>
+      <Data Name="SourceImage">C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\system32\ctiuser.dll+1b132|C:\Windows\SYSTEM32\ntdll.dll+80498|C:\Windows\system32\KERNEL32.DLL+1e1d4|C:\Windows\system32\KERNEL32.DLL+1dc17|C:\Windows\system32\ctiuser.dll+141be|C:\Windows\SYSTEM32\dbghelp.dll+1244d8|C:\Windows\SYSTEM32\dbghelp.dll+11ebd5|C:\Windows\SYSTEM32\dbghelp.dll+118402|C:\Windows\SYSTEM32\dbghelp.dll+1137e2|C:\Windows\SYSTEM32\dbghelp.dll+113c84|C:\Windows\system32\ctiuser.dll+22232|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+130a5|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13f09|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13dae|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13c6e|C:\Users\administrator\Desktop\x64\Outflank-Dumpert.exe+13f99|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.128026800Z" />
+      <EventRecordID>238378</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.093</Data>
+      <Data Name="ProcessGuid">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="ProcessId">1568</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">rundll32.exe  .\Outflank-Dumpert-DLL.dll, Dump</Data>
+      <Data Name="CurrentDirectory">C:\Users\administrator\Desktop\x64\</Data>
+      <Data Name="User">insecurebank\Administrator</Data>
+      <Data Name="LogonGuid">{ecad0485-87e3-5d0c-0000-0020266a0f00}</Data>
+      <Data Name="LogonId">0xf6a26</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=D4AC232D507769FFD004439C15302916A40D9831,MD5=6C308D32AFA41D26CE2A0EA8F7B79565,SHA256=5CC2C563D89257964C4B446F54AFE1E57BBEE49315A9FC001FF5A6BCB6650393,IMPHASH=156B2AC675B1B9202AF35C643105610C</Data>
+      <Data Name="ParentProcessGuid">{ecad0485-8897-5d0c-0000-0010a2fa1c00}</Data>
+      <Data Name="ParentProcessId">3964</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.259077200Z" />
+      <EventRecordID>238379</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.254</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="SourceProcessId">1568</Data>
+      <Data Name="SourceThreadId">3808</Data>
+      <Data Name="SourceImage">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+12d1a|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+11c1f|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+1187b|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+136f8|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+138d1|C:\Windows\SYSTEM32\ntdll.dll+1c114|C:\Windows\SYSTEM32\ntdll.dll+1b88e|C:\Windows\SYSTEM32\ntdll.dll+1b684|C:\Windows\SYSTEM32\ntdll.dll+19cab|C:\Windows\SYSTEM32\ntdll.dll+2b3ef|C:\Windows\SYSTEM32\ntdll.dll+68df9|C:\Windows\system32\KERNELBASE.dll+858a|C:\Windows\system32\ctiuser.dll+15adb|C:\Windows\system32\rundll32.exe+21fa|C:\Windows\system32\rundll32.exe+2647|C:\Windows\system32\rundll32.exe+44c4|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.259077200Z" />
+      <EventRecordID>238380</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.258</Data>
+      <Data Name="ProcessGuid">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="ProcessId">1568</Data>
+      <Data Name="Image">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\dumpert.dmp</Data>
+      <Data Name="CreationUtcTime">2019-06-21 06:53:03.227</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.264108800Z" />
+      <EventRecordID>238381</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.263</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="SourceProcessId">1568</Data>
+      <Data Name="SourceThreadId">3808</Data>
+      <Data Name="SourceImage">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\system32\ctiuser.dll+1b132|C:\Windows\SYSTEM32\ntdll.dll+80498|C:\Windows\system32\KERNEL32.DLL+1e1d4|C:\Windows\system32\KERNEL32.DLL+1dc17|C:\Windows\system32\ctiuser.dll+141be|C:\Windows\SYSTEM32\dbghelp.dll+1244d8|C:\Windows\SYSTEM32\dbghelp.dll+11ebd5|C:\Windows\SYSTEM32\dbghelp.dll+118402|C:\Windows\SYSTEM32\dbghelp.dll+1137e2|C:\Windows\SYSTEM32\dbghelp.dll+113c84|C:\Windows\system32\ctiuser.dll+22232|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+11df1|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+1187b|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+136f8|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+138d1|C:\Windows\SYSTEM32\ntdll.dll+1c114|C:\Windows\SYSTEM32\ntdll.dll+1b88e|C:\Windows\SYSTEM32\ntdll.dll+1b684|C:\Windows\SYSTEM32\ntdll.dll+19cab|C:\Windows\SYSTEM32\ntdll.dll+2b3ef|C:\Windows\SYSTEM32\ntdll.dll+68df9|C:\Windows\system32\KERNELBASE.dll+858a|C:\Windows\system32\ctiuser.dll+15adb</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.729226000Z" />
+      <EventRecordID>238382</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.724</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="SourceProcessId">1568</Data>
+      <Data Name="SourceThreadId">3808</Data>
+      <Data Name="SourceImage">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+12d1a|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+11c1f|C:\Windows\system32\rundll32.exe+2709|C:\Windows\system32\rundll32.exe+44c4|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.729226000Z" />
+      <EventRecordID>238383</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.727</Data>
+      <Data Name="ProcessGuid">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="ProcessId">1568</Data>
+      <Data Name="Image">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\dumpert.dmp</Data>
+      <Data Name="CreationUtcTime">2019-06-21 06:53:03.227</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:35:50.749238400Z" />
+      <EventRecordID>238384</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:35:50.730</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-88d6-5d0c-0000-001007aa1d00}</Data>
+      <Data Name="SourceProcessId">1568</Data>
+      <Data Name="SourceThreadId">3808</Data>
+      <Data Name="SourceImage">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\system32\ctiuser.dll+1b132|C:\Windows\SYSTEM32\ntdll.dll+80498|C:\Windows\system32\KERNEL32.DLL+1e1d4|C:\Windows\system32\KERNEL32.DLL+1dc17|C:\Windows\system32\ctiuser.dll+141be|C:\Windows\SYSTEM32\dbghelp.dll+1244d8|C:\Windows\SYSTEM32\dbghelp.dll+11ebd5|C:\Windows\SYSTEM32\dbghelp.dll+118402|C:\Windows\SYSTEM32\dbghelp.dll+1137e2|C:\Windows\SYSTEM32\dbghelp.dll+113c84|C:\Windows\system32\ctiuser.dll+22232|C:\Users\administrator\Desktop\x64\Outflank-Dumpert-DLL.dll+11df1|C:\Windows\system32\rundll32.exe+2709|C:\Windows\system32\rundll32.exe+44c4|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:36:50.450183700Z" />
+      <EventRecordID>238385</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">suspicious execution path</Data>
+      <Data Name="UtcTime">2019-06-21 07:36:50.277</Data>
+      <Data Name="ProcessGuid">{ecad0485-8912-5d0c-0000-0010fd2f1f00}</Data>
+      <Data Name="ProcessId">3552</Data>
+      <Data Name="Image">C:\Users\administrator\Desktop\AndrewSpecial.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">AndrewSpecial.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\administrator\Desktop\</Data>
+      <Data Name="User">insecurebank\Administrator</Data>
+      <Data Name="LogonGuid">{ecad0485-87e3-5d0c-0000-0020266a0f00}</Data>
+      <Data Name="LogonId">0xf6a26</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=FE6BEB0E26F71F8587415507B318B161FBC3338B,MD5=4791C98C096587DB8DFECD5CA894DD56,SHA256=2969E70B74A12E3B0441D0BDA498322464A8614421B00321E889756D60AB4200,IMPHASH=40B5A4911712471B34D39C3AC7E99193</Data>
+      <Data Name="ParentProcessGuid">{ecad0485-8897-5d0c-0000-0010a2fa1c00}</Data>
+      <Data Name="ParentProcessId">3964</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:36:51.681567000Z" />
+      <EventRecordID>238386</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:36:50.983</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-8912-5d0c-0000-0010fd2f1f00}</Data>
+      <Data Name="SourceProcessId">3552</Data>
+      <Data Name="SourceThreadId">3532</Data>
+      <Data Name="SourceImage">C:\Users\administrator\Desktop\AndrewSpecial.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\SYSTEM32\wow64.dll+7174|C:\Windows\SYSTEM32\wow64.dll+9c7b|C:\Windows\system32\wow64cpu.dll+1dc5|C:\Windows\SYSTEM32\wow64.dll+1235a|C:\Windows\SYSTEM32\wow64.dll+12292|C:\Windows\SYSTEM32\ntdll.dll+c3d95|C:\Windows\SYSTEM32\ntdll.dll+a24de|C:\Windows\SYSTEM32\ntdll.dll+18c9e|C:\Windows\SYSTEM32\ntdll.dll+3c55c(wow64)|C:\Windows\SYSTEM32\ctiuser.dll+1a81e(wow64)|C:\Windows\SYSTEM32\KERNELBASE.dll+17468(wow64)|C:\Windows\SYSTEM32\ctiuser.dll+1605f(wow64)|C:\Users\administrator\Desktop\AndrewSpecial.exe+1135|C:\Users\administrator\Desktop\AndrewSpecial.exe+16ad|C:\Users\administrator\Desktop\AndrewSpecial.exe+1b1b|C:\Windows\SYSTEM32\KERNEL32.DLL+17c04(wow64)|C:\Windows\SYSTEM32\ntdll.dll+5ad8f(wow64)|C:\Windows\SYSTEM32\ntdll.dll+5ad5a(wow64)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:36:51.681567000Z" />
+      <EventRecordID>238387</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:36:50.985</Data>
+      <Data Name="ProcessGuid">{ecad0485-8912-5d0c-0000-0010fd2f1f00}</Data>
+      <Data Name="ProcessId">3552</Data>
+      <Data Name="Image">C:\Users\administrator\Desktop\AndrewSpecial.exe</Data>
+      <Data Name="TargetFilename">C:\Users\administrator\Desktop\Andrew.dmp</Data>
+      <Data Name="CreationUtcTime">2019-06-21 07:36:50.985</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-21T07:36:51.682572200Z" />
+      <EventRecordID>238388</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1560" ThreadID="2316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-21 07:36:50.992</Data>
+      <Data Name="SourceProcessGUID">{ecad0485-8912-5d0c-0000-0010fd2f1f00}</Data>
+      <Data Name="SourceProcessId">3552</Data>
+      <Data Name="SourceThreadId">3532</Data>
+      <Data Name="SourceImage">C:\Users\administrator\Desktop\AndrewSpecial.exe</Data>
+      <Data Name="TargetProcessGUID">{ecad0485-822f-5d0c-0000-0010635e0000}</Data>
+      <Data Name="TargetProcessId">520</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\SYSTEM32\wow64.dll+7174|C:\Windows\SYSTEM32\wow64.dll+9c7b|C:\Windows\system32\wow64cpu.dll+1dc5|C:\Windows\SYSTEM32\wow64.dll+1235a|C:\Windows\SYSTEM32\wow64.dll+12292|C:\Windows\SYSTEM32\ntdll.dll+c3d95|C:\Windows\SYSTEM32\ntdll.dll+a24de|C:\Windows\SYSTEM32\ntdll.dll+18c9e|C:\Windows\SYSTEM32\ntdll.dll+3c55c(wow64)|C:\Windows\SYSTEM32\ctiuser.dll+1a81e(wow64)|C:\Windows\SYSTEM32\ntdll.dll+b7088(wow64)|C:\Windows\SYSTEM32\KERNEL32.DLL+39bb1(wow64)|C:\Windows\SYSTEM32\KERNEL32.DLL+29911(wow64)|C:\Windows\SYSTEM32\ctiuser.dll+13d59(wow64)|C:\Windows\SYSTEM32\dbghelp.dll+f852f(wow64)|C:\Windows\SYSTEM32\dbghelp.dll+f39c3(wow64)|C:\Windows\SYSTEM32\dbghelp.dll+ee1a7(wow64)|C:\Windows\SYSTEM32\dbghelp.dll+e9e2e(wow64)|C:\Windows\SYSTEM32\dbghelp.dll+ea1f5(wow64)|C:\Windows\SYSTEM32\ctiuser.dll+214b2(wow64)|C:\Users\administrator\Desktop\AndrewSpecial.exe+11c9|C:\Users\administrator\Desktop\AndrewSpecial.exe+16ad|C:\Users\administrator\Desktop\AndrewSpecial.exe+1b1b</Data>
+    </EventData>
+  </Event>
+</root>

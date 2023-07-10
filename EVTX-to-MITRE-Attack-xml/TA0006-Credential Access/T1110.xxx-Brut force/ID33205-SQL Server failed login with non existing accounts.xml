@@ -1,0 +1,3386 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70545</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9700BDC7-BD3E-4D83-82AF-24126A5691FE
+session_server_principal_name:
+server_principal_name:b
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'b'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70546</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:02D0B5E7-8C49-46CC-852D-10BB7201B736
+session_server_principal_name:
+server_principal_name:q
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'q'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70547</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:EE20870D-C03D-4DA0-B274-5D32C76071FD
+session_server_principal_name:
+server_principal_name:c
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'c'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70548</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9B2F0B45-846E-42C8-A6AD-285F6F55309B
+session_server_principal_name:
+server_principal_name:c
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'c'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70549</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:BC6B9FF7-5F53-422E-A546-65705BCBFBCF
+session_server_principal_name:
+server_principal_name:c
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'c'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70550</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:88EC8010-BED6-4743-A767-521C22202F64
+session_server_principal_name:
+server_principal_name:q
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'q'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70551</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9943E669-0E3D-480A-82D9-3DB7D46B26F5
+session_server_principal_name:
+server_principal_name:b
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'b'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70552</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6D5F963E-879A-4CCD-BD88-F8A29A46C153
+session_server_principal_name:
+server_principal_name:sa
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'sa'. Reason: Password did not match that for the login provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;8&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70553</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:D025A294-F08B-49EF-A8C4-23772228B697
+session_server_principal_name:
+server_principal_name:admin-hacker
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin-hacker'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70554</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9DA31164-37BE-419B-A3C1-94A9E80C3230
+session_server_principal_name:
+server_principal_name:b
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'b'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70555</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:8A81BF64-04A7-4297-87FB-089865E4A2CF
+session_server_principal_name:
+server_principal_name:d
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'd'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70556</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:426BE4FC-F7D2-414A-923A-AA52E628F8F2
+session_server_principal_name:
+server_principal_name:q
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'q'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70557</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:D4AFDEAB-8240-4D05-A33C-972F93240B72
+session_server_principal_name:
+server_principal_name:admin-hacker
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin-hacker'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70558</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:CBB48A39-D507-4265-BDF4-DECFBB201894
+session_server_principal_name:
+server_principal_name:admin-hacker
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin-hacker'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70559</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:0798643E-71C9-4864-B04E-B2DD38CD3FC0
+session_server_principal_name:
+server_principal_name:sa
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'sa'. Reason: Password did not match that for the login provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;8&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70560</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4196259
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6E469848-32DF-45B0-B22E-0D7892D9D5D1
+session_server_principal_name:
+server_principal_name:sa
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'sa'. Reason: Password did not match that for the login provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;8&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70561</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4821496
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:985D3415-9C90-4B20-A308-A0573BD57894
+session_server_principal_name:
+server_principal_name:d
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'd'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70562</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:B05C049D-022D-43B2-B54D-4A150D12E64F
+session_server_principal_name:
+server_principal_name:h
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'h'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70563</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9ADFEFE2-520D-44B5-AC1D-F623651E07B1
+session_server_principal_name:
+server_principal_name:g
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'g'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70564</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:BFCE97EF-9C9E-45DE-9F42-3A082E735CC0
+session_server_principal_name:
+server_principal_name:e
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'e'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70565</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:C8576B8D-27D2-4DCD-BDB3-2B48B4CD3BC5
+session_server_principal_name:
+server_principal_name:e
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'e'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70566</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9C0EDE09-080C-40EA-8AFA-C6BEC6AF3464
+session_server_principal_name:
+server_principal_name:g
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'g'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70567</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:3A9EB6C4-3CE4-4F68-A4C0-506E7A2978CE
+session_server_principal_name:
+server_principal_name:d
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'd'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70568</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:1082B382-9CE3-4C0E-9CAD-1C38BFDA5987
+session_server_principal_name:
+server_principal_name:d
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'd'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70569</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:8DF125C0-F28F-468D-9926-A864DDC853A9
+session_server_principal_name:
+server_principal_name:e
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'e'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70570</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:17CCF30E-7D32-4A7B-8B8E-42B3D0225B50
+session_server_principal_name:
+server_principal_name:h
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'h'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70571</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:DD56387C-750E-4173-9E74-7A68291414FD
+session_server_principal_name:
+server_principal_name:f
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'f'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70572</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:AAF71BC4-0F71-446B-9005-88651CAD7DAE
+session_server_principal_name:
+server_principal_name:d
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'd'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70573</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9EDE208D-0B09-4380-9C5F-585B915C08F6
+session_server_principal_name:
+server_principal_name:f
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'f'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70574</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:C1D2FF74-20AA-45FD-80DA-0B39F8C53691
+session_server_principal_name:
+server_principal_name:d
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'd'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70575</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:A7554E28-DF33-4640-8EA6-FF142596D6AB
+session_server_principal_name:
+server_principal_name:g
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'g'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70576</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.4977492
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:AC6AD8F6-DD3B-4203-848A-3810DA4EFAF0
+session_server_principal_name:
+server_principal_name:f
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'f'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70577</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5446231
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6C5D8E9E-7736-4992-B041-BC4DFC22E7A2
+session_server_principal_name:
+server_principal_name:h
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'h'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70578</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5602483
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6F15FB04-94A4-47F1-89CF-59E5CC7FE8F4
+session_server_principal_name:
+server_principal_name:y
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'y'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70579</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5602483
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:0A7385EC-C1DD-4AA0-8BEF-6D9DC4649186
+session_server_principal_name:
+server_principal_name:y
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'y'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70580</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:C101A4C0-AE28-4775-90F5-24823E13A866
+session_server_principal_name:
+server_principal_name:w
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'w'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70581</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:8BADBC2F-89D9-445C-8F5D-94DDD3392863
+session_server_principal_name:
+server_principal_name:e
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'e'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70582</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:352821A5-71B0-47BC-BF56-4E4938489945
+session_server_principal_name:
+server_principal_name:e
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'e'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70583</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:1C299D5E-2558-4182-AFB8-DB5008BE005B
+session_server_principal_name:
+server_principal_name:i
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'i'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70584</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:4FBD3649-2C50-4286-A387-0D83439FDA9C
+session_server_principal_name:
+server_principal_name:pb
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'pb'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70585</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:3D031439-06EF-4601-B7E2-73B18F88E58A
+session_server_principal_name:
+server_principal_name:pb
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'pb'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70586</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:2E8815FE-ECE1-4F82-ACCF-BCFCCC8C4EEF
+session_server_principal_name:
+server_principal_name:pb
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'pb'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70587</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:014F1286-CD06-41A2-BA2E-912791D7269A
+session_server_principal_name:
+server_principal_name:i
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'i'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70588</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:3D3F61FD-F853-4F26-9313-89A874B0CF66
+session_server_principal_name:
+server_principal_name:y
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'y'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70589</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:41B84B1B-0697-416A-AFA0-1E1B41414BFA
+session_server_principal_name:
+server_principal_name:w
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'w'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70590</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:5A8FA5E6-4864-4447-8984-CB6BA7CCDB7D
+session_server_principal_name:
+server_principal_name:i
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'i'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70591</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:EE455982-E47C-48E5-9402-28E7A8DF232D
+session_server_principal_name:
+server_principal_name:e
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'e'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70592</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.5758624
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:4B1DB7FC-6F7F-4B4F-92F1-4D13021F5619
+session_server_principal_name:
+server_principal_name:w
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'w'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70593</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6072037
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:5B05D78B-B9F0-44C2-9EAB-52866164761F
+session_server_principal_name:
+server_principal_name:eaeasf
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'eaeasf'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70594</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6227637
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:F9D28B5B-DFE0-43A2-BE9B-F0DDD426D0B1
+session_server_principal_name:
+server_principal_name:eaeasf
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'eaeasf'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70595</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:F4E6E19C-3542-4F87-BA59-0FD88313D69A
+session_server_principal_name:
+server_principal_name:kerberos
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'kerberos'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70596</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:38CD7145-88C4-4648-AE29-1C16263B8176
+session_server_principal_name:
+server_principal_name:admin
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70597</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:FFF0D7D6-05A9-44B2-8A35-62877D24E181
+session_server_principal_name:
+server_principal_name:eaeasf
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'eaeasf'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70598</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:3144F618-7B9E-41F7-9CF2-B5AF8678340A
+session_server_principal_name:
+server_principal_name:asearytsy
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'asearytsy'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70599</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6DF5E2C6-1AB7-4CE4-98F5-03B4E6D3CD78
+session_server_principal_name:
+server_principal_name:admin2
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin2'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70600</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:7071F0D0-9C70-484E-A0DC-7C3C8B1CE08C
+session_server_principal_name:
+server_principal_name:session
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'session'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70601</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:9B6E63AA-C4D7-437E-B439-1C3E32391C9C
+session_server_principal_name:
+server_principal_name:admin
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70602</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:A33E7C29-BC33-49E5-B321-74743690A575
+session_server_principal_name:
+server_principal_name:kerberos
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'kerberos'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70603</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6F67420E-0F6D-422D-9CDA-F565F8F19414
+session_server_principal_name:
+server_principal_name:admin2
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin2'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70604</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:0F5FFF20-659B-42B8-ACA9-C086E71B2943
+session_server_principal_name:
+server_principal_name:admin2
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin2'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70605</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:5FC4E87A-28CC-4EEA-BAC5-6CC6FFF7DAE7
+session_server_principal_name:
+server_principal_name:kerberos
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'kerberos'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70606</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:C4BA1189-98B2-45B0-B565-812470260FAD
+session_server_principal_name:
+server_principal_name:admin
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'admin'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70607</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:96C4C09B-7CFD-4037-B4F0-2A300D484DB5
+session_server_principal_name:
+server_principal_name:asearytsy
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'asearytsy'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70608</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6383647
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:D68D81F4-1518-4A1D-B3EC-C6FBACDE4921
+session_server_principal_name:
+server_principal_name:asearytsy
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'asearytsy'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70609</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6696180
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:943BB55A-4421-46A3-BD1B-935AB370D0BA
+session_server_principal_name:
+server_principal_name:session
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'session'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70610</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.6852600
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:515F9550-EAFA-4990-85F6-87DB12E2CA96
+session_server_principal_name:
+server_principal_name:session
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'session'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.111582600Z" />
+      <EventRecordID>70611</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.7008763
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:3608AC38-9704-4856-8EEB-7F6E382144FD
+session_server_principal_name:
+server_principal_name:administrator
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'administrator'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.127181800Z" />
+      <EventRecordID>70612</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.7321138
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:A2A01F57-F9DD-4511-ABDD-7BA65DF11F5D
+session_server_principal_name:
+server_principal_name:
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.127181800Z" />
+      <EventRecordID>70613</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.7321138
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:FD0B9E4C-1151-4CD6-B426-B4DB78009463
+session_server_principal_name:
+server_principal_name:
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.127181800Z" />
+      <EventRecordID>70614</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.7321138
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:D097C3BE-9C4A-4CDD-8030-F69F5ACF7FC5
+session_server_principal_name:
+server_principal_name:administrator
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'administrator'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.127181800Z" />
+      <EventRecordID>70615</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.7321138
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:EF3475F2-D7FD-4FB0-8957-08E2322C7E5A
+session_server_principal_name:
+server_principal_name:administrator
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'administrator'. Reason: Could not find a login matching the name provided. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;5&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-01T21:17:27.127181800Z" />
+      <EventRecordID>70616</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-08-01 21:17:24.7321138
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:F4EF92CA-1830-4723-ADDF-5A725EDF2899
+session_server_principal_name:
+server_principal_name:
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user ''. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.123.11]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.123.11&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

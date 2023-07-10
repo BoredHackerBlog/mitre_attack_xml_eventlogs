@@ -1,0 +1,284 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:31:20.494524100Z" />
+      <EventRecordID>58852</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:31:15.6737961
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:1CD0633E-91AB-422C-98BC-CA2DCB10FD91
+session_server_principal_name:
+server_principal_name:unexisting-user
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'unexisting-user'. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:31:20.494524100Z" />
+      <EventRecordID>58853</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:31:18.5450700
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:8FBCF3CF-D24E-4084-B74F-39D413F2494B
+session_server_principal_name:
+server_principal_name:unexisting-user
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'unexisting-user'. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:31:20.494524100Z" />
+      <EventRecordID>58854</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:31:19.4476377
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:B6A035D2-1D13-42D3-A234-81597C35F5C1
+session_server_principal_name:
+server_principal_name:unexisting-user
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'unexisting-user'. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:31:20.494524100Z" />
+      <EventRecordID>58855</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:31:20.1976307
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:B0CAB900-08FC-444C-8F2A-0FB5A423DBE3
+session_server_principal_name:
+server_principal_name:unexisting-user
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'unexisting-user'. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:31:25.505197300Z" />
+      <EventRecordID>58858</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:31:20.8277287
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:C66D2BEE-0D15-42C3-BE31-77A903625339
+session_server_principal_name:
+server_principal_name:unexisting-user
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'unexisting-user'. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T11:31:25.505197300Z" />
+      <EventRecordID>58859</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 11:31:21.4742828
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:36F401A9-A994-4706-9666-A9886749FDBB
+session_server_principal_name:
+server_principal_name:unexisting-user
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'unexisting-user'. Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;58&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

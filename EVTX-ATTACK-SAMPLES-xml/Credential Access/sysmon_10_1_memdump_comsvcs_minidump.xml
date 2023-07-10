@@ -1,0 +1,214 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-30T12:54:07.873789900Z" />
+      <EventRecordID>32151</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3292" ThreadID="928" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-30 12:54:07.823</Data>
+      <Data Name="ProcessGuid">{747f3d96-1c6f-5d69-0000-0010323c1f00}</Data>
+      <Data Name="ProcessId">2576</Data>
+      <Data Name="Image">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="FileVersion">5.812.10240.16384</Data>
+      <Data Name="Description">Microsoft « Console Based Script Host</Data>
+      <Data Name="Product">Microsoft « Windows Script Host</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cscript  c:\ProgramData\memdump.vbs notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-1b6a-5d69-0000-0020e5810e00}</Data>
+      <Data Name="LogonId">0xe81e5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=0E3C0779D8EAAD3B00363D7890DDC8272B510D49,MD5=A45586B3A5A291516CD10EF4FD3EE768,SHA256=59D3CDC7D51FA34C6B27B8B04EA17992955466EB25022B7BD64880AB35DF0BBC,IMPHASH=2B44D2206B9865383429E9C1524F1CAC</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-1b6c-5d69-0000-00106f060f00}</Data>
+      <Data Name="ParentProcessId">2128</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\System32\cmd.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-30T12:54:08.171875500Z" />
+      <EventRecordID>32152</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3292" ThreadID="4120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-30 12:54:08.079</Data>
+      <Data Name="ProcessGuid">{747f3d96-1c6f-5d69-0000-0010323c1f00}</Data>
+      <Data Name="ProcessId">2576</Data>
+      <Data Name="Image">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\scrobj.dll</Data>
+      <Data Name="FileVersion">5.812.10240.16384</Data>
+      <Data Name="Description">Windows « Script Component Runtime</Data>
+      <Data Name="Product">Microsoft « Windows « Script Component Runtime</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="Hashes">SHA1=5B139E692D2A376CCA16D536612EF87AD946EC6B,MD5=3F4DB17E9534DB1CEDA28FF77C27F535,SHA256=14A2C790E3E82DAF7918B61AB79F84228E7CA4494F5C2D311A1179CCA67B02C2,IMPHASH=C928D4D30D6B6FC0A3B011AA381044CA</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-30T12:54:08.257123100Z" />
+      <EventRecordID>32153</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3292" ThreadID="4120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Suspicious WMI module load</Data>
+      <Data Name="UtcTime">2019-08-30 12:54:08.127</Data>
+      <Data Name="ProcessGuid">{747f3d96-1c6f-5d69-0000-0010323c1f00}</Data>
+      <Data Name="ProcessId">2576</Data>
+      <Data Name="Image">C:\Windows\System32\cscript.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\wbem\wmiutils.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">WMI</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="Hashes">SHA1=2E6A63BC5189CA5DF3E85CDF58593F3DF3935DE6,MD5=A081AAD3A296EB414CB6839B744C67C9,SHA256=3D77E7769CFC8B4A1098E9A1F2BDE4432A6A70253EA6C2A58C8F8403A9038288,IMPHASH=0D31E6D27B954AD879CB4DF742982F1A</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-30T12:54:08.354049500Z" />
+      <EventRecordID>32154</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3292" ThreadID="928" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-30 12:54:08.331</Data>
+      <Data Name="ProcessGuid">{747f3d96-1c70-5d69-0000-0010c9661f00}</Data>
+      <Data Name="ProcessId">2888</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">rundll32 C:\windows\system32\comsvcs.dll, MiniDump 4868 C:\Windows\System32\notepad.bin full</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-1b6a-5d69-0000-0020e5810e00}</Data>
+      <Data Name="LogonId">0xe81e5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-1c70-5d69-0000-0010d4551f00}</Data>
+      <Data Name="ParentProcessId">1144</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-30T12:54:08.396724200Z" />
+      <EventRecordID>32155</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3292" ThreadID="928" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-30 12:54:08.392</Data>
+      <Data Name="ProcessGuid">{747f3d96-1c70-5d69-0000-0010c9661f00}</Data>
+      <Data Name="ProcessId">2888</Data>
+      <Data Name="Image">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\notepad.bin</Data>
+      <Data Name="CreationUtcTime">2019-08-30 12:54:08.392</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-30T12:54:08.439957200Z" />
+      <EventRecordID>32156</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3292" ThreadID="928" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">CredAccess - Memdump</Data>
+      <Data Name="UtcTime">2019-08-30 12:54:08.424</Data>
+      <Data Name="SourceProcessGUID">{747f3d96-1c70-5d69-0000-0010c9661f00}</Data>
+      <Data Name="SourceProcessId">2888</Data>
+      <Data Name="SourceThreadId">2796</Data>
+      <Data Name="SourceImage">C:\Windows\system32\rundll32.exe</Data>
+      <Data Name="TargetProcessGUID">{747f3d96-1c5c-5d69-0000-0010feb71e00}</Data>
+      <Data Name="TargetProcessId">4868</Data>
+      <Data Name="TargetImage">C:\Windows\system32\notepad.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9fc24|C:\Windows\SYSTEM32\ntdll.dll+7a747|C:\Windows\System32\KERNEL32.DLL+1c5b4|C:\Windows\System32\KERNEL32.DLL+237f8|C:\Windows\SYSTEM32\dbgcore.DLL+9247|C:\Windows\SYSTEM32\dbgcore.DLL+15dc5|C:\Windows\SYSTEM32\dbgcore.DLL+fec6|C:\Windows\SYSTEM32\dbgcore.DLL+5f56|C:\Windows\SYSTEM32\dbgcore.DLL+69f7|C:\windows\system32\comsvcs.dll+3c3d4|C:\Windows\system32\rundll32.exe+3bcf|C:\Windows\system32\rundll32.exe+6299|C:\Windows\System32\KERNEL32.DLL+17974|C:\Windows\SYSTEM32\ntdll.dll+6a271</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,44 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-28T13:41:21.325245900Z" />
+      <EventRecordID>144552</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1144" ThreadID="1888" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1059,technique_name=Command-Line Interface</Data>
+      <Data Name="UtcTime">2021-10-28 13:41:21.293</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-a881-617a-0605-000000001300}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{7cf65fc7-7bf5-6176-e703-000000000000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=7C3D7281E1151FE4127923F4B4C3CD36438E1A12,MD5=F5AE03DE0AD60F5B17B82F2CD68402FE,SHA256=6F88FB88FFB0F1D5465C2826E5B4F523598B1B8378377C8378FFEBC171BAD18B,IMPHASH=77AED1ADAF24B344F08C8AD1432908C3</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-7bf9-6176-1a00-000000001300}</Data>
+      <Data Name="ParentProcessId">1048</Data>
+      <Data Name="ParentImage">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\System32\spoolsv.exe</Data>
+    </EventData>
+  </Event>
+</root>

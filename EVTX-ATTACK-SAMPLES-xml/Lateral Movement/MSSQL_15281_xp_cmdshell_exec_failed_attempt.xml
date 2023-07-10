@@ -1,0 +1,25 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$SQLEXPRESS" />
+      <EventID Qualifiers="16384">15281</EventID>
+      <Level>4</Level>
+      <Task>2</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-03T08:11:51.057019800Z" />
+      <EventRecordID>37899</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-21-1586556212-2165235939-1437495523-1001" />
+    </System>
+    <EventData>
+      <Data>procedure</Data>
+      <Data>sys.xp_cmdshell</Data>
+      <Data>xp_cmdshell</Data>
+      <Data>xp_cmdshell</Data>
+      <Data>xp_cmdshell</Data>
+      <Data>xp_cmdshell</Data>
+      <Binary>B13B00000A0000001B0000004C004100500054004F0050002D004A00550034004D0033004900300045005C00530051004C0045005800500052004500530053000000070000006D00610073007400650072000000</Binary>
+    </EventData>
+  </Event>
+</root>

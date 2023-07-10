@@ -1,0 +1,3202 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.324945300Z" />
+      <EventRecordID>229230093</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{7a2aa51b-a49d-4a86-8d4d-fe63ecbb68ee}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.325222100Z" />
+      <EventRecordID>229230094</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0df47591-d8f6-420b-91ea-9e845b5bbc95}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.325465900Z" />
+      <EventRecordID>229230095</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{91dfd54c-8752-4fc4-80c0-ec3cab10a82f}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.325698900Z" />
+      <EventRecordID>229230096</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{463d69de-bf6e-40b1-9d07-135b523092d5}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.325912800Z" />
+      <EventRecordID>229230097</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{431b5ef4-f706-4c40-b283-34a199f2d61c}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.326136400Z" />
+      <EventRecordID>229230098</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{a43f6ca2-54ee-40d7-b0ba-41fbf53731d4}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.326348900Z" />
+      <EventRecordID>229230099</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{2254cdbf-4e9f-44ec-a069-da303cfc2f25}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.326557200Z" />
+      <EventRecordID>229230100</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{84d68bb1-e5ee-49f5-993d-5985ad31b260}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.326762700Z" />
+      <EventRecordID>229230101</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{67896a29-b083-4315-aae5-92c55937d58e}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.326972000Z" />
+      <EventRecordID>229230102</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{46e9478f-af93-47d7-ab83-b091ec0ff4a0}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.327178400Z" />
+      <EventRecordID>229230103</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{309e0ba2-58f0-4764-9b14-b28a2f038cd5}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.327384800Z" />
+      <EventRecordID>229230104</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{5bfe6f42-4848-4219-84be-1fe43975a9c9}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.327613600Z" />
+      <EventRecordID>229230105</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{d5823e76-381f-4ae1-99c5-4c5424879b30}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.327809800Z" />
+      <EventRecordID>229230106</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{1afcec60-3b9e-4404-9157-5828c19bdbfe}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.328036800Z" />
+      <EventRecordID>229230107</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{d1bb46df-02c3-44ea-9225-af2d9ccbfb54}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.328240400Z" />
+      <EventRecordID>229230108</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{a3cb6a7e-54dc-4051-994e-efccfc7f9f5f}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.328495300Z" />
+      <EventRecordID>229230109</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{51e802fe-be69-4947-bda9-28b47060f2a5}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.328705000Z" />
+      <EventRecordID>229230110</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{b25f4084-c789-454b-b49a-7ea7daf3c86c}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.328919400Z" />
+      <EventRecordID>229230111</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{275fc3c4-8389-404f-a88c-943788f28631}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.329177500Z" />
+      <EventRecordID>229230112</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{16531cc7-cb64-456f-805e-0cc947c91d6a}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.329426400Z" />
+      <EventRecordID>229230113</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{ac68038d-eb33-4a69-bf4e-8f978b701d86}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.329641200Z" />
+      <EventRecordID>229230114</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{464028b9-e4a6-48a9-b778-47a18834ae2a}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.329944100Z" />
+      <EventRecordID>229230115</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{49914c6a-ddd0-4f5d-98b1-50224e234356}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.330195700Z" />
+      <EventRecordID>229230116</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{11f11b7a-e9d4-4ba3-a47a-0bbe8695532a}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.330441800Z" />
+      <EventRecordID>229230117</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{01afc00c-ffe1-4331-8424-11aad55d84fd}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.330704600Z" />
+      <EventRecordID>229230118</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{7b16c270-6522-4e92-b55f-853de376e256}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.330940400Z" />
+      <EventRecordID>229230119</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{20b85fd4-dda0-46c3-b673-f1c642b59ffc}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.331172900Z" />
+      <EventRecordID>229230120</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0cc643c0-5e5c-4e45-bc45-5c8f1eaf2860}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.331390500Z" />
+      <EventRecordID>229230121</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{7bc9dbce-f0db-4dc9-a3e3-abe91cf212a9}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.331706500Z" />
+      <EventRecordID>229230122</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{ea309f8c-6bce-4eaa-b51f-911e116e529f}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.331917600Z" />
+      <EventRecordID>229230123</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0eccc212-487c-4400-9a3d-2a3dcb0b2796}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.332154800Z" />
+      <EventRecordID>229230124</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{818cdae7-aa71-4482-8ec9-12a8b549f448}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.332385900Z" />
+      <EventRecordID>229230125</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{537ab580-c205-4e3a-aa92-fe413eeecb81}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.332682300Z" />
+      <EventRecordID>229230126</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0658591b-71a0-4303-877b-fb6e164fa525}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.332903600Z" />
+      <EventRecordID>229230127</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{81c68288-c366-4891-b08c-fcbd0eea58b7}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.333175800Z" />
+      <EventRecordID>229230128</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{95cb74c2-eb2e-4b16-b0ef-78182691a140}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.333402300Z" />
+      <EventRecordID>229230129</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{57438033-204c-4e02-9378-05dad40026bd}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.333604500Z" />
+      <EventRecordID>229230130</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{483af07e-e356-4cec-a3df-848b41a917ce}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.333820700Z" />
+      <EventRecordID>229230131</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{2729d70a-4828-4ad8-bebd-6b18bfdb8a01}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.334031800Z" />
+      <EventRecordID>229230132</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{cfb794f2-28cd-4919-a98b-b386ba52cc5d}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.334224700Z" />
+      <EventRecordID>229230133</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{6f201fe7-ecdf-454d-b5e0-c9e9d355c5b9}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.334612000Z" />
+      <EventRecordID>229230134</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{7668e546-f085-4fb8-ac19-f106b0c30e77}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.334916700Z" />
+      <EventRecordID>229230135</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{4322a57e-c978-4669-8ad4-dd4d98032325}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.335331900Z" />
+      <EventRecordID>229230136</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{7d44f2df-fe53-4673-a1a7-546cf1b87c44}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.335688400Z" />
+      <EventRecordID>229230137</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{fc115303-028f-4ecf-a545-d97ac699507a}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.335981100Z" />
+      <EventRecordID>229230138</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{85e4e6f7-d3b0-4da6-8396-94f759b4944c}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.336319400Z" />
+      <EventRecordID>229230139</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{68729d0f-ef20-4227-bb2c-31d5c0919686}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.336677300Z" />
+      <EventRecordID>229230140</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{d910e3ca-fe9d-4604-9e9f-d84ff72851f4}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.337009500Z" />
+      <EventRecordID>229230141</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{723e3b64-42ce-4ad9-bff3-64948616d4a1}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.337325500Z" />
+      <EventRecordID>229230142</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{9d783d7f-397e-4a16-8a4f-65e2834de0ee}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.337633500Z" />
+      <EventRecordID>229230143</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{45cd4170-50f8-40cc-b0b3-5ef619839908}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.338028200Z" />
+      <EventRecordID>229230144</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{b08ede49-3550-4f93-a954-3a63b5886451}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.338334800Z" />
+      <EventRecordID>229230145</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{4cb4df5d-84b5-417e-9afe-d527b061589b}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.338801300Z" />
+      <EventRecordID>229230146</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{3e49a82a-5f5f-436c-9f93-81327c3c7461}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.339104200Z" />
+      <EventRecordID>229230147</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{3d44fe8c-f6d6-488c-8d87-440cbba24e35}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.339422000Z" />
+      <EventRecordID>229230148</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{56f428f0-db78-4f4a-b6fc-6f54a1ef49b6}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.339720700Z" />
+      <EventRecordID>229230149</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{cf5a7e94-8bd2-46e9-92cc-07622447be44}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.340035200Z" />
+      <EventRecordID>229230150</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{e02b989d-b855-493a-9235-765993b70797}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.340381500Z" />
+      <EventRecordID>229230151</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{49232b08-decc-4a86-a454-76bbd674bf18}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.342201700Z" />
+      <EventRecordID>229230152</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{96650b92-5134-4cb9-8b68-480dd63887f6}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.342785600Z" />
+      <EventRecordID>229230153</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{e6676497-a7c1-4e9a-8b2a-547ede5e6921}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.343321000Z" />
+      <EventRecordID>229230154</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{665118e5-25b6-4e84-b131-114016ab19e6}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.343803300Z" />
+      <EventRecordID>229230155</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{10aab0ee-1075-4fcd-a0a3-b2ac1fe847e1}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.344313600Z" />
+      <EventRecordID>229230156</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{f8e5bffc-af68-4d67-a638-e6b434e823f2}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.344817300Z" />
+      <EventRecordID>229230157</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0be23cad-c05b-4f45-88ab-6b415eac2472}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.345302400Z" />
+      <EventRecordID>229230158</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{b009227a-b1ac-4945-a83b-b226c11faf91}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.345790800Z" />
+      <EventRecordID>229230159</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{3fcf13c7-8818-47ec-bc67-e0f6e14aadf9}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.346364900Z" />
+      <EventRecordID>229230160</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0c822143-85a8-408c-bc4e-1d92f431813b}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.346858800Z" />
+      <EventRecordID>229230161</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{796dd7c1-261a-4126-926d-b20fbac1e55d}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.347465100Z" />
+      <EventRecordID>229230162</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{5163b6f2-9515-46bc-b92b-421fceedb231}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.348106800Z" />
+      <EventRecordID>229230163</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{15463e9f-af6e-4100-9ecf-c963f1aeda87}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.348617500Z" />
+      <EventRecordID>229230164</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{14f2e6dc-299f-4a68-887c-d2fe73daa512}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.349132900Z" />
+      <EventRecordID>229230165</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{b22b2995-6d0c-4a77-97e7-b494eecc413f}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.349497800Z" />
+      <EventRecordID>229230166</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{ecebc37b-170b-4ebf-953a-7a96dbb584c5}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.349869700Z" />
+      <EventRecordID>229230167</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{759f1e6e-a65d-4e5e-8501-1fcf4f2e1185}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.350234100Z" />
+      <EventRecordID>229230168</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{0a3c681f-a1e2-46da-b418-f5f6a8be67b8}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.350579400Z" />
+      <EventRecordID>229230169</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{6f000cec-e9e1-48e0-be41-b6c18ccc0610}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.351027200Z" />
+      <EventRecordID>229230170</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{223864a3-10f7-4096-8eb7-08cb79216eae}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.351461000Z" />
+      <EventRecordID>229230171</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{95a78d5e-ed80-426a-a73a-611b39086e74}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4662</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14080</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-25T14:11:11.351804000Z" />
+      <EventRecordID>229230172</EventRecordID>
+      <Correlation ActivityID="{44c9f4b0-b51c-0000-bef4-c9441cb5d701}" />
+      <Execution ProcessID="592" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xab3c3fc80</Data>
+      <Data Name="ObjectServer">DS</Data>
+      <Data Name="ObjectType">%{bf967a9c-0de6-11d0-a285-00aa003049e2}</Data>
+      <Data Name="ObjectName">%{d6db55e3-8f77-4822-98df-fb22af96948c}</Data>
+      <Data Name="OperationType">Object Access</Data>
+      <Data Name="HandleId">0x0</Data>
+      <Data Name="AccessList">%%7688
+				</Data>
+      <Data Name="AccessMask">0x100</Data>
+      <Data Name="Properties">%%7688
+		{771727b1-31b8-4cdf-ae62-4fe39fadf89e}
+			{612cb747-c0e8-4f92-9221-fdd5f15b550d}
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="AdditionalInfo">-</Data>
+      <Data Name="AdditionalInfo2">
+      </Data>
+    </EventData>
+  </Event>
+</root>

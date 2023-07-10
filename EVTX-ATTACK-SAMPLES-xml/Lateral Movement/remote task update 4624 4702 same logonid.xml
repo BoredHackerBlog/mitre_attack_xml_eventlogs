@@ -1,0 +1,384 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:39.499106400Z" />
+      <EventRecordID>2171289</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="420" ThreadID="996" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-308926384-506822093-3341789130-1106</SubjectUserSid>
+        <SubjectUserName>a-jbrown</SubjectUserName>
+        <SubjectDomainName>3B</SubjectDomainName>
+        <SubjectLogonId>0x38a14</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:48.570502800Z" />
+      <EventRecordID>2171290</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="632" ThreadID="4244" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-1106</Data>
+      <Data Name="TargetUserName">a-jbrown</Data>
+      <Data Name="TargetDomainName">3B</Data>
+      <Data Name="TargetLogonId">0x21a8c68</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">04246W-WIN10</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">172.16.66.142</Data>
+      <Data Name="IpPort">60726</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:48.823276200Z" />
+      <EventRecordID>2171291</EventRecordID>
+      <Correlation ActivityID="{4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601}" />
+      <Execution ProcessID="632" ThreadID="4244" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-1106</Data>
+      <Data Name="TargetUserName">a-jbrown</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x21a8c80</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{467413fe-b054-d9ae-c758-b41105a3eca9}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">172.16.66.142</Data>
+      <Data Name="IpPort">60728</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:48.842119400Z" />
+      <EventRecordID>2171292</EventRecordID>
+      <Correlation ActivityID="{4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601}" />
+      <Execution ProcessID="632" ThreadID="4244" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-1106</Data>
+      <Data Name="TargetUserName">a-jbrown</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x21a8c9a</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{467413fe-b054-d9ae-c758-b41105a3eca9}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">172.16.66.142</Data>
+      <Data Name="IpPort">60726</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4702</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12804</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:48.959767800Z" />
+      <EventRecordID>2171293</EventRecordID>
+      <Correlation ActivityID="{4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601}" />
+      <Execution ProcessID="632" ThreadID="4244" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-1106</Data>
+      <Data Name="SubjectUserName">a-jbrown</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x21a8c68</Data>
+      <Data Name="TaskName">\LMST</Data>
+      <Data Name="TaskContentNew">&lt;?xml version="1.0" encoding="UTF-16"?&gt;
+&lt;Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"&gt;
+  &lt;RegistrationInfo&gt;
+    &lt;Date&gt;2020-09-02T04:47:49.74-07:00&lt;/Date&gt;
+    &lt;Author&gt;a-jbrown&lt;/Author&gt;
+    &lt;Description&gt;00304d6e&lt;/Description&gt;
+    &lt;URI&gt;\LMST&lt;/URI&gt;
+  &lt;/RegistrationInfo&gt;
+  &lt;Triggers&gt;
+    &lt;TimeTrigger&gt;
+      &lt;StartBoundary&gt;2020-02-09T04:47:48&lt;/StartBoundary&gt;
+      &lt;EndBoundary&gt;2020-02-09T04:47:58&lt;/EndBoundary&gt;
+      &lt;Enabled&gt;true&lt;/Enabled&gt;
+    &lt;/TimeTrigger&gt;
+  &lt;/Triggers&gt;
+  &lt;Principals&gt;
+    &lt;Principal id="Author"&gt;
+      &lt;RunLevel&gt;HighestAvailable&lt;/RunLevel&gt;
+      &lt;UserId&gt;SYSTEM&lt;/UserId&gt;
+    &lt;/Principal&gt;
+  &lt;/Principals&gt;
+  &lt;Settings&gt;
+    &lt;MultipleInstancesPolicy&gt;IgnoreNew&lt;/MultipleInstancesPolicy&gt;
+    &lt;DisallowStartIfOnBatteries&gt;true&lt;/DisallowStartIfOnBatteries&gt;
+    &lt;StopIfGoingOnBatteries&gt;true&lt;/StopIfGoingOnBatteries&gt;
+    &lt;AllowHardTerminate&gt;true&lt;/AllowHardTerminate&gt;
+    &lt;StartWhenAvailable&gt;true&lt;/StartWhenAvailable&gt;
+    &lt;RunOnlyIfNetworkAvailable&gt;false&lt;/RunOnlyIfNetworkAvailable&gt;
+    &lt;IdleSettings&gt;
+      &lt;Duration&gt;PT10M&lt;/Duration&gt;
+      &lt;WaitTimeout&gt;PT1H&lt;/WaitTimeout&gt;
+      &lt;StopOnIdleEnd&gt;true&lt;/StopOnIdleEnd&gt;
+      &lt;RestartOnIdle&gt;false&lt;/RestartOnIdle&gt;
+    &lt;/IdleSettings&gt;
+    &lt;AllowStartOnDemand&gt;true&lt;/AllowStartOnDemand&gt;
+    &lt;Enabled&gt;true&lt;/Enabled&gt;
+    &lt;Hidden&gt;true&lt;/Hidden&gt;
+    &lt;RunOnlyIfIdle&gt;false&lt;/RunOnlyIfIdle&gt;
+    &lt;WakeToRun&gt;false&lt;/WakeToRun&gt;
+    &lt;ExecutionTimeLimit&gt;PT72H&lt;/ExecutionTimeLimit&gt;
+    &lt;Priority&gt;7&lt;/Priority&gt;
+  &lt;/Settings&gt;
+  &lt;Actions Context="Author"&gt;
+    &lt;Exec&gt;
+      &lt;Command&gt;cmd.exe&lt;/Command&gt;
+      &lt;Arguments&gt;/c echo testing &amp;gt; c:\users\public\out.txt&lt;/Arguments&gt;
+    &lt;/Exec&gt;
+  &lt;/Actions&gt;
+&lt;/Task&gt;</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:49.966623100Z" />
+      <EventRecordID>2171294</EventRecordID>
+      <Correlation ActivityID="{4f7fbbe3-7bb5-0002-ebbb-7f4fb57bd601}" />
+      <Execution ProcessID="632" ThreadID="4244" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x21aa47f</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{27fce179-f80f-f6a6-7df4-c247e783b072}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">62860</Data>
+      <Data Name="ImpersonationLevel">%%1840</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:57.252932800Z" />
+      <EventRecordID>2171295</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="632" ThreadID="2512" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x21aad4a</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{860d1189-6c67-c57b-59ed-c0676a052019}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">62862</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-02T11:47:57.263194200Z" />
+      <EventRecordID>2171296</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="632" ThreadID="2504" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x21aadb8</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{860d1189-6c67-c57b-59ed-c0676a052019}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">62863</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+</root>

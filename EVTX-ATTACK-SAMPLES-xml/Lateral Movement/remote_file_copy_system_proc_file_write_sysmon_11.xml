@@ -1,0 +1,72 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-27T11:40:56.397086100Z" />
+      <EventRecordID>263572</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2580" ThreadID="4144" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>04246w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-27 11:40:56.396</Data>
+      <Data Name="ProcessGuid">{b5cf5917-721e-5f46-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="TargetFilename">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="CreationUtcTime">2020-08-27 11:40:56.396</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-27T11:40:56.625194700Z" />
+      <EventRecordID>263573</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2580" ThreadID="4144" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>04246w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-27 11:40:56.610</Data>
+      <Data Name="ProcessGuid">{b5cf5917-9bc8-5f47-0000-001042ab2001}</Data>
+      <Data Name="ProcessId">4320</Data>
+      <Data Name="Image">C:\Windows\PSEXESVC.exe</Data>
+      <Data Name="FileVersion">2.2</Data>
+      <Data Name="Description">PsExec Service</Data>
+      <Data Name="Product">Sysinternals PsExec</Data>
+      <Data Name="Company">Sysinternals</Data>
+      <Data Name="CommandLine">C:\WINDOWS\PSEXESVC.exe</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{b5cf5917-7237-5f46-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A17C21B909C56D93D978014E63FB06926EAEA8E7,MD5=75B55BB34DAC9D02740B9AD6B6820360,SHA256=141B2190F51397DBD0DFDE0E3904B264C91B6F81FEBC823FF0C33DA980B69944,IMPHASH=67012475995FB9027F4511245B57DDEA</Data>
+      <Data Name="ParentProcessGuid">{b5cf5917-7236-5f46-0000-001058880000}</Data>
+      <Data Name="ParentProcessId">632</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\WINDOWS\system32\services.exe</Data>
+    </EventData>
+  </Event>
+</root>

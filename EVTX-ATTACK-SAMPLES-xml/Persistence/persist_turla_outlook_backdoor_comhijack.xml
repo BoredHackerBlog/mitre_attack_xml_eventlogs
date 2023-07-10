@@ -1,0 +1,89 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T01:10:05.290459300Z" />
+      <EventRecordID>445</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-21 01:10:05.270</Data>
+      <Data Name="ProcessGuid">{365abb72-4fed-5ce3-0000-001031174900}</Data>
+      <Data Name="ProcessId">3808</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000_CLASSES\CLSID\{49CBB1C7-97D1-485A-9EC1-A26065633066}\InProcServer32\{Default}</Data>
+      <Data Name="Details">C:\Users\User\Documents\mapid.tlb</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T01:10:44.807281700Z" />
+      <EventRecordID>447</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-21 01:10:44.797</Data>
+      <Data Name="ProcessGuid">{365abb72-5014-5ce3-0000-00105c444900}</Data>
+      <Data Name="ProcessId">3860</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000_CLASSES\CLSID\{49CBB1C7-97D1-485A-9EC1-A26065633066}\InProcServer32\ThreadingModel</Data>
+      <Data Name="Details">Apartment</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T01:10:52.468297700Z" />
+      <EventRecordID>449</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-21 01:10:52.458</Data>
+      <Data Name="ProcessGuid">{365abb72-501c-5ce3-0000-0010b5494900}</Data>
+      <Data Name="ProcessId">2952</Data>
+      <Data Name="Image">C:\Windows\system32\reg.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000_CLASSES\CLSID\{84DA0A92-25E0-11D3-B9F7-00C04F4C8F5D}\TreatAs\{Default}</Data>
+      <Data Name="Details">{49CBB1C7-97D1-485A-9EC1-A26065633066}</Data>
+    </EventData>
+  </Event>
+</root>

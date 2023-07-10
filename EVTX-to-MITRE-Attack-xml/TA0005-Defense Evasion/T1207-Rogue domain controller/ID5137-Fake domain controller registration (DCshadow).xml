@@ -1,0 +1,33 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5137</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T20:41:48.246491200Z" />
+      <EventRecordID>125592824</EventRecordID>
+      <Correlation ActivityID="{be6feeb9-2260-0000-cbee-6fbe6022d701}" />
+      <Execution ProcessID="560" ThreadID="608" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{4dea43cc-2e4b-41d8-842e-b4052ed0839e}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x882d87</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=JUMP01,CN=Servers,CN=OFFSEC-PREMISE,CN=Sites,CN=Configuration,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{2cb2fa54-a21a-4e2f-b7af-a82a56d9d690}</Data>
+      <Data Name="ObjectClass">server</Data>
+    </EventData>
+  </Event>
+</root>

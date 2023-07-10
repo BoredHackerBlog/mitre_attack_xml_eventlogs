@@ -1,0 +1,2939 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:08.348796300Z" />
+      <EventRecordID>18649</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:08.348</Data>
+      <Data Name="SourceProcessGUID">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceThreadId">2284</Data>
+      <Data Name="SourceImage">??\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\system32\notepad.exe</Data>
+      <Data Name="GrantedAccess">0x1f1fff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4591c|C:\Windows\system32\KERNELBASE.dll+8185|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1d59|UNKNOWN(01B4AD7F)|UNKNOWN(046B2C42)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll+2b0e2e</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.176921300Z" />
+      <EventRecordID>18650</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.176</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1364</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.208171300Z" />
+      <EventRecordID>18651</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.208</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2752</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.223796300Z" />
+      <EventRecordID>18652</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.223</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2788</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.255046300Z" />
+      <EventRecordID>18653</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.239</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2820</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.270671300Z" />
+      <EventRecordID>18654</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.270</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2824</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.286296300Z" />
+      <EventRecordID>18655</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.286</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2812</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.317546300Z" />
+      <EventRecordID>18656</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.317</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">332</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.333171300Z" />
+      <EventRecordID>18657</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.333</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1560</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.348796300Z" />
+      <EventRecordID>18658</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.348</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1584</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.364421300Z" />
+      <EventRecordID>18659</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.364</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1612</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.380046300Z" />
+      <EventRecordID>18660</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.380</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1660</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.395671300Z" />
+      <EventRecordID>18661</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.395</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2860</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.411296300Z" />
+      <EventRecordID>18662</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.411</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2808</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.426921300Z" />
+      <EventRecordID>18663</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.426</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1692</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.458171300Z" />
+      <EventRecordID>18664</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.458</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1672</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.473796300Z" />
+      <EventRecordID>18665</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.458</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1268</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.489421300Z" />
+      <EventRecordID>18666</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.489</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1152</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.505046300Z" />
+      <EventRecordID>18667</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.505</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1856</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.520671300Z" />
+      <EventRecordID>18668</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.520</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1248</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.536296300Z" />
+      <EventRecordID>18669</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.536</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1004</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.551921300Z" />
+      <EventRecordID>18670</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.551</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1096</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.567546300Z" />
+      <EventRecordID>18671</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.567</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">800</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.583171300Z" />
+      <EventRecordID>18672</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.583</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">912</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.598796300Z" />
+      <EventRecordID>18673</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.598</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1484</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.614421300Z" />
+      <EventRecordID>18674</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.614</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">740</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.630046300Z" />
+      <EventRecordID>18675</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.630</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">272</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.661296300Z" />
+      <EventRecordID>18676</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.645</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">536</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.692546300Z" />
+      <EventRecordID>18677</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.692</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2920</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.708171300Z" />
+      <EventRecordID>18678</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.708</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1860</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.723796300Z" />
+      <EventRecordID>18679</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.723</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2044</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.739421300Z" />
+      <EventRecordID>18680</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.739</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">456</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.755046300Z" />
+      <EventRecordID>18681</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.755</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2512</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.770671300Z" />
+      <EventRecordID>18682</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.770</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1276</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.801921300Z" />
+      <EventRecordID>18683</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.801</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2208</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.817546300Z" />
+      <EventRecordID>18684</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.817</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2452</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.833171300Z" />
+      <EventRecordID>18685</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.833</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2416</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.848796300Z" />
+      <EventRecordID>18686</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.848</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2940</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.864421300Z" />
+      <EventRecordID>18687</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.864</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">936</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.880046300Z" />
+      <EventRecordID>18688</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.880</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">684</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.895671300Z" />
+      <EventRecordID>18689</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.895</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1392</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.926921300Z" />
+      <EventRecordID>18690</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.926</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1512</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.942546300Z" />
+      <EventRecordID>18691</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.942</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3148</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.973796300Z" />
+      <EventRecordID>18692</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.973</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2872</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:16.989421300Z" />
+      <EventRecordID>18693</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:16.989</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2056</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.005046300Z" />
+      <EventRecordID>18694</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.005</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1564</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.020671300Z" />
+      <EventRecordID>18695</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.020</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1516</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.036296300Z" />
+      <EventRecordID>18696</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.036</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1168</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.051921300Z" />
+      <EventRecordID>18697</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.051</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">600</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.083171300Z" />
+      <EventRecordID>18698</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.083</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2836</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.098796300Z" />
+      <EventRecordID>18699</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.098</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1348</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.114421300Z" />
+      <EventRecordID>18700</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.114</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3388</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.130046300Z" />
+      <EventRecordID>18701</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.130</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3380</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.145671300Z" />
+      <EventRecordID>18702</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.145</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3400</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.161296300Z" />
+      <EventRecordID>18703</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.161</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3460</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.176921300Z" />
+      <EventRecordID>18704</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.176</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3568</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.192546300Z" />
+      <EventRecordID>18705</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.192</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3340</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.208171300Z" />
+      <EventRecordID>18706</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.208</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3008</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.223796300Z" />
+      <EventRecordID>18707</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.223</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2224</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.239421300Z" />
+      <EventRecordID>18708</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.239</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">880</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.270671300Z" />
+      <EventRecordID>18709</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.270</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2980</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.286296300Z" />
+      <EventRecordID>18710</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.286</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3896</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.301921300Z" />
+      <EventRecordID>18711</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.301</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2984</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.317546300Z" />
+      <EventRecordID>18712</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.317</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3940</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.348796300Z" />
+      <EventRecordID>18713</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.348</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3964</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.364421300Z" />
+      <EventRecordID>18714</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.364</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1084</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.380046300Z" />
+      <EventRecordID>18715</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.380</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3268</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.395671300Z" />
+      <EventRecordID>18716</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.395</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2864</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.426921300Z" />
+      <EventRecordID>18717</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.426</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">4012</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.442546300Z" />
+      <EventRecordID>18718</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.442</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3524</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.489421300Z" />
+      <EventRecordID>18719</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.489</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3252</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.505046300Z" />
+      <EventRecordID>18720</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.505</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3228</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.520671300Z" />
+      <EventRecordID>18721</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.520</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3848</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.536296300Z" />
+      <EventRecordID>18722</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.536</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">4008</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.551921300Z" />
+      <EventRecordID>18723</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.551</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2124</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.567546300Z" />
+      <EventRecordID>18724</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.567</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2256</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.567546300Z" />
+      <EventRecordID>18725</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.567</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1720</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.583171300Z" />
+      <EventRecordID>18726</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.583</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">588</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.598796300Z" />
+      <EventRecordID>18727</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.598</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1892</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.614421300Z" />
+      <EventRecordID>18728</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.614</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2076</Data>
+      <Data Name="StartAddress">0x00580000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.661296300Z" />
+      <EventRecordID>18729</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.661</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">2248</Data>
+      <Data Name="StartAddress">0x00590000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.708171300Z" />
+      <EventRecordID>18730</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.708</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3212</Data>
+      <Data Name="StartAddress">0x00570000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:17.786296300Z" />
+      <EventRecordID>18731</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="1908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-18 17:16:17.786</Data>
+      <Data Name="SourceProcessGuid">{365abb72-3d37-5ce0-0000-001013dc0b00}</Data>
+      <Data Name="SourceProcessId">2108</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="TargetProcessId">2840</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1632</Data>
+      <Data Name="StartAddress">0x00541485</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-18T17:16:18.833171300Z" />
+      <EventRecordID>18732</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1940" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Defense Evasion - Unmanaged PowerShell Detected</Data>
+      <Data Name="UtcTime">2019-05-18 17:16:18.786</Data>
+      <Data Name="ProcessGuid">{365abb72-3d1b-5ce0-0000-0010c3840b00}</Data>
+      <Data Name="ProcessId">2840</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Management.A#\4b93b6bd71723bed2fa9dd778436dd5e\System.Management.Automation.ni.dll</Data>
+      <Data Name="FileVersion">6.1.7601.17514</Data>
+      <Data Name="Description">System.Management.Automation</Data>
+      <Data Name="Product">Microsoft (R) Windows (R) Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="Hashes">SHA1=7208841D5A6BF1CDF957662E9E26FAB03F1EBCCD,MD5=774F7D6F5005983BE1CCCBCC3F2EC910,SHA256=8BC2E5C5413574C9AFC02BFBAA38E0ACD522DB1924B37FD0AE66061F46CC2838,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+</root>

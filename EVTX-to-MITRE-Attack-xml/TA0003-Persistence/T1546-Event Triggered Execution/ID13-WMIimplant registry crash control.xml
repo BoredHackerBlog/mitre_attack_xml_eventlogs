@@ -1,0 +1,506 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:01:49.730776800Z" />
+      <EventRecordID>44683</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:01:49.730</Data>
+      <Data Name="ProcessGuid">{a57649d1-12fd-6179-028b-000000000000}</Data>
+      <Data Name="ProcessId">472</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\hacker23\Start</Data>
+      <Data Name="Details">DWORD (0x00000002)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:01:49.730776800Z" />
+      <EventRecordID>44684</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:01:49.730</Data>
+      <Data Name="ProcessGuid">{a57649d1-12fd-6179-028b-000000000000}</Data>
+      <Data Name="ProcessId">472</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\hacker23\ImagePath</Data>
+      <Data Name="Details">c:\</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.123782400Z" />
+      <EventRecordID>44689</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\LogEvent</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.123782400Z" />
+      <EventRecordID>44690</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\SendAlert</Data>
+      <Data Name="Details">DWORD (0x00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.123782400Z" />
+      <EventRecordID>44691</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\CrashDumpEnabled</Data>
+      <Data Name="Details">DWORD (0x00000007)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.123782400Z" />
+      <EventRecordID>44692</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\Overwrite</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.123782400Z" />
+      <EventRecordID>44693</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\KernelDumpOnly</Data>
+      <Data Name="Details">DWORD (0x00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.139415300Z" />
+      <EventRecordID>44694</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\AutoReboot</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.139415300Z" />
+      <EventRecordID>44695</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\DumpFile</Data>
+      <Data Name="Details">87,105,110,100,111,119,115,32,73,80,32,67,111,110,102,105,103,117,114,97,116,105,111,110,13,10,13,10,32,32,32,72,111,115,116,32,78,97,109,101,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,102,115,48,51,118,117,108,110,13,10,32,32,32,80,114,105,109,97,114,121,32,68,110,115,32,83,117,102,102,105,120,32,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,111,102,102,115,101,99,46,108,97,110,13,10,32,32,32,78,111,100,101,32,84,121,112,101,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,72,121,98,114,105,100,13,10,32,32,32,73,80,32,82,111,117,116,105,110,103,32,69,110,97,98,108,101,100,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,78,111,13,10,32,32,32,87,73,78,83,32,80,114,111,120,121,32,69,110,97,98,108,101,100,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,78,111,13,10,32,32,32,68,78,83,32,83,117,102,102,105,120,32,83,101,97,114,99,104,32,76,105,115,116,46,32,46,32,46,32,46,32,46,32,46,32,58,32,111,102,102,115,101,99,46,108,97,110,13,10,13,10,69,116,104,101,114,110,101,116,32,97,100,97,112,116,101,114,32,69,116,104,101,114,110,101,116,48,58,13,10,13,10,32,32,32,67,111,110,110,101,99,116,105,111,110,45,115,112,101,99,105,102,105,99,32,68,78,83,32,83,117,102,102,105,120,32,32,46,32,58,32,13,10,32,32,32,68,101,115,99,114,105,112,116,105,111,110,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,73,110,116,101,108,40,82,41,32,56,50,53,55,52,76,32,71,105,103,97,98,105,116,32,78,101,116,119,111,114,107,32,67,111,110,110,101,99,116,105,111,110,13,10,32,32,32,80,104,121,115,105,99,97,108,32,65,100,100,114,101,115,115,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,48,48,45,53,48,45,53,54,45,57,55,45,50,66,45,55,55,13,10,32,32,32,68,72,67,80,32,69,110,97,98,108,101,100,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,78,111,13,10,32,32,32,65,117,116,111,99,111,110,102,105,103,117,114,97,116,105,111,110,32,69,110,97,98,108,101,100,32,46,32,46,32,46,32,46,32,58,32,89,101,115,13,10,32,32,32,76,105,110,107,45,108,111,99,97,108,32,73,80,118,54,32,65,100,100,114,101,115,115,32,46,32,46,32,46,32,46,32,46,32,58,32,102,101,56,48,58,58,99,48,98,100,58,54,57,54,99,58,51,57,54,48,58,97,49,98,49,37,49,50,40,80,114,101,102,101,114,114,101,100,41,32,13,10,32,32,32,73,80,118,52,32,65,100,100,114,101,115,115,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,49,48,46,50,51,46,52,50,46,51,56,40,80,114,101,102,101,114,114,101,100,41,32,13,10,32,32,32,83,117,98,110,101,116,32,77,97,115,107,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,50,53,53,46,50,53,53,46,50,53,53,46,48,13,10,32,32,32,68,101,102,97,117,108,116,32,71,97,116,101,119,97,121,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,49,48,46,50,51,46,52,50,46,49,13,10,32,32,32,68,72,67,80,118,54,32,73,65,73,68,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,51,48,50,48,49,48,52,53,52,13,10,32,32,32,68,72,67,80,118,54,32,67,108,105,101,110,116,32,68,85,73,68,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,48,48,45,48,49,45,48,48,45,48,49,45,50,54,45,52,54,45,50,56,45,65,68,45,48,48,45,53,48,45,53,54,45,57,55,45,50,66,45,55,55,13,10,32,32,32,68,78,83,32,83,101,114,118,101,114,115,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,49,48,46,50,51,46,52,50,46,49,48,13,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,49,48,46,50,51,46,52,50,46,49,49,13,10,32,32,32,78,101,116,66,73,79,83,32,111,118,101,114,32,84,99,112,105,112,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,69,110,97,98,108,101,100,13,10,13,10,84,117,110,110,101,108,32,97,100,97,112,116,101,114,32,105,115,97,116,97,112,46,123,68,54,56,57,48,67,54,52,45,54,67,56,55,45,52,48,54,65,45,65,69,66,56,45,69,51,51,70,53,52,69,53,66,67,56,50,125,58,13,10,13,10,32,32,32,77,101,100,105,97,32,83,116,97,116,101,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,77,101,100,105,97,32,100,105,115,99,111,110,110,101,99,116,101,100,13,10,32,32,32,67,111,110,110,101,99,116,105,111,110,45,115,112,101,99,105,102,105,99,32,68,78,83,32,83,117,102,102,105,120,32,32,46,32,58,32,13,10,32,32,32,68,101,115,99,114,105,112,116,105,111,110,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,77,105,99,114,111,115,111,102,116,32,73,83,65,84,65,80,32,65,100,97,112,116,101,114,13,10,32,32,32,80,104,121,115,105,99,97,108,32,65,100,100,114,101,115,115,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,48,48,45,48,48,45,48,48,45,48,48,45,48,48,45,48,48,45,48,48,45,69,48,13,10,32,32,32,68,72,67,80,32,69,110,97,98,108,101,100,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,46,32,58,32,78,111,13,10,32,32,32,65,117,116,111,99,111,110,102,105,103,117,114,97,116,105,111,110,32,69,110,97,98,108,101,100,32,46,32,46,32,46,32,46,32,58,32,89,101,115</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:55.139415300Z" />
+      <EventRecordID>44696</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:55.123</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\MiniDumpDir</Data>
+      <Data Name="Details">%%SystemRoot%%\Minidump</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44697</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\LogEvent</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44698</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\SendAlert</Data>
+      <Data Name="Details">DWORD (0x00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44699</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\CrashDumpEnabled</Data>
+      <Data Name="Details">DWORD (0x00000007)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44700</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\Overwrite</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44701</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\KernelDumpOnly</Data>
+      <Data Name="Details">DWORD (0x00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44702</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\AutoReboot</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44703</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\DumpFile</Data>
+      <Data Name="Details">%%SystemRoot%%\MEMORY.DMP</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T10:26:59.790959600Z" />
+      <EventRecordID>44704</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-11-08 10:26:59.790</Data>
+      <Data Name="ProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ProcessId">1508</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\CrashControl\MiniDumpDir</Data>
+      <Data Name="Details">%%SystemRoot%%\Minidump</Data>
+    </EventData>
+  </Event>
+</root>

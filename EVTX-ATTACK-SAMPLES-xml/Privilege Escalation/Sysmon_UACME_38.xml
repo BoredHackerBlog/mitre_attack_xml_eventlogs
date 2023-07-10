@@ -1,0 +1,313 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:26.614415400Z" />
+      <EventRecordID>5517</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:26.603</Data>
+      <Data Name="ProcessGuid">{747f3d96-9122-5d45-0000-0010710d6101}</Data>
+      <Data Name="ProcessId">3508</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\UACME.exe</Data>
+      <Data Name="FileVersion">3.1.9.1905</Data>
+      <Data Name="Description">UACMe main module</Data>
+      <Data Name="Product">UACMe</Data>
+      <Data Name="Company">Hazardous Environments</Data>
+      <Data Name="CommandLine">UACME.exe  38</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020fbd31800}</Data>
+      <Data Name="LogonId">0x18d3fb</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=9E57914D39FBFE785C915E225011892613C4714C,MD5=D57E778DF10F801F47119A04BE990FFD,SHA256=D76815CE3F4B9FE7A611D6F536F65AF313E2AB2F8BB52EF0998487D89A6E7378,IMPHASH=B6789EDFE23DDA911AE37C87444D3DCB</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-5a29-5d45-0000-0010deb99000}</Data>
+      <Data Name="ParentProcessId">5780</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:26.782725100Z" />
+      <EventRecordID>5518</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:26.727</Data>
+      <Data Name="ProcessGuid">{747f3d96-9122-5d45-0000-0010710d6101}</Data>
+      <Data Name="ProcessId">3508</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\Fubuki.exe</Data>
+      <Data Name="CreationUtcTime">2019-08-03 13:50:26.727</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:27.060244400Z" />
+      <EventRecordID>5519</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:26.960</Data>
+      <Data Name="ProcessGuid">{747f3d96-9122-5d45-0000-001042326101}</Data>
+      <Data Name="ProcessId">5128</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">consent.exe 896 398 000002806443AF40</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-d4e9-5d45-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=9329B2362078DE27242DD4534F588AF3264BF0BF,MD5=27992D7EBE51AEC655A088DE88BAD5C9,SHA256=8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6,IMPHASH=522D83761201075834F05037F5307949</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-5769-5d45-0000-001044e83300}</Data>
+      <Data Name="ParentProcessId">896</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:27.356587700Z" />
+      <EventRecordID>5520</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:27.336</Data>
+      <Data Name="ProcessGuid">{747f3d96-9123-5d45-0000-001087596101}</Data>
+      <Data Name="ProcessId">4372</Data>
+      <Data Name="Image">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Microsoft Management Console</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">huy32,wf.msc "C:\Users\IEUser\AppData\Local\Temp\kmkze.msc"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020b3d31800}</Data>
+      <Data Name="LogonId">0x18d3b3</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=7150AD53ECDA6DA136F56A41A97F4442F4C3A195,MD5=0ED2577AA82A30B1C1C55843F23B7C69,SHA256=5DC0EFC7CF971F9DA9BD183F4BC5707176F7F829133B3EF90FFBB603516AF921,IMPHASH=B8EE2D6252332A68B70B22E3D6E377D2</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9122-5d45-0000-0010710d6101}</Data>
+      <Data Name="ParentProcessId">3508</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\UACME.exe</Data>
+      <Data Name="ParentCommandLine">UACME.exe  38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:29.101424900Z" />
+      <EventRecordID>5521</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3380" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:27.460</Data>
+      <Data Name="ProcessGuid">{747f3d96-9123-5d45-0000-001087596101}</Data>
+      <Data Name="ProcessId">4372</Data>
+      <Data Name="Image">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10.home</Data>
+      <Data Name="SourcePort">50105</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">185.199.111.153</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="DestinationPortName">https</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:29.424081100Z" />
+      <EventRecordID>5522</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:28.562</Data>
+      <Data Name="ProcessGuid">{747f3d96-9124-5d45-0000-001022926101}</Data>
+      <Data Name="ProcessId">3180</Data>
+      <Data Name="Image">C:\Users\IEUser\AppData\Local\Temp\Fubuki.exe</Data>
+      <Data Name="FileVersion">3.1.9.1905</Data>
+      <Data Name="Description">UACMe proxy DLL</Data>
+      <Data Name="Product">UACMe</Data>
+      <Data Name="Company">Hazardous Environments</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\AppData\Local\Temp\fubuki.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020b3d31800}</Data>
+      <Data Name="LogonId">0x18d3b3</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=C2558B74F5273E7AC7AD1D11B0A8591EFE73E088,MD5=C960E3BB9D2A99573DB7D5576AD5F3C3,SHA256=8A20DBB729093D3BD3E5A9F6541895DC6F4B1899ABA4B66160B5F6A1D0CD33CA,IMPHASH=069E5461D2FBAD8D4C3909C4E0340847</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9123-5d45-0000-001087596101}</Data>
+      <Data Name="ParentProcessId">4372</Data>
+      <Data Name="ParentImage">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="ParentCommandLine">huy32,wf.msc "C:\Users\IEUser\AppData\Local\Temp\kmkze.msc"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:29.459513400Z" />
+      <EventRecordID>5523</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:28.662</Data>
+      <Data Name="ProcessGuid">{747f3d96-9124-5d45-0000-00103b986101}</Data>
+      <Data Name="ProcessId">6236</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020b3d31800}</Data>
+      <Data Name="LogonId">0x18d3b3</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9124-5d45-0000-001022926101}</Data>
+      <Data Name="ParentProcessId">3180</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\AppData\Local\Temp\Fubuki.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\AppData\Local\Temp\fubuki.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T13:50:29.461449100Z" />
+      <EventRecordID>5524</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 13:50:28.663</Data>
+      <Data Name="SourceProcessGUID">{747f3d96-9124-5d45-0000-001022926101}</Data>
+      <Data Name="SourceProcessId">3180</Data>
+      <Data Name="SourceThreadId">4392</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\AppData\Local\Temp\fubuki.exe</Data>
+      <Data Name="TargetProcessGUID">{747f3d96-9124-5d45-0000-00103b986101}</Data>
+      <Data Name="TargetProcessId">6236</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+a0fb4|C:\Windows\System32\KERNELBASE.dll+47241|C:\Windows\System32\KERNELBASE.dll+45163|C:\Windows\System32\advapi32.dll+1c20f|C:\Users\IEUser\AppData\Local\Temp\fubuki.exe+1678|C:\Users\IEUser\AppData\Local\Temp\fubuki.exe+22c6|C:\Users\IEUser\AppData\Local\Temp\fubuki.exe+24b1|C:\Windows\System32\KERNEL32.DLL+17974|C:\Windows\SYSTEM32\ntdll.dll+6a271</Data>
+    </EventData>
+  </Event>
+</root>

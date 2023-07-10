@@ -1,0 +1,71 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="49152">7009</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-25T12:08:13.536985800Z" />
+      <EventRecordID>4935</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="484" ThreadID="340" />
+      <Channel>System</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">30000</Data>
+      <Data Name="param2">gdKhvCScykzNFZKd</Data>
+      <Binary>430068007A0064005800760073004E000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="49152">7009</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-25T12:13:45.028048100Z" />
+      <EventRecordID>4945</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="484" ThreadID="2908" />
+      <Channel>System</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">30000</Data>
+      <Data Name="param2">JyZPMMxJQxHFDMHV</Data>
+      <Binary>42004F006B0045006F006D00740056000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="49152">7009</EventID>
+      <Version>0</Version>
+      <Level>2</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-25T12:14:56.147827100Z" />
+      <EventRecordID>4948</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="484" ThreadID="1768" />
+      <Channel>System</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">30000</Data>
+      <Data Name="param2">ItUrroruwhZwMrnl</Data>
+      <Binary>5200740048007400690042004F0044000000</Binary>
+    </EventData>
+  </Event>
+</root>

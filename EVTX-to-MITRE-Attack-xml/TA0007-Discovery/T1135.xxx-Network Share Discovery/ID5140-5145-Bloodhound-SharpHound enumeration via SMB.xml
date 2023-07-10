@@ -1,0 +1,3524 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-EventForwarder" />
+      <EventID>111</EventID>
+      <TimeCreated SystemTime="2021-04-27T15:03:16.983Z" />
+      <Computer>dhcp01.offsec.lan</Computer>
+    </System>
+    <SubscriptionBookmarkEvent>
+      <SubscriptionId>
+      </SubscriptionId>
+    </SubscriptionBookmarkEvent>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.762951800Z" />
+      <EventRecordID>8863827</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df84d08</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50656</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.763538500Z" />
+      <EventRecordID>8863828</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df84d08</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50656</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.782149600Z" />
+      <EventRecordID>8863842</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df84d08</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50681</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.816784200Z" />
+      <EventRecordID>8863843</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df84d08</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50677</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:20.658002000Z" />
+      <EventRecordID>8863844</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62714</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4416:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.042526500Z" />
+      <EventRecordID>10663637</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="12036" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xb108529d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50661</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.043069800Z" />
+      <EventRecordID>10663638</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="12036" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xb108529d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50661</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.065017200Z" />
+      <EventRecordID>10663652</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="12036" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xb108529d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50675</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.091805300Z" />
+      <EventRecordID>10663653</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="12036" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xb108529d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50674</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:00:05.147803800Z" />
+      <EventRecordID>10663658</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="18888" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xb1086cfb</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50764</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:34.819451600Z" />
+      <EventRecordID>9474309</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="860" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x74005fb3</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50662</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:34.822410700Z" />
+      <EventRecordID>9474310</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="860" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x74005fb3</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50662</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:34.879565700Z" />
+      <EventRecordID>9474324</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="860" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x74005fb3</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50696</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:34.919334100Z" />
+      <EventRecordID>9474325</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="860" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x74005fb3</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50695</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:54.886881300Z" />
+      <EventRecordID>9474346</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3224" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x740075dc</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50769</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.790934300Z" />
+      <EventRecordID>3717165</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3648" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x57d352ca</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50660</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.793916200Z" />
+      <EventRecordID>3717166</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3648" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x57d352ca</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50660</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.819885400Z" />
+      <EventRecordID>3717180</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3648" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x57d352ca</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50693</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.944652700Z" />
+      <EventRecordID>3717181</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3648" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x57d352ca</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50691</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.904033700Z" />
+      <EventRecordID>3717186</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4532" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x57d35acf</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50792</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:31.493927100Z" />
+      <EventRecordID>2052989</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1188" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x20ee2c3d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50672</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:31.497649500Z" />
+      <EventRecordID>2052990</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1188" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x20ee2c3d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50672</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:31.516389900Z" />
+      <EventRecordID>2053004</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1188" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x20ee2c3d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50689</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:31.647551700Z" />
+      <EventRecordID>2053005</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1188" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x20ee2c3d</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50687</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:51.591580200Z" />
+      <EventRecordID>2053010</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3240" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x20ee3135</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50767</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:20.658966100Z" />
+      <EventRecordID>8863845</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62708</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">DhcpSrvLog-Wed.log</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:22.658852400Z" />
+      <EventRecordID>8863846</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3148" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62714</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4416:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:30.691764800Z" />
+      <EventRecordID>8863847</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62708</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">DhcpSrvLog-Wed.log</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:32.697588800Z" />
+      <EventRecordID>8863848</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62714</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4416:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.866207000Z" />
+      <EventRecordID>8863853</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df8549a</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50768</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:46.789746800Z" />
+      <EventRecordID>1749671</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4412" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x26fd49db</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50701</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:46.790205400Z" />
+      <EventRecordID>1749672</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4412" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x26fd49db</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50701</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:46.799798300Z" />
+      <EventRecordID>1749686</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4412" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x26fd49db</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50709</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:46.820386900Z" />
+      <EventRecordID>1749687</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4412" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x26fd49db</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50708</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:00:06.878788000Z" />
+      <EventRecordID>1749692</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4932" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x26fd4ec6</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50803</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:29.317472100Z" />
+      <EventRecordID>1582835</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3256" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2383c301</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50723</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:29.317999600Z" />
+      <EventRecordID>1582836</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3256" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2383c301</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50723</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:29.328432700Z" />
+      <EventRecordID>1582850</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3256" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2383c301</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50726</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:29.457896500Z" />
+      <EventRecordID>1582851</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3256" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2383c301</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50725</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:54:49.355100100Z" />
+      <EventRecordID>1582856</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3256" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2383c901</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50805</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:50.629872400Z" />
+      <EventRecordID>5221287</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="388" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x369f8ca7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50659</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:50.630978100Z" />
+      <EventRecordID>5221288</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="388" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x369f8ca7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50659</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:50.654471700Z" />
+      <EventRecordID>5221302</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2872" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x369f8ca7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50688</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:50.817308100Z" />
+      <EventRecordID>5221303</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2872" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x369f8ca7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50686</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:00:10.730397000Z" />
+      <EventRecordID>5221320</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4400" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x369f96be</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50766</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:28.669591300Z" />
+      <EventRecordID>1743178</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3192" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2847721c</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50700</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:28.670162100Z" />
+      <EventRecordID>1743179</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3192" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2847721c</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50700</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:28.677986200Z" />
+      <EventRecordID>1743181</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3192" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2847721c</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50700</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:28.808715600Z" />
+      <EventRecordID>1743194</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3192" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2847721c</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50719</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:48.746744500Z" />
+      <EventRecordID>1743199</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3192" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x28477800</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50804</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.920399400Z" />
+      <EventRecordID>449548</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2120" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13fa915</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50730</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.920399400Z" />
+      <EventRecordID>449549</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13fa915</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50730</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.936032600Z" />
+      <EventRecordID>449559</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13fa915</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50733</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:18.045433300Z" />
+      <EventRecordID>449560</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13fa915</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50732</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.916755300Z" />
+      <EventRecordID>449564</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1020" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13faf39</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50806</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:18.0013221Z" />
+      <EventRecordID>46152</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1652" />
+      <Channel>Security</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x87371f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50738</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:18.0018550Z" />
+      <EventRecordID>46153</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1652" />
+      <Channel>Security</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x87371f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50738</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:18.0148847Z" />
+      <EventRecordID>46170</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1652" />
+      <Channel>Security</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x87371f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50747</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:18.1333560Z" />
+      <EventRecordID>46177</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1652" />
+      <Channel>Security</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x87371f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50746</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.9172653Z" />
+      <EventRecordID>46197</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1652" />
+      <Channel>Security</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x873c5b</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50809</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.723910000Z" />
+      <EventRecordID>12884797</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3100" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3902ac4</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50658</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.723910000Z" />
+      <EventRecordID>12884798</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="464" ThreadID="472" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3902ac4</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50658</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.739513800Z" />
+      <EventRecordID>12884808</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="464" ThreadID="472" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3902ac4</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50680</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:17.755136200Z" />
+      <EventRecordID>12884809</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="464" ThreadID="472" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3902ac4</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50676</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.825322300Z" />
+      <EventRecordID>12884813</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3100" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3902ff1</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50765</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:47.449412200Z" />
+      <EventRecordID>3159696</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1280" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x204a9a12</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50705</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:47.450041300Z" />
+      <EventRecordID>3159697</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1280" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x204a9a12</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50705</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:47.458863000Z" />
+      <EventRecordID>3159711</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1280" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x204a9a12</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50705</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:47.657107400Z" />
+      <EventRecordID>3159712</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1280" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x204a9a12</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50712</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:00:07.557087800Z" />
+      <EventRecordID>3159717</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="996" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x204aa3a4</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50832</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:49.695221500Z" />
+      <EventRecordID>555763</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="324" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x62cbf9f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50737</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:49.703409900Z" />
+      <EventRecordID>555764</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="324" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x62cbf9f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50737</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:49.716402200Z" />
+      <EventRecordID>555778</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5584" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x62cbf9f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50750</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:49.733017200Z" />
+      <EventRecordID>555779</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5584" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x62cbf9f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50749</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:00:09.605237700Z" />
+      <EventRecordID>555814</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="324" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x62cf99e</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50808</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.392625200Z" />
+      <EventRecordID>1662286</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2320" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1f6f93ef</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50710</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.393219300Z" />
+      <EventRecordID>1662287</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2320" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1f6f93ef</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50710</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.403341600Z" />
+      <EventRecordID>1662301</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2320" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1f6f93ef</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50717</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T14:59:45.580876400Z" />
+      <EventRecordID>1662302</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="372" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1f6f93ef</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50716</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:00:05.466194900Z" />
+      <EventRecordID>1662307</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="888" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1f6f9930</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50807</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.866970300Z" />
+      <EventRecordID>8863854</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df8549a</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50768</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.883021900Z" />
+      <EventRecordID>8863868</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df8549a</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50779</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">lsarpc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:37.906751900Z" />
+      <EventRecordID>8863869</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5df8549a</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">50774</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:40.730230000Z" />
+      <EventRecordID>8863870</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62708</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">DhcpSrvLog-Wed.log</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:42.731550200Z" />
+      <EventRecordID>8863871</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62714</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4416:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:50.745901500Z" />
+      <EventRecordID>8863872</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4140" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62708</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">DhcpSrvLog-Wed.log</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:03:52.752612800Z" />
+      <EventRecordID>8863873</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4140" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62714</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4416:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:04:00.785786700Z" />
+      <EventRecordID>8863874</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4140" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62708</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">DhcpSrvLog-Wed.log</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:04:02.790066400Z" />
+      <EventRecordID>8863875</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4140" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62714</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4416:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-27T15:04:10.808287400Z" />
+      <EventRecordID>8863876</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4140" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1129</Data>
+      <Data Name="SubjectUserName">svc_nxlog</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5ddeb1e0</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.42.22</Data>
+      <Data Name="IpPort">62708</Data>
+      <Data Name="ShareName">\\*\dhcp_logs$</Data>
+      <Data Name="ShareLocalPath">\??\C:\DHCP_LOGS</Data>
+      <Data Name="RelativeTargetName">DhcpSrvLog-Wed.log</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;S-1-5-21-4230534742-2542757381-3142984815-1129)
+				</Data>
+    </EventData>
+  </Event>
+</root>

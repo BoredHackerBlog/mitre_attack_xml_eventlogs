@@ -1,0 +1,701 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.308923300Z" />
+      <EventRecordID>370</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.297</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="ProcessId">1912</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\Downloads\com-hijack.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=6F598827EFE472BC8D98CD173AD49B35B041000C,MD5=4177769EEF9E078971DA6EE31BDAE45F,SHA256=E624863387832C7BBE47D17A346AAB6A76638A2C9B5368FD7308A28775F1478A,IMPHASH=9E0317422070F8D5638E230F22763466</Data>
+      <Data Name="ParentProcessGuid">{365abb72-39cd-5ce3-0000-0010a0e30000}</Data>
+      <Data Name="ParentProcessId">1376</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.463144500Z" />
+      <EventRecordID>371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.375</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="ProcessId">1912</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="TargetFilename">C:\ProgramData\demo.dll</Data>
+      <Data Name="CreationUtcTime">2019-05-20 23:39:21.672</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.474160300Z" />
+      <EventRecordID>372</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.375</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="ProcessId">1912</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3583694148-1414552638-2922671848-1000_CLASSES\CLSID\{BCDE0395-E52F-467C-8E3D-C4579291692E}\InprocServer32\(Default)</Data>
+      <Data Name="Details">C:\ProgramData\demo.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.474160300Z" />
+      <EventRecordID>373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.375</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="ProcessId">1912</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Downloads\test.bat</Data>
+      <Data Name="CreationUtcTime">2019-05-20 23:39:21.672</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.474160300Z" />
+      <EventRecordID>374</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.386</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-001071ad3e00}</Data>
+      <Data Name="ProcessId">3944</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c test.bat</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="ParentProcessId">1912</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Downloads\com-hijack.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.474160300Z" />
+      <EventRecordID>375</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.386</Data>
+      <Data Name="SourceProcessGUID">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="SourceProcessId">1912</Data>
+      <Data Name="SourceThreadId">3120</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-47bb-5ce3-0000-001071ad3e00}</Data>
+      <Data Name="TargetProcessId">3944</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4534c|C:\Windows\system32\kernel32.dll+5112b|C:\Windows\system32\kernel32.dll+5cc2f|C:\Windows\system32\kernel32.dll+20ae|C:\Windows\system32\kernel32.dll+8f5e3|C:\Users\IEUser\Downloads\com-hijack.exe+1d37|C:\Users\IEUser\Downloads\com-hijack.exe+202b|C:\Users\IEUser\Downloads\com-hijack.exe+3b4d|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.474160300Z" />
+      <EventRecordID>376</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.386</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-00108cad3e00}</Data>
+      <Data Name="ProcessId">3176</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c pause</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="ParentProcessId">1912</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Downloads\com-hijack.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.474160300Z" />
+      <EventRecordID>377</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.386</Data>
+      <Data Name="SourceProcessGUID">{365abb72-47bb-5ce3-0000-0010bfa83e00}</Data>
+      <Data Name="SourceProcessId">1912</Data>
+      <Data Name="SourceThreadId">3120</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\Downloads\com-hijack.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-47bb-5ce3-0000-00108cad3e00}</Data>
+      <Data Name="TargetProcessId">3176</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4534c|C:\Windows\system32\kernel32.dll+5112b|C:\Windows\system32\kernel32.dll+5cc2f|C:\Windows\system32\kernel32.dll+20ae|C:\Users\IEUser\Downloads\com-hijack.exe+9dbd|C:\Users\IEUser\Downloads\com-hijack.exe+4d65|C:\Users\IEUser\Downloads\com-hijack.exe+4c18|C:\Users\IEUser\Downloads\com-hijack.exe+2ae5|C:\Users\IEUser\Downloads\com-hijack.exe+2035|C:\Users\IEUser\Downloads\com-hijack.exe+3b4d|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.518223500Z" />
+      <EventRecordID>378</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.397</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ProcessId">3168</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="FileVersion">66.0.5</Data>
+      <Data Name="Description">Firefox</Data>
+      <Data Name="Product">Firefox</Data>
+      <Data Name="Company">Mozilla Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=B18D536DA2242D6D9BB66CBE63CF312ABC9987A8,MD5=6AC1B75613E6143F94FF7A933B7993FC,SHA256=ABCE2767221B43127068C82BE7EBDF66FAA38B72F67676311FA4589075502A7F,IMPHASH=C5596CA4210F5F3474B68D7D54A73D16</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001071ad3e00}</Data>
+      <Data Name="ParentProcessId">3944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\cmd.exe /c test.bat</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:07.870729100Z" />
+      <EventRecordID>379</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:07.837</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-001019c53e00}</Data>
+      <Data Name="ProcessId">3936</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="FileVersion">66.0.5</Data>
+      <Data Name="Description">Firefox</Data>
+      <Data Name="Product">Firefox</Data>
+      <Data Name="Company">Mozilla Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe" -contentproc --channel="3168.0.153744822\2027949517" -parentBuildID 20190507012018 -greomni "C:\Program Files\Mozilla Firefox\omni.ja" -appomni "C:\Program Files\Mozilla Firefox\browser\omni.ja" -appdir "C:\Program Files\Mozilla Firefox\browser" - 3168 "\\.\pipe\gecko-crash-server-pipe.3168" 956 gpu</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=B18D536DA2242D6D9BB66CBE63CF312ABC9987A8,MD5=6AC1B75613E6143F94FF7A933B7993FC,SHA256=ABCE2767221B43127068C82BE7EBDF66FAA38B72F67676311FA4589075502A7F,IMPHASH=C5596CA4210F5F3474B68D7D54A73D16</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ParentProcessId">3168</Data>
+      <Data Name="ParentImage">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:08.224338300Z" />
+      <EventRecordID>380</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:08.191</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ProcessId">3168</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ImageLoaded">C:\ProgramData\demo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=263AF863339D5F077CC419F7022B768644E8C3C6,MD5=1FCA8060B5CE9E240200D36B43B56500,SHA256=CEB59283C30F6BC6B78973B6813EC31A7B2734AB22FB709DE3153AD26882BD83,IMPHASH=0ADAA39553FF0E3D8B44F011FD3C461E</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:08.279417300Z" />
+      <EventRecordID>381</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:08.224</Data>
+      <Data Name="ProcessGuid">{365abb72-47bc-5ce3-0000-00107ddd3e00}</Data>
+      <Data Name="ProcessId">2596</Data>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Calculator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\calc.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9018A7D6CDBE859A430E8794E73381F77C840BE0,MD5=60B7C0FEAD45F2066E5B805A91F4F0FC,SHA256=80C10EE5F21F92F89CBC293A59D2FD4C01C7958AACAD15642558DB700943FA22,IMPHASH=F93B5D76132F6E6068946EC238813CE1</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ParentProcessId">3168</Data>
+      <Data Name="ParentImage">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:08.717041500Z" />
+      <EventRecordID>382</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:08.628</Data>
+      <Data Name="ProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ProcessId">3168</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ImageLoaded">C:\ProgramData\demo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=263AF863339D5F077CC419F7022B768644E8C3C6,MD5=1FCA8060B5CE9E240200D36B43B56500,SHA256=CEB59283C30F6BC6B78973B6813EC31A7B2734AB22FB709DE3153AD26882BD83,IMPHASH=0ADAA39553FF0E3D8B44F011FD3C461E</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:08.728057300Z" />
+      <EventRecordID>383</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:08.628</Data>
+      <Data Name="ProcessGuid">{365abb72-47bc-5ce3-0000-001044ee3e00}</Data>
+      <Data Name="ProcessId">3860</Data>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Calculator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\calc.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9018A7D6CDBE859A430E8794E73381F77C840BE0,MD5=60B7C0FEAD45F2066E5B805A91F4F0FC,SHA256=80C10EE5F21F92F89CBC293A59D2FD4C01C7958AACAD15642558DB700943FA22,IMPHASH=F93B5D76132F6E6068946EC238813CE1</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ParentProcessId">3168</Data>
+      <Data Name="ParentImage">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:08.728057300Z" />
+      <EventRecordID>384</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:08.661</Data>
+      <Data Name="ProcessGuid">{365abb72-47bc-5ce3-0000-0010c6f03e00}</Data>
+      <Data Name="ProcessId">2236</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="FileVersion">66.0.5</Data>
+      <Data Name="Description">Firefox</Data>
+      <Data Name="Product">Firefox</Data>
+      <Data Name="Company">Mozilla Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe" -contentproc --channel="3168.6.1176946839\1268428683" -childID 1 -isForBrowser -prefsHandle 1844 -prefMapHandle 1836 -prefsLen 1 -prefMapSize 183351 -parentBuildID 20190507012018 -greomni "C:\Program Files\Mozilla Firefox\omni.ja" -appomni "C:\Program Files\Mozilla Firefox\browser\omni.ja" -appdir "C:\Program Files\Mozilla Firefox\browser" - 3168 "\\.\pipe\gecko-crash-server-pipe.3168" 1680 tab</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Low</Data>
+      <Data Name="Hashes">SHA1=B18D536DA2242D6D9BB66CBE63CF312ABC9987A8,MD5=6AC1B75613E6143F94FF7A933B7993FC,SHA256=ABCE2767221B43127068C82BE7EBDF66FAA38B72F67676311FA4589075502A7F,IMPHASH=C5596CA4210F5F3474B68D7D54A73D16</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ParentProcessId">3168</Data>
+      <Data Name="ParentImage">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:10.161517900Z" />
+      <EventRecordID>385</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:10.062</Data>
+      <Data Name="ProcessGuid">{365abb72-47be-5ce3-0000-0010cf0c3f00}</Data>
+      <Data Name="ProcessId">3920</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="FileVersion">66.0.5</Data>
+      <Data Name="Description">Firefox</Data>
+      <Data Name="Product">Firefox</Data>
+      <Data Name="Company">Mozilla Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe" -contentproc --channel="3168.13.1464597065\1561502721" -childID 2 -isForBrowser -prefsHandle 2432 -prefMapHandle 2436 -prefsLen 5401 -prefMapSize 183351 -parentBuildID 20190507012018 -greomni "C:\Program Files\Mozilla Firefox\omni.ja" -appomni "C:\Program Files\Mozilla Firefox\browser\omni.ja" -appdir "C:\Program Files\Mozilla Firefox\browser" - 3168 "\\.\pipe\gecko-crash-server-pipe.3168" 2448 tab</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Low</Data>
+      <Data Name="Hashes">SHA1=B18D536DA2242D6D9BB66CBE63CF312ABC9987A8,MD5=6AC1B75613E6143F94FF7A933B7993FC,SHA256=ABCE2767221B43127068C82BE7EBDF66FAA38B72F67676311FA4589075502A7F,IMPHASH=C5596CA4210F5F3474B68D7D54A73D16</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ParentProcessId">3168</Data>
+      <Data Name="ParentImage">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:35:12.705165100Z" />
+      <EventRecordID>386</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-21 00:35:12.474</Data>
+      <Data Name="ProcessGuid">{365abb72-47c0-5ce3-0000-00108d243f00}</Data>
+      <Data Name="ProcessId">3372</Data>
+      <Data Name="Image">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="FileVersion">66.0.5</Data>
+      <Data Name="Description">Firefox</Data>
+      <Data Name="Product">Firefox</Data>
+      <Data Name="Company">Mozilla Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe" -contentproc --channel="3168.20.1502540827\1989220046" -childID 3 -isForBrowser -prefsHandle 3032 -prefMapHandle 3056 -prefsLen 6207 -prefMapSize 183351 -parentBuildID 20190507012018 -greomni "C:\Program Files\Mozilla Firefox\omni.ja" -appomni "C:\Program Files\Mozilla Firefox\browser\omni.ja" -appdir "C:\Program Files\Mozilla Firefox\browser" - 3168 "\\.\pipe\gecko-crash-server-pipe.3168" 3024 tab</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-39cc-5ce3-0000-002096c70000}</Data>
+      <Data Name="LogonId">0xc796</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Low</Data>
+      <Data Name="Hashes">SHA1=B18D536DA2242D6D9BB66CBE63CF312ABC9987A8,MD5=6AC1B75613E6143F94FF7A933B7993FC,SHA256=ABCE2767221B43127068C82BE7EBDF66FAA38B72F67676311FA4589075502A7F,IMPHASH=C5596CA4210F5F3474B68D7D54A73D16</Data>
+      <Data Name="ParentProcessGuid">{365abb72-47bb-5ce3-0000-001053af3e00}</Data>
+      <Data Name="ParentProcessId">3168</Data>
+      <Data Name="ParentImage">C:\Program Files\Mozilla Firefox\firefox.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Mozilla Firefox\firefox.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:36:14.747769300Z" />
+      <EventRecordID>387</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-21 00:36:14.737</Data>
+      <Data Name="ProcessGuid">{365abb72-39cb-5ce3-0000-001046aa0000}</Data>
+      <Data Name="ProcessId">816</Data>
+      <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{6ACC3724-ED52-4080-9712-AD6B9F4CD7E3}\Category</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-21T00:36:14.747769300Z" />
+      <EventRecordID>388</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3416" ThreadID="3496" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-05-21 00:36:14.737</Data>
+      <Data Name="ProcessGuid">{365abb72-39cb-5ce3-0000-001046aa0000}</Data>
+      <Data Name="ProcessId">816</Data>
+      <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{6ACC3724-ED52-4080-9712-AD6B9F4CD7E3}\CategoryType</Data>
+      <Data Name="Details">DWORD (0x00000000)</Data>
+    </EventData>
+  </Event>
+</root>

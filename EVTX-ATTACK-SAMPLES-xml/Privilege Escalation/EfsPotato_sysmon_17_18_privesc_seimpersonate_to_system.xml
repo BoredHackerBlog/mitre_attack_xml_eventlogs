@@ -1,0 +1,707 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:38.725718100Z" />
+      <EventRecordID>1912931</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-22 19:33:37.299</Data>
+      <Data Name="ProcessGuid">{00247c92-a691-6122-0000-001021c31f02}</Data>
+      <Data Name="ProcessId">14048</Data>
+      <Data Name="Image">C:\temp\EfsPotato.exe</Data>
+      <Data Name="FileVersion">0.0.0.0</Data>
+      <Data Name="Description">
+      </Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">EfsPotato.exe</Data>
+      <Data Name="CommandLine">c:\temp\EfsPotato.exe  whoami</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{00247c92-7087-6122-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=38FD7E3D2385C43B4BA9455942DB62FC3BCD0751,MD5=03084D46470C5E49554972D62168EBA7,SHA256=C6F356C3E633509DE51FA602DBB557B11B1AA711507EA63D9A7C489217CB397B,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744</Data>
+      <Data Name="ParentProcessGuid">{00247c92-a680-6122-0000-00100a051f02}</Data>
+      <Data Name="ParentProcessId">14768</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:38.844084000Z" />
+      <EventRecordID>1912932</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.843</Data>
+      <Data Name="ProcessGuid">{00247c92-a691-6122-0000-001021c31f02}</Data>
+      <Data Name="ProcessId">14048</Data>
+      <Data Name="PipeName">\dd4c18dc-bff6-42ce-b707-62c114b84291\pipe\srvsvc</Data>
+      <Data Name="Image">c:\temp\EfsPotato.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:38.881336900Z" />
+      <EventRecordID>1912933</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.881</Data>
+      <Data Name="ProcessGuid">{00247c92-707c-6122-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\lsass</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:38.884861300Z" />
+      <EventRecordID>1912934</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.884</Data>
+      <Data Name="ProcessGuid">{00247c92-707c-6122-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\dd4c18dc-bff6-42ce-b707-62c114b84291\pipe\srvsvc</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:38.905645100Z" />
+      <EventRecordID>1912935</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.890</Data>
+      <Data Name="ProcessGuid">{00247c92-a692-6122-0000-0010a5cd1f02}</Data>
+      <Data Name="ProcessId">11328</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">10.0.19041.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">whoami.exe</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{00247c92-7087-6122-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=1915FBFDB73FDD200C47880247ACDDE5442431A9,MD5=A4A6924F3EAF97981323703D38FD99C4,SHA256=1D4902A04D99E8CCBFE7085E63155955FEE397449D386453F6C452AE407B8743,IMPHASH=7FF0758B766F747CE57DFAC70743FB88</Data>
+      <Data Name="ParentProcessGuid">{00247c92-a691-6122-0000-001021c31f02}</Data>
+      <Data Name="ParentProcessId">14048</Data>
+      <Data Name="ParentImage">C:\temp\EfsPotato.exe</Data>
+      <Data Name="ParentCommandLine">c:\temp\EfsPotato.exe  whoami</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:38.997253100Z" />
+      <EventRecordID>1912936</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.997</Data>
+      <Data Name="ProcessGuid">{00247c92-a691-6122-0000-001021c31f02}</Data>
+      <Data Name="ProcessId">14048</Data>
+      <Data Name="Image">C:\temp\EfsPotato.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:40.014881100Z" />
+      <EventRecordID>1912937</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.873</Data>
+      <Data Name="ProcessGuid">{00247c92-707c-6122-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">0:0:0:0:0:0:0:1</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">53686</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">0:0:0:0:0:0:0:1</Data>
+      <Data Name="DestinationHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:40.014948700Z" />
+      <EventRecordID>1912938</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6748" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-22 19:33:38.873</Data>
+      <Data Name="ProcessGuid">{00247c92-707c-6122-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">0:0:0:0:0:0:0:1</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">53686</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">0:0:0:0:0:0:0:1</Data>
+      <Data Name="DestinationHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.250240100Z" />
+      <EventRecordID>1912939</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.194</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="FileVersion">21.139.0711.0001</Data>
+      <Data Name="Description">Microsoft OneDriveFile Co-Authoring Executable</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">FileCoAuth.exe</Data>
+      <Data Name="CommandLine">"C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe" -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-7091-6122-0000-0020ebf90b00}</Data>
+      <Data Name="LogonId">0xbf9eb</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=DDCE65617AFAD1A8962EAC2C249D800138975919,MD5=568D09719FEDD7311C098E1CF055E4FD,SHA256=76FAEC315C23260AB2C7AF200FC799A564DA06B075FDB38FC340463621F125B3,IMPHASH=F0C71BA9BFD4E0631CF7BD5391769E9C</Data>
+      <Data Name="ParentProcessGuid">{00247c92-7087-6122-0000-0010242d0200}</Data>
+      <Data Name="ParentProcessId">612</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.303561600Z" />
+      <EventRecordID>1912940</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.301</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\vcruntime140_1.dll</Data>
+      <Data Name="FileVersion">14.28.29913.0 built by: vcwrkspc</Data>
+      <Data Name="Description">Microsoft« C Runtime Library</Data>
+      <Data Name="Product">Microsoft« Visual Studio«</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">vcruntime140_1.dll</Data>
+      <Data Name="Hashes">SHA1=58D562E8E3496A97E0CFE34C64B7AC79F40A9367,MD5=639584D9FCDC54D7644328650028F453,SHA256=4EF85487DE3B07AB52D269A51CFC2499C2E77ECBE2C63EC556F2C59AAD311B81,IMPHASH=AE0BDE6314FA2027B54CE04898F6AB69</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.315160900Z" />
+      <EventRecordID>1912941</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.306</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\UpdateRingSettings.dll</Data>
+      <Data Name="FileVersion">21.139.0711.0001</Data>
+      <Data Name="Description">Update Ring Settings</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">UpdateRingSettings.dll</Data>
+      <Data Name="Hashes">SHA1=50FBFD34BCB3A0CDCAE94D963AF6DA5B6EAAF702,MD5=E5783051077ECC0CF81051ACC6C7872D,SHA256=8E63CC1DDD7C554532FB00A2E3198D712ED19DD64EF6818119AFC2A5214148A8,IMPHASH=8B31BD73AB0C52BD4506C09FDABE59CE</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.324079800Z" />
+      <EventRecordID>1912942</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.319</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\LoggingPlatform.dll</Data>
+      <Data Name="FileVersion">21.139.0711.0001</Data>
+      <Data Name="Description">Logging Platform</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">LoggingPlatform.dll</Data>
+      <Data Name="Hashes">SHA1=479CD840A5352F76051B5722E4CD9004C72567EC,MD5=090BBA421A213F67FBFE10231116E008,SHA256=1E8923D71C32876B53A887983C63BC94914AB91CAAF1E13D3979F64F529DD043,IMPHASH=D39A0141F3324CB1CE047427FD20FCEA</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.335420300Z" />
+      <EventRecordID>1912943</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.328</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\msvcp140.dll</Data>
+      <Data Name="FileVersion">14.28.29913.0 built by: vcwrkspc</Data>
+      <Data Name="Description">Microsoft« C Runtime Library</Data>
+      <Data Name="Product">Microsoft« Visual Studio«</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">msvcp140.dll</Data>
+      <Data Name="Hashes">SHA1=6648A614B14F15ECB522A6D2BDF5E5031417742F,MD5=5BEB853A59982A96052364AB7BDE8D20,SHA256=CEACFE080276ACDF3FF731A8CA68140BCF589CEB1E3DD7544E0D4765E0489D9E,IMPHASH=4F1912F58F8D1AE7998EF5303198D62D</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.342887800Z" />
+      <EventRecordID>1912944</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.341</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\vcruntime140.dll</Data>
+      <Data Name="FileVersion">14.28.29913.0 built by: vcwrkspc</Data>
+      <Data Name="Description">Microsoft« C Runtime Library</Data>
+      <Data Name="Product">Microsoft« Visual Studio«</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">vcruntime140.dll</Data>
+      <Data Name="Hashes">SHA1=344B09330D8CC196728BC4320194FE49993D3A2C,MD5=B3FF2F3D0040F23F36E9F2A3444F42EA,SHA256=3A8DAE539BB91C950CCD6EA244D5C09CDF44AEBC8EE4FF9C5094D5195F40E82A,IMPHASH=44C3854843F7A3FCCDF8DDBBEA66F302</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.344234800Z" />
+      <EventRecordID>1912945</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.342</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\vcruntime140.dll</Data>
+      <Data Name="FileVersion">14.28.29913.0 built by: vcwrkspc</Data>
+      <Data Name="Description">Microsoft« C Runtime Library</Data>
+      <Data Name="Product">Microsoft« Visual Studio«</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">vcruntime140.dll</Data>
+      <Data Name="Hashes">SHA1=344B09330D8CC196728BC4320194FE49993D3A2C,MD5=B3FF2F3D0040F23F36E9F2A3444F42EA,SHA256=3A8DAE539BB91C950CCD6EA244D5C09CDF44AEBC8EE4FF9C5094D5195F40E82A,IMPHASH=44C3854843F7A3FCCDF8DDBBEA66F302</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.350971100Z" />
+      <EventRecordID>1912946</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.349</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\vcruntime140.dll</Data>
+      <Data Name="FileVersion">14.28.29913.0 built by: vcwrkspc</Data>
+      <Data Name="Description">Microsoft« C Runtime Library</Data>
+      <Data Name="Product">Microsoft« Visual Studio«</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">vcruntime140.dll</Data>
+      <Data Name="Hashes">SHA1=344B09330D8CC196728BC4320194FE49993D3A2C,MD5=B3FF2F3D0040F23F36E9F2A3444F42EA,SHA256=3A8DAE539BB91C950CCD6EA244D5C09CDF44AEBC8EE4FF9C5094D5195F40E82A,IMPHASH=44C3854843F7A3FCCDF8DDBBEA66F302</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.355421700Z" />
+      <EventRecordID>1912947</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.352</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\msvcp140.dll</Data>
+      <Data Name="FileVersion">14.28.29913.0 built by: vcwrkspc</Data>
+      <Data Name="Description">Microsoft« C Runtime Library</Data>
+      <Data Name="Product">Microsoft« Visual Studio«</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">msvcp140.dll</Data>
+      <Data Name="Hashes">SHA1=6648A614B14F15ECB522A6D2BDF5E5031417742F,MD5=5BEB853A59982A96052364AB7BDE8D20,SHA256=CEACFE080276ACDF3FF731A8CA68140BCF589CEB1E3DD7544E0D4765E0489D9E,IMPHASH=4F1912F58F8D1AE7998EF5303198D62D</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.513122600Z" />
+      <EventRecordID>1912948</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.511</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\OneDriveTelemetryStable.dll</Data>
+      <Data Name="FileVersion">21.139.0711.0001</Data>
+      <Data Name="Description">OneDriveTelemetry Stable DLL</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">OneDriveTelemetryStable.dll</Data>
+      <Data Name="Hashes">SHA1=8D3D5F03E129C08F890847F7B12E620F9315B396,MD5=B01D2385E32F4251399C7EDCE8364967,SHA256=5E6CC575BEC320E4502B48B1050FE255BF6504013FAA6EE62A80707E3092383E,IMPHASH=C719A37B3234505BC0AADBB7DE7C9654</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.545439500Z" />
+      <EventRecordID>1912949</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.544</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileSyncTelemetryExtensions.dll</Data>
+      <Data Name="FileVersion">21.139.0711.0001</Data>
+      <Data Name="Description">TelemetryExtensions Library</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">FileSyncTelemetryExtensions.dll</Data>
+      <Data Name="Hashes">SHA1=B535176F0E42CE3DEE9F650070AB1CAEA840CFBF,MD5=68E4FB636BC56B74BF54F18223238862,SHA256=1084C4AF96A06F8A84CA279C659394ACB1BC80D1F5DBC16EB62964C5632C41A0,IMPHASH=D207E97F105829D9C63E79F98B136D2B</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-08-22T19:33:52.931515000Z" />
+      <EventRecordID>1912950</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4760" ThreadID="6844" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2021-08-22 19:33:52.924</Data>
+      <Data Name="ProcessGuid">{00247c92-a6a0-6122-0000-00102f592002}</Data>
+      <Data Name="ProcessId">15488</Data>
+      <Data Name="Image">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuth.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\bouss\AppData\Local\Microsoft\OneDrive\21.139.0711.0001\FileCoAuthLib64.dll</Data>
+      <Data Name="FileVersion">21.139.0711.0001</Data>
+      <Data Name="Description">Microsoft OneDriveFile Co-Authoring Library</Data>
+      <Data Name="Product">Microsoft OneDrive</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">FileCoAuthLib64.dll</Data>
+      <Data Name="Hashes">SHA1=FFFD189CF1234EC54392F57C8D6D683A92DEB2B4,MD5=5E3A74A8E0295B1396C1A5D5D5C0664F,SHA256=E0132392E8014B120BBF51F2E98E9BB329877666A7D005353A4E96DF14DFFD4C,IMPHASH=592278570E604A14992850A5B210142D</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+</root>

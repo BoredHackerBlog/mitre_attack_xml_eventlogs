@@ -1,0 +1,54 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>104</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T21:49:56.318885500Z" />
+      <EventRecordID>9458</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="2800" />
+      <Channel>System</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserName>admmig</SubjectUserName>
+        <SubjectDomainName>OFFSEC</SubjectDomainName>
+        <Channel>System</Channel>
+        <BackupPath>
+        </BackupPath>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T21:50:07.213763500Z" />
+      <EventRecordID>9459</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="456" ThreadID="300" />
+      <Channel>System</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">bad-task</Data>
+      <Data Name="ImagePath">virusΘ.exe</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">demand start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+</root>

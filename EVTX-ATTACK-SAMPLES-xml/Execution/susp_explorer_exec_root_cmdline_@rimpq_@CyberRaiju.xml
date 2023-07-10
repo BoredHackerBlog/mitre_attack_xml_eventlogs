@@ -1,0 +1,362 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.276333000Z" />
+      <EventRecordID>400701</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.257</Data>
+      <Data Name="ProcessGuid">{6661d424-ec73-5efe-0000-00109fea6300}</Data>
+      <Data Name="ProcessId">6292</Data>
+      <Data Name="Image">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2190595668-4244358899-639490025-500\\Device\HarddiskVolume4\Windows\explorer.exe</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.278154500Z" />
+      <EventRecordID>400702</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.268</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-0010e7eff800}</Data>
+      <Data Name="ProcessId">6860</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">EXPLORER.EXE</Data>
+      <Data Name="CommandLine">explorer.exe  /root,"c:\windows\System32\calc.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Users\Administrator.ECORP\</Data>
+      <Data Name="User">ECORP\Administrator</Data>
+      <Data Name="LogonGuid">{6661d424-948b-5eef-0000-002072300f00}</Data>
+      <Data Name="LogonId">0xf3072</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=59AB8548708342C77C51F70EEC5CED0A88DC4701,MD5=6A65873EA949C5CCC72DDEF9E9780AA5,SHA256=16656BBB748BA1C811BB2C68D987DC0F5CAF149E41A84E45F6B6ECAAF7D29AB2,IMPHASH=0B98A47B3DAF2EE45939EF2A0F188959</Data>
+      <Data Name="ParentProcessGuid">{6661d424-ec73-5efe-0000-00109fea6300}</Data>
+      <Data Name="ParentProcessId">6292</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.364162600Z" />
+      <EventRecordID>400703</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.319</Data>
+      <Data Name="ProcessGuid">{6661d424-9438-5eef-0000-00104da20000}</Data>
+      <Data Name="ProcessId">792</Data>
+      <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2190595668-4244358899-639490025-500\\Device\HarddiskVolume4\Windows\explorer.exe</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.367330200Z" />
+      <EventRecordID>400704</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.333</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-0010a2f6f800}</Data>
+      <Data Name="ProcessId">3612</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">EXPLORER.EXE</Data>
+      <Data Name="CommandLine">C:\Windows\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">ECORP\Administrator</Data>
+      <Data Name="LogonGuid">{6661d424-948b-5eef-0000-002072300f00}</Data>
+      <Data Name="LogonId">0xf3072</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=59AB8548708342C77C51F70EEC5CED0A88DC4701,MD5=6A65873EA949C5CCC72DDEF9E9780AA5,SHA256=16656BBB748BA1C811BB2C68D987DC0F5CAF149E41A84E45F6B6ECAAF7D29AB2,IMPHASH=0B98A47B3DAF2EE45939EF2A0F188959</Data>
+      <Data Name="ParentProcessGuid">{6661d424-9438-5eef-0000-00104da20000}</Data>
+      <Data Name="ParentProcessId">792</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.583840800Z" />
+      <EventRecordID>400705</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.510</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-0010c00af900}</Data>
+      <Data Name="ProcessId">3224</Data>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Calculator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">CALC.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\calc.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">ECORP\Administrator</Data>
+      <Data Name="LogonGuid">{6661d424-948b-5eef-0000-002072300f00}</Data>
+      <Data Name="LogonId">0xf3072</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=F5ED372FD8EC7C455FF66BCE73F16CA51CBC0302,MD5=DEAD69D07BC33B762ABD466FB6F53E11,SHA256=3091E2ABFB55D05D6284B6C4B058B62C8C28AFC1D883B699E9A2B5482EC6FD51,IMPHASH=8EEAA9499666119D13B3F44ECD77A729</Data>
+      <Data Name="ParentProcessGuid">{6661d424-f4f6-5efe-0000-0010a2f6f800}</Data>
+      <Data Name="ParentProcessId">3612</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\explorer.exe /factory,{75dff2b7-6936-4c06-a8bb-676a7b00b24b} -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.612970200Z" />
+      <EventRecordID>400706</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.547</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-0010c00af900}</Data>
+      <Data Name="ProcessId">3224</Data>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\rpcrt4.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Remote Procedure Call Runtime</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">rpcrt4.dll</Data>
+      <Data Name="Hashes">SHA1=356FACA0C43B74BF97FBCC72AEFF85283FA8184F,MD5=202861ADD8A1B468FDA9601A49EB87CA,SHA256=46B88A02B582972592B218895ED9BC918365786822A28B6BE9EF91EB4DE45E4D,IMPHASH=88E7E7C7FA90052EC162DD37F2B7C7BD</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.619637800Z" />
+      <EventRecordID>400707</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.547</Data>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ProcessId">6860</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2190595668-4244358899-639490025-500\\Device\HarddiskVolume4\Windows\explorer.exe</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.737753700Z" />
+      <EventRecordID>400708</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.707</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-0010c00af900}</Data>
+      <Data Name="ProcessId">3224</Data>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2190595668-4244358899-639490025-500\\Device\HarddiskVolume4\Windows\System32\win32calc.exe</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.739814400Z" />
+      <EventRecordID>400709</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.716</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-00101d25f900}</Data>
+      <Data Name="ProcessId">2632</Data>
+      <Data Name="Image">C:\Windows\System32\win32calc.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Calculator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">WIN32CALC.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\win32calc.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">ECORP\Administrator</Data>
+      <Data Name="LogonGuid">{6661d424-948b-5eef-0000-002072300f00}</Data>
+      <Data Name="LogonId">0xf3072</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EC73FCAB989C8D525FE3BBCC3736BC3E6192A112,MD5=46CDCA3D2EB9B837EC3C4CDA60D0D0D9,SHA256=3E2300394C15B59A964EAB45D9EB96D317650E2F7448FD1B4AE825A134402B7A,IMPHASH=BDE48881DABC2774907583E3DE072A63</Data>
+      <Data Name="ParentProcessGuid">{6661d424-f4f6-5efe-0000-0010c00af900}</Data>
+      <Data Name="ParentProcessId">3224</Data>
+      <Data Name="ParentImage">C:\Windows\System32\calc.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\calc.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-03T09:05:58.743573500Z" />
+      <EventRecordID>400710</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1444" ThreadID="3796" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10.ecorp.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-03 09:05:58.723</Data>
+      <Data Name="ProcessGuid">{6661d424-f4f6-5efe-0000-00101d25f900}</Data>
+      <Data Name="ProcessId">2632</Data>
+      <Data Name="Image">C:\Windows\System32\win32calc.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\rpcrt4.dll</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Remote Procedure Call Runtime</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">rpcrt4.dll</Data>
+      <Data Name="Hashes">SHA1=356FACA0C43B74BF97FBCC72AEFF85283FA8184F,MD5=202861ADD8A1B468FDA9601A49EB87CA,SHA256=46B88A02B582972592B218895ED9BC918365786822A28B6BE9EF91EB4DE45E4D,IMPHASH=88E7E7C7FA90052EC162DD37F2B7C7BD</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+</root>

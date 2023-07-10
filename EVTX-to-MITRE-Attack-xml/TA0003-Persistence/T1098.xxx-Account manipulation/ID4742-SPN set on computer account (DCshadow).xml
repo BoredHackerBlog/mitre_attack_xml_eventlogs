@@ -1,0 +1,177 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4742</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13825</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T20:41:38.966164900Z" />
+      <EventRecordID>125592802</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="560" ThreadID="2872" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ComputerAccountChange">-</Data>
+      <Data Name="TargetUserName">JUMP01$</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1106</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x882d87</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">-</Data>
+      <Data Name="DisplayName">-</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">-</Data>
+      <Data Name="HomePath">-</Data>
+      <Data Name="ScriptPath">-</Data>
+      <Data Name="ProfilePath">-</Data>
+      <Data Name="UserWorkstations">-</Data>
+      <Data Name="PasswordLastSet">-</Data>
+      <Data Name="AccountExpires">-</Data>
+      <Data Name="PrimaryGroupId">-</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">-</Data>
+      <Data Name="NewUacValue">-</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">-</Data>
+      <Data Name="DnsHostName">-</Data>
+      <Data Name="ServicePrincipalNames">
+		HOST/jump01.offsec.lan
+		RestrictedKrbHost/jump01.offsec.lan
+		HOST/JUMP01
+		RestrictedKrbHost/JUMP01
+		WSMAN/jump01.offsec.lan
+		WSMAN/jump01
+		TERMSRV/jump01.offsec.lan
+		TERMSRV/JUMP01
+		GC/jump01.offsec.lan/offsec.lan</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4742</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13825</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T20:41:39.009719200Z" />
+      <EventRecordID>125592808</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="560" ThreadID="652" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ComputerAccountChange">-</Data>
+      <Data Name="TargetUserName">JUMP01$</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1106</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x882e4a</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">-</Data>
+      <Data Name="DisplayName">-</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">-</Data>
+      <Data Name="HomePath">-</Data>
+      <Data Name="ScriptPath">-</Data>
+      <Data Name="ProfilePath">-</Data>
+      <Data Name="UserWorkstations">-</Data>
+      <Data Name="PasswordLastSet">-</Data>
+      <Data Name="AccountExpires">-</Data>
+      <Data Name="PrimaryGroupId">-</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">-</Data>
+      <Data Name="NewUacValue">-</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">-</Data>
+      <Data Name="DnsHostName">-</Data>
+      <Data Name="ServicePrincipalNames">
+		HOST/jump01.offsec.lan
+		RestrictedKrbHost/jump01.offsec.lan
+		HOST/JUMP01
+		RestrictedKrbHost/JUMP01
+		WSMAN/jump01.offsec.lan
+		WSMAN/jump01
+		TERMSRV/jump01.offsec.lan
+		TERMSRV/JUMP01
+		GC/jump01.offsec.lan/offsec.lan
+		E3514235-4B06-11D1-AB04-00C04FC2DCD2/097b2e16-f2c3-44ef-b300-ec7e11e2a9f2/offsec.lan</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4742</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13825</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T20:42:21.133782900Z" />
+      <EventRecordID>125592911</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="560" ThreadID="2872" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ComputerAccountChange">-</Data>
+      <Data Name="TargetUserName">JUMP01$</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1106</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x882d87</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">-</Data>
+      <Data Name="DisplayName">-</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">-</Data>
+      <Data Name="HomePath">-</Data>
+      <Data Name="ScriptPath">-</Data>
+      <Data Name="ProfilePath">-</Data>
+      <Data Name="UserWorkstations">-</Data>
+      <Data Name="PasswordLastSet">-</Data>
+      <Data Name="AccountExpires">-</Data>
+      <Data Name="PrimaryGroupId">-</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">-</Data>
+      <Data Name="NewUacValue">-</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">-</Data>
+      <Data Name="DnsHostName">-</Data>
+      <Data Name="ServicePrincipalNames">
+		HOST/jump01.offsec.lan
+		RestrictedKrbHost/jump01.offsec.lan
+		HOST/JUMP01
+		RestrictedKrbHost/JUMP01
+		WSMAN/jump01.offsec.lan
+		WSMAN/jump01
+		TERMSRV/jump01.offsec.lan
+		TERMSRV/JUMP01
+		E3514235-4B06-11D1-AB04-00C04FC2DCD2/097b2e16-f2c3-44ef-b300-ec7e11e2a9f2/offsec.lan</Data>
+    </EventData>
+  </Event>
+</root>

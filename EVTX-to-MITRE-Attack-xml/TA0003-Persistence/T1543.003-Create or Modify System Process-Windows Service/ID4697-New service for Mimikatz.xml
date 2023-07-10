@@ -1,0 +1,57 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T16:17:29.210562100Z" />
+      <EventRecordID>9213076</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="336" ThreadID="484" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-4230534742-2542757381-3142984815-1111</SubjectUserSid>
+        <SubjectUserName>admmig</SubjectUserName>
+        <SubjectDomainName>OFFSEC</SubjectDomainName>
+        <SubjectLogonId>0xcc3c3</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4697</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12289</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T16:17:35.490424500Z" />
+      <EventRecordID>9213077</EventRecordID>
+      <Correlation ActivityID="{d8de53f0-1a3e-0002-f153-ded83e1ad701}" />
+      <Execution ProcessID="692" ThreadID="11184" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xcc3c3</Data>
+      <Data Name="ServiceName">mimidrv</Data>
+      <Data Name="ServiceFileName">C:\TOOLS\Security_tool\Mimikatz-fev-2020\mimidrv.sys</Data>
+      <Data Name="ServiceType">0x1</Data>
+      <Data Name="ServiceStartType">2</Data>
+      <Data Name="ServiceAccount">LocalSystem</Data>
+    </EventData>
+  </Event>
+</root>

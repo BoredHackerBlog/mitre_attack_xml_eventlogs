@@ -1,0 +1,138 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5142</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T17:16:20.913779800Z" />
+      <EventRecordID>1228199</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2088" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x202dac8</Data>
+      <Data Name="ShareName">\\*\hidden-share$</Data>
+      <Data Name="ShareLocalPath">C:\TOOLS\hidden-share$</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T17:16:42.576484000Z" />
+      <EventRecordID>1228257</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="464" ThreadID="472" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3023704</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">60602</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\admmig\Desktop\desktop.ini</Data>
+      <Data Name="AccessMask">0x120089</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T17:16:42.592103100Z" />
+      <EventRecordID>1228259</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="464" ThreadID="472" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3023704</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">60601</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\admmig\Desktop</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T17:16:50.984094900Z" />
+      <EventRecordID>1228262</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="464" ThreadID="472" />
+      <Channel>Security</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3023704</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">60601</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\admmig\Desktop</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+</root>

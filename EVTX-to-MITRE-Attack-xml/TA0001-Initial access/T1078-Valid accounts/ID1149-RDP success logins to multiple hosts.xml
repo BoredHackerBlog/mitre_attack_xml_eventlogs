@@ -1,0 +1,288 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.351835800Z" />
+      <EventRecordID>6433</EventRecordID>
+      <Correlation ActivityID="{F4208CEC-4DF9-4D54-882A-4C115ABC0000}" />
+      <Execution ProcessID="952" ThreadID="5672" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:30.415637900Z" />
+      <EventRecordID>99456</EventRecordID>
+      <Correlation ActivityID="{F4203D99-DCA9-4F6F-850D-622B67830000}" />
+      <Execution ProcessID="1788" ThreadID="2392" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.594963600Z" />
+      <EventRecordID>318</EventRecordID>
+      <Correlation ActivityID="{F420D7BA-42DF-4C4C-AF07-80EDD9380000}" />
+      <Execution ProcessID="1900" ThreadID="4088" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.367518000Z" />
+      <EventRecordID>2858</EventRecordID>
+      <Correlation ActivityID="{F4201E43-0631-4A55-B6F9-B6E5F8450000}" />
+      <Execution ProcessID="816" ThreadID="2208" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.407320600Z" />
+      <EventRecordID>6067</EventRecordID>
+      <Correlation ActivityID="{F420A5D0-A6B8-4C54-BB27-B11FE97C0000}" />
+      <Execution ProcessID="812" ThreadID="6964" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.473120500Z" />
+      <EventRecordID>1860</EventRecordID>
+      <Correlation ActivityID="{F4202713-6794-4C40-97F5-0BF484060000}" />
+      <Execution ProcessID="876" ThreadID="3964" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.782376000Z" />
+      <EventRecordID>1813</EventRecordID>
+      <Correlation ActivityID="{F42027E9-BD1C-4044-BA72-C00B14A80000}" />
+      <Execution ProcessID="888" ThreadID="3956" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.648199100Z" />
+      <EventRecordID>6783</EventRecordID>
+      <Correlation ActivityID="{F4209AF4-CAFB-47C8-AE28-3F3F890B0000}" />
+      <Execution ProcessID="996" ThreadID="13724" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.794683900Z" />
+      <EventRecordID>1831</EventRecordID>
+      <Correlation ActivityID="{F420B879-4261-49B5-82AA-3571C5630000}" />
+      <Execution ProcessID="876" ThreadID="2700" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.726718800Z" />
+      <EventRecordID>6126</EventRecordID>
+      <Correlation ActivityID="{F4208C8E-C1C4-42ED-A3FD-FB7C20850000}" />
+      <Execution ProcessID="848" ThreadID="720" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-TerminalServices-RemoteConnectionManager" Guid="{C76BAA63-AE81-421C-B425-340B4B24157F}" />
+      <EventID>1149</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x1000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-16T10:25:32.673214500Z" />
+      <EventRecordID>1801</EventRecordID>
+      <Correlation ActivityID="{F42067BD-DB7A-463F-872C-4C2EECF30000}" />
+      <Execution ProcessID="872" ThreadID="2432" />
+      <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <UserData>
+      <EventXML xmlns="Event_NS">
+        <Param1>admmig</Param1>
+        <Param2>
+        </Param2>
+        <Param3>10.23.123.11</Param3>
+      </EventXML>
+    </UserData>
+  </Event>
+</root>

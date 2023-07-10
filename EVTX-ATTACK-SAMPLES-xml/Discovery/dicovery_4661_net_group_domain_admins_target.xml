@@ -1,0 +1,2829 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:37.147709100Z" />
+      <EventRecordID>565591</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="780" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-1587066498-1489273250-1035260531-500</SubjectUserSid>
+        <SubjectUserName>administrator</SubjectUserName>
+        <SubjectDomainName>EXAMPLE</SubjectDomainName>
+        <SubjectLogonId>0x4fd77</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:43.570212500Z" />
+      <EventRecordID>565592</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3776" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">1452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\dns.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">55872</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:43.570212500Z" />
+      <EventRecordID>565593</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3776" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\dns.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">55872</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">389</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:43.570212500Z" />
+      <EventRecordID>565594</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3776" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">389</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">55872</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:43.570212500Z" />
+      <EventRecordID>565595</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="696" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e162</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:43.570212500Z" />
+      <EventRecordID>565596</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="696" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x15e162</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{5fdb15ee-2283-f23c-e23b-5e5ddb11bb9c}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="IpPort">55872</Data>
+      <Data Name="ImpersonationLevel">%%1840</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:51.772355600Z" />
+      <EventRecordID>565597</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3776" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">780</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">546</Data>
+      <Data Name="DestAddress">ff02::1:2</Data>
+      <Data Name="DestPort">547</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">65763</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.491923200Z" />
+      <EventRecordID>565598</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3776" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">445</Data>
+      <Data Name="DestAddress">10.0.2.17</Data>
+      <Data Name="DestPort">49222</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.491923200Z" />
+      <EventRecordID>565599</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="1208" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="TargetUserName">user01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x15e1a7</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{14cccd18-a781-ac28-c773-ea57d49f4b90}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.0.2.17</Data>
+      <Data Name="IpPort">49222</Data>
+      <Data Name="ImpersonationLevel">%%1840</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.507387400Z" />
+      <EventRecordID>565600</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1968" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.17</Data>
+      <Data Name="IpPort">49222</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.507387400Z" />
+      <EventRecordID>565601</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.17</Data>
+      <Data Name="IpPort">49222</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.522462300Z" />
+      <EventRecordID>565602</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b1f20</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1538
+				%%5394
+				%%5396
+				%%5399
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1538
+%%5394
+%%5396
+%%5399
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.522462300Z" />
+      <EventRecordID>565603</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_GROUP</Data>
+      <Data Name="ObjectName">S-1-5-21-1587066498-1489273250-1035260531-512</Data>
+      <Data Name="HandleId">0x14c7b1a90</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1538
+				%%5410
+				%%5412
+				%%5415
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+%%1538
+%%5410
+%%5412
+%%5415
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf9679c0-0de6-11d0-a285-00aa003049e2}
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.538513600Z" />
+      <EventRecordID>565604</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.17</Data>
+      <Data Name="IpPort">49222</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">samr</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.538513600Z" />
+      <EventRecordID>565605</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b1a90</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1538
+				%%5394
+				%%5396
+				%%5399
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1538
+%%5394
+%%5396
+%%5399
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:52.538513600Z" />
+      <EventRecordID>565606</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e1a7</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_GROUP</Data>
+      <Data Name="ObjectName">S-1-5-21-1587066498-1489273250-1035260531-512</Data>
+      <Data Name="HandleId">0x14c7b2cd0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1538
+				%%5410
+				%%5412
+				%%5415
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+%%1538
+%%5410
+%%5412
+%%5415
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf9679c0-0de6-11d0-a285-00aa003049e2}
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565607</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="292" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">55873</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565608</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="292" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">55873</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">445</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565609</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="292" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">445</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">55873</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565610</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="3116" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e25f</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565611</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="3116" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x15e25f</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{1054a084-effd-f992-9c74-63873c88272e}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="IpPort">55873</Data>
+      <Data Name="ImpersonationLevel">%%1840</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5140</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565612</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="292" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e25f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="IpPort">55873</Data>
+      <Data Name="ShareName">\\*\SYSVOL</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows\SYSVOL\sysvol</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:23:57.397648200Z" />
+      <EventRecordID>565613</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x15e25f</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="IpPort">55873</Data>
+      <Data Name="ShareName">\\*\SYSVOL</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows\SYSVOL\sysvol</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">%%1541:	%%1801	D:(A;;0x1200a9;;;WD)
+				%%4423:	%%1801	D:(A;;0x1200a9;;;WD)
+				</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.584863600Z" />
+      <EventRecordID>565614</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b2840</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.601241900Z" />
+      <EventRecordID>565615</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">55874</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.601241900Z" />
+      <EventRecordID>565616</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">55874</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">135</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.601241900Z" />
+      <EventRecordID>565617</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">624</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">135</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">55874</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.601241900Z" />
+      <EventRecordID>565618</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">CN=Builtin,DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b1600</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.601241900Z" />
+      <EventRecordID>565619</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="HandleId">0x14c7b1a90</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5440
+				%%5441
+				%%5442
+				%%5443
+				%%5444
+				%%5445
+				%%5447
+				%%5448
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5440
+%%5441
+%%5442
+%%5443
+%%5444
+%%5445
+%%5447
+%%5448
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.615924200Z" />
+      <EventRecordID>565620</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">55875</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.615924200Z" />
+      <EventRecordID>565621</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">55875</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">49155</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.615924200Z" />
+      <EventRecordID>565622</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">49155</Data>
+      <Data Name="DestAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="DestPort">55875</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:07.772839700Z" />
+      <EventRecordID>565623</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">780</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">546</Data>
+      <Data Name="DestAddress">ff02::1:2</Data>
+      <Data Name="DestPort">547</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">65763</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565624</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">53316</Data>
+      <Data Name="DestAddress">239.255.255.250</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565625</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">53316</Data>
+      <Data Name="DestAddress">239.255.255.250</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565626</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53316</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565627</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::79bf:8ee2:433c:2567</Data>
+      <Data Name="SourcePort">53317</Data>
+      <Data Name="DestAddress">ff02::c</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565628</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">::1</Data>
+      <Data Name="SourcePort">53317</Data>
+      <Data Name="DestAddress">ff02::c</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565629</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">53317</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565630</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">138</Data>
+      <Data Name="DestAddress">10.255.255.255</Data>
+      <Data Name="DestPort">138</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.069207600Z" />
+      <EventRecordID>565631</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2864" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">138</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">138</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.240883700Z" />
+      <EventRecordID>565632</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1676" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">53317</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.287940200Z" />
+      <EventRecordID>565633</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1676" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">55876</Data>
+      <Data Name="DestAddress">10.0.2.17</Data>
+      <Data Name="DestPort">5357</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:08.320019800Z" />
+      <EventRecordID>565634</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1676" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">872</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53316</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.085219500Z" />
+      <EventRecordID>565635</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1676" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="DestAddress">10.255.255.255</Data>
+      <Data Name="DestPort">137</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.413552700Z" />
+      <EventRecordID>565636</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b1a90</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.413552700Z" />
+      <EventRecordID>565637</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">CN=Builtin,DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b23b0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.413552700Z" />
+      <EventRecordID>565638</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="HandleId">0x14c7b2840</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5440
+				%%5441
+				%%5442
+				%%5443
+				%%5444
+				%%5445
+				%%5447
+				%%5448
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5440
+%%5441
+%%5442
+%%5443
+%%5444
+%%5445
+%%5447
+%%5448
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.741725400Z" />
+      <EventRecordID>565639</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b1f20</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.741725400Z" />
+      <EventRecordID>565640</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">CN=Builtin,DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b23b0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:11.741725400Z" />
+      <EventRecordID>565641</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="HandleId">0x14c7b1a90</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5440
+				%%5441
+				%%5442
+				%%5443
+				%%5444
+				%%5445
+				%%5447
+				%%5448
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5440
+%%5441
+%%5442
+%%5443
+%%5444
+%%5445
+%%5447
+%%5448
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.631792900Z" />
+      <EventRecordID>565642</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3080" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">55877</Data>
+      <Data Name="DestAddress">10.0.2.17</Data>
+      <Data Name="DestPort">445</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.647429900Z" />
+      <EventRecordID>565643</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3080" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">624</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">135</Data>
+      <Data Name="DestAddress">10.0.2.17</Data>
+      <Data Name="DestPort">49223</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.647429900Z" />
+      <EventRecordID>565644</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3080" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.0.2.15</Data>
+      <Data Name="SourcePort">49158</Data>
+      <Data Name="DestAddress">10.0.2.17</Data>
+      <Data Name="DestPort">49224</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.647429900Z" />
+      <EventRecordID>565645</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="1208" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">Administrator</Data>
+      <Data Name="Workstation">WIN-77LTAPHIQ1R</Data>
+      <Data Name="Status">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.662977800Z" />
+      <EventRecordID>565646</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b2840</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.662977800Z" />
+      <EventRecordID>565647</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">CN=Builtin,DC=example,DC=corp</Data>
+      <Data Name="HandleId">0x14c7b2cd0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:15.662977800Z" />
+      <EventRecordID>565648</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="460" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="SubjectUserName">administrator</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x4fd77</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">S-1-5-21-1587066498-1489273250-1035260531-500</Data>
+      <Data Name="HandleId">0x14c7b1600</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5440
+				%%5441
+				%%5442
+				%%5443
+				%%5444
+				%%5445
+				%%5447
+				%%5448
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5440
+%%5441
+%%5442
+%%5443
+%%5444
+%%5445
+%%5447
+%%5448
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1c4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:20.960030900Z" />
+      <EventRecordID>565649</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2304" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">1320</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\adws\microsoft.activedirectory.webservices.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">55878</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:20.960030900Z" />
+      <EventRecordID>565650</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2304" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1320</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\adws\microsoft.activedirectory.webservices.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">::1</Data>
+      <Data Name="SourcePort">55878</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">389</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">65777</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:20.960030900Z" />
+      <EventRecordID>565651</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2304" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">452</Data>
+      <Data Name="Application">\device\harddiskvolume2\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">::1</Data>
+      <Data Name="SourcePort">389</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55878</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:20.960030900Z" />
+      <EventRecordID>565652</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="696" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x16792b</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T23:24:20.960030900Z" />
+      <EventRecordID>565653</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="452" ThreadID="696" />
+      <Channel>Security</Channel>
+      <Computer>WIN-77LTAPHIQ1R.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">WIN-77LTAPHIQ1R$</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x16792b</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{5fdb15ee-2283-f23c-e23b-5e5ddb11bb9c}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">55878</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+</root>

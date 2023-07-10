@@ -1,0 +1,204 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:21:50.488634000Z" />
+      <EventRecordID>7679</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:21:50.488</Data>
+      <Data Name="ProcessGuid">{365abb72-9c8e-5d04-0000-0010d0421600}</Data>
+      <Data Name="ProcessId">540</Data>
+      <Data Name="Image">C:\Program Files\Internet Explorer\iexplore.exe</Data>
+      <Data Name="FileVersion">11.00.9600.16428 (winblue_gdr.131013-1700)</Data>
+      <Data Name="Description">Internet Explorer</Data>
+      <Data Name="Product">Internet Explorer</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Internet Explorer\iexplore.exe" C:\Users\IEUser\Downloads\updatevbs.html</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-98e4-5d04-0000-0020a4350100}</Data>
+      <Data Name="LogonId">0x135a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=515970F2B0200C205D1028EE00CFB08100253F05,MD5=54A62243A249240B5721A5E9E4A3623F,SHA256=81C35E20CD6F496D4D4B33E67D9ACB4EC2A57EF3E6EC7F3F09EE3164381C24DB,IMPHASH=362EFA589A64DDE27E8263C301B1E564</Data>
+      <Data Name="ParentProcessGuid">{365abb72-98fa-5d04-0000-00101b350600}</Data>
+      <Data Name="ParentProcessId">2816</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:21:51.035509000Z" />
+      <EventRecordID>7680</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:21:50.644</Data>
+      <Data Name="ProcessGuid">{365abb72-9c8e-5d04-0000-001080561600}</Data>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Image">C:\Program Files\Internet Explorer\iexplore.exe</Data>
+      <Data Name="FileVersion">11.00.9600.16428 (winblue_gdr.131013-1700)</Data>
+      <Data Name="Description">Internet Explorer</Data>
+      <Data Name="Product">Internet Explorer</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Program Files\Internet Explorer\iexplore.exe" SCODEF:540 CREDAT:275457 /prefetch:2</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-98e4-5d04-0000-0020a4350100}</Data>
+      <Data Name="LogonId">0x135a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=515970F2B0200C205D1028EE00CFB08100253F05,MD5=54A62243A249240B5721A5E9E4A3623F,SHA256=81C35E20CD6F496D4D4B33E67D9ACB4EC2A57EF3E6EC7F3F09EE3164381C24DB,IMPHASH=362EFA589A64DDE27E8263C301B1E564</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9c8e-5d04-0000-0010d0421600}</Data>
+      <Data Name="ParentProcessId">540</Data>
+      <Data Name="ParentImage">C:\Program Files\Internet Explorer\iexplore.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Internet Explorer\iexplore.exe" C:\Users\IEUser\Downloads\updatevbs.html</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:22:05.691759000Z" />
+      <EventRecordID>7681</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:22:05.660</Data>
+      <Data Name="ProcessGuid">{365abb72-9c9d-5d04-0000-001039ce1600}</Data>
+      <Data Name="ProcessId">172</Data>
+      <Data Name="Image">C:\Windows\System32\wscript.exe</Data>
+      <Data Name="FileVersion">5.8.7600.16385</Data>
+      <Data Name="Description">Microsoft « Windows Based Script Host</Data>
+      <Data Name="Product">Microsoft « Windows Script Host</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\WScript.exe" "C:\Users\IEUser\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\S97WTYG7\updatevbs.vbs" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-98e4-5d04-0000-0020a4350100}</Data>
+      <Data Name="LogonId">0x135a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=C2752A6515D97D5906232828004BC54C587E6780,MD5=BA7AC4381D685354FF87E0553E950A4E,SHA256=BED1028BADEE2ADE8A8A8EDD25AA4C3E70A6BEEFAFBDFFD6426E5E467F24EB01,IMPHASH=317C8DE06F7AEE57A3ACF4722FE00983</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9c8e-5d04-0000-0010d0421600}</Data>
+      <Data Name="ParentProcessId">540</Data>
+      <Data Name="ParentImage">C:\Program Files\Internet Explorer\iexplore.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Internet Explorer\iexplore.exe" C:\Users\IEUser\Downloads\updatevbs.html</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:22:05.973009000Z" />
+      <EventRecordID>7682</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2100" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Suspicious Microsoft.XMLDOM module load</Data>
+      <Data Name="UtcTime">2019-06-15 07:22:05.910</Data>
+      <Data Name="ProcessGuid">{365abb72-9c9d-5d04-0000-001039ce1600}</Data>
+      <Data Name="ProcessId">172</Data>
+      <Data Name="Image">C:\Windows\System32\wscript.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\msxml3.dll</Data>
+      <Data Name="FileVersion">8.110.7601.24402</Data>
+      <Data Name="Description">MSXML 3.0 SP11</Data>
+      <Data Name="Product">Microsoft(R) MSXML 3.0 SP11</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="Hashes">SHA1=F4F7354475114E39447975211F5D0A5FA8DB8367,MD5=77B25423AD769057258786540205F6C8,SHA256=20B2A5B34D764D92028CF5EAB46A91F2F7F1A0ECC3FEBA4FC3CDF881AB3A136C,IMPHASH=EF7BEA73AB4F834F0C44DDE0150B5648</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:22:08.473009000Z" />
+      <EventRecordID>7683</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:22:06.122</Data>
+      <Data Name="ProcessGuid">{365abb72-9c9d-5d04-0000-001039ce1600}</Data>
+      <Data Name="ProcessId">172</Data>
+      <Data Name="Image">C:\Windows\System32\wscript.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.13</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49162</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">4443</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+</root>

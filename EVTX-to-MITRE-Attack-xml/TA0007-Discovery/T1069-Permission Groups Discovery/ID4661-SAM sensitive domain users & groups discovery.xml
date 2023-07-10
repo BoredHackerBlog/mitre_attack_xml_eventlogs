@@ -1,0 +1,1696 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:43.005227800Z" />
+      <EventRecordID>141120255</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a91586010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:43.006941800Z" />
+      <EventRecordID>141120256</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a91585b40</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:43.008253100Z" />
+      <EventRecordID>141120257</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_GROUP</Data>
+      <Data Name="ObjectName">S-1-5-21-4230534742-2542757381-3142984815-512</Data>
+      <Data Name="HandleId">0x12a91585670</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5408
+				%%5409
+				%%5410
+				%%5411
+				%%5412
+				%%5413
+				%%5415
+				%%5416
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01bf</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5408
+%%5409
+%%5410
+%%5411
+%%5412
+%%5413
+%%5415
+%%5416
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf9679c0-0de6-11d0-a285-00aa003049e2}
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:43.014300700Z" />
+      <EventRecordID>141120262</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a91585670</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:43.015920000Z" />
+      <EventRecordID>141120263</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a91586010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:43.017037000Z" />
+      <EventRecordID>141120264</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3812" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_GROUP</Data>
+      <Data Name="ObjectName">S-1-5-21-4230534742-2542757381-3142984815-512</Data>
+      <Data Name="HandleId">0x12a91585b40</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5408
+				%%5409
+				%%5410
+				%%5411
+				%%5412
+				%%5413
+				%%5415
+				%%5416
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01bf</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5408
+%%5409
+%%5410
+%%5411
+%%5412
+%%5413
+%%5415
+%%5416
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf9679c0-0de6-11d0-a285-00aa003049e2}
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:52.149882100Z" />
+      <EventRecordID>141120280</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b9010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:52.151970700Z" />
+      <EventRecordID>141120281</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b94e0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:52.153306700Z" />
+      <EventRecordID>141120282</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_GROUP</Data>
+      <Data Name="ObjectName">S-1-5-21-4230534742-2542757381-3142984815-513</Data>
+      <Data Name="HandleId">0x12a8e0b81a0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5408
+				%%5409
+				%%5410
+				%%5411
+				%%5412
+				%%5413
+				%%5414
+				%%5415
+				%%5416
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5408
+%%5409
+%%5410
+%%5411
+%%5412
+%%5413
+%%5414
+%%5415
+%%5416
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf9679c0-0de6-11d0-a285-00aa003049e2}
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:52.159156700Z" />
+      <EventRecordID>141120287</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b9010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:52.160820300Z" />
+      <EventRecordID>141120288</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b94e0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:52.162133900Z" />
+      <EventRecordID>141120289</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_GROUP</Data>
+      <Data Name="ObjectName">S-1-5-21-4230534742-2542757381-3142984815-513</Data>
+      <Data Name="HandleId">0x12a8e0b81a0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5408
+				%%5409
+				%%5410
+				%%5411
+				%%5412
+				%%5413
+				%%5414
+				%%5415
+				%%5416
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967a9c-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5408
+%%5409
+%%5410
+%%5411
+%%5412
+%%5413
+%%5414
+%%5415
+%%5416
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf9679c0-0de6-11d0-a285-00aa003049e2}
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.936647600Z" />
+      <EventRecordID>141120300</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b9010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.938417900Z" />
+      <EventRecordID>141120301</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b94e0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.939159700Z" />
+      <EventRecordID>141120302</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">CN=Builtin,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b81a0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.940809800Z" />
+      <EventRecordID>141120303</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x12a8df4b570</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5440
+				%%5441
+				%%5442
+				%%5443
+				%%5444
+				%%5445
+				%%5447
+				%%5448
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01bf</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5440
+%%5441
+%%5442
+%%5443
+%%5444
+%%5445
+%%5447
+%%5448
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.957696000Z" />
+      <EventRecordID>141120309</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a91585670</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.959390900Z" />
+      <EventRecordID>141120310</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a91585b40</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.979347000Z" />
+      <EventRecordID>141120315</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b94e0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.980094900Z" />
+      <EventRecordID>141120316</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b81a0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.980700200Z" />
+      <EventRecordID>141120317</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">CN=Builtin,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b9010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.988348100Z" />
+      <EventRecordID>141120322</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_SERVER</Data>
+      <Data Name="ObjectName">CN=Server,CN=System,DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b9010</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5376
+				%%5377
+				%%5378
+				%%5379
+				%%5380
+				%%5381
+				%%5382
+				%%5383
+				%%5384
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01ff</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aad-0de6-11d0-a285-00aa003049e2}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.989952600Z" />
+      <EventRecordID>141120323</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=offsec,DC=lan</Data>
+      <Data Name="HandleId">0x12a8e0b81a0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01fd</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:16:57.991469400Z" />
+      <EventRecordID>141120324</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x46920341</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_USER</Data>
+      <Data Name="ObjectName">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x12a8e0b94e0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5440
+				%%5441
+				%%5442
+				%%5443
+				%%5444
+				%%5445
+				%%5447
+				%%5448
+				</Data>
+      <Data Name="AccessReason">-</Data>
+      <Data Name="AccessMask">0xf01bf</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="Properties">---
+	{bf967aba-0de6-11d0-a285-00aa003049e2}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5440
+%%5441
+%%5442
+%%5443
+%%5444
+%%5445
+%%5447
+%%5448
+		{59ba2f42-79a2-11d0-9020-00c04fc2d3cf}
+			{bf967938-0de6-11d0-a285-00aa003049e2}
+			{5fd42471-1262-11d0-a060-00aa006c33ed}
+			{bf9679e8-0de6-11d0-a285-00aa003049e2}
+			{bf967a00-0de6-11d0-a285-00aa003049e2}
+			{3e0abfd0-126a-11d0-a060-00aa006c33ed}
+			{bf967a6a-0de6-11d0-a285-00aa003049e2}
+			{bf967953-0de6-11d0-a285-00aa003049e2}
+		{4c164200-20c0-11d0-a768-00aa006e0529}
+			{bf967915-0de6-11d0-a285-00aa003049e2}
+			{bf967a0a-0de6-11d0-a285-00aa003049e2}
+			{bf967a68-0de6-11d0-a285-00aa003049e2}
+			{bf967a6d-0de6-11d0-a285-00aa003049e2}
+		{5f202010-79a5-11d0-9020-00c04fc2d4cf}
+			{bf96792e-0de6-11d0-a285-00aa003049e2}
+			{bf967985-0de6-11d0-a285-00aa003049e2}
+			{bf967986-0de6-11d0-a285-00aa003049e2}
+			{bf967996-0de6-11d0-a285-00aa003049e2}
+			{bf967997-0de6-11d0-a285-00aa003049e2}
+			{bf9679aa-0de6-11d0-a285-00aa003049e2}
+			{bf9679ab-0de6-11d0-a285-00aa003049e2}
+			{bf9679ac-0de6-11d0-a285-00aa003049e2}
+			{bf967a05-0de6-11d0-a285-00aa003049e2}
+			{bf9679a8-0de6-11d0-a285-00aa003049e2}
+		{e48d0154-bcf8-11d1-8702-00c04fb96050}
+			{bf967950-0de6-11d0-a285-00aa003049e2}
+		{bc0ac240-79a9-11d0-9020-00c04fc2d4cf}
+			{bf967991-0de6-11d0-a285-00aa003049e2}
+		{ab721a53-1e2f-11d0-9819-00aa0040529b}
+		{00299570-246d-11d0-a768-00aa006e0529}
+		{7ed84960-ad10-11d0-8a92-00aa006e0529}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x224</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+</root>

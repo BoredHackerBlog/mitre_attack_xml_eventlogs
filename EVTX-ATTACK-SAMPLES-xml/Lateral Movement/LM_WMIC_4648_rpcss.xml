@@ -1,0 +1,160 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T11:27:00.438449400Z" />
+      <EventRecordID>433307</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="856" ThreadID="1660" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns:auto-ns3="http://schemas.microsoft.com/win/2004/08/events" xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-1587066498-1489273250-1035260531-1106</SubjectUserSid>
+        <SubjectUserName>user01</SubjectUserName>
+        <SubjectDomainName>EXAMPLE</SubjectDomainName>
+        <SubjectLogonId>0x18a7875</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T11:27:05.425620600Z" />
+      <EventRecordID>433308</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="48" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x18a7875</Data>
+      <Data Name="NewProcessId">0x44c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x86c</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T11:27:23.231223800Z" />
+      <EventRecordID>433333</EventRecordID>
+      <Correlation ActivityID="{4e7eb78f-3e42-4406-b9c2-eb1508584c86}" />
+      <Execution ProcessID="524" ThreadID="2668" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x18a7875</Data>
+      <Data Name="LogonGuid">{3523b8be-1c1a-a740-a8c3-4cc91a5f3b14}</Data>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">EXAMPLE.CORP</Data>
+      <Data Name="TargetLogonGuid">{50419e1a-1c62-023a-239e-78c43a7792ab}</Data>
+      <Data Name="TargetServerName">WIN-77LTAPHIQ1R.example.corp</Data>
+      <Data Name="TargetInfo">RPCSS/WIN-77LTAPHIQ1R.example.corp</Data>
+      <Data Name="ProcessId">0x304</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T11:27:23.261267000Z" />
+      <EventRecordID>433340</EventRecordID>
+      <Correlation ActivityID="{6ba96748-a75c-4e51-8287-42789c304d63}" />
+      <Execution ProcessID="524" ThreadID="2668" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x18a7875</Data>
+      <Data Name="LogonGuid">{3523b8be-1c1a-a740-a8c3-4cc91a5f3b14}</Data>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">EXAMPLE.CORP</Data>
+      <Data Name="TargetLogonGuid">{50419e1a-1c62-023a-239e-78c43a7792ab}</Data>
+      <Data Name="TargetServerName">WIN-77LTAPHIQ1R.example.corp</Data>
+      <Data Name="TargetInfo">host/WIN-77LTAPHIQ1R.example.corp</Data>
+      <Data Name="ProcessId">0x44c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-18T11:27:23.271281400Z" />
+      <EventRecordID>433350</EventRecordID>
+      <Correlation ActivityID="{eaa68aad-28c5-4988-80e0-2490bc250f7c}" />
+      <Execution ProcessID="524" ThreadID="2668" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x18a7875</Data>
+      <Data Name="LogonGuid">{3523b8be-1c1a-a740-a8c3-4cc91a5f3b14}</Data>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">example</Data>
+      <Data Name="TargetLogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetServerName">WIN-77LTAPHIQ1R.example.corp</Data>
+      <Data Name="TargetInfo">WIN-77LTAPHIQ1R.example.corp</Data>
+      <Data Name="ProcessId">0x44c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+</root>

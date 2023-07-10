@@ -1,0 +1,155 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4950</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13571</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T19:39:52.893115500Z" />
+      <EventRecordID>1974770</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0000-1D80-06382D51D701}" />
+      <Execution ProcessID="556" ThreadID="2532" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProfileChanged">Domain</Data>
+      <Data Name="SettingType">Enable Windows Firewall</Data>
+      <Data Name="SettingValue">Yes</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4950</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13571</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T19:39:52.932317900Z" />
+      <EventRecordID>1974775</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0000-1D80-06382D51D701}" />
+      <Execution ProcessID="556" ThreadID="2532" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProfileChanged">Private</Data>
+      <Data Name="SettingType">Enable Windows Firewall</Data>
+      <Data Name="SettingValue">Yes</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85}" />
+      <EventID>2003</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T19:39:52.893086100Z" />
+      <EventRecordID>912</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1000" ThreadID="5464" />
+      <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-19" />
+    </System>
+    <EventData>
+      <Data Name="Profiles">1</Data>
+      <Data Name="SettingType">1</Data>
+      <Data Name="SettingValueSize">4</Data>
+      <Data Name="SettingValue">01000000</Data>
+      <Data Name="SettingValueString">Yes</Data>
+      <Data Name="Origin">1</Data>
+      <Data Name="ModifyingUser">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="ModifyingApplication">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85}" />
+      <EventID>2003</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T19:39:52.895995800Z" />
+      <EventRecordID>913</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1000" ThreadID="5464" />
+      <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-19" />
+    </System>
+    <EventData>
+      <Data Name="Profiles">2</Data>
+      <Data Name="SettingType">1</Data>
+      <Data Name="SettingValueSize">4</Data>
+      <Data Name="SettingValue">01000000</Data>
+      <Data Name="SettingValueString">Yes</Data>
+      <Data Name="Origin">1</Data>
+      <Data Name="ModifyingUser">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="ModifyingApplication">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85}" />
+      <EventID>2003</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T19:39:53.056040900Z" />
+      <EventRecordID>914</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1000" ThreadID="5464" />
+      <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-19" />
+    </System>
+    <EventData>
+      <Data Name="Profiles">4</Data>
+      <Data Name="SettingType">1</Data>
+      <Data Name="SettingValueSize">4</Data>
+      <Data Name="SettingValue">01000000</Data>
+      <Data Name="SettingValueString">Yes</Data>
+      <Data Name="Origin">1</Data>
+      <Data Name="ModifyingUser">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="ModifyingApplication">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4950</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13571</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T19:39:53.056647200Z" />
+      <EventRecordID>1974929</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0000-1D80-06382D51D701}" />
+      <Execution ProcessID="556" ThreadID="2532" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProfileChanged">Public</Data>
+      <Data Name="SettingType">Enable Windows Firewall</Data>
+      <Data Name="SettingValue">Yes</Data>
+    </EventData>
+  </Event>
+</root>

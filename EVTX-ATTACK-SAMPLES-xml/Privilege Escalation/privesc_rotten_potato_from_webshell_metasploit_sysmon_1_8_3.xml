@@ -1,0 +1,505 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:56.667118900Z" />
+      <EventRecordID>5408</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2260" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:56.627</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="LogonGuid">{365abb72-b26b-5cea-0000-002023240800}</Data>
+      <Data Name="LogonId">0x82423</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=FC64B1EF19E7F35642B2A2EA5F5D9F4246866243,MD5=A4F6DF0E33E644E802C8798ED94D80EA,SHA256=B56AFE7165AD341A749D2D3BD925D879728A1FE4A4DF206145C1A69AA233F68B,IMPHASH=53A6715F589E88C4FD4541C81B4F57C3</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b26b-5cea-0000-0010582a0800}</Data>
+      <Data Name="ParentProcessId">2744</Data>
+      <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap "DefaultAppPool" -v "v2.0" -l "webengine4.dll" -a \\.\pipe\iisipmb9da32d5-aa43-42fc-aeea-0cc226e10973 -h "C:\inetpub\temp\apppools\DefaultAppPool\DefaultAppPool.config" -w "" -m 0 -t 20</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:56.667118900Z" />
+      <EventRecordID>5409</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2260" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:56.627</Data>
+      <Data Name="SourceProcessGUID">{365abb72-b26b-5cea-0000-0010582a0800}</Data>
+      <Data Name="SourceProcessId">2744</Data>
+      <Data Name="SourceThreadId">168</Data>
+      <Data Name="SourceImage">c:\windows\system32\inetsrv\w3wp.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="TargetProcessId">3388</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+5cc37|C:\Windows\system32\kernel32.dll+20ae|UNKNOWN(0358F723)|UNKNOWN(010B7486)|UNKNOWN(010B73A0)|UNKNOWN(010B78A3)|C:\Windows\system32\kernel32.dll+4ef3c|C:\Windows\SYSTEM32\ntdll.dll+63618|C:\Windows\SYSTEM32\ntdll.dll+635eb</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:56.727205300Z" />
+      <EventRecordID>5410</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2260" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:56.727</Data>
+      <Data Name="SourceProcessGUID">{365abb72-b26b-5cea-0000-0010582a0800}</Data>
+      <Data Name="SourceProcessId">2744</Data>
+      <Data Name="SourceThreadId">932</Data>
+      <Data Name="SourceImage">c:\windows\system32\inetsrv\w3wp.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="TargetProcessId">3388</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="GrantedAccess">0x1fff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4591c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(0358F03E)|UNKNOWN(010B7486)|UNKNOWN(010B73A0)|UNKNOWN(010B78A3)|C:\Windows\system32\kernel32.dll+4ef3c|C:\Windows\SYSTEM32\ntdll.dll+63618|C:\Windows\SYSTEM32\ntdll.dll+635eb</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:57.628501300Z" />
+      <EventRecordID>5411</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2260" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:57.628</Data>
+      <Data Name="SourceProcessGuid">{365abb72-b26b-5cea-0000-0010582a0800}</Data>
+      <Data Name="SourceProcessId">2744</Data>
+      <Data Name="SourceImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="TargetProcessId">3388</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">3520</Data>
+      <Data Name="StartAddress">0x005A28D0</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:58.830229300Z" />
+      <EventRecordID>5412</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:57.111</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49166</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">IEWIN7</Data>
+      <Data Name="DestinationPort">135</Data>
+      <Data Name="DestinationPortName">epmap</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:58.830229300Z" />
+      <EventRecordID>5413</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:57.119</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">7777</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">IEWIN7</Data>
+      <Data Name="DestinationPort">49167</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:59.871726900Z" />
+      <EventRecordID>5414</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:58.117</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">7777</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">IEWIN7</Data>
+      <Data Name="DestinationPort">49168</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:47:59.871726900Z" />
+      <EventRecordID>5415</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:58.140</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49169</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">IEWIN7</Data>
+      <Data Name="DestinationPort">135</Data>
+      <Data Name="DestinationPortName">epmap</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:48:00.732965300Z" />
+      <EventRecordID>5416</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:59.147</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">7777</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">IEWIN7</Data>
+      <Data Name="DestinationPort">49170</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:48:00.732965300Z" />
+      <EventRecordID>5417</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:47:59.148</Data>
+      <Data Name="ProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49171</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">IEWIN7</Data>
+      <Data Name="DestinationPort">135</Data>
+      <Data Name="DestinationPortName">epmap</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:48:00.752994100Z" />
+      <EventRecordID>5418</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2260" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:48:00.742</Data>
+      <Data Name="ProcessGuid">{365abb72-b530-5cea-0000-0010621a1100}</Data>
+      <Data Name="ProcessId">1240</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\notepad.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-b135-5cea-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=FC64B1EF19E7F35642B2A2EA5F5D9F4246866243,MD5=A4F6DF0E33E644E802C8798ED94D80EA,SHA256=B56AFE7165AD341A749D2D3BD925D879728A1FE4A4DF206145C1A69AA233F68B,IMPHASH=53A6715F589E88C4FD4541C81B4F57C3</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="ParentProcessId">3388</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\System32\notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:48:00.752994100Z" />
+      <EventRecordID>5419</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2260" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:48:00.752</Data>
+      <Data Name="SourceProcessGuid">{365abb72-b52c-5cea-0000-00107a0d1100}</Data>
+      <Data Name="SourceProcessId">3388</Data>
+      <Data Name="SourceImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-b530-5cea-0000-0010621a1100}</Data>
+      <Data Name="TargetProcessId">1240</Data>
+      <Data Name="TargetImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="NewThreadId">1948</Data>
+      <Data Name="StartAddress">0x00060000</Data>
+      <Data Name="StartModule">
+      </Data>
+      <Data Name="StartFunction">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-26T15:48:01.864592500Z" />
+      <EventRecordID>5420</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="324" ThreadID="2264" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-26 15:48:00.245</Data>
+      <Data Name="ProcessGuid">{365abb72-b530-5cea-0000-0010621a1100}</Data>
+      <Data Name="ProcessId">1240</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.13</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49172</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">888</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+</root>

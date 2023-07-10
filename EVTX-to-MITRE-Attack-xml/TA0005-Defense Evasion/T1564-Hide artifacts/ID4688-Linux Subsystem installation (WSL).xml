@@ -1,0 +1,317 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:32.208344300Z" />
+      <EventRecordID>1410925</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="468" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13f0b8</Data>
+      <Data Name="NewProcessId">0x23f0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\Dism.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x1df4</Data>
+      <Data Name="CommandLine">"C:\WINDOWS\system32\Dism.exe" /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:32.783410600Z" />
+      <EventRecordID>1410926</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="116" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13f0b8</Data>
+      <Data Name="NewProcessId">0x738</Data>
+      <Data Name="NewProcessName">C:\Users\admmig\AppData\Local\Temp\EF2EDF0A-3F72-4E1D-A537-087B0AA53178\DismHost.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x23f0</Data>
+      <Data Name="CommandLine">C:\Users\admmig\AppData\Local\Temp\EF2EDF0A-3F72-4E1D-A537-087B0AA53178\dismhost.exe {F4C84A6D-0631-443F-B849-03CA53B4AE35}</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\Dism.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:33.217344500Z" />
+      <EventRecordID>1410931</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="32" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN10-CLIENT01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x2394</Data>
+      <Data Name="NewProcessName">C:\Windows\servicing\TrustedInstaller.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x2ac</Data>
+      <Data Name="CommandLine">C:\WINDOWS\servicing\TrustedInstaller.exe</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:33.939612300Z" />
+      <EventRecordID>1410932</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="6452" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN10-CLIENT01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1564</Data>
+      <Data Name="NewProcessName">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.740_none_e752aa59261f271f\TiWorker.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x344</Data>
+      <Data Name="CommandLine">C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.740_none_e752aa59261f271f\TiWorker.exe -Embedding</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:38.927239100Z" />
+      <EventRecordID>1410939</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="32" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN10-CLIENT01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xf10</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\taskhostw.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x6ec</Data>
+      <Data Name="CommandLine">taskhostw.exe</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:42.856642400Z" />
+      <EventRecordID>1410955</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="6520" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13f0b8</Data>
+      <Data Name="NewProcessId">0x9ac</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\Dism.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x1df4</Data>
+      <Data Name="CommandLine">"C:\WINDOWS\system32\Dism.exe" /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:43.113840800Z" />
+      <EventRecordID>1410956</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="6520" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13f0b8</Data>
+      <Data Name="NewProcessId">0x1fc8</Data>
+      <Data Name="NewProcessName">C:\Users\admmig\AppData\Local\Temp\2FAAA3DB-0463-415C-A03A-35CDC98DA25F\DismHost.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x9ac</Data>
+      <Data Name="CommandLine">C:\Users\admmig\AppData\Local\Temp\2FAAA3DB-0463-415C-A03A-35CDC98DA25F\dismhost.exe {2FF3BABF-D4B4-410C-B05A-9786E419DF67}</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\Dism.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:00:50.201379600Z" />
+      <EventRecordID>1410957</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="32" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x13f0b8</Data>
+      <Data Name="NewProcessId">0x1248</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\wsl.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x1df4</Data>
+      <Data Name="CommandLine">"C:\WINDOWS\system32\wsl.exe" --set-default-version 2</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-08T13:01:11.198222600Z" />
+      <EventRecordID>1410961</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="6528" />
+      <Channel>Security</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">WIN10-CLIENT01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1b1c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x344</Data>
+      <Data Name="CommandLine">C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x13f0b8</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+</root>

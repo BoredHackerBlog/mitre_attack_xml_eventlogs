@@ -1,0 +1,2389 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:25.921033600Z" />
+      <EventRecordID>9796981</EventRecordID>
+      <Correlation ActivityID="{3229E84C-10E1-0001-64E8-2932E110D701}" />
+      <Execution ProcessID="568" ThreadID="1276" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x88f313a8</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{500826FC-0D33-FC69-5CB3-DE2713BDC56A}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62173</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:25.930391200Z" />
+      <EventRecordID>9796985</EventRecordID>
+      <Correlation ActivityID="{3229E84C-10E1-0001-64E8-2932E110D701}" />
+      <Execution ProcessID="568" ThreadID="1276" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x88f313a8</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:25.942875700Z" />
+      <EventRecordID>9796989</EventRecordID>
+      <Correlation ActivityID="{3229E84C-10E1-0001-64E8-2932E110D701}" />
+      <Execution ProcessID="568" ThreadID="572" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x88f3141d</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{500826FC-0D33-FC69-5CB3-DE2713BDC56A}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62188</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:25.949585500Z" />
+      <EventRecordID>9796993</EventRecordID>
+      <Correlation ActivityID="{3229E84C-10E1-0001-64E8-2932E110D701}" />
+      <Execution ProcessID="568" ThreadID="1276" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x88f31435</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{500826FC-0D33-FC69-5CB3-DE2713BDC56A}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62190</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:25.950455500Z" />
+      <EventRecordID>9796997</EventRecordID>
+      <Correlation ActivityID="{3229E84C-10E1-0001-64E8-2932E110D701}" />
+      <Execution ProcessID="568" ThreadID="1276" />
+      <Channel>Security</Channel>
+      <Computer>atanids01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x88f31447</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{500826FC-0D33-FC69-5CB3-DE2713BDC56A}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62194</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.674849000Z" />
+      <EventRecordID>9147763</EventRecordID>
+      <Correlation ActivityID="{18198E8A-B838-0000-B68E-191838B8D601}" />
+      <Execution ProcessID="532" ThreadID="96" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x61e27259</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{82DEF19E-E768-B655-E88A-A8D1A587AE72}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62169</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.684829300Z" />
+      <EventRecordID>9147767</EventRecordID>
+      <Correlation ActivityID="{18198E8A-B838-0000-B68E-191838B8D601}" />
+      <Execution ProcessID="532" ThreadID="2212" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x61e27259</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.685643300Z" />
+      <EventRecordID>9147770</EventRecordID>
+      <Correlation ActivityID="{18198E8A-B838-0000-B68E-191838B8D601}" />
+      <Execution ProcessID="532" ThreadID="2212" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x61e27296</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{82DEF19E-E768-B655-E88A-A8D1A587AE72}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62182</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.686432300Z" />
+      <EventRecordID>9147774</EventRecordID>
+      <Correlation ActivityID="{18198E8A-B838-0000-B68E-191838B8D601}" />
+      <Execution ProcessID="532" ThreadID="96" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x61e272a9</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{82DEF19E-E768-B655-E88A-A8D1A587AE72}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62178</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.690448200Z" />
+      <EventRecordID>9147778</EventRecordID>
+      <Correlation ActivityID="{18198E8A-B838-0000-B68E-191838B8D601}" />
+      <Execution ProcessID="532" ThreadID="96" />
+      <Channel>Security</Channel>
+      <Computer>dhcp01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x61e272d5</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{82DEF19E-E768-B655-E88A-A8D1A587AE72}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62187</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.679397600Z" />
+      <EventRecordID>10983873</EventRecordID>
+      <Correlation ActivityID="{30C78CB8-09D0-0005-BD8C-C730D009D701}" />
+      <Execution ProcessID="668" ThreadID="8116" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0xbe8573e4</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1EAE7324-651A-E186-DDDF-E1EA17F85571}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62170</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.687642400Z" />
+      <EventRecordID>10983879</EventRecordID>
+      <Correlation ActivityID="{30C78CB8-09D0-0005-BD8C-C730D009D701}" />
+      <Execution ProcessID="668" ThreadID="14920" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0xbe857415</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1EAE7324-651A-E186-DDDF-E1EA17F85571}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62180</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.688605200Z" />
+      <EventRecordID>10983883</EventRecordID>
+      <Correlation ActivityID="{30C78CB8-09D0-0005-BD8C-C730D009D701}" />
+      <Execution ProcessID="668" ThreadID="14920" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0xbe85742e</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1EAE7324-651A-E186-DDDF-E1EA17F85571}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62184</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.688732400Z" />
+      <EventRecordID>10983885</EventRecordID>
+      <Correlation ActivityID="{30C78CB8-09D0-0005-BD8C-C730D009D701}" />
+      <Execution ProcessID="668" ThreadID="8116" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xbe8573e4</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.691957100Z" />
+      <EventRecordID>10983888</EventRecordID>
+      <Correlation ActivityID="{30C78CB8-09D0-0005-BD8C-C730D009D701}" />
+      <Execution ProcessID="668" ThreadID="14920" />
+      <Channel>Security</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0xbe857459</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1EAE7324-651A-E186-DDDF-E1EA17F85571}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62186</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.689135400Z" />
+      <EventRecordID>2073458</EventRecordID>
+      <Correlation ActivityID="{58990283-10E0-0000-9802-9958E010D701}" />
+      <Execution ProcessID="576" ThreadID="1156" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x22c8a454</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{FBE55748-157A-B9C1-610A-EB243BF2F941}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62168</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.700539700Z" />
+      <EventRecordID>2073462</EventRecordID>
+      <Correlation ActivityID="{58990283-10E0-0000-9802-9958E010D701}" />
+      <Execution ProcessID="576" ThreadID="1156" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x22c8a454</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.713649200Z" />
+      <EventRecordID>2073466</EventRecordID>
+      <Correlation ActivityID="{58990283-10E0-0000-9802-9958E010D701}" />
+      <Execution ProcessID="576" ThreadID="1872" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x22c8a4c2</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{FBE55748-157A-B9C1-610A-EB243BF2F941}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62192</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.715242000Z" />
+      <EventRecordID>2073470</EventRecordID>
+      <Correlation ActivityID="{58990283-10E0-0000-9802-9958E010D701}" />
+      <Execution ProcessID="576" ThreadID="1872" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x22c8a4dc</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{FBE55748-157A-B9C1-610A-EB243BF2F941}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62195</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.718235500Z" />
+      <EventRecordID>2073474</EventRecordID>
+      <Correlation ActivityID="{58990283-10E0-0000-9802-9958E010D701}" />
+      <Execution ProcessID="576" ThreadID="3884" />
+      <Channel>Security</Channel>
+      <Computer>pki01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x22c8a4f7</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{FBE55748-157A-B9C1-610A-EB243BF2F941}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62196</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.722262700Z" />
+      <EventRecordID>1761073</EventRecordID>
+      <Correlation ActivityID="{15E1CE3C-FA3E-0001-52CE-E1153EFAD601}" />
+      <Execution ProcessID="584" ThreadID="2280" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x2a1f27d0</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{49BB33E9-E7FF-99DF-7A33-14B881F2692B}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62197</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.733254400Z" />
+      <EventRecordID>1761079</EventRecordID>
+      <Correlation ActivityID="{15E1CE3C-FA3E-0001-52CE-E1153EFAD601}" />
+      <Execution ProcessID="584" ThreadID="624" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x2a1f27f0</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{49BB33E9-E7FF-99DF-7A33-14B881F2692B}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62198</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.734516800Z" />
+      <EventRecordID>1761083</EventRecordID>
+      <Correlation ActivityID="{15E1CE3C-FA3E-0001-52CE-E1153EFAD601}" />
+      <Execution ProcessID="584" ThreadID="624" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x2a1f2809</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{49BB33E9-E7FF-99DF-7A33-14B881F2692B}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62199</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.735359400Z" />
+      <EventRecordID>1761087</EventRecordID>
+      <Correlation ActivityID="{15E1CE3C-FA3E-0001-52CE-E1153EFAD601}" />
+      <Execution ProcessID="584" ThreadID="624" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x2a1f281b</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{49BB33E9-E7FF-99DF-7A33-14B881F2692B}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62200</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.739650300Z" />
+      <EventRecordID>1761089</EventRecordID>
+      <Correlation ActivityID="{15E1CE3C-FA3E-0001-52CE-E1153EFAD601}" />
+      <Execution ProcessID="584" ThreadID="964" />
+      <Channel>Security</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x2a1f27d0</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.677470800Z" />
+      <EventRecordID>3777984</EventRecordID>
+      <Correlation ActivityID="{E3EFC6C9-B836-0001-DFC6-EFE336B8D601}" />
+      <Execution ProcessID="580" ThreadID="1168" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x5a4cc2f1</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1276D976-797C-978A-1DCC-36F0F6E6A3FE}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62167</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.686121100Z" />
+      <EventRecordID>3777990</EventRecordID>
+      <Correlation ActivityID="{E3EFC6C9-B836-0001-DFC6-EFE336B8D601}" />
+      <Execution ProcessID="580" ThreadID="1168" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x5a4cc329</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1276D976-797C-978A-1DCC-36F0F6E6A3FE}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62175</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.686322400Z" />
+      <EventRecordID>3777992</EventRecordID>
+      <Correlation ActivityID="{E3EFC6C9-B836-0001-DFC6-EFE336B8D601}" />
+      <Execution ProcessID="580" ThreadID="1780" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x5a4cc2f1</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.687250200Z" />
+      <EventRecordID>3777995</EventRecordID>
+      <Correlation ActivityID="{E3EFC6C9-B836-0001-DFC6-EFE336B8D601}" />
+      <Execution ProcessID="580" ThreadID="1780" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x5a4cc34a</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1276D976-797C-978A-1DCC-36F0F6E6A3FE}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62179</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.689564300Z" />
+      <EventRecordID>3777999</EventRecordID>
+      <Correlation ActivityID="{E3EFC6C9-B836-0001-DFC6-EFE336B8D601}" />
+      <Execution ProcessID="580" ThreadID="3888" />
+      <Channel>Security</Channel>
+      <Computer>wsus01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x5a4cc36c</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{1276D976-797C-978A-1DCC-36F0F6E6A3FE}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62183</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.689534300Z" />
+      <EventRecordID>5501085</EventRecordID>
+      <Correlation ActivityID="{E180E42C-10DB-0000-46E4-80E1DB10D701}" />
+      <Execution ProcessID="588" ThreadID="1744" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x3a7fd720</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{7955B75B-B5B9-3DE1-9FDD-5B8D081823BD}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62172</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.700238700Z" />
+      <EventRecordID>5501089</EventRecordID>
+      <Correlation ActivityID="{E180E42C-10DB-0000-46E4-80E1DB10D701}" />
+      <Execution ProcessID="588" ThreadID="1744" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3a7fd720</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.712182200Z" />
+      <EventRecordID>5501093</EventRecordID>
+      <Correlation ActivityID="{E180E42C-10DB-0000-46E4-80E1DB10D701}" />
+      <Execution ProcessID="588" ThreadID="1744" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x3a7fd78b</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{7955B75B-B5B9-3DE1-9FDD-5B8D081823BD}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62189</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.713448300Z" />
+      <EventRecordID>5501097</EventRecordID>
+      <Correlation ActivityID="{E180E42C-10DB-0000-46E4-80E1DB10D701}" />
+      <Execution ProcessID="588" ThreadID="2424" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x3a7fd7a6</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{7955B75B-B5B9-3DE1-9FDD-5B8D081823BD}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62193</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.714267100Z" />
+      <EventRecordID>5501101</EventRecordID>
+      <Correlation ActivityID="{E180E42C-10DB-0000-46E4-80E1DB10D701}" />
+      <Execution ProcessID="588" ThreadID="3164" />
+      <Channel>Security</Channel>
+      <Computer>atacore01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x3a7fd7ba</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{7955B75B-B5B9-3DE1-9FDD-5B8D081823BD}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62191</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.742575800Z" />
+      <EventRecordID>1601354</EventRecordID>
+      <Correlation ActivityID="{5D21085D-09CF-0000-7408-215DCF09D701}" />
+      <Execution ProcessID="572" ThreadID="5304" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x258b9e7c</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{14147ED4-EA5C-3E84-6276-EE296E6357B4}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62209</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.754996500Z" />
+      <EventRecordID>1601358</EventRecordID>
+      <Correlation ActivityID="{5D21085D-09CF-0000-7408-215DCF09D701}" />
+      <Execution ProcessID="572" ThreadID="5304" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x258b9e7c</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.774636400Z" />
+      <EventRecordID>1601362</EventRecordID>
+      <Correlation ActivityID="{5D21085D-09CF-0000-7408-215DCF09D701}" />
+      <Execution ProcessID="572" ThreadID="2828" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x258b9ee5</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{14147ED4-EA5C-3E84-6276-EE296E6357B4}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62234</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.775940700Z" />
+      <EventRecordID>1601368</EventRecordID>
+      <Correlation ActivityID="{5D21085D-09CF-0000-7408-215DCF09D701}" />
+      <Execution ProcessID="572" ThreadID="5592" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x258b9ef8</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{14147ED4-EA5C-3E84-6276-EE296E6357B4}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62235</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.775943000Z" />
+      <EventRecordID>1601369</EventRecordID>
+      <Correlation ActivityID="{5D21085D-09CF-0000-7408-215DCF09D701}" />
+      <Execution ProcessID="572" ThreadID="2828" />
+      <Channel>Security</Channel>
+      <Computer>webiis01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x258b9efd</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{14147ED4-EA5C-3E84-6276-EE296E6357B4}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62236</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.762631100Z" />
+      <EventRecordID>1803156</EventRecordID>
+      <Correlation ActivityID="{E6DE4A6E-10DB-0000-864A-DEE6DB10D701}" />
+      <Execution ProcessID="568" ThreadID="1528" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x28da8a22</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8F96FA81-F1C0-3CDA-1865-8F737F5739F7}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62208</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.771458000Z" />
+      <EventRecordID>1803162</EventRecordID>
+      <Correlation ActivityID="{E6DE4A6E-10DB-0000-864A-DEE6DB10D701}" />
+      <Execution ProcessID="568" ThreadID="4260" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x28da8a5a</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8F96FA81-F1C0-3CDA-1865-8F737F5739F7}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62216</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.772847100Z" />
+      <EventRecordID>1803166</EventRecordID>
+      <Correlation ActivityID="{E6DE4A6E-10DB-0000-864A-DEE6DB10D701}" />
+      <Execution ProcessID="568" ThreadID="4260" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x28da8a76</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8F96FA81-F1C0-3CDA-1865-8F737F5739F7}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62217</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.773363500Z" />
+      <EventRecordID>1803170</EventRecordID>
+      <Correlation ActivityID="{E6DE4A6E-10DB-0000-864A-DEE6DB10D701}" />
+      <Execution ProcessID="568" ThreadID="4260" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x28da8a22</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.773507500Z" />
+      <EventRecordID>1803171</EventRecordID>
+      <Correlation ActivityID="{E6DE4A6E-10DB-0000-864A-DEE6DB10D701}" />
+      <Execution ProcessID="568" ThreadID="1528" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x28da8a88</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8F96FA81-F1C0-3CDA-1865-8F737F5739F7}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62220</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.762157400Z" />
+      <EventRecordID>1679510</EventRecordID>
+      <Correlation ActivityID="{B7158B3A-10E1-0000-4B8B-15B7E110D701}" />
+      <Execution ProcessID="576" ThreadID="1892" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x213dfbef</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{A9875845-B2E8-DBED-2024-D56C2BDC4C62}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62210</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.771211000Z" />
+      <EventRecordID>1679516</EventRecordID>
+      <Correlation ActivityID="{B7158B3A-10E1-0000-4B8B-15B7E110D701}" />
+      <Execution ProcessID="576" ThreadID="1892" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x213dfc1c</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{A9875845-B2E8-DBED-2024-D56C2BDC4C62}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62218</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.773518200Z" />
+      <EventRecordID>1679520</EventRecordID>
+      <Correlation ActivityID="{B7158B3A-10E1-0000-4B8B-15B7E110D701}" />
+      <Execution ProcessID="576" ThreadID="1892" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x213dfc3f</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{A9875845-B2E8-DBED-2024-D56C2BDC4C62}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62221</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.773887200Z" />
+      <EventRecordID>1679524</EventRecordID>
+      <Correlation ActivityID="{B7158B3A-10E1-0000-4B8B-15B7E110D701}" />
+      <Execution ProcessID="576" ThreadID="3932" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x213dfc4d</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{A9875845-B2E8-DBED-2024-D56C2BDC4C62}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62224</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.774116100Z" />
+      <EventRecordID>1679526</EventRecordID>
+      <Correlation ActivityID="{B7158B3A-10E1-0000-4B8B-15B7E110D701}" />
+      <Execution ProcessID="576" ThreadID="1892" />
+      <Channel>Security</Channel>
+      <Computer>adfs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x213dfbef</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.742567500Z" />
+      <EventRecordID>3178163</EventRecordID>
+      <Correlation ActivityID="{B8DCD44E-10E1-0000-62D4-DCB8E110D701}" />
+      <Execution ProcessID="588" ThreadID="2432" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x222004fb</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8E4B5817-94B1-11F4-BE72-39D17FD54BE2}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62211</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.752149700Z" />
+      <EventRecordID>3178169</EventRecordID>
+      <Correlation ActivityID="{B8DCD44E-10E1-0000-62D4-DCB8E110D701}" />
+      <Execution ProcessID="588" ThreadID="2220" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x22200531</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8E4B5817-94B1-11F4-BE72-39D17FD54BE2}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62219</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.753137600Z" />
+      <EventRecordID>3178173</EventRecordID>
+      <Correlation ActivityID="{B8DCD44E-10E1-0000-62D4-DCB8E110D701}" />
+      <Execution ProcessID="588" ThreadID="2220" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x2220054d</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8E4B5817-94B1-11F4-BE72-39D17FD54BE2}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62222</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4799</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.753578400Z" />
+      <EventRecordID>3178175</EventRecordID>
+      <Correlation ActivityID="{B8DCD44E-10E1-0000-62D4-DCB8E110D701}" />
+      <Execution ProcessID="588" ThreadID="2432" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x222004fb</Data>
+      <Data Name="CallerProcessId">0x0</Data>
+      <Data Name="CallerProcessName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T08:58:38.753958200Z" />
+      <EventRecordID>3178178</EventRecordID>
+      <Correlation ActivityID="{B8DCD44E-10E1-0000-62D4-DCB8E110D701}" />
+      <Execution ProcessID="588" ThreadID="2220" />
+      <Channel>Security</Channel>
+      <Computer>prtg-mon.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonId">0x22200565</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{8E4B5817-94B1-11F4-BE72-39D17FD54BE2}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.23.9</Data>
+      <Data Name="IpPort">62223</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+</root>

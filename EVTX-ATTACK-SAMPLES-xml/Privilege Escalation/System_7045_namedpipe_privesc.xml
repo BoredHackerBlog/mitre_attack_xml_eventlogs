@@ -1,0 +1,27 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T12:52:43.702578000Z" />
+      <EventRecordID>10446</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="468" ThreadID="3256" />
+      <Channel>System</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-21-3583694148-1414552638-2922671848-1000" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">WinPwnage</Data>
+      <Data Name="ImagePath">%COMSPEC% /c ping -n 1 127.0.0.1 &gt;nul &amp;&amp; echo 'WinPwnage' &gt; \\.\pipe\WinPwnagePipe</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">demand start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+</root>

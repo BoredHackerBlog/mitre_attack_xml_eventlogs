@@ -1,0 +1,708 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:44.537011200Z" />
+      <EventRecordID>5252</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:44.526</Data>
+      <Data Name="ProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Desktop\RDPWRA~1.2\install.bat</Data>
+      <Data Name="CreationUtcTime">2019-03-17 20:17:44.526</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:44.637155200Z" />
+      <EventRecordID>5253</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:44.607</Data>
+      <Data Name="ProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Desktop\RDPWRA~1.2\RDPCheck.exe</Data>
+      <Data Name="CreationUtcTime">2019-03-17 20:17:44.607</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:44.797385600Z" />
+      <EventRecordID>5254</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:44.777</Data>
+      <Data Name="ProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Desktop\RDPWRA~1.2\RDPConf.exe</Data>
+      <Data Name="CreationUtcTime">2019-03-17 20:17:44.777</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:45.478364800Z" />
+      <EventRecordID>5255</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:45.458</Data>
+      <Data Name="ProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Desktop\RDPWRA~1.2\RDPWInst.exe</Data>
+      <Data Name="CreationUtcTime">2019-03-17 20:17:45.458</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:45.628580800Z" />
+      <EventRecordID>5256</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:45.618</Data>
+      <Data Name="ProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Desktop\RDPWRA~1.2\uninstall.bat</Data>
+      <Data Name="CreationUtcTime">2019-03-17 20:17:45.618</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:45.648609600Z" />
+      <EventRecordID>5257</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:45.648</Data>
+      <Data Name="ProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ProcessId">3884</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Desktop\RDPWRA~1.2\update.bat</Data>
+      <Data Name="CreationUtcTime">2019-03-17 20:17:45.648</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:52.949107200Z" />
+      <EventRecordID>5260</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:52.899</Data>
+      <Data Name="ProcessGuid">{365abb72-ab70-5c8e-0000-0010781d0a00}</Data>
+      <Data Name="ProcessId">3272</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\cmd.exe" /C "C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\install.bat" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=AD7B9C14083B52BC532FBA5948342B98,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ParentProcessId">3884</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:17:52.979150400Z" />
+      <EventRecordID>5261</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:17:52.929</Data>
+      <Data Name="ProcessGuid">{365abb72-ab70-5c8e-0000-0010df1f0a00}</Data>
+      <Data Name="ProcessId">3700</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst.exe</Data>
+      <Data Name="FileVersion">2.5.0.0</Data>
+      <Data Name="Description">RDP Wrapper Library Installer</Data>
+      <Data Name="Product">RDP Host Support</Data>
+      <Data Name="Company">Stas'M Corp.</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst"  -i -o</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=3288C284561055044C489567FD630AC2,IMPHASH=A89655FAA2B6840E801BE1E1C779FC67</Data>
+      <Data Name="ParentProcessGuid">{365abb72-ab70-5c8e-0000-0010781d0a00}</Data>
+      <Data Name="ParentProcessId">3272</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" /C "C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\install.bat" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:18:05.086560000Z" />
+      <EventRecordID>5265</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:18:05.086</Data>
+      <Data Name="ProcessGuid">{365abb72-ab70-5c8e-0000-0010df1f0a00}</Data>
+      <Data Name="ProcessId">3700</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\services\TermService\Parameters\ServiceDll</Data>
+      <Data Name="Details">%%ProgramFiles%%\RDP Wrapper\rdpwrap.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:18:09.282593600Z" />
+      <EventRecordID>5267</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:18:09.272</Data>
+      <Data Name="ProcessGuid">{365abb72-ab70-5c8e-0000-0010df1f0a00}</Data>
+      <Data Name="ProcessId">3700</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Terminal Server\fDenyTSConnections</Data>
+      <Data Name="Details">DWORD (0x00000000)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:18:09.282593600Z" />
+      <EventRecordID>5269</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:18:09.272</Data>
+      <Data Name="ProcessGuid">{365abb72-ab70-5c8e-0000-0010df1f0a00}</Data>
+      <Data Name="ProcessId">3700</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Terminal Server\Licensing Core\EnableConcurrentSessions</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:18:09.312636800Z" />
+      <EventRecordID>5270</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:18:09.272</Data>
+      <Data Name="ProcessGuid">{365abb72-ab81-5c8e-0000-001024960c00}</Data>
+      <Data Name="ProcessId">3696</Data>
+      <Data Name="Image">C:\Windows\System32\netsh.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Network Command Shell</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">netsh advfirewall firewall add rule name="Remote Desktop" dir=in protocol=tcp localport=3389 profile=any action=allow</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=784A50A6A09C25F011C3143DDD68E729,IMPHASH=33B8120C37D7861778989FBFD16214E1</Data>
+      <Data Name="ParentProcessGuid">{365abb72-ab70-5c8e-0000-0010df1f0a00}</Data>
+      <Data Name="ParentProcessId">3700</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Desktop\RDPWrap-v1.6.2\RDPWInst"  -i -o</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:18:09.643112000Z" />
+      <EventRecordID>5275</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:18:09.593</Data>
+      <Data Name="ProcessGuid">{365abb72-ab81-5c8e-0000-00102e9e0c00}</Data>
+      <Data Name="ProcessId">3892</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\System32\rundll32.exe shell32.dll,SHCreateLocalServerRunDll {995C996E-D918-4a8c-A302-45719A6F4EA7} -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=C648901695E275C8F2AD04B687A68CE2,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-173d-5c8f-0000-00102a6a0000}</Data>
+      <Data Name="ParentProcessId">608</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:18:12.096640000Z" />
+      <EventRecordID>5281</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:18:12.076</Data>
+      <Data Name="ProcessGuid">{365abb72-ab84-5c8e-0000-00109ead0c00}</Data>
+      <Data Name="ProcessId">600</Data>
+      <Data Name="Image">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Interactive services detection</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">UI0Detect.exe 220</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=8344FD4FCE927880AA1AA7681D4927E5,IMPHASH=5DE0CABE853D959C3319B51C8EC562E6</Data>
+      <Data Name="ParentProcessGuid">{365abb72-a6d3-5c8e-0000-0010126f0100}</Data>
+      <Data Name="ParentProcessId">1768</Data>
+      <Data Name="ParentImage">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\UI0Detect.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:20:14.512665600Z" />
+      <EventRecordID>5310</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:20:14.492</Data>
+      <Data Name="ProcessGuid">{365abb72-abfe-5c8e-0000-00105a560d00}</Data>
+      <Data Name="ProcessId">4024</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe</Data>
+      <Data Name="FileVersion">1.0.0.5</Data>
+      <Data Name="Description">Universal termsrv.dll Patch</Data>
+      <Data Name="Product">Universal termsrv.dll Patch</Data>
+      <Data Name="Company">deepxw</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=2F866893CD6F2F42BC066E9C2A41AD07,IMPHASH=C670F21A3754EE6A335632AE9781B734</Data>
+      <Data Name="ParentProcessGuid">{365abb72-a965-5c8e-0000-0010d9100400}</Data>
+      <Data Name="ParentProcessId">3884</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:20:17.907547200Z" />
+      <EventRecordID>5311</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:20:17.827</Data>
+      <Data Name="ProcessGuid">{365abb72-ac01-5c8e-0000-001011690d00}</Data>
+      <Data Name="ProcessId">3708</Data>
+      <Data Name="Image">C:\Windows\System32\takeown.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Takes ownership of a file</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\takeown.exe" /f  C:\Windows\System32\termsrv.dll</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=8007508CEF6A5B10C24F7971DAF00F09,IMPHASH=06AAA17A234D9E965A577C00E3874CBA</Data>
+      <Data Name="ParentProcessGuid">{365abb72-abfe-5c8e-0000-00105a560d00}</Data>
+      <Data Name="ParentProcessId">4024</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:20:17.917561600Z" />
+      <EventRecordID>5312</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:20:17.897</Data>
+      <Data Name="ProcessGuid">{365abb72-ac01-5c8e-0000-0010296c0d00}</Data>
+      <Data Name="ProcessId">3536</Data>
+      <Data Name="Image">C:\Windows\System32\icacls.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">
+      </Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\icacls.exe" C:\Windows\System32\termsrv.dll /grant %%username%%:F</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=1542A92D5C6F7E1E80613F3466C9CE7F,IMPHASH=A4B760A1A7F466099EAA530F2CC4EF63</Data>
+      <Data Name="ParentProcessGuid">{365abb72-abfe-5c8e-0000-00105a560d00}</Data>
+      <Data Name="ParentProcessId">4024</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:20:17.927576000Z" />
+      <EventRecordID>5313</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:20:17.927</Data>
+      <Data Name="ProcessGuid">{365abb72-ac01-5c8e-0000-0010656e0d00}</Data>
+      <Data Name="ProcessId">3652</Data>
+      <Data Name="Image">C:\Windows\System32\icacls.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">
+      </Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\icacls.exe" C:\Windows\System32\termsrv.dll /grant *S-1-1-0:(F)</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=1542A92D5C6F7E1E80613F3466C9CE7F,IMPHASH=A4B760A1A7F466099EAA530F2CC4EF63</Data>
+      <Data Name="ParentProcessGuid">{365abb72-abfe-5c8e-0000-00105a560d00}</Data>
+      <Data Name="ParentProcessId">4024</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Desktop\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch_20090425\UniversalTermsrvPatch-x86.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:22:59.399761600Z" />
+      <EventRecordID>5329</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-03-17 20:22:59.399</Data>
+      <Data Name="ProcessGuid">{365abb72-ac79-5c8e-0000-0010e1b50d00}</Data>
+      <Data Name="ProcessId">2872</Data>
+      <Data Name="Image">C:\Windows\regedit.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp\PortNumber</Data>
+      <Data Name="Details">DWORD (0x00000050)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-03-17T20:23:12.188150400Z" />
+      <EventRecordID>5333</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1852" ThreadID="464" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-03-17 20:23:12.178</Data>
+      <Data Name="ProcessGuid">{365abb72-acb0-5c8e-0000-001085d50d00}</Data>
+      <Data Name="ProcessId">2972</Data>
+      <Data Name="Image">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Interactive services detection</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">UI0Detect.exe 220</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a960-5c8e-0000-002004c00300}</Data>
+      <Data Name="LogonId">0x3c004</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=8344FD4FCE927880AA1AA7681D4927E5,IMPHASH=5DE0CABE853D959C3319B51C8EC562E6</Data>
+      <Data Name="ParentProcessGuid">{365abb72-a6d3-5c8e-0000-0010126f0100}</Data>
+      <Data Name="ParentProcessId">1768</Data>
+      <Data Name="ParentImage">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\UI0Detect.exe</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,894 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:52:31.218452000Z" />
+      <EventRecordID>421205</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:52:29.304</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">57238</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:52:32.740497400Z" />
+      <EventRecordID>421206</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:52:32.720</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:52:34.249345400Z" />
+      <EventRecordID>421207</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:52:34.236</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="TargetFilename">C:\ProgramData\7okjer.dll</Data>
+      <Data Name="CreationUtcTime">2020-10-17 22:52:34.236</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:52:34.966144700Z" />
+      <EventRecordID>421208</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:52:31.936</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">57239</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:01.646898200Z" />
+      <EventRecordID>421209</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:52:58.771</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">57240</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:03.144887700Z" />
+      <EventRecordID>421210</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:03.126</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:03.952907700Z" />
+      <EventRecordID>421211</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:03.947</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:03.972732400Z" />
+      <EventRecordID>421212</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:03.953</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:04.161270900Z" />
+      <EventRecordID>421213</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:02.347</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">57241</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:04.291209800Z" />
+      <EventRecordID>421214</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:04.284</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:04.357572600Z" />
+      <EventRecordID>421215</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:04.345</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:04.431907600Z" />
+      <EventRecordID>421216</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:04.426</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F4\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:04.924315300Z" />
+      <EventRecordID>421217</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:03.150</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">57242</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.436954000Z" />
+      <EventRecordID>421218</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.428</Data>
+      <Data Name="ProcessGuid">{747f3d96-75d1-5f8b-0000-00109eb23300}</Data>
+      <Data Name="ProcessId">2628</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe /Q /c cd \ 1&gt; \\127.0.0.1\C$\WqEVwJZYOe 2&gt;&amp;1</Data>
+      <Data Name="CurrentDirectory">C:\</Data>
+      <Data Name="User">MSEDGEWIN10\Administrator</Data>
+      <Data Name="LogonGuid">{747f3d96-75d0-5f8b-0000-0020a8a83300}</Data>
+      <Data Name="LogonId">0x33a8a8</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-75d1-5f8b-0000-00101dab3300}</Data>
+      <Data Name="ParentProcessId">2228</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.625304200Z" />
+      <EventRecordID>421219</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.613</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Hvsi</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.625391800Z" />
+      <EventRecordID>421220</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.613</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Hvsi</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.626314700Z" />
+      <EventRecordID>421221</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.613</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Hvsi</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.626399600Z" />
+      <EventRecordID>421222</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.613</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Hvsi</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.626897500Z" />
+      <EventRecordID>421223</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.613</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\Tcpip\Parameters</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.633952800Z" />
+      <EventRecordID>421224</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.627</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="TargetFilename">C:\WqEVwJZYOe</Data>
+      <Data Name="CreationUtcTime">2020-10-17 22:53:05.627</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.676930400Z" />
+      <EventRecordID>421225</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.675</Data>
+      <Data Name="ProcessGuid">{747f3d96-75d1-5f8b-0000-001061bd3300}</Data>
+      <Data Name="ProcessId">4864</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe /Q /c cd  1&gt; \\127.0.0.1\C$\WqEVwJZYOe 2&gt;&amp;1</Data>
+      <Data Name="CurrentDirectory">C:\</Data>
+      <Data Name="User">MSEDGEWIN10\Administrator</Data>
+      <Data Name="LogonGuid">{747f3d96-75d0-5f8b-0000-0020a8a83300}</Data>
+      <Data Name="LogonId">0x33a8a8</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-75d1-5f8b-0000-00101dab3300}</Data>
+      <Data Name="ParentProcessId">2228</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.720846600Z" />
+      <EventRecordID>421226</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.707</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="TargetFilename">C:\WqEVwJZYOe</Data>
+      <Data Name="CreationUtcTime">2020-10-17 22:53:05.627</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.777453000Z" />
+      <EventRecordID>421227</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.776</Data>
+      <Data Name="ProcessGuid">{747f3d96-75d1-5f8b-0000-001088c23300}</Data>
+      <Data Name="ProcessId">2784</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe /Q /c c:\windows\system32\rundll32.exe c:\programdata\7okjer,#1 1&gt; \\127.0.0.1\C$\WqEVwJZYOe 2&gt;&amp;1</Data>
+      <Data Name="CurrentDirectory">C:\</Data>
+      <Data Name="User">MSEDGEWIN10\Administrator</Data>
+      <Data Name="LogonGuid">{747f3d96-75d0-5f8b-0000-0020a8a83300}</Data>
+      <Data Name="LogonId">0x33a8a8</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-75d1-5f8b-0000-00101dab3300}</Data>
+      <Data Name="ParentProcessId">2228</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:05.822098500Z" />
+      <EventRecordID>421228</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:05.815</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="TargetFilename">C:\WqEVwJZYOe</Data>
+      <Data Name="CreationUtcTime">2020-10-17 22:53:05.627</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:06.755281900Z" />
+      <EventRecordID>421229</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:04.867</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49676</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:53:06.755298000Z" />
+      <EventRecordID>421230</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4064" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 22:53:04.867</Data>
+      <Data Name="ProcessGuid">{747f3d96-726a-5f8b-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49676</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T22:54:19.123210100Z" />
+      <EventRecordID>421231</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3236" ThreadID="4832" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-10-17 22:54:19.114</Data>
+      <Data Name="ProcessGuid">{747f3d96-7270-5f8b-0000-001065620000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-19\Software\Microsoft\Cryptography\TPM\Telemetry</Data>
+    </EventData>
+  </Event>
+</root>

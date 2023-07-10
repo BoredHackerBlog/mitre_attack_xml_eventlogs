@@ -1,0 +1,281 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.138458800Z" />
+      <EventRecordID>2362764</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.137</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010d1b5b40c}</Data>
+      <Data Name="ProcessId">11644</Data>
+      <Data Name="Image">C:\Users\Public\tools\privesc\uac\byeintegrity5-uac.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">byeintegrity5-uac.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\tools\privesc\uac\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3404-5fbe-0000-002044ca0600}</Data>
+      <Data Name="LogonId">0x6ca44</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=DF21EC2A3D7EE2AE853C29CBD8AB774A78ED7BF4,MD5=8671D1F95CC31E33F61DEF8C99B42B64,SHA256=2D41A174EA0589F39AA267F829870131AE18CFF1B19648C118DC5A00AEAF078B,IMPHASH=EA12F696E9727F4454BA1EFA0CAFAD2D</Data>
+      <Data Name="ParentProcessGuid">{00247c92-bb27-5fbf-0000-0010f69cfa0a}</Data>
+      <Data Name="ParentProcessId">12228</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.147605500Z" />
+      <EventRecordID>2362765</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.146</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010d1b5b40c}</Data>
+      <Data Name="ProcessId">11644</Data>
+      <Data Name="Image">C:\Users\Public\tools\privesc\uac\byeintegrity5-uac.exe</Data>
+      <Data Name="TargetFilename">C:\Users\Public\tools\privesc\uac\system32\npmproxy.dll</Data>
+      <Data Name="CreationUtcTime">2020-11-26 17:38:11.146</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.152273800Z" />
+      <EventRecordID>2362766</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.151</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010d1b5b40c}</Data>
+      <Data Name="ProcessId">11644</Data>
+      <Data Name="Image">C:\Users\Public\tools\privesc\uac\byeintegrity5-uac.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-1586556212-2165235939-1437495523-1001\Environment</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.152295700Z" />
+      <EventRecordID>2362767</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.151</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010d1b5b40c}</Data>
+      <Data Name="ProcessId">11644</Data>
+      <Data Name="Image">C:\Users\Public\tools\privesc\uac\byeintegrity5-uac.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-1586556212-2165235939-1437495523-1001\Environment\systemroot</Data>
+      <Data Name="Details">C:\Users\Public\tools\privesc\uac</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.154430300Z" />
+      <EventRecordID>2362768</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.153</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010cdb9b40c}</Data>
+      <Data Name="ProcessId">17336</Data>
+      <Data Name="Image">C:\Windows\System32\taskhostw.exe</Data>
+      <Data Name="FileVersion">10.0.18362.387 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Tasks</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">taskhostw.exe</Data>
+      <Data Name="CommandLine">taskhostw.exe $(Arg0)</Data>
+      <Data Name="CurrentDirectory">C:\windows\system32\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3404-5fbe-0000-0020e0c90600}</Data>
+      <Data Name="LogonId">0x6c9e0</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9245F36AA783167E0AFE948B1C0E8E7F3B81E3D4,MD5=8AC325C757FA721B272ECEA19EBCF745,SHA256=0BEC3128B241FA533DC5A9D3F62AA41323D205DEFC30DCDE228C5ECC2D1E50A9,IMPHASH=9CB27CAED52CB0AFFB32788922A0D083</Data>
+      <Data Name="ParentProcessGuid">{00247c92-3401-5fbe-0000-001028e10200}</Data>
+      <Data Name="ParentProcessId">1752</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.170856500Z" />
+      <EventRecordID>2362769</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.170</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010cdb9b40c}</Data>
+      <Data Name="ProcessId">17336</Data>
+      <Data Name="Image">C:\Windows\System32\taskhostw.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\Public\tools\privesc\uac\system32\npmproxy.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=3764370484BB7CFC9D5935AA985AE94C976D36DD,MD5=F8F0E250AC2B5BB292D323FD9C758160,SHA256=A7B9B1173735901E2FB1587A30A61490201980F7553C4BC591F6E0CE0A8A7961,IMPHASH=F02EC4C6C20C604280CEEBB871C18312</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.175869300Z" />
+      <EventRecordID>2362770</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.175</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010f2bfb40c}</Data>
+      <Data Name="ProcessId">16980</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.18362.449 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\windows\system32\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-3404-5fbe-0000-0020e0c90600}</Data>
+      <Data Name="LogonId">0x6c9e0</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8DCA9749CD48D286950E7A9FA1088C937CBCCAD4,MD5=D7AB69FAD18D4A643D84A271DFC0DBDF,SHA256=FF79D3C4A0B7EB191783C323AB8363EBD1FD10BE58D8BCC96B07067743CA81D5,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{00247c92-e803-5fbf-0000-0010cdb9b40c}</Data>
+      <Data Name="ParentProcessId">17336</Data>
+      <Data Name="ParentImage">C:\Windows\System32\taskhostw.exe</Data>
+      <Data Name="ParentCommandLine">taskhostw.exe $(Arg0)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-26T17:38:11.655964700Z" />
+      <EventRecordID>2362771</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5900" ThreadID="6484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">DeleteValue</Data>
+      <Data Name="UtcTime">2020-11-26 17:38:11.655</Data>
+      <Data Name="ProcessGuid">{00247c92-e803-5fbf-0000-0010d1b5b40c}</Data>
+      <Data Name="ProcessId">11644</Data>
+      <Data Name="Image">C:\Users\Public\tools\privesc\uac\byeintegrity5-uac.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-1586556212-2165235939-1437495523-1001\Environment\systemroot</Data>
+    </EventData>
+  </Event>
+</root>

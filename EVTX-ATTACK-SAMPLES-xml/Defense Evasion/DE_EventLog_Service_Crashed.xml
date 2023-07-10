@@ -1,0 +1,170 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-05T13:28:40.585462100Z" />
+      <EventRecordID>370747</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3252" ThreadID="4208" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2020-09-05 13:28:40.584</Data>
+      <Data Name="ProcessGuid">{747f3d96-9288-5f53-1902-00000000e500}</Data>
+      <Data Name="ProcessId">3424</Data>
+      <Data Name="Image">C:\Windows\System32\WerFault.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1339 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Problem Reporting</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">WerFault.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\WerFault.exe -u -p 3004 -s 632</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-85c0-5f53-e503-000000000000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=C6A79796DF32ADA80FA4E166FC1CA45B73B61DC0,MD5=F9E990B0ACD986721C49F5F89DB32EEC,SHA256=DC9ADB75C9E3CB860619CD3C76544FDE47F3839DE775D9A9ED410F1E0D6E765A,IMPHASH=BFC763A7169835EECB91919BADB76B57</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9052-5f53-0d02-00000000e500}</Data>
+      <Data Name="ParentProcessId">3004</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-05T13:33:34.590702400Z" />
+      <EventRecordID>370768</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3252" ThreadID="4208" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2020-09-05 13:33:34.588</Data>
+      <Data Name="ProcessGuid">{747f3d96-93ae-5f53-3602-00000000e500}</Data>
+      <Data Name="ProcessId">4688</Data>
+      <Data Name="Image">C:\Windows\System32\WerFault.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1339 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Problem Reporting</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">WerFault.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\WerFault.exe -u -p 3668 -s 4420</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-85c0-5f53-e503-000000000000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=C6A79796DF32ADA80FA4E166FC1CA45B73B61DC0,MD5=F9E990B0ACD986721C49F5F89DB32EEC,SHA256=DC9ADB75C9E3CB860619CD3C76544FDE47F3839DE775D9A9ED410F1E0D6E765A,IMPHASH=BFC763A7169835EECB91919BADB76B57</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-9290-5f53-1e02-00000000e500}</Data>
+      <Data Name="ParentProcessId">3668</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-05T13:34:11.983910900Z" />
+      <EventRecordID>370770</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3252" ThreadID="4208" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2020-09-05 13:34:11.982</Data>
+      <Data Name="ProcessGuid">{747f3d96-93d3-5f53-3802-00000000e500}</Data>
+      <Data Name="ProcessId">6556</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Logon User Interface Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">logonui.exe</Data>
+      <Data Name="CommandLine">"LogonUI.exe" /flags:0x4 /state0:0xa3cea855 /state1:0x41c64e6d</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-85c0-5f53-e703-000000000000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=E1AB36E5C3C1453C592E2901330EB13C5D29B351,MD5=33F89DD9629CB0422A2C17268376232D,SHA256=9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071,IMPHASH=B9B0B64B08B38276711093CA94348D39</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-85bf-5f53-0a00-00000000e500}</Data>
+      <Data Name="ParentProcessId">584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-05T13:37:07.245322400Z" />
+      <EventRecordID>370923</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3288" ThreadID="3912" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2020-09-05 22:37:00.090</Data>
+      <Data Name="ProcessGuid">{747f3d96-130c-5f54-1300-00000000e600}</Data>
+      <Data Name="ProcessId">1008</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Logon User Interface Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">logonui.exe</Data>
+      <Data Name="CommandLine">"LogonUI.exe" /flags:0x2 /state0:0xa3bd2855 /state1:0x41c64e6d</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-130b-5f54-e703-000000000000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=E1AB36E5C3C1453C592E2901330EB13C5D29B351,MD5=33F89DD9629CB0422A2C17268376232D,SHA256=9358EF8CB7FB08581D74274005263BD8FA2E6E0FC443930B25FD345CF6CE9071,IMPHASH=B9B0B64B08B38276711093CA94348D39</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-130b-5f54-0a00-00000000e600}</Data>
+      <Data Name="ParentProcessId">560</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+</root>

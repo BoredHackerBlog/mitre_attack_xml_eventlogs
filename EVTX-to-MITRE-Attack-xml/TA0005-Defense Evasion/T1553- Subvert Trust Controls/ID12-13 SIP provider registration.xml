@@ -1,0 +1,772 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.407539800Z" />
+      <EventRecordID>133</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1543,technique_name=Service Creation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.406</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a6d3-626b-4601-000000001400}</Data>
+      <Data Name="ProcessId">4720</Data>
+      <Data Name="Image">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\bam\UserSettings\S-1-5-21-113448046-927799223-410490820-1001\\Device\HarddiskVolume4\Windows\System32\regsvr32.exe</Data>
+      <Data Name="Details">Binary Data</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.432755200Z" />
+      <EventRecordID>135</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllPutSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.432876000Z" />
+      <EventRecordID>136</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllPutSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\Dll</Data>
+      <Data Name="Details">C:\Users\Admin\source\repos\PoCSubjectInterfacePackage\x64\Debug\MySIP.dll</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.432987200Z" />
+      <EventRecordID>137</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllPutSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433090500Z" />
+      <EventRecordID>138</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllPutSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\FuncName</Data>
+      <Data Name="Details">MyPutSignature</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433195400Z" />
+      <EventRecordID>139</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllGetSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433302100Z" />
+      <EventRecordID>140</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllGetSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\Dll</Data>
+      <Data Name="Details">C:\Users\Admin\source\repos\PoCSubjectInterfacePackage\x64\Debug\MySIP.dll</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433391200Z" />
+      <EventRecordID>141</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllGetSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433490500Z" />
+      <EventRecordID>142</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllGetSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\FuncName</Data>
+      <Data Name="Details">GetLegitMSSignature</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433579600Z" />
+      <EventRecordID>143</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllRemoveSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433677700Z" />
+      <EventRecordID>144</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllRemoveSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\Dll</Data>
+      <Data Name="Details">C:\Users\Admin\source\repos\PoCSubjectInterfacePackage\x64\Debug\MySIP.dll</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433765700Z" />
+      <EventRecordID>145</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllRemoveSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433861500Z" />
+      <EventRecordID>146</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllRemoveSignedDataMsg\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\FuncName</Data>
+      <Data Name="Details">MyDelSignature</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.433951200Z" />
+      <EventRecordID>147</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllCreateIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434042000Z" />
+      <EventRecordID>148</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllCreateIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\Dll</Data>
+      <Data Name="Details">C:\Users\Admin\source\repos\PoCSubjectInterfacePackage\x64\Debug\MySIP.dll</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434131000Z" />
+      <EventRecordID>149</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllCreateIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434233700Z" />
+      <EventRecordID>150</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllCreateIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\FuncName</Data>
+      <Data Name="Details">MyCreateHash</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434321700Z" />
+      <EventRecordID>151</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllVerifyIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434411300Z" />
+      <EventRecordID>152</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllVerifyIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\Dll</Data>
+      <Data Name="Details">C:\Users\Admin\source\repos\PoCSubjectInterfacePackage\x64\Debug\MySIP.dll</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434499300Z" />
+      <EventRecordID>153</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllVerifyIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434598000Z" />
+      <EventRecordID>154</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllVerifyIndirectData\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\FuncName</Data>
+      <Data Name="Details">AutoApproveHash</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434693300Z" />
+      <EventRecordID>155</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllIsMyFileType2\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434781800Z" />
+      <EventRecordID>156</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllIsMyFileType2\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\Dll</Data>
+      <Data Name="Details">C:\Users\Admin\source\repos\PoCSubjectInterfacePackage\x64\Debug\MySIP.dll</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434868600Z" />
+      <EventRecordID>157</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllIsMyFileType2\{E59B6E68-3312-4738-961F-DB9405B2DDCB}</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:21.434958300Z" />
+      <EventRecordID>158</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1553.003,technique_name=SIP and Trust Provider Hijacking</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:21.422</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Cryptography\OID\EncodingType 0\CryptSIPDllIsMyFileType2\{E59B6E68-3312-4738-961F-DB9405B2DDCB}\FuncName</Data>
+      <Data Name="Details">IsMyFileExtension</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:58:30.558613800Z" />
+      <EventRecordID>159</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1543,technique_name=Service Creation</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-04-29 08:58:30.550</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a8ad-626b-9601-000000001400}</Data>
+      <Data Name="ProcessId">2760</Data>
+      <Data Name="Image">C:\Windows\system32\regsvr32.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\bam\UserSettings\S-1-5-21-113448046-927799223-410490820-1001\\Device\HarddiskVolume4\Windows\System32\regsvr32.exe</Data>
+      <Data Name="Details">Binary Data</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-04-29T08:59:01.063886200Z" />
+      <EventRecordID>162</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8940" ThreadID="7716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WIN</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1546.001,technique_name=Change Default File Association</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-04-29 08:59:01.059</Data>
+      <Data Name="ProcessGuid">{668ea4ef-a43a-626b-3c00-000000001400}</Data>
+      <Data Name="ProcessId">3572</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-113448046-927799223-410490820-1001\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.evtx</Data>
+      <Data Name="User">WIN\Admin</Data>
+    </EventData>
+  </Event>
+</root>

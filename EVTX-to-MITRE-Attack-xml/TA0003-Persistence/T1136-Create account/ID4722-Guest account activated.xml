@@ -1,0 +1,29 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4722</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:49:36.998242300Z" />
+      <EventRecordID>2776111</EventRecordID>
+      <Correlation ActivityID="{e4d8d5c1-4f7e-0006-c2d5-d8e47e4fd601}" />
+      <Execution ProcessID="708" ThreadID="5992" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Guest</Data>
+      <Data Name="TargetDomainName">JUMP01</Data>
+      <Data Name="TargetSid">S-1-5-21-1470532092-3758209836-3742276719-501</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x58d874</Data>
+    </EventData>
+  </Event>
+</root>

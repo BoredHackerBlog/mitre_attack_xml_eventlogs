@@ -1,0 +1,113 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T15:03:05.945366700Z" />
+      <EventRecordID>191966</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1404" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-04-26 15:03:05.945</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-2e58-6080-0a00-000000002000}</Data>
+      <Data Name="ProcessId">456</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\BTOBTO\Start</Data>
+      <Data Name="Details">DWORD (0x00000003)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T15:03:05.945366700Z" />
+      <EventRecordID>191967</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1404" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-04-26 15:03:05.945</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-2e58-6080-0a00-000000002000}</Data>
+      <Data Name="ProcessId">456</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\BTOBTO\ImagePath</Data>
+      <Data Name="Details">%%COMSPEC%% /Q /c echo cd  ^&gt; \\127.0.0.1\C$\__output 2^&gt;^&amp;1 &gt; %%TEMP%%\execute.bat &amp; %%COMSPEC%% /Q /c %%TEMP%%\execute.bat &amp; del %%TEMP%%\execute.bat</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T15:03:05.976624600Z" />
+      <EventRecordID>191968</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1404" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-04-26 15:03:05.960</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-d629-6086-b70a-000000002000}</Data>
+      <Data Name="ProcessId">3492</Data>
+      <Data Name="Image">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\execute.bat</Data>
+      <Data Name="CreationUtcTime">2021-04-26 15:03:05.960</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-26T15:03:06.054748900Z" />
+      <EventRecordID>191970</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1404" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2021-04-26 15:03:06.054</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-2e58-6080-0a00-000000002000}</Data>
+      <Data Name="ProcessId">456</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\BTOBTO\Start</Data>
+      <Data Name="Details">DWORD (0x00000004)</Data>
+    </EventData>
+  </Event>
+</root>

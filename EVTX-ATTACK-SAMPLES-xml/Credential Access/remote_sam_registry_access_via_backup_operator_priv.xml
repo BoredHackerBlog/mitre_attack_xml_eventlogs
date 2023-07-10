@@ -1,0 +1,1210 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:07.251285100Z" />
+      <EventRecordID>2988521</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="604" ThreadID="3848" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-308926384-506822093-3341789130-1105</SubjectUserSid>
+        <SubjectUserName>jbrown</SubjectUserName>
+        <SubjectDomainName>3B</SubjectDomainName>
+        <SubjectLogonId>0x1717b6</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:19.637236300Z" />
+      <EventRecordID>2988522</EventRecordID>
+      <Correlation ActivityID="{2654c2a7-231c-0002-bac2-54261c23d801}" />
+      <Execution ProcessID="624" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-84104</Data>
+      <Data Name="TargetUserName">02694W-WIN10$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x567343</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{429ca5a3-edfc-5657-17c3-c050c7b047f4}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">172.16.66.25</Data>
+      <Data Name="IpPort">50250</Data>
+      <Data Name="ImpersonationLevel">%%1840</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:19.637257200Z" />
+      <EventRecordID>2988523</EventRecordID>
+      <Correlation ActivityID="{2654c2a7-231c-0002-bac2-54261c23d801}" />
+      <Execution ProcessID="624" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-84104</Data>
+      <Data Name="TargetUserName">02694W-WIN10$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x567343</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-21-308926384-506822093-3341789130-515}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-18-1}
+		%{S-1-16-8448}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:19.725314400Z" />
+      <EventRecordID>2988524</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4524" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">01566S-WIN16-IR$</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x56738f</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:19.725408300Z" />
+      <EventRecordID>2988525</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4524" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x56738f</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b683bafb-5884-30e1-12da-31368f04511d}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">64223</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:19.725428400Z" />
+      <EventRecordID>2988526</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4524" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x56738f</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.450086200Z" />
+      <EventRecordID>2988527</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">samir</Data>
+      <Data Name="Workstation">02694W-WIN10</Data>
+      <Data Name="Status">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.450412200Z" />
+      <EventRecordID>2988528</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567515</Data>
+      <Data Name="PrivilegeList">SeBackupPrivilege
+			SeRestorePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.450493700Z" />
+      <EventRecordID>2988529</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="TargetUserName">samir</Data>
+      <Data Name="TargetDomainName">3B</Data>
+      <Data Name="TargetLogonId">0x567515</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">02694W-WIN10</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">172.16.66.25</Data>
+      <Data Name="IpPort">50251</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.450532900Z" />
+      <EventRecordID>2988530</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="TargetUserName">samir</Data>
+      <Data Name="TargetDomainName">3B</Data>
+      <Data Name="TargetLogonId">0x567515</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-21-308926384-506822093-3341789130-513}
+		%{S-1-1-0}
+		%{S-1-5-32-551}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-64-10}
+		%{S-1-16-12288}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.451578600Z" />
+      <EventRecordID>2988531</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567515</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.25</Data>
+      <Data Name="IpPort">50251</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">winreg</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.508665400Z" />
+      <EventRecordID>2988532</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7208" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567515</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.25</Data>
+      <Data Name="IpPort">50251</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">winreg</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.520888100Z" />
+      <EventRecordID>2988533</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">samir</Data>
+      <Data Name="Workstation">02694W-WIN10</Data>
+      <Data Name="Status">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.521088200Z" />
+      <EventRecordID>2988534</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="PrivilegeList">SeBackupPrivilege
+			SeRestorePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.521162000Z" />
+      <EventRecordID>2988535</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="TargetUserName">samir</Data>
+      <Data Name="TargetDomainName">3B</Data>
+      <Data Name="TargetLogonId">0x567758</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">02694W-WIN10</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.521180800Z" />
+      <EventRecordID>2988536</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="2908" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="TargetUserName">samir</Data>
+      <Data Name="TargetDomainName">3B</Data>
+      <Data Name="TargetLogonId">0x567758</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-21-308926384-506822093-3341789130-513}
+		%{S-1-1-0}
+		%{S-1-5-32-551}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-64-10}
+		%{S-1-16-12288}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.534123800Z" />
+      <EventRecordID>2988537</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.36</Data>
+      <Data Name="IpPort">64224</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\PSAM</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.534128500Z" />
+      <EventRecordID>2988538</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.36</Data>
+      <Data Name="IpPort">64224</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\PSAM</Data>
+      <Data Name="AccessMask">0x2</Data>
+      <Data Name="AccessList">%%4417
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.550660100Z" />
+      <EventRecordID>2988539</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.36</Data>
+      <Data Name="IpPort">64224</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\PSYSTEM</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.550664800Z" />
+      <EventRecordID>2988540</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.36</Data>
+      <Data Name="IpPort">64224</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\PSYSTEM</Data>
+      <Data Name="AccessMask">0x2</Data>
+      <Data Name="AccessList">%%4417
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.934632900Z" />
+      <EventRecordID>2988541</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.36</Data>
+      <Data Name="IpPort">64224</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\PSECURITY</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:20.934639300Z" />
+      <EventRecordID>2988542</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="7720" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-308926384-506822093-3341789130-220106</Data>
+      <Data Name="SubjectUserName">samir</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x567758</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">172.16.66.36</Data>
+      <Data Name="IpPort">64224</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Users\PSECURITY</Data>
+      <Data Name="AccessMask">0x2</Data>
+      <Data Name="AccessList">%%4417
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:22.906109800Z" />
+      <EventRecordID>2988543</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4524" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">01566S-WIN16-IR$</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x5686d9</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:22.906195600Z" />
+      <EventRecordID>2988544</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4524" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x5686d9</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b683bafb-5884-30e1-12da-31368f04511d}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">64226</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:22.906213500Z" />
+      <EventRecordID>2988545</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4524" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x5686d9</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:22.920798700Z" />
+      <EventRecordID>2988546</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4528" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">01566S-WIN16-IR$</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x56874b</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:22.920903300Z" />
+      <EventRecordID>2988547</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4528" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x56874b</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b683bafb-5884-30e1-12da-31368f04511d}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">64227</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:22.920925000Z" />
+      <EventRecordID>2988548</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="4528" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x56874b</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:25.097531800Z" />
+      <EventRecordID>2988549</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">01566S-WIN16-IR$</Data>
+      <Data Name="SubjectDomainName">3B</Data>
+      <Data Name="SubjectLogonId">0x568d99</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege
+			SeEnableDelegationPrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:25.097874400Z" />
+      <EventRecordID>2988550</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x568d99</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">Kerberos</Data>
+      <Data Name="AuthenticationPackageName">Kerberos</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{b683bafb-5884-30e1-12da-31368f04511d}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">64229</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-16T10:37:25.097894900Z" />
+      <EventRecordID>2988551</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="624" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">01566S-WIN16-IR$</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetLogonId">0x568d99</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-5-32-544}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-32-554}
+		%{S-1-5-32-560}
+		%{S-1-5-2}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-5-21-308926384-506822093-3341789130-35103}
+		%{S-1-5-21-308926384-506822093-3341789130-516}
+		%{S-1-5-9}
+		%{S-1-18-1}
+		%{S-1-5-21-308926384-506822093-3341789130-572}
+		%{S-1-16-16384}</Data>
+    </EventData>
+  </Event>
+</root>

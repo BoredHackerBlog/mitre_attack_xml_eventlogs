@@ -1,0 +1,362 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:26.440651500Z" />
+      <EventRecordID>32008</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:24.597</Data>
+      <Data Name="ProcessGuid">{ecad0485-f2ec-5cda-0000-0010f1631500}</Data>
+      <Data Name="ProcessId">4092</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">insecurebank\Administrator</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49583</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.11</Data>
+      <Data Name="DestinationHostname">DC1</Data>
+      <Data Name="DestinationPort">389</Data>
+      <Data Name="DestinationPortName">ldap</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:26.738627500Z" />
+      <EventRecordID>32009</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:24.660</Data>
+      <Data Name="ProcessGuid">{ecad0485-f2ec-5cda-0000-0010f1631500}</Data>
+      <Data Name="ProcessId">4092</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">insecurebank\Administrator</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49584</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.11</Data>
+      <Data Name="DestinationHostname">DC1</Data>
+      <Data Name="DestinationPort">389</Data>
+      <Data Name="DestinationPortName">ldap</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32010</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.213</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49586</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.24</Data>
+      <Data Name="DestinationHostname">edward</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32011</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.234</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49587</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.21</Data>
+      <Data Name="DestinationHostname">bob</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32012</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.249</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49588</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.22</Data>
+      <Data Name="DestinationHostname">CHARLES</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32013</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.266</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49589</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.25</Data>
+      <Data Name="DestinationHostname">FRED</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32014</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.306</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49590</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.11</Data>
+      <Data Name="DestinationHostname">DC1</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32015</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.338</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49592</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.23</Data>
+      <Data Name="DestinationHostname">dave</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T17:17:38.250959300Z" />
+      <EventRecordID>32016</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1580" ThreadID="3960" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 17:17:36.353</Data>
+      <Data Name="ProcessGuid">{ecad0485-ec1e-5cda-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.59.4.20</Data>
+      <Data Name="SourceHostname">alice.insecurebank.local</Data>
+      <Data Name="SourcePort">49593</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.59.4.12</Data>
+      <Data Name="DestinationHostname">DEV_SERVER</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+</root>

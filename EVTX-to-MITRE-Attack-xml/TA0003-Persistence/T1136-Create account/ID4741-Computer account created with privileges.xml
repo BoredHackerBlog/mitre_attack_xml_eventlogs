@@ -1,0 +1,52 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4741</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13825</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-14T14:42:48.817933300Z" />
+      <EventRecordID>237294524</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="4588" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">compnay-88$</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1296</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1234</Data>
+      <Data Name="SubjectUserName">hack1</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x308fb82ad</Data>
+      <Data Name="PrivilegeList">SeMachineAccountPrivilege</Data>
+      <Data Name="SamAccountName">compnay-88$</Data>
+      <Data Name="DisplayName">%%1793</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">%%1793</Data>
+      <Data Name="HomePath">%%1793</Data>
+      <Data Name="ScriptPath">%%1793</Data>
+      <Data Name="ProfilePath">%%1793</Data>
+      <Data Name="UserWorkstations">%%1793</Data>
+      <Data Name="PasswordLastSet">%%1794</Data>
+      <Data Name="AccountExpires">%%1794</Data>
+      <Data Name="PrimaryGroupId">515</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">0x0</Data>
+      <Data Name="NewUacValue">0x84</Data>
+      <Data Name="UserAccountControl">
+		%%2082
+		%%2087</Data>
+      <Data Name="UserParameters">%%1792</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">%%1793</Data>
+      <Data Name="DnsHostName">-</Data>
+      <Data Name="ServicePrincipalNames">-</Data>
+    </EventData>
+  </Event>
+</root>

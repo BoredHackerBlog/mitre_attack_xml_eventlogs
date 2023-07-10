@@ -1,0 +1,29 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4664</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2023-03-03T14:35:35.247825100Z" />
+      <EventRecordID>7600</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5988" />
+      <Channel>Security</Channel>
+      <Computer>WIN</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-113448046-927799223-410490820-1001</Data>
+      <Data Name="SubjectUserName">Admin</Data>
+      <Data Name="SubjectDomainName">WIN</Data>
+      <Data Name="SubjectLogonId">0x79b70</Data>
+      <Data Name="FileName">C:\Users\Admin\Downloads\Sysmon\sysmonconf.xml</Data>
+      <Data Name="LinkName">C:\Users\Admin\Downloads\sysmonconf.xml</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+    </EventData>
+  </Event>
+</root>

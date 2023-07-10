@@ -1,0 +1,156 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:03.788800600Z" />
+      <EventRecordID>23</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="988" ThreadID="4932" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Connection closed by authenticating user admmig 10.23.23.9 port 56589 [preauth]</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:22.562971900Z" />
+      <EventRecordID>24</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4332" ThreadID="4344" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Failed password for admmig from 10.23.23.9 port 56605 ssh2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:49.345831700Z" />
+      <EventRecordID>25</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4332" ThreadID="4344" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Failed password for admmig from 10.23.23.9 port 56605 ssh2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:50.132058900Z" />
+      <EventRecordID>26</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4332" ThreadID="4344" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Failed password for admmig from 10.23.23.9 port 56605 ssh2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:50.607087000Z" />
+      <EventRecordID>27</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4332" ThreadID="4344" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Failed password for admmig from 10.23.23.9 port 56605 ssh2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:50.866196100Z" />
+      <EventRecordID>28</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4332" ThreadID="4344" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Failed password for admmig from 10.23.23.9 port 56605 ssh2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="OpenSSH" Guid="{c4b57d35-0636-4bc3-a262-370f249f9802}" />
+      <EventID>4</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-21T20:43:50.869720000Z" />
+      <EventRecordID>29</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4332" ThreadID="4344" />
+      <Channel>OpenSSH/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="process">sshd</Data>
+      <Data Name="payload">Disconnecting authenticating user admmig 10.23.23.9 port 56605: Too many authentication failures [preauth]</Data>
+    </EventData>
+  </Event>
+</root>

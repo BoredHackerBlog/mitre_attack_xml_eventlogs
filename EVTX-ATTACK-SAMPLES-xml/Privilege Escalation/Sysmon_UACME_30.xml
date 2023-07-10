@@ -1,0 +1,435 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:15.364739600Z" />
+      <EventRecordID>5400</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:15.323</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea3-5d45-0000-0010204de100}</Data>
+      <Data Name="ProcessId">7984</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\UACME.exe</Data>
+      <Data Name="FileVersion">3.1.9.1905</Data>
+      <Data Name="Description">UACMe main module</Data>
+      <Data Name="Product">UACMe</Data>
+      <Data Name="Company">Hazardous Environments</Data>
+      <Data Name="CommandLine">UACME.exe  30</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020fbd31800}</Data>
+      <Data Name="LogonId">0x18d3fb</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=9E57914D39FBFE785C915E225011892613C4714C,MD5=D57E778DF10F801F47119A04BE990FFD,SHA256=D76815CE3F4B9FE7A611D6F536F65AF313E2AB2F8BB52EF0998487D89A6E7378,IMPHASH=B6789EDFE23DDA911AE37C87444D3DCB</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-5a29-5d45-0000-0010deb99000}</Data>
+      <Data Name="ParentProcessId">5780</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:15.560614900Z" />
+      <EventRecordID>5401</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - UAC Bypass UACME 30</Data>
+      <Data Name="UtcTime">2019-08-03 11:23:15.519</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea3-5d45-0000-0010204de100}</Data>
+      <Data Name="ProcessId">7984</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\wow64log.dll</Data>
+      <Data Name="CreationUtcTime">2019-08-03 11:23:15.519</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:15.579857400Z" />
+      <EventRecordID>5402</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:15.564</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea3-5d45-0000-0010fb58e100}</Data>
+      <Data Name="ProcessId">3640</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">consent.exe 896 272 0000028064427C00</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-d4e9-5d45-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=9329B2362078DE27242DD4534F588AF3264BF0BF,MD5=27992D7EBE51AEC655A088DE88BAD5C9,SHA256=8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6,IMPHASH=522D83761201075834F05037F5307949</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-5769-5d45-0000-001044e83300}</Data>
+      <Data Name="ParentProcessId">896</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:17.433719100Z" />
+      <EventRecordID>5403</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:16.831</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea4-5d45-0000-0010dd92e100}</Data>
+      <Data Name="ProcessId">3340</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\wusa.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\syswow64\wusa.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020fbd31800}</Data>
+      <Data Name="LogonId">0x18d3fb</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8927B37C0265394724D979D84EE1AA6E4F7D7E5A,MD5=6C81724C47077509C4CC874E34008FC3,SHA256=9A18550136D91FD0AF3D8D3E202A5A348DDEE9639498F2B5FC9630E83406D7E1,IMPHASH=43545885005F51C762261EDCD235042B</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-6ea3-5d45-0000-0010204de100}</Data>
+      <Data Name="ParentProcessId">7984</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\UACME.exe</Data>
+      <Data Name="ParentCommandLine">UACME.exe  30</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:17.541143600Z" />
+      <EventRecordID>5404</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.015</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-0010e19fe100}</Data>
+      <Data Name="ProcessId">6292</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">consent.exe 896 294 0000028064427C00</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-d4e9-5d45-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=9329B2362078DE27242DD4534F588AF3264BF0BF,MD5=27992D7EBE51AEC655A088DE88BAD5C9,SHA256=8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6,IMPHASH=522D83761201075834F05037F5307949</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-5769-5d45-0000-001044e83300}</Data>
+      <Data Name="ParentProcessId">896</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:18.619445900Z" />
+      <EventRecordID>5405</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.556</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-0010c5c4e100}</Data>
+      <Data Name="ProcessId">6312</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\wusa.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\syswow64\wusa.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020b3d31800}</Data>
+      <Data Name="LogonId">0x18d3b3</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8927B37C0265394724D979D84EE1AA6E4F7D7E5A,MD5=6C81724C47077509C4CC874E34008FC3,SHA256=9A18550136D91FD0AF3D8D3E202A5A348DDEE9639498F2B5FC9630E83406D7E1,IMPHASH=43545885005F51C762261EDCD235042B</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-6ea3-5d45-0000-0010204de100}</Data>
+      <Data Name="ParentProcessId">7984</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Desktop\UACME.exe</Data>
+      <Data Name="ParentCommandLine">UACME.exe  30</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:18.666713800Z" />
+      <EventRecordID>5406</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - DLL Hijack - UACME 30</Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.609</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-00107ac9e100}</Data>
+      <Data Name="ProcessId">932</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\WerFault.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\wow64log.dll</Data>
+      <Data Name="FileVersion">3.1.8.1904</Data>
+      <Data Name="Description">UACMe WOW64 logger DLL</Data>
+      <Data Name="Product">UACMe</Data>
+      <Data Name="Company">Hazardous Environments</Data>
+      <Data Name="Hashes">SHA1=F26AD3298954CE6C5D01DC0ACC2B4A516554B430,MD5=7B97BFB44F4B8163AC336B0C85F62763,SHA256=5B08DFA2FA7CC474632485F1EC66CDCC0EEC9560C3630C1A8588EE345153209D,IMPHASH=3432208F552ABE01A0293828CD0796BE</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:18.694577500Z" />
+      <EventRecordID>5407</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.636</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-001032cce100}</Data>
+      <Data Name="ProcessId">6068</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-d4e9-5d45-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-6ea5-5d45-0000-00107ac9e100}</Data>
+      <Data Name="ParentProcessId">932</Data>
+      <Data Name="ParentImage">C:\Windows\SysWOW64\WerFault.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\SysWOW64\WerFault.exe -pss -s 444 -p 6312 -ip 6312</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:18.715586800Z" />
+      <EventRecordID>5408</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.654</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-00107ccee100}</Data>
+      <Data Name="ProcessId">4348</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\WerFault.exe</Data>
+      <Data Name="FileVersion">10.0.17763.503 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Problem Reporting</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\SysWOW64\WerFault.exe -u -p 6312 -s 80</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-56a3-5d45-0000-0020b3d31800}</Data>
+      <Data Name="LogonId">0x18d3b3</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=D8000328D7827A1C530EF27E46042D54CC1007D7,MD5=3CB8199FC84C371ECDE5D36C0C3934A6,SHA256=85F6C2C06213B05B649F98DDA99BE8ECCCF6DBBB6A849CD8C125CCFE9D887CE7,IMPHASH=8CA25EF4E2120830573EA5E06AD5B104</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-6ea5-5d45-0000-0010c5c4e100}</Data>
+      <Data Name="ParentProcessId">6312</Data>
+      <Data Name="ParentImage">C:\Windows\SysWOW64\wusa.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\syswow64\wusa.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:18.803792300Z" />
+      <EventRecordID>5409</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - DLL Hijack - UACME 30</Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.687</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-0010eed0e100}</Data>
+      <Data Name="ProcessId">4768</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\WerFault.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\wow64log.dll</Data>
+      <Data Name="FileVersion">3.1.8.1904</Data>
+      <Data Name="Description">UACMe WOW64 logger DLL</Data>
+      <Data Name="Product">UACMe</Data>
+      <Data Name="Company">Hazardous Environments</Data>
+      <Data Name="Hashes">SHA1=F26AD3298954CE6C5D01DC0ACC2B4A516554B430,MD5=7B97BFB44F4B8163AC336B0C85F62763,SHA256=5B08DFA2FA7CC474632485F1EC66CDCC0EEC9560C3630C1A8588EE345153209D,IMPHASH=3432208F552ABE01A0293828CD0796BE</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-03T11:23:18.824713400Z" />
+      <EventRecordID>5410</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2780" ThreadID="3676" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-08-03 11:23:17.702</Data>
+      <Data Name="ProcessGuid">{747f3d96-6ea5-5d45-0000-00108fd3e100}</Data>
+      <Data Name="ProcessId">7844</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-d4e9-5d45-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-6ea5-5d45-0000-0010eed0e100}</Data>
+      <Data Name="ParentProcessId">4768</Data>
+      <Data Name="ParentImage">C:\Windows\SysWOW64\WerFault.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\SysWOW64\WerFault.exe -pss -s 512 -p 4348 -ip 4348</Data>
+    </EventData>
+  </Event>
+</root>

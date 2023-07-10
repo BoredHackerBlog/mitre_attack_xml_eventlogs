@@ -1,0 +1,1151 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.393939200Z" />
+      <EventRecordID>109</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0001-d933-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 3
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 20
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.406253200Z" />
+      <EventRecordID>110</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0001-7578-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0</Data>
+      <Data Name="ScriptBlockId">fa9d0714-1fcd-4765-ab4f-ccea100a4b1a</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.619045800Z" />
+      <EventRecordID>111</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-1c84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 22
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Apply-WindowsUnattend"
+ParameterBinding(Set-Alias): name="Value"; value="Use-WindowsUnattend"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.619906300Z" />
+      <EventRecordID>112</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-1d84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 24
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Add-ProvisionedAppxPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Add-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.620229800Z" />
+      <EventRecordID>113</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-1e84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 26
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Remove-ProvisionedAppxPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Remove-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.620518200Z" />
+      <EventRecordID>114</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-1f84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 28
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Get-ProvisionedAppxPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Get-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.620800000Z" />
+      <EventRecordID>115</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2084-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 30
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Optimize-ProvisionedAppxPackages"
+ParameterBinding(Set-Alias): name="Value"; value="Optimize-AppxProvisionedPackages"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.621068900Z" />
+      <EventRecordID>116</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2184-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 32
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Set-ProvisionedAppXDataFile"
+ParameterBinding(Set-Alias): name="Value"; value="Set-AppXProvisionedDataFile"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.621550500Z" />
+      <EventRecordID>117</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2284-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 34
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Add-AppProvisionedPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Add-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.621819800Z" />
+      <EventRecordID>118</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2384-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 36
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Remove-AppProvisionedPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Remove-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.622327100Z" />
+      <EventRecordID>119</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2484-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 38
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Get-AppProvisionedPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Get-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.622730500Z" />
+      <EventRecordID>120</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2584-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 40
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Optimize-AppProvisionedPackages"
+ParameterBinding(Set-Alias): name="Value"; value="Optimize-AppxProvisionedPackages"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.623023500Z" />
+      <EventRecordID>121</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2684-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 42
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Set-AppPackageProvisionedDataFile"
+ParameterBinding(Set-Alias): name="Value"; value="Set-AppXProvisionedDataFile"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.623348900Z" />
+      <EventRecordID>122</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2784-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 44
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Add-ProvisionedAppPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Add-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.623845100Z" />
+      <EventRecordID>123</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2884-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 46
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Remove-ProvisionedAppPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Remove-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.624159700Z" />
+      <EventRecordID>124</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2984-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 48
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Get-ProvisionedAppPackage"
+ParameterBinding(Set-Alias): name="Value"; value="Get-AppxProvisionedPackage"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.624478100Z" />
+      <EventRecordID>125</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2a84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 50
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Optimize-ProvisionedAppPackages"
+ParameterBinding(Set-Alias): name="Value"; value="Optimize-AppxProvisionedPackages"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.624902800Z" />
+      <EventRecordID>126</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2b84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Set-Alias
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 52
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-Alias): "Set-Alias"
+ParameterBinding(Set-Alias): name="Name"; value="Set-ProvisionedAppPackageDataFile"
+ParameterBinding(Set-Alias): name="Value"; value="Set-AppXProvisionedDataFile"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:02:14.627204200Z" />
+      <EventRecordID>127</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-2c84-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 7
+        Command Name = Export-ModuleMember
+        Command Type = Cmdlet
+        Script Name = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psm1
+        Command Path = 
+        Sequence Number = 54
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Export-ModuleMember): "Export-ModuleMember"
+ParameterBinding(Export-ModuleMember): name="Alias"; value="*"
+ParameterBinding(Export-ModuleMember): name="Function"; value="*"
+ParameterBinding(Export-ModuleMember): name="Cmdlet"; value="*"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:16.455098100Z" />
+      <EventRecordID>128</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0001-8f78-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 6
+        Command Name = Add-WindowsCapability
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 56
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Add-WindowsCapability): "Add-WindowsCapability"
+ParameterBinding(Add-WindowsCapability): name="Online"; value="True"
+ParameterBinding(Add-WindowsCapability): name="Name"; value="OpenSSH.Server~~~~0.0.1.0"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:16.455685200Z" />
+      <EventRecordID>129</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0001-7578-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 6
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 58
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="Microsoft.Dism.Commands.ImageObject"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:16.478516700Z" />
+      <EventRecordID>130</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-088d-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">1b654399-bec0-4be2-ba2b-a35f7dca7384</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:16.480103500Z" />
+      <EventRecordID>131</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-0d8d-911c5e37d701}" />
+      <Execution ProcessID="6012" ThreadID="5140" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 95e96d56-040a-43c5-9b7c-b459d24bbb56
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.906
+        Runspace ID = d1a7cc59-e5d0-4b40-bf2e-0e4265f432c0
+        Pipeline ID = 9
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 60
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>40961</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>1</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:36.312539100Z" />
+      <EventRecordID>132</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-4b90-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="2592" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>53504</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>111</Task>
+      <Opcode>10</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:36.927962300Z" />
+      <EventRecordID>133</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-4b90-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="3500" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="param1">4984</Data>
+      <Data Name="param2">DefaultAppDomain</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>40962</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>2</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:37.040353300Z" />
+      <EventRecordID>134</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-4b90-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="2592" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:37.081629000Z" />
+      <EventRecordID>135</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-5990-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="3380" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Write-Host 'Final result: 1';</Data>
+      <Data Name="ScriptBlockId">d4032236-9130-47e8-8602-626a2b5e46e7</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:37.663507200Z" />
+      <EventRecordID>136</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-9790-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="3380" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 5113fce2-3b6b-458c-84dd-cbb219bb6ba4
+        Host Application = powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+        Engine Version = 5.1.19041.906
+        Runspace ID = 60c49911-7351-41b0-bcca-3af152e5b37c
+        Pipeline ID = 1
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 16
+        User = OFFSEC\SYSTEM
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="Object"; value="Final result: 1"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:37.663775400Z" />
+      <EventRecordID>137</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0000-5990-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="3380" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.906
+        Host ID = 5113fce2-3b6b-458c-84dd-cbb219bb6ba4
+        Host Application = powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';
+        Engine Version = 5.1.19041.906
+        Runspace ID = 60c49911-7351-41b0-bcca-3af152e5b37c
+        Pipeline ID = 1
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 18
+        User = OFFSEC\SYSTEM
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-04-22T10:04:37.671488300Z" />
+      <EventRecordID>138</EventRecordID>
+      <Correlation ActivityID="{1c911fe1-375e-0001-7183-911c5e37d701}" />
+      <Execution ProcessID="4984" ThreadID="3380" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">$global:?</Data>
+      <Data Name="ScriptBlockId">be03f209-2e26-4104-bb2c-0c8293570a00</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+</root>

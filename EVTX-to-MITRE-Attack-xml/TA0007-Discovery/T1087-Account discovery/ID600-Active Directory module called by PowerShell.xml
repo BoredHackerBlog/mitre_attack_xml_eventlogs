@@ -1,0 +1,37 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">600</EventID>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-07T14:16:03.732852800Z" />
+      <EventRecordID>16616275</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>ActiveDirectory</Data>
+      <Data>Started</Data>
+      <Data>	ProviderName=ActiveDirectory
+	NewProviderState=Started
+
+	SequenceNumber=21
+
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=87fd19ae-84b0-48dc-848b-d051141bd7f5
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=50f09969-f55d-4621-a64f-d9391c7bd9fe
+	PipelineId=7
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+    </EventData>
+  </Event>
+</root>

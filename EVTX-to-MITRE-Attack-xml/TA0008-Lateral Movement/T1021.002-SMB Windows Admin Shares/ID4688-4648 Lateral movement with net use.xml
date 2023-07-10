@@ -1,0 +1,70 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-13T14:08:43.058458500Z" />
+      <EventRecordID>469061</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3560" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x123550</Data>
+      <Data Name="NewProcessId">0xe1c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\net.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x408</Data>
+      <Data Name="CommandLine">net  use m: \\fs03vuln\c$ /USER:offsec\hack1</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-13T14:08:45.929790200Z" />
+      <EventRecordID>469062</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="1792" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x123550</Data>
+      <Data Name="LogonGuid">{64b4aedd-47c8-c360-ddb7-5d7b77226ddc}</Data>
+      <Data Name="TargetUserName">hack1</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetLogonGuid">{d5ba2b08-2011-63cf-2305-b71e36f0993c}</Data>
+      <Data Name="TargetServerName">fs03vuln.offsec.lan</Data>
+      <Data Name="TargetInfo">cifs/fs03vuln.offsec.lan</Data>
+      <Data Name="ProcessId">0x4</Data>
+      <Data Name="ProcessName">
+      </Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+</root>

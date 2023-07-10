@@ -1,0 +1,332 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.561817700Z" />
+      <EventRecordID>16078256</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group01</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1134</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.564048400Z" />
+      <EventRecordID>16078259</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group02</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1135</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.566003700Z" />
+      <EventRecordID>16078262</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group03</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1136</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.568096000Z" />
+      <EventRecordID>16078265</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group04</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1137</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.570056000Z" />
+      <EventRecordID>16078268</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group05</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1138</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.572024400Z" />
+      <EventRecordID>16078271</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group06</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1139</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.574250500Z" />
+      <EventRecordID>16078274</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group07</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1140</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.576239800Z" />
+      <EventRecordID>16078277</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group08</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1141</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.578258500Z" />
+      <EventRecordID>16078280</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group09</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1142</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.580229700Z" />
+      <EventRecordID>16078283</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group10</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1143</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4728</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-12T05:19:54.582191100Z" />
+      <EventRecordID>16078286</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3156" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=hack-adm-hack,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1150</Data>
+      <Data Name="TargetUserName">Group11</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1144</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8084443</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+</root>

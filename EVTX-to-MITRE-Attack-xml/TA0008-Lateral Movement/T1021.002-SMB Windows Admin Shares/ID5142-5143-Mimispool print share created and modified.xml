@@ -1,0 +1,63 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5142</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:21:55.299431200Z" />
+      <EventRecordID>127298</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3064" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ShareName">\\*\print$</Data>
+      <Data Name="ShareLocalPath">C:\Windows\system32\spool\drivers</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5143</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12808</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:21:55.315053700Z" />
+      <EventRecordID>127311</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="500" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectType">Directory</Data>
+      <Data Name="ShareName">\\*\print$</Data>
+      <Data Name="ShareLocalPath">C:\Windows\system32\spool\drivers</Data>
+      <Data Name="OldRemark">Printer Drivers</Data>
+      <Data Name="NewRemark">Printer Drivers</Data>
+      <Data Name="OldMaxUsers">0xffffffff</Data>
+      <Data Name="NewMaxUsers">0xffffffff</Data>
+      <Data Name="OldShareFlags">0x0</Data>
+      <Data Name="NewShareFlags">0x300</Data>
+      <Data Name="OldSD">O:BAG:BAD:(A;;0x1200a9;;;WD)(A;;FA;;;BA)</Data>
+      <Data Name="NewSD">O:BAG:BAD:(A;;0x1200a9;;;WD)(A;;FA;;;BA)</Data>
+    </EventData>
+  </Event>
+</root>

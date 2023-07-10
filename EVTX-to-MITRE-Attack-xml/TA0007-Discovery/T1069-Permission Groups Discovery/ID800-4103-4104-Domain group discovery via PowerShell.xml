@@ -1,0 +1,370 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.246001700Z" />
+      <EventRecordID>15727208</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=343
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=32afa6ab-c13e-4c81-91ed-8488f7e303ea
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=be9cbd71-6464-43fd-94f7-af1594871f07
+	PipelineId=84
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.246650800Z" />
+      <EventRecordID>14702698</EventRecordID>
+      <Correlation ActivityID="{510e36c6-beab-0003-c623-3e51abbed701}" />
+      <Execution ProcessID="15016" ThreadID="4004" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 32afa6ab-c13e-4c81-91ed-8488f7e303ea
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = be9cbd71-6464-43fd-94f7-af1594871f07
+        Pipeline ID = 84
+        Command Name = PSConsoleHostReadline
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 344
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.247435100Z" />
+      <EventRecordID>14702699</EventRecordID>
+      <Correlation ActivityID="{510e36c6-beab-0003-df23-3e51abbed701}" />
+      <Execution ProcessID="15016" ThreadID="4004" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Get-ADGroupMember -Identity 'Administrators'</Data>
+      <Data Name="ScriptBlockId">3a0c2649-0e3c-4282-8200-8037e1b4ccbe</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.395507500Z" />
+      <EventRecordID>15727209</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Get-ADGroupMember -Identity 'Administrators'</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=345
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=32afa6ab-c13e-4c81-91ed-8488f7e303ea
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=be9cbd71-6464-43fd-94f7-af1594871f07
+	PipelineId=85
+	ScriptName=
+	CommandLine=Get-ADGroupMember -Identity 'Administrators'</Data>
+      <Data>CommandInvocation(Get-ADGroupMember): "Get-ADGroupMember"
+ParameterBinding(Get-ADGroupMember): name="Identity"; value="Administrators"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.396132800Z" />
+      <EventRecordID>14702700</EventRecordID>
+      <Correlation ActivityID="{510e36c6-beab-0003-e023-3e51abbed701}" />
+      <Execution ProcessID="15016" ThreadID="4004" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 32afa6ab-c13e-4c81-91ed-8488f7e303ea
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = be9cbd71-6464-43fd-94f7-af1594871f07
+        Pipeline ID = 85
+        Command Name = Get-ADGroupMember
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 346
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Get-ADGroupMember): "Get-ADGroupMember"
+ParameterBinding(Get-ADGroupMember): name="Identity"; value="Administrators"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.397512600Z" />
+      <EventRecordID>15727210</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=347
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=32afa6ab-c13e-4c81-91ed-8488f7e303ea
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=be9cbd71-6464-43fd-94f7-af1594871f07
+	PipelineId=85
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Nessus Local Access,OU=Security-groups,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Domain Admins,CN=Users,DC=offsec,DC=lan"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Enterprise Admins,CN=Users,DC=offsec,DC=lan"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Administrator,CN=Users,DC=offsec,DC=lan"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.398714400Z" />
+      <EventRecordID>14702701</EventRecordID>
+      <Correlation ActivityID="{510e36c6-beab-0003-df23-3e51abbed701}" />
+      <Execution ProcessID="15016" ThreadID="4004" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 32afa6ab-c13e-4c81-91ed-8488f7e303ea
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = be9cbd71-6464-43fd-94f7-af1594871f07
+        Pipeline ID = 85
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 348
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Nessus Local Access,OU=Security-groups,OU=OFFSEC-COMPANY,DC=offsec,DC=lan"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Domain Admins,CN=Users,DC=offsec,DC=lan"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Enterprise Admins,CN=Users,DC=offsec,DC=lan"
+ParameterBinding(Out-Default): name="InputObject"; value="CN=Administrator,CN=Users,DC=offsec,DC=lan"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.401190200Z" />
+      <EventRecordID>14702702</EventRecordID>
+      <Correlation ActivityID="{510e36c6-beab-0003-e423-3e51abbed701}" />
+      <Execution ProcessID="15016" ThreadID="4004" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">07b5b53d-2849-4087-9a59-13e5199df537</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.401511400Z" />
+      <EventRecordID>15727211</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=349
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=32afa6ab-c13e-4c81-91ed-8488f7e303ea
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=be9cbd71-6464-43fd-94f7-af1594871f07
+	PipelineId=87
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-31T14:37:10.402667400Z" />
+      <EventRecordID>14702703</EventRecordID>
+      <Correlation ActivityID="{510e36c6-beab-0003-e923-3e51abbed701}" />
+      <Execution ProcessID="15016" ThreadID="4004" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 32afa6ab-c13e-4c81-91ed-8488f7e303ea
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = be9cbd71-6464-43fd-94f7-af1594871f07
+        Pipeline ID = 87
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 350
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+</root>

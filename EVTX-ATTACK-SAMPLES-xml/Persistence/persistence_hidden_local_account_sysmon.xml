@@ -1,0 +1,30 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-18T17:56:07.017817500Z" />
+      <EventRecordID>596571</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3552" ThreadID="5004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Hidden Local Account Created</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-12-18 17:56:07.015</Data>
+      <Data Name="ProcessGuid">{747f3d96-68dd-5fdd-0000-00101b660000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\hideme0007$\(Default)</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+</root>

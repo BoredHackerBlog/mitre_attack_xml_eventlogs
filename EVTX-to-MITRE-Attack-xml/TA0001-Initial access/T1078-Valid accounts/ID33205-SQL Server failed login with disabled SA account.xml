@@ -1,0 +1,96 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T19:39:15.975877900Z" />
+      <EventRecordID>58975</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 19:39:14.4771020
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:34F26C4D-191A-4DA8-BA59-3383CA7125D7
+session_server_principal_name:
+server_principal_name:sa
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'sa'. Reason: An error occurred while evaluating the password. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;7&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0x90000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T19:39:36.013323300Z" />
+      <EventRecordID>58977</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 19:39:35.9977008
+sequence_number:1
+action_id:LGIF
+succeeded:false
+is_column_permission:false
+session_id:0
+server_principal_id:0
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:ECFA5A91-FDD6-4FDB-B804-EE085A67CD59
+session_server_principal_name:
+server_principal_name:sa
+server_principal_sid:
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:Login failed for user 'sa'. Reason: An error occurred while evaluating the password. [CLIENT: 10.23.23.9]
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;error&gt;0x00004818&lt;/error&gt;&lt;state&gt;7&lt;/state&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

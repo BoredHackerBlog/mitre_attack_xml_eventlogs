@@ -1,0 +1,1920 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:15.983650300Z" />
+      <EventRecordID>232254709</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">test1</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47388</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:16.298439200Z" />
+      <EventRecordID>232254710</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="3076" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="ServiceName">krbtgt</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-502</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47392</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:16.308292200Z" />
+      <EventRecordID>232254711</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">test2</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47394</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:16.311324900Z" />
+      <EventRecordID>232254712</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2656" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admtest</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47396</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:16.338446700Z" />
+      <EventRecordID>232254713</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2656" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">administrator</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x12</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47398</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:16.342766500Z" />
+      <EventRecordID>232254714</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="3076" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admin-test</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1620</Data>
+      <Data Name="ServiceName">krbtgt</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-502</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="PreAuthType">0</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47400</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4771</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:16.956597100Z" />
+      <EventRecordID>232254715</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="3076" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admin-hacker</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1147</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x18</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47404</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4771</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.263425400Z" />
+      <EventRecordID>232254720</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">adminupn42</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1239</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x18</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47408</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.267234500Z" />
+      <EventRecordID>232254721</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2656" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">sgfg</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47410</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.271151600Z" />
+      <EventRecordID>232254722</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">g</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47412</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.274120000Z" />
+      <EventRecordID>232254723</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2656" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">dyfgdhbn</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47414</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.277347500Z" />
+      <EventRecordID>232254724</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">xvtrz</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47416</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.281075900Z" />
+      <EventRecordID>232254725</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ar</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47418</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.284216200Z" />
+      <EventRecordID>232254726</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">tary</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47420</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.287153400Z" />
+      <EventRecordID>232254727</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bsfin</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47422</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.319388900Z" />
+      <EventRecordID>232254728</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">mgdi</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47424</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.323738400Z" />
+      <EventRecordID>232254729</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vdr</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47426</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.327725500Z" />
+      <EventRecordID>232254730</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">tc</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47428</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.331651900Z" />
+      <EventRecordID>232254731</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">syvsdy</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47430</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.334904100Z" />
+      <EventRecordID>232254732</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">s</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47432</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.337929800Z" />
+      <EventRecordID>232254733</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ysy</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47434</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.341464900Z" />
+      <EventRecordID>232254734</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vrat</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47436</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.344643900Z" />
+      <EventRecordID>232254735</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vay</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47438</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.348033100Z" />
+      <EventRecordID>232254736</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vs</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47440</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.351265700Z" />
+      <EventRecordID>232254737</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">uydzry</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47442</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.354230300Z" />
+      <EventRecordID>232254738</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">rey</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47444</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.357757400Z" />
+      <EventRecordID>232254739</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vase</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47446</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.360798100Z" />
+      <EventRecordID>232254740</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ryver</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47448</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.363773000Z" />
+      <EventRecordID>232254741</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">yvsyv</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47450</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.367141200Z" />
+      <EventRecordID>232254742</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">srey</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47452</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.370288500Z" />
+      <EventRecordID>232254743</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">b aer</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47454</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.373872400Z" />
+      <EventRecordID>232254744</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">yvas</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47456</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.376790900Z" />
+      <EventRecordID>232254745</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">tbyt</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47458</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.379807800Z" />
+      <EventRecordID>232254746</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">nini</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47460</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.382801300Z" />
+      <EventRecordID>232254747</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ugu</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47462</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.385792000Z" />
+      <EventRecordID>232254748</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">m,og</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47464</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.389233500Z" />
+      <EventRecordID>232254749</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">go</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47466</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.392121200Z" />
+      <EventRecordID>232254750</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">nd</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47468</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.395127400Z" />
+      <EventRecordID>232254751</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bdcy</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47470</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.398205300Z" />
+      <EventRecordID>232254752</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">rec</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47472</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.401185300Z" />
+      <EventRecordID>232254753</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">xt</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47474</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.405200300Z" />
+      <EventRecordID>232254754</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">accrt</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47476</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.408076800Z" />
+      <EventRecordID>232254755</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">wyt</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47478</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.410987000Z" />
+      <EventRecordID>232254756</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">xc</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47480</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.413924600Z" />
+      <EventRecordID>232254757</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vt</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47482</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.416788100Z" />
+      <EventRecordID>232254758</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ytuntsr</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47484</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.420305000Z" />
+      <EventRecordID>232254759</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">vga</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47486</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.423580000Z" />
+      <EventRecordID>232254760</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">tfay</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47488</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.426975700Z" />
+      <EventRecordID>232254761</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">sef</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47490</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.430096000Z" />
+      <EventRecordID>232254762</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">gsdf</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47492</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:17.433077800Z" />
+      <EventRecordID>232254763</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2472" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">sfs</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/OFFSEC.LAN</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x50800000</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">::ffff:10.23.123.11</Data>
+      <Data Name="IpPort">47494</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-02T14:48:23.180738600Z" />
+      <EventRecordID>232254768</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="596" ThreadID="2784" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">HealthMailboxf49e2c8</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1231</Data>
+      <Data Name="ServiceName">krbtgt</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-502</Data>
+      <Data Name="TicketOptions">0x40810010</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.16</Data>
+      <Data Name="IpPort">13931</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+</root>

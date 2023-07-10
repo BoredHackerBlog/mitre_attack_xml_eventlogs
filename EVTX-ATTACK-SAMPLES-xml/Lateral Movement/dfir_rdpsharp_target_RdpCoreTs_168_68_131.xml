@@ -1,0 +1,945 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:09:07.084053800Z" />
+      <EventRecordID>12551</EventRecordID>
+      <Correlation ActivityID="{f4207c37-d7a8-4a5e-9a35-4e79caa60000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52202</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:09:12.439959500Z" />
+      <EventRecordID>12572</EventRecordID>
+      <Correlation ActivityID="{af159b2d-d587-4709-ab35-f167130b0000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:59407</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:09:15.564770100Z" />
+      <EventRecordID>12591</EventRecordID>
+      <Correlation ActivityID="{f4207c37-d7a8-4a5e-9a35-4e79caa60000}" />
+      <Execution ProcessID="388" ThreadID="7312" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">200</Data>
+      <Data Name="MonitorHeight">200</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:09:15.885301000Z" />
+      <EventRecordID>12592</EventRecordID>
+      <Correlation ActivityID="{af159b2d-d587-4709-ab35-f167130b0000}" />
+      <Execution ProcessID="388" ThreadID="8512" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#0</Data>
+      <Data Name="PromptForCredentials">0</Data>
+      <Data Name="PromptForCredentialsDone">0</Data>
+      <Data Name="GfxChannelOpened">8266</Data>
+      <Data Name="FirstGraphicsReceived">10672</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:10:04.326375200Z" />
+      <EventRecordID>12635</EventRecordID>
+      <Correlation ActivityID="{f420146a-b86d-4bab-9526-c73621fc0000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52208</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:10:04.415902000Z" />
+      <EventRecordID>12656</EventRecordID>
+      <Correlation ActivityID="{35bbd881-8d79-401b-995e-8e98b0190000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:59409</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:10:05.585380600Z" />
+      <EventRecordID>12675</EventRecordID>
+      <Correlation ActivityID="{f420146a-b86d-4bab-9526-c73621fc0000}" />
+      <Execution ProcessID="388" ThreadID="7284" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">200</Data>
+      <Data Name="MonitorHeight">200</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:10:05.845273800Z" />
+      <EventRecordID>12676</EventRecordID>
+      <Correlation ActivityID="{35bbd881-8d79-401b-995e-8e98b0190000}" />
+      <Execution ProcessID="388" ThreadID="2740" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#1</Data>
+      <Data Name="PromptForCredentials">0</Data>
+      <Data Name="PromptForCredentialsDone">0</Data>
+      <Data Name="GfxChannelOpened">1015</Data>
+      <Data Name="FirstGraphicsReceived">1906</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:20:28.787280500Z" />
+      <EventRecordID>12719</EventRecordID>
+      <Correlation ActivityID="{f42026fc-ce4f-4ec2-bd4c-3d8f2e6e0000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52276</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:20:38.546691000Z" />
+      <EventRecordID>12734</EventRecordID>
+      <Correlation ActivityID="{f420a5bc-53b7-4c3b-89f1-642002600000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52278</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:20:38.671306500Z" />
+      <EventRecordID>12755</EventRecordID>
+      <Correlation ActivityID="{8501bb8d-5b52-4567-96a6-4766971f0000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:53248</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:20:40.900327300Z" />
+      <EventRecordID>12772</EventRecordID>
+      <Correlation ActivityID="{f420a5bc-53b7-4c3b-89f1-642002600000}" />
+      <Execution ProcessID="388" ThreadID="7284" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">1920</Data>
+      <Data Name="MonitorHeight">1080</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:20:41.301237100Z" />
+      <EventRecordID>12774</EventRecordID>
+      <Correlation ActivityID="{8501bb8d-5b52-4567-96a6-4766971f0000}" />
+      <Execution ProcessID="388" ThreadID="2456" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#3</Data>
+      <Data Name="PromptForCredentials">2578</Data>
+      <Data Name="PromptForCredentialsDone">9890</Data>
+      <Data Name="GfxChannelOpened">13484</Data>
+      <Data Name="FirstGraphicsReceived">15078</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:40:43.628034000Z" />
+      <EventRecordID>12824</EventRecordID>
+      <Correlation ActivityID="{f420369b-c6ad-4ac1-8e76-e9184fdf0000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52725</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:40:43.870395300Z" />
+      <EventRecordID>12845</EventRecordID>
+      <Correlation ActivityID="{c34d2af7-7f5b-4596-986c-ad31bd710000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:64069</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:40:45.418079900Z" />
+      <EventRecordID>12864</EventRecordID>
+      <Correlation ActivityID="{f420369b-c6ad-4ac1-8e76-e9184fdf0000}" />
+      <Execution ProcessID="388" ThreadID="7284" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">200</Data>
+      <Data Name="MonitorHeight">200</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:40:45.552258100Z" />
+      <EventRecordID>12865</EventRecordID>
+      <Correlation ActivityID="{c34d2af7-7f5b-4596-986c-ad31bd710000}" />
+      <Execution ProcessID="388" ThreadID="8708" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#4</Data>
+      <Data Name="PromptForCredentials">0</Data>
+      <Data Name="PromptForCredentialsDone">0</Data>
+      <Data Name="GfxChannelOpened">1047</Data>
+      <Data Name="FirstGraphicsReceived">2594</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:05.188967000Z" />
+      <EventRecordID>12910</EventRecordID>
+      <Correlation ActivityID="{f420e980-73cd-4bf1-ac63-8cae43170000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52727</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:05.294891600Z" />
+      <EventRecordID>12931</EventRecordID>
+      <Correlation ActivityID="{aae17f6c-e0f0-4da7-b6fb-e72a74560000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:64073</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:05.943950500Z" />
+      <EventRecordID>12950</EventRecordID>
+      <Correlation ActivityID="{f420e980-73cd-4bf1-ac63-8cae43170000}" />
+      <Execution ProcessID="388" ThreadID="7312" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">200</Data>
+      <Data Name="MonitorHeight">200</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:06.060890200Z" />
+      <EventRecordID>12952</EventRecordID>
+      <Correlation ActivityID="{aae17f6c-e0f0-4da7-b6fb-e72a74560000}" />
+      <Execution ProcessID="388" ThreadID="3224" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#5</Data>
+      <Data Name="PromptForCredentials">0</Data>
+      <Data Name="PromptForCredentialsDone">0</Data>
+      <Data Name="GfxChannelOpened">609</Data>
+      <Data Name="FirstGraphicsReceived">1265</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:30.102922100Z" />
+      <EventRecordID>12996</EventRecordID>
+      <Correlation ActivityID="{f42070dc-2434-4be8-9b5e-de689a220000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52728</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:30.214149200Z" />
+      <EventRecordID>13017</EventRecordID>
+      <Correlation ActivityID="{f00430a7-8758-4a7d-bca2-931d564d0000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:64075</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:30.638915700Z" />
+      <EventRecordID>13035</EventRecordID>
+      <Correlation ActivityID="{f42070dc-2434-4be8-9b5e-de689a220000}" />
+      <Execution ProcessID="388" ThreadID="7284" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">200</Data>
+      <Data Name="MonitorHeight">200</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:41:30.817322200Z" />
+      <EventRecordID>13036</EventRecordID>
+      <Correlation ActivityID="{f00430a7-8758-4a7d-bca2-931d564d0000}" />
+      <Execution ProcessID="388" ThreadID="9568" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#6</Data>
+      <Data Name="PromptForCredentials">0</Data>
+      <Data Name="PromptForCredentialsDone">0</Data>
+      <Data Name="GfxChannelOpened">813</Data>
+      <Data Name="FirstGraphicsReceived">1203</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:42:04.733450500Z" />
+      <EventRecordID>13082</EventRecordID>
+      <Correlation ActivityID="{f42094f1-5580-4f8a-b414-4dbedd2f0000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52733</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:42:18.144337900Z" />
+      <EventRecordID>13097</EventRecordID>
+      <Correlation ActivityID="{f42040a3-a63d-40fd-81fa-26171b400000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52734</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:42:18.305936700Z" />
+      <EventRecordID>13118</EventRecordID>
+      <Correlation ActivityID="{d140b3ec-1617-4d69-869c-6bd8c0820000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:55988</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:42:18.923146400Z" />
+      <EventRecordID>13136</EventRecordID>
+      <Correlation ActivityID="{f42040a3-a63d-40fd-81fa-26171b400000}" />
+      <Execution ProcessID="388" ThreadID="7312" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">1920</Data>
+      <Data Name="MonitorHeight">1080</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:42:19.995336000Z" />
+      <EventRecordID>13145</EventRecordID>
+      <Correlation ActivityID="{d140b3ec-1617-4d69-869c-6bd8c0820000}" />
+      <Execution ProcessID="388" ThreadID="9996" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#8</Data>
+      <Data Name="PromptForCredentials">1719</Data>
+      <Data Name="PromptForCredentialsDone">9484</Data>
+      <Data Name="GfxChannelOpened">15422</Data>
+      <Data Name="FirstGraphicsReceived">16953</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:47:42.859086000Z" />
+      <EventRecordID>13191</EventRecordID>
+      <Correlation ActivityID="{f420820f-97a5-4a83-8bde-22695fe30000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52776</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:47:43.096750600Z" />
+      <EventRecordID>13212</EventRecordID>
+      <Correlation ActivityID="{4812b416-8137-479a-b891-f88016d40000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:61881</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:47:44.160637100Z" />
+      <EventRecordID>13230</EventRecordID>
+      <Correlation ActivityID="{f420820f-97a5-4a83-8bde-22695fe30000}" />
+      <Execution ProcessID="388" ThreadID="7284" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">200</Data>
+      <Data Name="MonitorHeight">200</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:47:44.270737900Z" />
+      <EventRecordID>13232</EventRecordID>
+      <Correlation ActivityID="{4812b416-8137-479a-b891-f88016d40000}" />
+      <Execution ProcessID="388" ThreadID="9684" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#9</Data>
+      <Data Name="PromptForCredentials">0</Data>
+      <Data Name="PromptForCredentialsDone">0</Data>
+      <Data Name="GfxChannelOpened">1062</Data>
+      <Data Name="FirstGraphicsReceived">2109</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:48:02.419160100Z" />
+      <EventRecordID>13277</EventRecordID>
+      <Correlation ActivityID="{f420d49d-4763-4b89-b293-01e91ba90000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52779</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:48:38.956349200Z" />
+      <EventRecordID>13291</EventRecordID>
+      <Correlation ActivityID="{f420e326-ed1e-44bb-852b-909e49f40000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52784</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:49:17.383354100Z" />
+      <EventRecordID>13306</EventRecordID>
+      <Correlation ActivityID="{f4203f42-3fda-4692-aa6b-54652b430000}" />
+      <Execution ProcessID="388" ThreadID="1292" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">TCP</Data>
+      <Data Name="ClientIP">10.0.2.16:52786</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>131</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:49:17.458629400Z" />
+      <EventRecordID>13327</EventRecordID>
+      <Correlation ActivityID="{0a228115-aa0c-4be2-8d22-1696bd210000}" />
+      <Execution ProcessID="388" ThreadID="1320" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnType">UDP</Data>
+      <Data Name="ClientIP">[10.0.2.16]:58260</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>168</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>11</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:49:18.053159200Z" />
+      <EventRecordID>13344</EventRecordID>
+      <Correlation ActivityID="{f4203f42-3fda-4692-aa6b-54652b430000}" />
+      <Execution ProcessID="388" ThreadID="7284" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="MonitorNum">0</Data>
+      <Data Name="MonitorWidth">1920</Data>
+      <Data Name="MonitorHeight">1080</Data>
+      <Data Name="MonitorX">0</Data>
+      <Data Name="MonitorY">0</Data>
+      <Data Name="ServerName">MSEDGEWIN10</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-RemoteDesktopServices-RdpCoreTS" Guid="{1139c61b-b549-4251-8ed3-27250a1edec8}" />
+      <EventID>68</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>13</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-13T11:49:19.426467100Z" />
+      <EventRecordID>13354</EventRecordID>
+      <Correlation ActivityID="{0a228115-aa0c-4be2-8d22-1696bd210000}" />
+      <Execution ProcessID="388" ThreadID="6336" />
+      <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-20" />
+    </System>
+    <EventData>
+      <Data Name="ConnectionName">RDP-Tcp#12</Data>
+      <Data Name="PromptForCredentials">78</Data>
+      <Data Name="PromptForCredentialsDone">36735</Data>
+      <Data Name="GfxChannelOpened">38719</Data>
+      <Data Name="FirstGraphicsReceived">40547</Data>
+    </EventData>
+  </Event>
+</root>

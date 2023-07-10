@@ -1,0 +1,72 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:07:20.794383500Z" />
+      <EventRecordID>8528057</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5656" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x92e21</Data>
+      <Data Name="NewProcessId">0x1e00</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\bitsadmin.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x1ff8</Data>
+      <Data Name="CommandLine">bitsadmin  /transfer hackingarticles https://www.ma-neobanque.com/wp-content/uploads/2020/11/carte-max-premium.jpg c:\ignite.png</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T23:08:02.534067400Z" />
+      <EventRecordID>8528058</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1048" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">JUMP01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1c30</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1938</Data>
+      <Data Name="ProcessId">0x308</Data>
+      <Data Name="CommandLine">C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x92f98</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-8192</Data>
+    </EventData>
+  </Event>
+</root>

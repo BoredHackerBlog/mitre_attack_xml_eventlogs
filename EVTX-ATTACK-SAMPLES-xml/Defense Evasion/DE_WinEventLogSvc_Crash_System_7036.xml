@@ -1,0 +1,140 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7036</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-23T16:57:41.372630600Z" />
+      <EventRecordID>65371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="6460" />
+      <Channel>System</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">Windows Error Reporting Service</Data>
+      <Data Name="param2">running</Data>
+      <Binary>5700650072005300760063002F0034000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7036</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-23T16:57:45.825782300Z" />
+      <EventRecordID>65376</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="876" />
+      <Channel>System</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">Windows Insider Service</Data>
+      <Data Name="param2">running</Data>
+      <Binary>770069007300760063002F0034000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7036</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-23T16:58:17.014461400Z" />
+      <EventRecordID>65377</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="876" />
+      <Channel>System</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">Windows Event Log</Data>
+      <Data Name="param2">running</Data>
+      <Binary>4500760065006E0074004C006F0067002F0034000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7036</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-23T16:58:21.717638200Z" />
+      <EventRecordID>65378</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="876" />
+      <Channel>System</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">Time Broker</Data>
+      <Data Name="param2">running</Data>
+      <Binary>540069006D006500420072006F006B00650072005300760063002F0034000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7036</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-23T16:58:24.327043200Z" />
+      <EventRecordID>65379</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="664" />
+      <Channel>System</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">TCP/IP NetBIOS Helper</Data>
+      <Data Name="param2">running</Data>
+      <Binary>6C006D0068006F007300740073002F0034000000</Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7036</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-23T16:58:45.835955600Z" />
+      <EventRecordID>65380</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="580" ThreadID="664" />
+      <Channel>System</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="param1">Windows Insider Service</Data>
+      <Data Name="param2">stopped</Data>
+      <Binary>770069007300760063002F0031000000</Binary>
+    </EventData>
+  </Event>
+</root>

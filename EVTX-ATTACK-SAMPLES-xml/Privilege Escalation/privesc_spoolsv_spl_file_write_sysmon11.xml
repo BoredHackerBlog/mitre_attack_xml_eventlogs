@@ -1,0 +1,1197 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.419260100Z" />
+      <EventRecordID>342289</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.391</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\__SKIP_1E14</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.391</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.454625200Z" />
+      <EventRecordID>342290</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.438</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\{A6F2FD48-5F14-4B5F-ACC3-8DE2ACD8E384}</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.438</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.551382900Z" />
+      <EventRecordID>342291</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.533</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\Old</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.533</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.551399000Z" />
+      <EventRecordID>342292</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.533</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.533</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.551413300Z" />
+      <EventRecordID>342293</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.533</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\UNIDRV.DLL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.533</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.562442000Z" />
+      <EventRecordID>342294</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\UNIDRVUI.DLL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.562798600Z" />
+      <EventRecordID>342295</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\TTY.GPD</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.562856900Z" />
+      <EventRecordID>342296</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\UNIDRV.HLP</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.562922500Z" />
+      <EventRecordID>342297</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\TTYRES.DLL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.562970500Z" />
+      <EventRecordID>342298</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\TTY.INI</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.563018500Z" />
+      <EventRecordID>342299</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\TTY.DLL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.563107500Z" />
+      <EventRecordID>342300</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\TTYUI.DLL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.563213100Z" />
+      <EventRecordID>342301</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\TTYUI.HLP</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.563647000Z" />
+      <EventRecordID>342302</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.549</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\UNIRES.DLL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.549</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.602658600Z" />
+      <EventRecordID>342303</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.563</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\STDNAMES.GPD</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.563</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.602986300Z" />
+      <EventRecordID>342304</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.563</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\STDDTYPE.GDL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.563</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.603171500Z" />
+      <EventRecordID>342305</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.563</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\STDSCHEM.GDL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.563</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.603794300Z" />
+      <EventRecordID>342306</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.563</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\New\STDSCHMX.GDL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.563</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.622837500Z" />
+      <EventRecordID>342307</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.563</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\drivers\x64\3\Old\1</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.563</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.949078900Z" />
+      <EventRecordID>342308</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.938</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\blah\blah\phoneinfo.dll</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:27.938</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:27.949118100Z" />
+      <EventRecordID>342309</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Suspicious Print Port</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-08-12 13:04:27.938</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Ports\c:\blah\blah\phoneinfo.dll</Data>
+      <Data Name="Details">(Empty)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:28.509187700Z" />
+      <EventRecordID>342310</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:28.486</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8d1-5f33-0000-001007b63a00}</Data>
+      <Data Name="ProcessId">2532</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\PRINTERS\00002.SPL</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:28.453</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:28.509239900Z" />
+      <EventRecordID>342311</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:28.486</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\PRINTERS\00002.SHD</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:28.486</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:04:28.521402200Z" />
+      <EventRecordID>342312</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3296" ThreadID="4484" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:04:28.501</Data>
+      <Data Name="ProcessGuid">{747f3d96-e8ab-5f33-0000-001057d13900}</Data>
+      <Data Name="ProcessId">7700</Data>
+      <Data Name="Image">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\spool\PRINTERS\00002.SHD</Data>
+      <Data Name="CreationUtcTime">2020-08-12 13:04:28.486</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>4</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:05:19.719660100Z" />
+      <EventRecordID>342405</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="UtcTime">2020-08-12 13:05:19.713</Data>
+      <Data Name="State">Started</Data>
+      <Data Name="Version">10.42</Data>
+      <Data Name="SchemaVersion">4.23</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:05:20.029483900Z" />
+      <EventRecordID>342406</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:05:14.798</Data>
+      <Data Name="ProcessGuid">{747f3d96-e90a-5f33-0000-0010863c0100}</Data>
+      <Data Name="ProcessId">1740</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\SYSTEM32\cmd.exe /c ""C:\Program Files\Npcap\CheckStatus.bat""</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-e909-5f33-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e90a-5f33-0000-00102cf20000}</Data>
+      <Data Name="ParentProcessId">1180</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:05:20.378005200Z" />
+      <EventRecordID>342407</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:05:16.721</Data>
+      <Data Name="ProcessGuid">{747f3d96-e90c-5f33-0000-0010cb420200}</Data>
+      <Data Name="ProcessId">3320</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-e909-5f33-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e909-5f33-0000-00108c580000}</Data>
+      <Data Name="ParentProcessId">612</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:05:36.555348700Z" />
+      <EventRecordID>342408</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:05:36.545</Data>
+      <Data Name="ProcessGuid">{747f3d96-e920-5f33-0000-001043920a00}</Data>
+      <Data Name="ProcessId">5128</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-e911-5f33-0000-0020241c0400}</Data>
+      <Data Name="LogonId">0x41c24</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e914-5f33-0000-001009990500}</Data>
+      <Data Name="ParentProcessId">5144</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:05:38.260138000Z" />
+      <EventRecordID>342409</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:05:38.149</Data>
+      <Data Name="ProcessGuid">{747f3d96-e922-5f33-0000-00107a2b0b00}</Data>
+      <Data Name="ProcessId">6952</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c reg query "HKLM\Software\WOW6432Node\Npcap" /ve 2&gt;nul | find "REG_SZ"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-e909-5f33-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e90a-5f33-0000-0010863c0100}</Data>
+      <Data Name="ParentProcessId">1740</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\SYSTEM32\cmd.exe /c ""C:\Program Files\Npcap\CheckStatus.bat""</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:05:45.570757300Z" />
+      <EventRecordID>342410</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:05:45.568</Data>
+      <Data Name="SourceProcessGUID">{747f3d96-e914-5f33-0000-001009990500}</Data>
+      <Data Name="SourceProcessId">5144</Data>
+      <Data Name="SourceThreadId">5208</Data>
+      <Data Name="SourceImage">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetProcessGUID">{747f3d96-e928-5f33-0000-0010b8330d00}</Data>
+      <Data Name="TargetProcessId">7480</Data>
+      <Data Name="TargetImage">C:\Program Files (x86)\FileZilla Server\FileZilla Server Interface.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9fc24|C:\Windows\System32\KERNELBASE.dll+212ee|C:\Windows\System32\appresolver.dll+22098|C:\Windows\System32\appresolver.dll+1f0e6|C:\Windows\System32\appresolver.dll+1ee4f|C:\Windows\Explorer.EXE+4f551|C:\Windows\Explorer.EXE+4f3e8|C:\Windows\Explorer.EXE+37f41|C:\Windows\Explorer.EXE+3725b|C:\Windows\Explorer.EXE+34491|C:\Windows\Explorer.EXE+32f07|C:\Windows\Explorer.EXE+323bc|C:\Windows\Explorer.EXE+484cc|C:\Windows\Explorer.EXE+70048|C:\Windows\System32\USER32.dll+174c6|C:\Windows\System32\USER32.dll+171ec|C:\Windows\System32\USER32.dll+6e60|C:\Windows\SYSTEM32\ntdll.dll+a34b4|UNKNOWN(FFFFF8022626EBA5)|UNKNOWN(FFFF80A36CE0CA38)|UNKNOWN(FFFF80A36CD65C90)|UNKNOWN(FFFF80A36CD6A66D)|UNKNOWN(FFFF80A36CD6AEE8)|UNKNOWN(FFFF80A36CD6A9D7)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:00.737148400Z" />
+      <EventRecordID>342411</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:00.734</Data>
+      <Data Name="ProcessGuid">{747f3d96-e938-5f33-0000-00101ca50e00}</Data>
+      <Data Name="ProcessId">7836</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c rmdir /s/q C:\ProgramData\Microsoft\Windows\WER\ReportQueue\a_b_c_d_e &gt; nul 2&gt;&amp;1</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-e911-5f33-0000-0020241c0400}</Data>
+      <Data Name="LogonId">0x41c24</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e938-5f33-0000-00109ca00e00}</Data>
+      <Data Name="ParentProcessId">7820</Data>
+      <Data Name="ParentImage">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\WerTrigger.exe</Data>
+      <Data Name="ParentCommandLine">WerTrigger.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:01.637860300Z" />
+      <EventRecordID>342412</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:01.636</Data>
+      <Data Name="ProcessGuid">{747f3d96-e939-5f33-0000-0010acab0e00}</Data>
+      <Data Name="ProcessId">7852</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c mkdir,C:\ProgramData\Microsoft\Windows\WER\ReportQueue\a_b_c_d_e</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-e911-5f33-0000-0020241c0400}</Data>
+      <Data Name="LogonId">0x41c24</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e938-5f33-0000-00109ca00e00}</Data>
+      <Data Name="ParentProcessId">7820</Data>
+      <Data Name="ParentImage">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\WerTrigger.exe</Data>
+      <Data Name="ParentCommandLine">WerTrigger.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:02.552084700Z" />
+      <EventRecordID>342413</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:02.548</Data>
+      <Data Name="ProcessGuid">{747f3d96-e93a-5f33-0000-001014b30e00}</Data>
+      <Data Name="ProcessId">7868</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c copy Report.wer C:\ProgramData\Microsoft\Windows\WER\ReportQueue\a_b_c_d_e &gt; nul 2&gt;&amp;1</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-e911-5f33-0000-0020241c0400}</Data>
+      <Data Name="LogonId">0x41c24</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e938-5f33-0000-00109ca00e00}</Data>
+      <Data Name="ParentProcessId">7820</Data>
+      <Data Name="ParentImage">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\WerTrigger.exe</Data>
+      <Data Name="ParentCommandLine">WerTrigger.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:03.487498800Z" />
+      <EventRecordID>342414</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:03.484</Data>
+      <Data Name="ProcessGuid">{747f3d96-e93b-5f33-0000-0010c1b40e00}</Data>
+      <Data Name="ProcessId">7888</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\cmd.exe /c schtasks /run /TN "Microsoft\Windows\Windows Error Reporting\QueueReporting" &gt; nul 2&gt;&amp;1</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-e911-5f33-0000-0020241c0400}</Data>
+      <Data Name="LogonId">0x41c24</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e938-5f33-0000-00109ca00e00}</Data>
+      <Data Name="ParentProcessId">7820</Data>
+      <Data Name="ParentImage">C:\Users\Public\tools\PrivEsc\cve-2020-1337-poc-master\WerTrigger.exe</Data>
+      <Data Name="ParentCommandLine">WerTrigger.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:04.051227300Z" />
+      <EventRecordID>342415</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4180" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:04.044</Data>
+      <Data Name="ProcessGuid">{747f3d96-e93b-5f33-0000-001003ba0e00}</Data>
+      <Data Name="ProcessId">7920</Data>
+      <Data Name="Image">C:\Windows\System32\wermgr.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\phoneinfo.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=902A051BEECCA46D65D23F1C9D329C4573A96D50,MD5=694EF4E2CDC9F016CEB287C8C0FBBE3D,SHA256=AEB409906243BA4DDD3A62AE5D798758EF031A731B6532C18779A87DF00DB9C1,IMPHASH=B9A5E3913C4BB505322E605D469C70B6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:04.075706900Z" />
+      <EventRecordID>342416</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:04.074</Data>
+      <Data Name="ProcessGuid">{747f3d96-e93c-5f33-0000-0010a6f00e00}</Data>
+      <Data Name="ProcessId">8032</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-e909-5f33-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e93b-5f33-0000-001003ba0e00}</Data>
+      <Data Name="ParentProcessId">7920</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wermgr.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wermgr.exe -upload</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-12T13:06:08.143703700Z" />
+      <EventRecordID>342417</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4176" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-08-12 13:06:08.141</Data>
+      <Data Name="ProcessGuid">{747f3d96-e940-5f33-0000-001039310f00}</Data>
+      <Data Name="ProcessId">7460</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">whoami.exe</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-e909-5f33-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=47D7864D26FC67E0D60391CBF170D33DA518C322,MD5=43C2D3293AD939241DF61B3630A9D3B6,SHA256=1D5491E3C468EE4B4EF6EDFF4BBC7D06EE83180F6F0B1576763EA2EFE049493A,IMPHASH=7FF0758B766F747CE57DFAC70743FB88</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-e93c-5f33-0000-0010a6f00e00}</Data>
+      <Data Name="ParentProcessId">8032</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe"</Data>
+    </EventData>
+  </Event>
+</root>

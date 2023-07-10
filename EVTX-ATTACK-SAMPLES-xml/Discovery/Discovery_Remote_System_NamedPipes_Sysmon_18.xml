@@ -1,0 +1,562 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.244384300Z" />
+      <EventRecordID>409597</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.231</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\lsass</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.250904300Z" />
+      <EventRecordID>409598</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.245</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\lsass</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.257978200Z" />
+      <EventRecordID>409599</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.245</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\lsass</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.264878300Z" />
+      <EventRecordID>409600</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.263</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\browser</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.272246100Z" />
+      <EventRecordID>409601</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.263</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\atsvc</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.286698900Z" />
+      <EventRecordID>409602</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.278</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\epmapper</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.293117700Z" />
+      <EventRecordID>409603</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.278</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\eventlog</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.299569700Z" />
+      <EventRecordID>409604</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.295</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\InitShutdown</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.314129600Z" />
+      <EventRecordID>409605</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.308</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\lsass</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.322314400Z" />
+      <EventRecordID>409606</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.308</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\LSM_API_service</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.328840200Z" />
+      <EventRecordID>409607</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.325</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\ntsvcs</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.343643100Z" />
+      <EventRecordID>409608</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.343</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\lsass</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.350629500Z" />
+      <EventRecordID>409609</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.343</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\ROUTER</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.364583600Z" />
+      <EventRecordID>409610</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.356</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\scerpc</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.371227300Z" />
+      <EventRecordID>409611</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.356</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.377816600Z" />
+      <EventRecordID>409612</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.371</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\tapsrv</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.385127600Z" />
+      <EventRecordID>409613</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.371</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\trkwks</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:19:54.399729200Z" />
+      <EventRecordID>409614</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:19:54.390</Data>
+      <Data Name="ProcessGuid">{747f3d96-0c7a-5f71-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\wkssvc</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:20:11.245342200Z" />
+      <EventRecordID>409615</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:20:11.229</Data>
+      <Data Name="ProcessGuid">{747f3d96-8e29-5f70-0000-001049471000}</Data>
+      <Data Name="ProcessId">6096</Data>
+      <Data Name="PipeName">\wkssvc</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-27T13:20:11.247614000Z" />
+      <EventRecordID>409616</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3320" ThreadID="4584" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-09-27 13:20:11.245</Data>
+      <Data Name="ProcessGuid">{747f3d96-8e29-5f70-0000-001049471000}</Data>
+      <Data Name="ProcessId">6096</Data>
+      <Data Name="PipeName">\browser</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+    </EventData>
+  </Event>
+</root>

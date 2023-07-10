@@ -1,0 +1,701 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:38.241298600Z" />
+      <EventRecordID>6168</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:38.231</Data>
+      <Data Name="ProcessGuid">{365abb72-fe66-5ceb-0000-001058f50b00}</Data>
+      <Data Name="ProcessId">3256</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c whoami /groups </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:38.290374100Z" />
+      <EventRecordID>6170</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:38.270</Data>
+      <Data Name="ProcessGuid">{365abb72-fe66-5ceb-0000-0010c7f80b00}</Data>
+      <Data Name="ProcessId">1168</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">whoami  /groups </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=DC058F52AD8ACBD316827B6DCAC2434AB3CC515C,MD5=0EBF71E33EF09CA65D9683AFA999C473,SHA256=599EFD455AEEEFE2044A9B597061F271595033F5D0DF2C99DFDBCA8394BBCEC3,IMPHASH=C5352B949915AB8CD5E1844790D19274</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe66-5ceb-0000-001058f50b00}</Data>
+      <Data Name="ParentProcessId">3256</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c whoami /groups </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:43.990983200Z" />
+      <EventRecordID>6171</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:43.969</Data>
+      <Data Name="ProcessGuid">{365abb72-fe6b-5ceb-0000-00102a090c00}</Data>
+      <Data Name="ProcessId">1536</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c %%SYSTEMROOT%%\system32\wbem\wmic.exe /output:C:\Windows\TEMP\htxjGDrk /INTERACTIVE:off /node:localhost Service where(name="VSS") get state</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:44.055762800Z" />
+      <EventRecordID>6173</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:44.023</Data>
+      <Data Name="ProcessGuid">{365abb72-fe6c-5ceb-0000-0010050c0c00}</Data>
+      <Data Name="ProcessId">3520</Data>
+      <Data Name="Image">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">WMI Commandline Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\wbem\wmic.exe  /output:C:\Windows\TEMP\htxjGDrk /INTERACTIVE:off /node:localhost Service where(name="VSS") get state</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=4368DBD172224EC9461364BE1AC9DFFC5D9224A8,MD5=A03CF3838775E0801A0894C8BACD2E56,SHA256=132AA270790F56A7524CAB968927ED5E1D91B9A26D4BADCB24E450E7DECC5F81,IMPHASH=B59AF26B08AA14BA66272388BC9C2443</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe6b-5ceb-0000-00102a090c00}</Data>
+      <Data Name="ParentProcessId">1536</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c %SYSTEMROOT%\system32\wbem\wmic.exe /output:C:\Windows\TEMP\htxjGDrk /INTERACTIVE:off /node:localhost Service where(name="VSS") get state</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:45.405337800Z" />
+      <EventRecordID>6175</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:45.383</Data>
+      <Data Name="ProcessGuid">{365abb72-fe6d-5ceb-0000-0010332a0c00}</Data>
+      <Data Name="ProcessId">3876</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c %%SYSTEMROOT%%\system32\wbem\wmic.exe /output:C:\Windows\TEMP\CEafXbEl /INTERACTIVE:off /node:localhost Service where(name="swprv") get state</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:45.491710600Z" />
+      <EventRecordID>6177</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:45.437</Data>
+      <Data Name="ProcessGuid">{365abb72-fe6d-5ceb-0000-0010122d0c00}</Data>
+      <Data Name="ProcessId">1636</Data>
+      <Data Name="Image">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">WMI Commandline Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\wbem\wmic.exe  /output:C:\Windows\TEMP\CEafXbEl /INTERACTIVE:off /node:localhost Service where(name="swprv") get state</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=4368DBD172224EC9461364BE1AC9DFFC5D9224A8,MD5=A03CF3838775E0801A0894C8BACD2E56,SHA256=132AA270790F56A7524CAB968927ED5E1D91B9A26D4BADCB24E450E7DECC5F81,IMPHASH=B59AF26B08AA14BA66272388BC9C2443</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe6d-5ceb-0000-0010332a0c00}</Data>
+      <Data Name="ParentProcessId">3876</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c %SYSTEMROOT%\system32\wbem\wmic.exe /output:C:\Windows\TEMP\CEafXbEl /INTERACTIVE:off /node:localhost Service where(name="swprv") get state</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:46.981641400Z" />
+      <EventRecordID>6179</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:46.981</Data>
+      <Data Name="ProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ProcessId">1944</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\svhost64.exe</Data>
+      <Data Name="CreationUtcTime">2019-05-27 15:12:46.981</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:47.402708800Z" />
+      <EventRecordID>6180</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:47.402</Data>
+      <Data Name="ProcessGuid">{365abb72-fe6f-5ceb-0000-0010f4370c00}</Data>
+      <Data Name="ProcessId">3448</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c %%SYSTEMROOT%%\system32\wbem\wmic.exe /output:C:\Windows\TEMP\YqOMAUgO /INTERACTIVE:off /node:localhost shadowcopy call create "ClientAccessible", "C:\"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:47.478285000Z" />
+      <EventRecordID>6182</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:47.456</Data>
+      <Data Name="ProcessGuid">{365abb72-fe6f-5ceb-0000-0010d33a0c00}</Data>
+      <Data Name="ProcessId">3344</Data>
+      <Data Name="Image">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">WMI Commandline Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\wbem\wmic.exe  /output:C:\Windows\TEMP\YqOMAUgO /INTERACTIVE:off /node:localhost shadowcopy call create "ClientAccessible", "C:\"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=4368DBD172224EC9461364BE1AC9DFFC5D9224A8,MD5=A03CF3838775E0801A0894C8BACD2E56,SHA256=132AA270790F56A7524CAB968927ED5E1D91B9A26D4BADCB24E450E7DECC5F81,IMPHASH=B59AF26B08AA14BA66272388BC9C2443</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe6f-5ceb-0000-0010f4370c00}</Data>
+      <Data Name="ParentProcessId">3448</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c %SYSTEMROOT%\system32\wbem\wmic.exe /output:C:\Windows\TEMP\YqOMAUgO /INTERACTIVE:off /node:localhost shadowcopy call create "ClientAccessible", "C:\"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:48.655114400Z" />
+      <EventRecordID>6184</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:48.644</Data>
+      <Data Name="ProcessGuid">{365abb72-fe70-5ceb-0000-0010385c0c00}</Data>
+      <Data Name="ProcessId">2412</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c vssadmin List Shadows| find "Shadow Copy Volume" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:48.763080400Z" />
+      <EventRecordID>6186</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:48.698</Data>
+      <Data Name="ProcessGuid">{365abb72-fe70-5ceb-0000-0010935f0c00}</Data>
+      <Data Name="ProcessId">1820</Data>
+      <Data Name="Image">C:\Windows\System32\vssadmin.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Command Line Interface for Microsoft« Volume Shadow Copy Service </Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">vssadmin  List Shadows</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=B1B1E773A7A6BA38302B345A908BB52B0F7E6394,MD5=6E248A3D528EDE43994457CF417BD665,SHA256=E09BF4D27555EC7567A598BA89CCC33667252CEF1FB0B604315EA7562D18AD10,IMPHASH=12DA878C5889D860091D0234440C2C8E</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe70-5ceb-0000-0010385c0c00}</Data>
+      <Data Name="ParentProcessId">2412</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c vssadmin List Shadows| find "Shadow Copy Volume" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:48.827860000Z" />
+      <EventRecordID>6187</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:48.709</Data>
+      <Data Name="ProcessGuid">{365abb72-fe70-5ceb-0000-0010d65f0c00}</Data>
+      <Data Name="ProcessId">1796</Data>
+      <Data Name="Image">C:\Windows\System32\find.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Find String (grep) Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">find  "Shadow Copy Volume" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=53342581BB82420A97BF89692A4927C5CB5FF9E1,MD5=5816034B0B629756163B80838853B730,SHA256=84D9AB18A059BD31C5FF4646D14F048BDA5BDE015F4A1FB2EA51E13E49725189,IMPHASH=DB2DE2A9C5C9EE806B505EDAF37AD1DF</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe70-5ceb-0000-0010385c0c00}</Data>
+      <Data Name="ParentProcessId">2412</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c vssadmin List Shadows| find "Shadow Copy Volume" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:54.447494800Z" />
+      <EventRecordID>6188</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:54.428</Data>
+      <Data Name="ProcessGuid">{365abb72-fe76-5ceb-0000-0010546e0c00}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c %%SYSTEMROOT%%\system32\wbem\wmic.exe process call create \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:54.544664800Z" />
+      <EventRecordID>6190</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:54.515</Data>
+      <Data Name="ProcessGuid">{365abb72-fe76-5ceb-0000-001077710c00}</Data>
+      <Data Name="ProcessId">2840</Data>
+      <Data Name="Image">C:\Windows\System32\wbem\WMIC.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">WMI Commandline Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\wbem\wmic.exe  process call create \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=4368DBD172224EC9461364BE1AC9DFFC5D9224A8,MD5=A03CF3838775E0801A0894C8BACD2E56,SHA256=132AA270790F56A7524CAB968927ED5E1D91B9A26D4BADCB24E450E7DECC5F81,IMPHASH=B59AF26B08AA14BA66272388BC9C2443</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe76-5ceb-0000-0010546e0c00}</Data>
+      <Data Name="ParentProcessId">2356</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c %SYSTEMROOT%\system32\wbem\wmic.exe process call create \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:54.632117800Z" />
+      <EventRecordID>6192</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:54.612</Data>
+      <Data Name="ProcessGuid">{365abb72-fe76-5ceb-0000-001015780c00}</Data>
+      <Data Name="ProcessId">1260</Data>
+      <Data Name="Image">\Device\HarddiskVolumeShadowCopy7\Windows\Temp\svhost64.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=D2A54176D8E86788FB6D588919031FEF7594A79C,MD5=5779C26E8F7B3E2C9354436E0081DF67,SHA256=64F02345E342749D381F7DF34E23CE304B3292F97DE9ECE0FB6E9B55466ADF44,IMPHASH=481F47BBB2C9C21E108D65F52B04C448</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe6c-5ceb-0000-00104a170c00}</Data>
+      <Data Name="ParentProcessId">3680</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:59.519768800Z" />
+      <EventRecordID>6193</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-27 15:12:59.510</Data>
+      <Data Name="ProcessGuid">{365abb72-fe7b-5ceb-0000-0010867f0c00}</Data>
+      <Data Name="ProcessId">4012</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">cmd.exe /c %%SYSTEMROOT%%\system32\schtasks.exe /create /sc minute /mo 1 /tn "eyNQLDvUSuvVPg" /tr "\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fd85-5ceb-0000-00104c0e0b00}</Data>
+      <Data Name="ParentProcessId">1944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\notepad.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-27T15:12:59.578070800Z" />
+      <EventRecordID>6195</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="980" ThreadID="2220" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Persistence - Scheduled Task Management</Data>
+      <Data Name="UtcTime">2019-05-27 15:12:59.558</Data>
+      <Data Name="ProcessGuid">{365abb72-fe7b-5ceb-0000-0010d6820c00}</Data>
+      <Data Name="ProcessId">4044</Data>
+      <Data Name="Image">C:\Windows\System32\schtasks.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Manages scheduled tasks</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\schtasks.exe  /create /sc minute /mo 1 /tn "eyNQLDvUSuvVPg" /tr "\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-7b40-5cec-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8A7E8B05A122B768AB85466B2A3DAF7A358F90F4,MD5=2003E9B15E1C502B146DAD2E383AC1E3,SHA256=15018D0093BEFABBA8B927743191030D1F8C17BB97FDB48C2FC3EAB20E2D4B3D,IMPHASH=D92C80D49382091310FB8DB089F856A9</Data>
+      <Data Name="ParentProcessGuid">{365abb72-fe7b-5ceb-0000-0010867f0c00}</Data>
+      <Data Name="ParentProcessId">4012</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">cmd.exe /c %SYSTEMROOT%\system32\schtasks.exe /create /sc minute /mo 1 /tn "eyNQLDvUSuvVPg" /tr "\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy7\\Windows\Temp\svhost64.exe" </Data>
+    </EventData>
+  </Event>
+</root>

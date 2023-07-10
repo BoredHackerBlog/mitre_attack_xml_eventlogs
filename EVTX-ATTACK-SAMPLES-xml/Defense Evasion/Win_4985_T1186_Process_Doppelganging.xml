@@ -1,0 +1,60 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4985</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-14T14:06:44.495674800Z" />
+      <EventRecordID>12294</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="6700" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x342ba</Data>
+      <Data Name="TransactionId">{9c655e9c-be8f-11e9-b49d-080027e6e559}</Data>
+      <Data Name="NewState">48</Data>
+      <Data Name="ResourceManager">{d1a38506-4a7e-11e9-9f82-d8ba40b6d8da}</Data>
+      <Data Name="ProcessId">0x14c8</Data>
+      <Data Name="ProcessName">C:\ProgramData\proc_doppel64.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4985</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-14T14:06:44.849885100Z" />
+      <EventRecordID>12295</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="272" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x342ba</Data>
+      <Data Name="TransactionId">{9c655e9c-be8f-11e9-b49d-080027e6e559}</Data>
+      <Data Name="NewState">56</Data>
+      <Data Name="ResourceManager">{d1a38506-4a7e-11e9-9f82-d8ba40b6d8da}</Data>
+      <Data Name="ProcessId">0x14c8</Data>
+      <Data Name="ProcessName">C:\ProgramData\proc_doppel64.exe</Data>
+    </EventData>
+  </Event>
+</root>

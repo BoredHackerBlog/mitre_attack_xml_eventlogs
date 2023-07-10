@@ -1,0 +1,380 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.668300900Z" />
+      <EventRecordID>28573</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=725
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=d61c85aa-4638-43bc-ae77-c65b9a535602
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+	PipelineId=100
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.887054700Z" />
+      <EventRecordID>28574</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=727
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=d61c85aa-4638-43bc-ae77-c65b9a535602
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+	PipelineId=101
+	ScriptName=
+	CommandLine=Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False</Data>
+      <Data>CommandInvocation(Set-NetFirewallProfile): "Set-NetFirewallProfile"
+ParameterBinding(Set-NetFirewallProfile): name="Name"; value="Domain, Public, Private"
+ParameterBinding(Set-NetFirewallProfile): name="Enabled"; value="False"
+ParameterBinding(Set-NetFirewallProfile): name="All"; value="False"
+ParameterBinding(Set-NetFirewallProfile): name="PolicyStore"; value=""
+ParameterBinding(Set-NetFirewallProfile): name="GPOSession"; value=""
+ParameterBinding(Set-NetFirewallProfile): name="LogFileName"; value=""
+ParameterBinding(Set-NetFirewallProfile): name="LogMaxSizeKilobytes"; value="0"
+ParameterBinding(Set-NetFirewallProfile): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-NetFirewallProfile): name="AsJob"; value="False"
+ParameterBinding(Set-NetFirewallProfile): name="PassThru"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.887054700Z" />
+      <EventRecordID>28575</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=729
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=d61c85aa-4638-43bc-ae77-c65b9a535602
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+	PipelineId=101
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.887054700Z" />
+      <EventRecordID>28576</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=731
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=d61c85aa-4638-43bc-ae77-c65b9a535602
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+	PipelineId=103
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.671593600Z" />
+      <EventRecordID>29908</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-DF1E-24382D51D701}" />
+      <Execution ProcessID="5200" ThreadID="4232" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = d61c85aa-4638-43bc-ae77-c65b9a535602
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+        Pipeline ID = 100
+        Command Name = PSConsoleHostReadline
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 726
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.672354100Z" />
+      <EventRecordID>29909</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-351F-24382D51D701}" />
+      <Execution ProcessID="5200" ThreadID="4232" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-NetFirewallProfile -Profile Domain, Public, Private -Enabled False</Data>
+      <Data Name="ScriptBlockId">764ddb3f-30a6-4df0-a4c1-afe7d1e7b775</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.887996900Z" />
+      <EventRecordID>29910</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-361F-24382D51D701}" />
+      <Execution ProcessID="5200" ThreadID="4232" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = d61c85aa-4638-43bc-ae77-c65b9a535602
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+        Pipeline ID = 101
+        Command Name = Set-NetFirewallProfile
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 728
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-NetFirewallProfile): "Set-NetFirewallProfile"
+ParameterBinding(Set-NetFirewallProfile): name="Name"; value="Domain, Public, Private"
+ParameterBinding(Set-NetFirewallProfile): name="Enabled"; value="False"
+ParameterBinding(Set-NetFirewallProfile): name="All"; value="False"
+ParameterBinding(Set-NetFirewallProfile): name="PolicyStore"; value=""
+ParameterBinding(Set-NetFirewallProfile): name="GPOSession"; value=""
+ParameterBinding(Set-NetFirewallProfile): name="LogFileName"; value=""
+ParameterBinding(Set-NetFirewallProfile): name="LogMaxSizeKilobytes"; value="0"
+ParameterBinding(Set-NetFirewallProfile): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-NetFirewallProfile): name="AsJob"; value="False"
+ParameterBinding(Set-NetFirewallProfile): name="PassThru"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.888211300Z" />
+      <EventRecordID>29911</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-351F-24382D51D701}" />
+      <Execution ProcessID="5200" ThreadID="4232" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = d61c85aa-4638-43bc-ae77-c65b9a535602
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+        Pipeline ID = 101
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 730
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.889359500Z" />
+      <EventRecordID>29912</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-1520-24382D51D701}" />
+      <Execution ProcessID="5200" ThreadID="4232" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">7f07e97d-47dd-4968-9acb-9cd137fbc192</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T18:34:12.895476100Z" />
+      <EventRecordID>29913</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-4A20-24382D51D701}" />
+      <Execution ProcessID="5200" ThreadID="4232" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = d61c85aa-4638-43bc-ae77-c65b9a535602
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 1b55a157-a0b9-4e11-bc7a-f1d86023a61c
+        Pipeline ID = 103
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 732
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+</root>

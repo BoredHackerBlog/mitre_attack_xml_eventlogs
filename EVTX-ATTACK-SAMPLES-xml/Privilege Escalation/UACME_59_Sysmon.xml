@@ -1,0 +1,248 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.351744800Z" />
+      <EventRecordID>2164886</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.350</Data>
+      <Data Name="SourceProcessGUID">{00247c92-858e-5f7b-0000-00106b29202b}</Data>
+      <Data Name="SourceProcessId">27356</Data>
+      <Data Name="SourceThreadId">4732</Data>
+      <Data Name="SourceImage">C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-82a5-5f7b-0000-0010c89f0a2b}</Data>
+      <Data Name="TargetProcessId">19072</Data>
+      <Data Name="TargetImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9c534|C:\windows\System32\KERNELBASE.dll+305fe|C:\windows\SYSTEM32\OPENGL32.dll+e56db|C:\windows\SYSTEM32\OPENGL32.dll+e61b9|C:\windows\SYSTEM32\OPENGL32.dll+2989b|C:\windows\SYSTEM32\OPENGL32.dll+2aa69|C:\windows\SYSTEM32\OPENGL32.dll+44f79|C:\windows\SYSTEM32\OPENGL32.dll+44335|C:\windows\System32\gdi32full.dll+75989|C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe+1d90b|C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe+1dd60|C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe+1e070|C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe+428d2|C:\windows\SYSTEM32\VCRUNTIME140D.dll+1be5b|C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe+3dcd6|C:\windows\SYSTEM32\ntdll.dll+a11cf|C:\windows\SYSTEM32\ntdll.dll+6a209|C:\windows\SYSTEM32\ntdll.dll+9fe3e|C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe+1d29d|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.390190300Z" />
+      <EventRecordID>2164887</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.389</Data>
+      <Data Name="SourceProcessGUID">{00247c92-5b27-5f74-0000-001045f11200}</Data>
+      <Data Name="SourceProcessId">11640</Data>
+      <Data Name="SourceThreadId">25568</Data>
+      <Data Name="SourceImage">C:\windows\system32\svchost.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-858e-5f7b-0000-00106b29202b}</Data>
+      <Data Name="TargetProcessId">27356</Data>
+      <Data Name="TargetImage">C:\windows\explorer.exe</Data>
+      <Data Name="GrantedAccess">0x1014c0</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9c534|c:\windows\system32\appinfo.dll+36f8|C:\windows\System32\RPCRT4.dll+76a53|C:\windows\System32\RPCRT4.dll+1ecb|C:\windows\System32\RPCRT4.dll+54998|C:\windows\System32\RPCRT4.dll+2c951|C:\windows\System32\RPCRT4.dll+2c4a0|C:\windows\System32\RPCRT4.dll+1a6bf|C:\windows\System32\RPCRT4.dll+19d1a|C:\windows\System32\RPCRT4.dll+19301|C:\windows\System32\RPCRT4.dll+18d6e|C:\windows\System32\RPCRT4.dll+169a5|C:\windows\SYSTEM32\ntdll.dll+333ed|C:\windows\SYSTEM32\ntdll.dll+34142|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.394640200Z" />
+      <EventRecordID>2164888</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.393</Data>
+      <Data Name="SourceProcessGUID">{00247c92-5b27-5f74-0000-001045f11200}</Data>
+      <Data Name="SourceProcessId">11640</Data>
+      <Data Name="SourceThreadId">25568</Data>
+      <Data Name="SourceImage">C:\windows\system32\svchost.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-858e-5f7b-0000-00106b29202b}</Data>
+      <Data Name="TargetProcessId">27356</Data>
+      <Data Name="TargetImage">C:\windows\explorer.exe</Data>
+      <Data Name="GrantedAccess">0x1014c0</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9c534|c:\windows\system32\appinfo.dll+36f8|C:\windows\System32\RPCRT4.dll+76a53|C:\windows\System32\RPCRT4.dll+1ecb|C:\windows\System32\RPCRT4.dll+54998|C:\windows\System32\RPCRT4.dll+2c951|C:\windows\System32\RPCRT4.dll+2c4a0|C:\windows\System32\RPCRT4.dll+1a6bf|C:\windows\System32\RPCRT4.dll+19d1a|C:\windows\System32\RPCRT4.dll+19301|C:\windows\System32\RPCRT4.dll+18d6e|C:\windows\System32\RPCRT4.dll+169a5|C:\windows\SYSTEM32\ntdll.dll+333ed|C:\windows\SYSTEM32\ntdll.dll+34142|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.450239600Z" />
+      <EventRecordID>2164889</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.449</Data>
+      <Data Name="ProcessGuid">{00247c92-858e-5f7b-0000-00105241202b}</Data>
+      <Data Name="ProcessId">18404</Data>
+      <Data Name="Image">C:\Windows\System32\Taskmgr.exe</Data>
+      <Data Name="FileVersion">10.0.18362.693 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Task Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Taskmgr.exe</Data>
+      <Data Name="CommandLine">C:\windows\system32\taskmgr.exe</Data>
+      <Data Name="CurrentDirectory">C:\windows\system32\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-8c36-5f75-0000-002034e39103}</Data>
+      <Data Name="LogonId">0x391e334</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8A4882EE93E1F23BF9241E4BA0BF7BD67F88A364,MD5=33FACAAB13A58251BF45E9AC958B15FA,SHA256=0AF6B3F8628E38B1551EC76277E482F8A2605B661F57C164C47ACEBB14B1A81B,IMPHASH=98526F50539626C2E9C93297FE2AF83B</Data>
+      <Data Name="ParentProcessGuid">{00247c92-858e-5f7b-0000-00106b29202b}</Data>
+      <Data Name="ParentProcessId">27356</Data>
+      <Data Name="ParentImage">C:\Users\bouss\Downloads\UACME-3.2.6\Source\Akagi\output\x64\Debug\Akagi_64.exe</Data>
+      <Data Name="ParentCommandLine">Akagi_64.exe  59 cmd.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.450522800Z" />
+      <EventRecordID>2164890</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.449</Data>
+      <Data Name="SourceProcessGUID">{00247c92-5b27-5f74-0000-001045f11200}</Data>
+      <Data Name="SourceProcessId">11640</Data>
+      <Data Name="SourceThreadId">25568</Data>
+      <Data Name="SourceImage">C:\windows\system32\svchost.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-858e-5f7b-0000-00105241202b}</Data>
+      <Data Name="TargetProcessId">18404</Data>
+      <Data Name="TargetImage">C:\windows\system32\taskmgr.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9d8e4|C:\windows\System32\KERNELBASE.dll+59e1a|C:\windows\System32\KERNELBASE.dll+55ec3|C:\windows\System32\KERNEL32.DLL+1c9af|c:\windows\system32\appinfo.dll+2c3d|c:\windows\system32\appinfo.dll+411e|C:\windows\System32\RPCRT4.dll+76a53|C:\windows\System32\RPCRT4.dll+1ecb|C:\windows\System32\RPCRT4.dll+54998|C:\windows\System32\RPCRT4.dll+2c951|C:\windows\System32\RPCRT4.dll+2c4a0|C:\windows\System32\RPCRT4.dll+1a6bf|C:\windows\System32\RPCRT4.dll+19d1a|C:\windows\System32\RPCRT4.dll+19301|C:\windows\System32\RPCRT4.dll+18d6e|C:\windows\System32\RPCRT4.dll+169a5|C:\windows\SYSTEM32\ntdll.dll+333ed|C:\windows\SYSTEM32\ntdll.dll+34142|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.450770100Z" />
+      <EventRecordID>2164891</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.450</Data>
+      <Data Name="SourceProcessGUID">{00247c92-858e-5f7b-0000-00106b29202b}</Data>
+      <Data Name="SourceProcessId">27356</Data>
+      <Data Name="SourceThreadId">4732</Data>
+      <Data Name="SourceImage">C:\windows\explorer.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-858e-5f7b-0000-00105241202b}</Data>
+      <Data Name="TargetProcessId">18404</Data>
+      <Data Name="TargetImage">C:\windows\system32\taskmgr.exe</Data>
+      <Data Name="GrantedAccess">0x12367b</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9f9c4|C:\windows\System32\KERNELBASE.dll+f8af6|C:\windows\explorer.exe+33be5|C:\windows\explorer.exe+31288|C:\windows\explorer.exe+316f2|C:\windows\explorer.exe+1dea1|C:\windows\explorer.exe+1e070|C:\windows\explorer.exe+428d2|C:\windows\SYSTEM32\VCRUNTIME140D.dll+1be5b|C:\windows\explorer.exe+3dcd6|C:\windows\SYSTEM32\ntdll.dll+a11cf|C:\windows\SYSTEM32\ntdll.dll+6a209|C:\windows\SYSTEM32\ntdll.dll+9fe3e|C:\windows\explorer.exe+1d29d|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T20:43:58.451314600Z" />
+      <EventRecordID>2164892</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 20:43:58.450</Data>
+      <Data Name="ProcessGuid">{00247c92-858e-5f7b-0000-0010e741202b}</Data>
+      <Data Name="ProcessId">6636</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.18362.449 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe</Data>
+      <Data Name="CurrentDirectory">C:\windows\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-8c36-5f75-0000-002034e39103}</Data>
+      <Data Name="LogonId">0x391e334</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8DCA9749CD48D286950E7A9FA1088C937CBCCAD4,MD5=D7AB69FAD18D4A643D84A271DFC0DBDF,SHA256=FF79D3C4A0B7EB191783C323AB8363EBD1FD10BE58D8BCC96B07067743CA81D5,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{00247c92-858e-5f7b-0000-00105241202b}</Data>
+      <Data Name="ParentProcessId">18404</Data>
+      <Data Name="ParentImage">C:\Windows\System32\Taskmgr.exe</Data>
+      <Data Name="ParentCommandLine">C:\windows\system32\taskmgr.exe</Data>
+    </EventData>
+  </Event>
+</root>

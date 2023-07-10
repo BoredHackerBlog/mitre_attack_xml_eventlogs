@@ -1,0 +1,114 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T22:28:20.530062800Z" />
+      <EventRecordID>2164913</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 22:28:20.529</Data>
+      <Data Name="ProcessGuid">{00247c92-9e04-5f7b-0000-0010cf98272c}</Data>
+      <Data Name="ProcessId">12876</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.18362.449 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\windows\system32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">C:\windows\system32\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-8c36-5f75-0000-002034e39103}</Data>
+      <Data Name="LogonId">0x391e334</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=8DCA9749CD48D286950E7A9FA1088C937CBCCAD4,MD5=D7AB69FAD18D4A643D84A271DFC0DBDF,SHA256=FF79D3C4A0B7EB191783C323AB8363EBD1FD10BE58D8BCC96B07067743CA81D5,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{00247c92-9e03-5f7b-0000-0010a645272c}</Data>
+      <Data Name="ParentProcessId">20228</Data>
+      <Data Name="ParentImage">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\mmc.exe" WF.msc</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T22:28:20.530243600Z" />
+      <EventRecordID>2164914</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6708" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 22:28:20.528</Data>
+      <Data Name="SourceProcessGUID">{00247c92-9e03-5f7b-0000-0010a645272c}</Data>
+      <Data Name="SourceProcessId">20228</Data>
+      <Data Name="SourceThreadId">23480</Data>
+      <Data Name="SourceImage">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-9e04-5f7b-0000-0010cf98272c}</Data>
+      <Data Name="TargetProcessId">12876</Data>
+      <Data Name="TargetImage">C:\windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9d8e4|C:\windows\System32\KERNELBASE.dll+59e1a|C:\windows\System32\KERNELBASE.dll+567b6|C:\windows\System32\KERNEL32.DLL+1be93|C:\windows\assembly\NativeImages_v4.0.30319_64\Accessibility\17f39a0966f33022984396aa57e95869\Accessibility.ni.dll+1042e|UNKNOWN(000000000088B810)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-05T22:28:20.721121200Z" />
+      <EventRecordID>2164915</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6716" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-05 22:28:20.527</Data>
+      <Data Name="ProcessGuid">{00247c92-9e03-5f7b-0000-0010a645272c}</Data>
+      <Data Name="ProcessId">20228</Data>
+      <Data Name="Image">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\assembly\NativeImages_v4.0.30319_64\Accessibility\17f39a0966f33022984396aa57e95869\Accessibility.ni.dll</Data>
+      <Data Name="FileVersion">4.8.3752.0 built by: NET48REL1</Data>
+      <Data Name="Description">.NET Framework</Data>
+      <Data Name="Product">Microsoft« .NET Framework</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">UNKNOWN_FILE</Data>
+      <Data Name="Hashes">SHA1=0FF603D697909A4D050A72EBDEC0FD83F95762AB,MD5=CABC284BF09AA8DC634500286D7A428F,SHA256=C796F68B0FC7FD155BB92410624F04E61903599D40CC220CA15C10E01C95A4CF,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+</root>

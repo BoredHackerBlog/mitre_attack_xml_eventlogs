@@ -1,0 +1,277 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.000000000Z" />
+      <EventRecordID>58512</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>foreach ($s in [System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest().Sites ){write-host "[&gt;] (site) $s";foreach ($r in $s.Subnets){write-host "    +-&gt; (subnet) $r";foreach ($m in $s.Servers){write-host "       +-&gt; (server) $m"}}}</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=8165
+
+	UserId=OFFSEC\hack1
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=a991c134-2e90-418c-940d-258271dd1e9c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=4.0
+	RunspaceId=4315d698-493e-410a-8e70-1c07123fdca4
+	PipelineId=530
+	ScriptName=
+	CommandLine=foreach ($s in [System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest().Sites ){write-host "[&gt;] (site) $s";foreach ($r in $s.Subnets){write-host "    +-&gt; (subnet) $r";foreach ($m in $s.Servers){write-host "       +-&gt; (server) $m"}}}</Data>
+      <Data>CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="Object"; value="[&gt;] (site) OFFSEC-PREMISE"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.000000000Z" />
+      <EventRecordID>58513</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>foreach ($s in [System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest().Sites ){write-host "[&gt;] (site) $s";foreach ($r in $s.Subnets){write-host "    +-&gt; (subnet) $r";foreach ($m in $s.Servers){write-host "       +-&gt; (server) $m"}}}</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=8167
+
+	UserId=OFFSEC\hack1
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=a991c134-2e90-418c-940d-258271dd1e9c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=4.0
+	RunspaceId=4315d698-493e-410a-8e70-1c07123fdca4
+	PipelineId=530
+	ScriptName=
+	CommandLine=foreach ($s in [System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest().Sites ){write-host "[&gt;] (site) $s";foreach ($r in $s.Subnets){write-host "    +-&gt; (subnet) $r";foreach ($m in $s.Servers){write-host "       +-&gt; (server) $m"}}}</Data>
+      <Data>CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="Object"; value="[&gt;] (site) LONDON"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.000000000Z" />
+      <EventRecordID>58514</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=8169
+
+	UserId=OFFSEC\hack1
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=a991c134-2e90-418c-940d-258271dd1e9c
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=4.0
+	RunspaceId=4315d698-493e-410a-8e70-1c07123fdca4
+	PipelineId=530
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.657390400Z" />
+      <EventRecordID>73244</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0001-c76d-3c3ffde4d701}" />
+      <Execution ProcessID="4960" ThreadID="2608" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1234" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">foreach ($s in [System.DirectoryServices.ActiveDirectory.Forest]::GetCurrentForest().Sites ){write-host "[&gt;] (site) $s";foreach ($r in $s.Subnets){write-host "    +-&gt; (subnet) $r";foreach ($m in $s.Servers){write-host "       +-&gt; (server) $m"}}}</Data>
+      <Data Name="ScriptBlockId">b2d840ae-11f6-4610-adfb-938db51754c2</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.657390400Z" />
+      <EventRecordID>73245</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0001-4f6e-3c3ffde4d701}" />
+      <Execution ProcessID="4960" ThreadID="2608" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1234" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = a991c134-2e90-418c-940d-258271dd1e9c
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 4.0
+        Runspace ID = 4315d698-493e-410a-8e70-1c07123fdca4
+        Pipeline ID = 530
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 8166
+        User = OFFSEC\hack1
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="Object"; value="[&gt;] (site) OFFSEC-PREMISE"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.673018500Z" />
+      <EventRecordID>73246</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0000-cd16-3d3ffde4d701}" />
+      <Execution ProcessID="4960" ThreadID="2608" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1234" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = a991c134-2e90-418c-940d-258271dd1e9c
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 4.0
+        Runspace ID = 4315d698-493e-410a-8e70-1c07123fdca4
+        Pipeline ID = 530
+        Command Name = Write-Host
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 8168
+        User = OFFSEC\hack1
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Write-Host): "Write-Host"
+ParameterBinding(Write-Host): name="Object"; value="[&gt;] (site) LONDON"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.673018500Z" />
+      <EventRecordID>73247</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0000-cc16-3d3ffde4d701}" />
+      <Execution ProcessID="4960" ThreadID="2608" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1234" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = a991c134-2e90-418c-940d-258271dd1e9c
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 4.0
+        Runspace ID = 4315d698-493e-410a-8e70-1c07123fdca4
+        Pipeline ID = 530
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 8170
+        User = OFFSEC\hack1
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-12-12T06:56:59.673018500Z" />
+      <EventRecordID>73248</EventRecordID>
+      <Correlation ActivityID="{3f0c7a49-e4fd-0000-cc16-3d3ffde4d701}" />
+      <Execution ProcessID="4960" ThreadID="2608" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1234" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">358e573c-2b97-4331-8088-3493bbadecdd</Data>
+    </EventData>
+  </Event>
+</root>

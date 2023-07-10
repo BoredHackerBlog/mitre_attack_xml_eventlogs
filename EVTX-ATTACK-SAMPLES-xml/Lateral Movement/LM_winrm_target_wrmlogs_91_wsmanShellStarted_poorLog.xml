@@ -1,0 +1,25 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-WinRM" Guid="{a7975c8f-ac13-49f1-87da-5a984a4ab417}" />
+      <EventID>91</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>9</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000004</Keywords>
+      <TimeCreated SystemTime="2019-05-16T01:33:54.567896600Z" />
+      <EventRecordID>508</EventRecordID>
+      <Correlation ActivityID="{ae1a2cab-0b85-0000-ac2f-1aae850bd501}" />
+      <Execution ProcessID="952" ThreadID="960" />
+      <Channel>Microsoft-Windows-WinRM/Operational</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security UserID="S-1-5-21-738609754-2819869699-4189121830-500" />
+    </System>
+    <ProcessingErrorData>
+      <ErrorCode>15005</ErrorCode>
+      <DataItemName>shellId</DataItemName>
+      <EventPayload>68007400740070003A002F002F0073006300680065006D00610073002E006D006900630072006F0073006F00660074002E0063006F006D002F007700620065006D002F00770073006D0061006E002F0031002F00770069006E0064006F00770073002F007300680065006C006C002F0063006D0064000000</EventPayload>
+    </ProcessingErrorData>
+  </Event>
+</root>

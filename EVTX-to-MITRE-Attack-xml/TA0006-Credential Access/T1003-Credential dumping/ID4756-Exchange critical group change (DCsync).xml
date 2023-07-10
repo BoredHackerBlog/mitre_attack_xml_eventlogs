@@ -1,0 +1,92 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4756</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-02T15:41:44.651459000Z" />
+      <EventRecordID>102640504</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="556" ThreadID="2088" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=admin-hacker,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1147</Data>
+      <Data Name="TargetUserName">Exchange Servers</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1204</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xc336506</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4756</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-02T15:41:44.654415700Z" />
+      <EventRecordID>102640507</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="556" ThreadID="972" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=admin-hacker,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1147</Data>
+      <Data Name="TargetUserName">Exchange Trusted Subsystem</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1205</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xc336506</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4756</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-02T15:41:44.664421500Z" />
+      <EventRecordID>102640510</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="556" ThreadID="972" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">CN=admin-hacker,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="MemberSid">S-1-5-21-4230534742-2542757381-3142984815-1147</Data>
+      <Data Name="TargetUserName">Exchange Windows Permissions</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1207</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0xc336506</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+</root>

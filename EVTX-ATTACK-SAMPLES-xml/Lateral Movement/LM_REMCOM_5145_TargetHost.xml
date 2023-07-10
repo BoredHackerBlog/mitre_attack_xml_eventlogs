@@ -1,0 +1,1108 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:54:26.956251200Z" />
+      <EventRecordID>237285</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x95c2e</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59492</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100088</Data>
+      <Data Name="AccessList">%%1541
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:54:26.956251200Z" />
+      <EventRecordID>237286</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x95c2e</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59492</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:54:26.956251200Z" />
+      <EventRecordID>237287</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x95c2e</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59492</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:54:41.256814400Z" />
+      <EventRecordID>237343</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x95c2e</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59492</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">svcctl</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:55:47.181609600Z" />
+      <EventRecordID>237370</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x311293</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59528</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100088</Data>
+      <Data Name="AccessList">%%1541
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:55:47.181609600Z" />
+      <EventRecordID>237371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x311293</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59528</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:55:47.181609600Z" />
+      <EventRecordID>237372</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x311293</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59528</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:56:01.472158400Z" />
+      <EventRecordID>237384</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x311293</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">59528</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">svcctl</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:57:41.475956800Z" />
+      <EventRecordID>237399</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x7accb8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">49456</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100088</Data>
+      <Data Name="AccessList">%%1541
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:57:41.475956800Z" />
+      <EventRecordID>237400</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x7accb8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">49456</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:57:41.475956800Z" />
+      <EventRecordID>237401</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x7accb8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">49456</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T17:57:55.766505600Z" />
+      <EventRecordID>237415</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x7accb8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">49456</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">svcctl</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237972</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x100081</Data>
+      <Data Name="AccessList">%%1541
+				%%4416
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237973</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237974</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237975</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237976</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237977</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237978</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237979</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237980</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237981</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237982</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237983</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237984</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237985</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237986</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237987</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.442326400Z" />
+      <EventRecordID>237988</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x80</Data>
+      <Data Name="AccessList">%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T18:19:18.522441600Z" />
+      <EventRecordID>237989</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="548" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">PC01</Data>
+      <Data Name="SubjectLogonId">0x27df8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\C$</Data>
+      <Data Name="ShareLocalPath">\??\C:\</Data>
+      <Data Name="RelativeTargetName">Windows\System32\RemComSvc.exe</Data>
+      <Data Name="AccessMask">0x80</Data>
+      <Data Name="AccessList">%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+</root>

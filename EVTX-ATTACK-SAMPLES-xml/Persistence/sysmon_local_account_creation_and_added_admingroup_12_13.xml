@@ -1,0 +1,470 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T09:28:22.280329500Z" />
+      <EventRecordID>2134364</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-09-04 09:28:22.279</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T09:28:22.280355700Z" />
+      <EventRecordID>2134365</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 09:28:22.279</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support\(Default)</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T09:28:42.976924500Z" />
+      <EventRecordID>2134366</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">DeleteKey</Data>
+      <Data Name="UtcTime">2020-09-04 09:28:42.976</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:03:04.489453500Z" />
+      <EventRecordID>2134384</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-09-04 10:03:04.489</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:03:04.489480400Z" />
+      <EventRecordID>2134385</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 10:03:04.489</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support\(Default)</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:33:31.843453100Z" />
+      <EventRecordID>2134398</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-09-04 10:33:31.842</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\sqlsvc</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:33:31.843489400Z" />
+      <EventRecordID>2134399</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 10:33:31.842</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\sqlsvc\(Default)</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:45:30.650632400Z" />
+      <EventRecordID>2134403</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Account Added or Deleted from Local Administrators Group</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 10:45:30.650</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Builtin\Aliases\00000220\C</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:45:33.802858700Z" />
+      <EventRecordID>2134404</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Account Added or Deleted from Local Administrators Group</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 10:45:33.802</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Builtin\Aliases\00000220\C</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:54:20.005437300Z" />
+      <EventRecordID>2134405</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Account Added or Deleted from Local Administrators Group</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 10:54:20.005</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Builtin\Aliases\00000220\C</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:54:20.005776500Z" />
+      <EventRecordID>2134406</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">DeleteKey</Data>
+      <Data Name="UtcTime">2020-09-04 10:54:20.005</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:54:22.974305100Z" />
+      <EventRecordID>2134407</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-09-04 10:54:22.973</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T10:54:22.974353600Z" />
+      <EventRecordID>2134408</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 10:54:22.973</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support\(Default)</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T11:00:13.713790400Z" />
+      <EventRecordID>2134409</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">DeleteKey</Data>
+      <Data Name="UtcTime">2020-09-04 11:00:13.713</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T11:00:24.602481800Z" />
+      <EventRecordID>2134410</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-09-04 11:00:24.601</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T11:00:24.602530400Z" />
+      <EventRecordID>2134411</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Local Account Created or Deleted</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 11:00:24.601</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\Names\support\(Default)</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-04T11:02:16.084931900Z" />
+      <EventRecordID>2134412</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5424" ThreadID="6528" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Valid Account - Account Added or Deleted from Local Administrators Group</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-09-04 11:02:16.084</Data>
+      <Data Name="ProcessGuid">{00247c92-7509-5f4e-0b00-000000002a00}</Data>
+      <Data Name="ProcessId">900</Data>
+      <Data Name="Image">C:\windows\system32\lsass.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Builtin\Aliases\00000220\C</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+</root>

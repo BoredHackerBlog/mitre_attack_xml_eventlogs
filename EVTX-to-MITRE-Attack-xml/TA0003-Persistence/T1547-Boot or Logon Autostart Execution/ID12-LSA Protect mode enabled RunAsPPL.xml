@@ -1,0 +1,67 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Wininit" Guid="{206f6dea-d3c5-4d10-bc72-989f03c8b84b}" />
+      <EventID>14</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-09T11:39:23.354022600Z" />
+      <EventRecordID>5375</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="572" />
+      <Channel>System</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Config">0</Data>
+      <Data Name="IsTestConfig">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Wininit" Guid="{206f6dea-d3c5-4d10-bc72-989f03c8b84b}" />
+      <EventID>14</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-09T11:59:37.888362800Z" />
+      <EventRecordID>5455</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="560" ThreadID="564" />
+      <Channel>System</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Config">0</Data>
+      <Data Name="IsTestConfig">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Wininit" Guid="{206f6dea-d3c5-4d10-bc72-989f03c8b84b}" />
+      <EventID>12</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-09T11:59:37.890338900Z" />
+      <EventRecordID>5456</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="560" ThreadID="564" />
+      <Channel>System</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Level">4</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,421 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-11T12:28:01.2990045Z" />
+      <EventRecordID>171</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4172" ThreadID="4384" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Detection ID">{82C6A580-0C4C-48BD-A0AC-6D3DE58FDABB}</Data>
+      <Data Name="Detection Time">2020-12-11T12:28:01.177Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147705511</Data>
+      <Data Name="Threat Name">HackTool:Win64/Mikatz!dha</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:Win64/Mikatz!dha&amp;threatid=2147705511&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">Real-Time Protection</Data>
+      <Data Name="Process Name">C:\Windows\explorer.exe</Data>
+      <Data Name="Detection User">OFFSEC\admmig</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\Users\admmig\Documents\mimidrv.sys</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">Local machine</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">Suspended</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">Concrete</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">Not Applicable</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Security intelligence Version">AV: 1.327.2245.0, AS: 1.327.2245.0, NIS: 1.327.2245.0</Data>
+      <Data Name="Engine Version">AM: 1.1.17600.5, NIS: 1.1.17600.5</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-11T12:28:01.5662923Z" />
+      <EventRecordID>172</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4172" ThreadID="5900" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Detection ID">{CF1B6DE9-9DA5-4BC8-A6F1-CE75B59116B5}</Data>
+      <Data Name="Detection Time">2020-12-11T12:28:01.490Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147729891</Data>
+      <Data Name="Threat Name">HackTool:Win32/Mimikatz.D</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:Win32/Mimikatz.D&amp;threatid=2147729891&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">Real-Time Protection</Data>
+      <Data Name="Process Name">C:\Windows\explorer.exe</Data>
+      <Data Name="Detection User">OFFSEC\admmig</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\Users\admmig\Documents\mimikatz.exe</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">Local machine</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">Suspended</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">Concrete</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">Not Applicable</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Security intelligence Version">AV: 1.327.2245.0, AS: 1.327.2245.0, NIS: 1.327.2245.0</Data>
+      <Data Name="Engine Version">AM: 1.1.17600.5, NIS: 1.1.17600.5</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-11T12:28:01.6511263Z" />
+      <EventRecordID>173</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4172" ThreadID="5324" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Detection ID">{82C6A580-0C4C-48BD-A0AC-6D3DE58FDABB}</Data>
+      <Data Name="Detection Time">2020-12-11T12:28:01.177Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147705511</Data>
+      <Data Name="Threat Name">HackTool:Win64/Mikatz!dha</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:Win64/Mikatz!dha&amp;threatid=2147705511&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">Real-Time Protection</Data>
+      <Data Name="Process Name">C:\Windows\explorer.exe</Data>
+      <Data Name="Detection User">OFFSEC\admmig</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\Users\admmig\Documents\mimidrv.sys; file:_C:\Users\admmig\Documents\mimilib.dll</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">Local machine</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">Suspended</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">Concrete</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">Not Applicable</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Security intelligence Version">AV: 1.327.2245.0, AS: 1.327.2245.0, NIS: 1.327.2245.0</Data>
+      <Data Name="Engine Version">AM: 1.1.17600.5, NIS: 1.1.17600.5</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-11T12:28:43.0102967Z" />
+      <EventRecordID>175</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4172" ThreadID="924" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Detection ID">{B22D8A5F-600C-45FE-88B8-AB70561B9DCD}</Data>
+      <Data Name="Detection Time">2020-12-11T12:28:42.885Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147729891</Data>
+      <Data Name="Threat Name">HackTool:Win32/Mimikatz.D</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:Win32/Mimikatz.D&amp;threatid=2147729891&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">Real-Time Protection</Data>
+      <Data Name="Process Name">C:\Windows\explorer.exe</Data>
+      <Data Name="Detection User">OFFSEC\admmig</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\Users\admmig\Documents\mimikatz.exe</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">Local machine</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">Suspended</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">Concrete</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">Not Applicable</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Security intelligence Version">AV: 1.327.2245.0, AS: 1.327.2245.0, NIS: 1.327.2245.0</Data>
+      <Data Name="Engine Version">AM: 1.1.17600.5, NIS: 1.1.17600.5</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1117</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-11T12:28:44.2711826Z" />
+      <EventRecordID>176</EventRecordID>
+      <Correlation ActivityID="{4806894f-1a1a-4209-9335-fef253edb24d}" />
+      <Execution ProcessID="4172" ThreadID="3144" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Detection ID">{CF1B6DE9-9DA5-4BC8-A6F1-CE75B59116B5}</Data>
+      <Data Name="Detection Time">2020-12-11T12:28:01.490Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147729891</Data>
+      <Data Name="Threat Name">HackTool:Win32/Mimikatz.D</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:Win32/Mimikatz.D&amp;threatid=2147729891&amp;enterprise=0</Data>
+      <Data Name="Status Code">3</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">2</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">Real-Time Protection</Data>
+      <Data Name="Process Name">C:\Windows\explorer.exe</Data>
+      <Data Name="Detection User">OFFSEC\admmig</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\Users\admmig\Documents\mimikatz.exe</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">Local machine</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">Suspended</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">Concrete</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">2</Data>
+      <Data Name="Action Name">Quarantine</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Security intelligence Version">AV: 1.327.2245.0, AS: 1.327.2245.0, NIS: 1.327.2245.0</Data>
+      <Data Name="Engine Version">AM: 1.1.17600.5, NIS: 1.1.17600.5</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-11T12:28:44.3178756Z" />
+      <EventRecordID>177</EventRecordID>
+      <Correlation ActivityID="{4806894f-1a1a-4209-9335-fef253edb24d}" />
+      <Execution ProcessID="4172" ThreadID="3144" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>WIN10-client01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">Microsoft Defender Antivirus</Data>
+      <Data Name="Product Version">4.18.2011.6</Data>
+      <Data Name="Detection ID">{B22D8A5F-600C-45FE-88B8-AB70561B9DCD}</Data>
+      <Data Name="Detection Time">2020-12-11T12:28:42.885Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147729891</Data>
+      <Data Name="Threat Name">HackTool:Win32/Mimikatz.D</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:Win32/Mimikatz.D&amp;threatid=2147729891&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">Real-Time Protection</Data>
+      <Data Name="Process Name">C:\Windows\explorer.exe</Data>
+      <Data Name="Detection User">OFFSEC\admmig</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\Users\admmig\Documents\mimikatz.exe</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">Local machine</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">Suspended</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">Concrete</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">Not Applicable</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Security intelligence Version">AV: 1.327.2245.0, AS: 1.327.2245.0, NIS: 1.327.2245.0</Data>
+      <Data Name="Engine Version">AM: 1.1.17600.5, NIS: 1.1.17600.5</Data>
+    </EventData>
+  </Event>
+</root>

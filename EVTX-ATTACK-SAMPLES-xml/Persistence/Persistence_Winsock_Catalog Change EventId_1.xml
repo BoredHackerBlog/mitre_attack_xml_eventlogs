@@ -1,0 +1,52 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Winsock-WS2HELP" Guid="{d5c25f9a-4d47-493e-9184-40dd397a004d}" />
+      <EventID>1</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-23T12:37:37.100800900Z" />
+      <EventRecordID>1</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5180" ThreadID="1088" />
+      <Channel>Microsoft-Windows-Winsock-WS2HELP/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="LSPName">PROXYCAP LSP</Data>
+      <Data Name="Catalog">32</Data>
+      <Data Name="Installer">C:\Windows\System32\MsiExec.exe</Data>
+      <Data Name="GUID">{7e35f09e-cf45-cf00-3594-397712626d0f}</Data>
+      <Data Name="Category">1016</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Winsock-WS2HELP" Guid="{d5c25f9a-4d47-493e-9184-40dd397a004d}" />
+      <EventID>1</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-23T12:37:38.521158400Z" />
+      <EventRecordID>2</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5284" ThreadID="8096" />
+      <Channel>Microsoft-Windows-Winsock-WS2HELP/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="LSPName">PROXYCAP LSP</Data>
+      <Data Name="Catalog">32</Data>
+      <Data Name="Installer">C:\Windows\syswow64\MsiExec.exe</Data>
+      <Data Name="GUID">{7e35f09e-cf45-cf00-3594-397712626d0f}</Data>
+      <Data Name="Category">1021</Data>
+    </EventData>
+  </Event>
+</root>

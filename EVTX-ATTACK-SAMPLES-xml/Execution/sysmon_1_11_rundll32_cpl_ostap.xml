@@ -1,0 +1,198 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:11:11.156704100Z" />
+      <EventRecordID>4860</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2640" ThreadID="3476" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-29 21:11:11.127</Data>
+      <Data Name="ProcessGuid">{747f3d96-6056-5d3f-0000-0010c9ef4100}</Data>
+      <Data Name="ProcessId">4600</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\Downloads\Invoice@0582.cpl</Data>
+      <Data Name="CreationUtcTime">2019-07-29 21:09:48.910</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:11:17.364511600Z" />
+      <EventRecordID>4861</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2640" ThreadID="3476" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-29 21:11:17.256</Data>
+      <Data Name="ProcessGuid">{747f3d96-60f5-5d3f-0000-0010a7b65500}</Data>
+      <Data Name="ProcessId">4996</Data>
+      <Data Name="Image">C:\Windows\System32\control.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Control Panel</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\control.exe" "C:\Users\IEUser\Downloads\Invoice@0582.cpl",</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-6053-5d3f-0000-0020b5314100}</Data>
+      <Data Name="LogonId">0x4131b5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=391FF1F690C0912C217B3CF625900D4F50128867,MD5=88EA810385F455C74306D71C4879C61C,SHA256=4774A931C9D97828323C9E829917D82C27A05DAB9FEA6A0CEF9EBBA59942231F,IMPHASH=7A8EC2645C24D85DE8216D63022623C0</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-6056-5d3f-0000-0010c9ef4100}</Data>
+      <Data Name="ParentProcessId">4600</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:11:17.587732200Z" />
+      <EventRecordID>4863</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2640" ThreadID="3476" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-29 21:11:17.445</Data>
+      <Data Name="ProcessGuid">{747f3d96-60f5-5d3f-0000-0010d1cf5500}</Data>
+      <Data Name="ProcessId">4356</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\rundll32.exe" Shell32.dll,Control_RunDLL "C:\Users\IEUser\Downloads\Invoice@0582.cpl",</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-6053-5d3f-0000-0020b5314100}</Data>
+      <Data Name="LogonId">0x4131b5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-60f5-5d3f-0000-0010a7b65500}</Data>
+      <Data Name="ParentProcessId">4996</Data>
+      <Data Name="ParentImage">C:\Windows\System32\control.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\control.exe" "C:\Users\IEUser\Downloads\Invoice@0582.cpl",</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:11:17.621241000Z" />
+      <EventRecordID>4864</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2640" ThreadID="3476" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-29 21:11:17.503</Data>
+      <Data Name="ProcessGuid">{747f3d96-60f5-5d3f-0000-0010a8d75500}</Data>
+      <Data Name="ProcessId">4884</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\rundll32.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\SysWOW64\rundll32.exe" "C:\Windows\SysWOW64\shell32.dll",#44 "C:\Users\IEUser\Downloads\Invoice@0582.cpl",</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-6053-5d3f-0000-0020b5314100}</Data>
+      <Data Name="LogonId">0x4131b5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=6778DAD71C8B06264CF2929A5242D2612D3EB026,MD5=2F633406BC9875AA48D6CC5884B70862,SHA256=26E68D4381774A6FD0BF5CA2EACEF55F2AB28536E3176A1C6362DFFC68B22B8A,IMPHASH=BB17B2FBBFF4BBF5EBDCA7D0BB9E4A5B</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-60f5-5d3f-0000-0010d1cf5500}</Data>
+      <Data Name="ParentProcessId">4356</Data>
+      <Data Name="ParentImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\rundll32.exe" Shell32.dll,Control_RunDLL "C:\Users\IEUser\Downloads\Invoice@0582.cpl",</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:11:19.098105700Z" />
+      <EventRecordID>4865</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2640" ThreadID="3476" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-29 21:11:19.010</Data>
+      <Data Name="ProcessGuid">{747f3d96-60f7-5d3f-0000-00106f2f5600}</Data>
+      <Data Name="ProcessId">6160</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\wscript.exe</Data>
+      <Data Name="FileVersion">5.812.10240.16384</Data>
+      <Data Name="Description">Microsoft « Windows Based Script Host</Data>
+      <Data Name="Product">Microsoft « Windows Script Host</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\wscript.exe" /e:JScript.Encode /nologo C:\Users\IEUser\AppData\Local\Temp\info.txt</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-6053-5d3f-0000-0020b5314100}</Data>
+      <Data Name="LogonId">0x4131b5</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=5D7F2AFD2FF69D379B69DD94033B51EC537E8E52,MD5=F2748908C6B873CB1970DF4C07223E72,SHA256=0FBB4F848D9FB14D7BF81B0454203810869C527C3435E8747A2213DD86F8129A,IMPHASH=3602F3C025378F418F804C5D183603FE</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-60f5-5d3f-0000-0010a8d75500}</Data>
+      <Data Name="ParentProcessId">4884</Data>
+      <Data Name="ParentImage">C:\Windows\SysWOW64\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\SysWOW64\rundll32.exe" "C:\Windows\SysWOW64\shell32.dll",#44 "C:\Users\IEUser\Downloads\Invoice@0582.cpl",</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,58 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-02T22:54:57.033477100Z" />
+      <EventRecordID>1601463</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3044" ThreadID="3740" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-02-02 22:54:57.032</Data>
+      <Data Name="ProcessGuid">{9828da72-b353-61fa-0b00-00000000f000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\WdNisDrv\Start</Data>
+      <Data Name="Details">DWORD (0x00000003)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2022-02-02T22:54:57.347526100Z" />
+      <EventRecordID>1601464</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3044" ThreadID="3740" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-02-02 22:54:57.342</Data>
+      <Data Name="ProcessGuid">{9828da72-b353-61fa-0b00-00000000f000}</Data>
+      <Data Name="ProcessId">648</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\WdNisDrv\Start</Data>
+      <Data Name="Details">DWORD (0x00000003)</Data>
+    </EventData>
+  </Event>
+</root>

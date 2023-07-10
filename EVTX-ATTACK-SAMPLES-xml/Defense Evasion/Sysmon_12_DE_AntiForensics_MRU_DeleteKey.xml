@@ -1,0 +1,86 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-08T21:41:52.449709600Z" />
+      <EventRecordID>308049</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2268" ThreadID="3800" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">DeleteKey</Data>
+      <Data Name="UtcTime">2020-07-08 21:41:52.432</Data>
+      <Data Name="ProcessGuid">{747f3d96-3d4d-5f06-0000-00104cb13b00}</Data>
+      <Data Name="ProcessId">1392</Data>
+      <Data Name="Image">C:\Windows\regedit.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-08T21:42:01.653030400Z" />
+      <EventRecordID>308050</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2268" ThreadID="3800" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-08 21:42:01.646</Data>
+      <Data Name="ProcessGuid">{747f3d96-3aad-5f06-0000-001004942c00}</Data>
+      <Data Name="ProcessId">5364</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-08T21:43:13.791715200Z" />
+      <EventRecordID>308055</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2268" ThreadID="3800" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-08 21:43:13.786</Data>
+      <Data Name="ProcessGuid">{747f3d96-3aad-5f06-0000-001004942c00}</Data>
+      <Data Name="ProcessId">5364</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+</root>

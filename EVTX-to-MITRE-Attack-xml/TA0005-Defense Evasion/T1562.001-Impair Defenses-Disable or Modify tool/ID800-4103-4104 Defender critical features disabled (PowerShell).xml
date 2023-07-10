@@ -1,0 +1,2522 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.483306200Z" />
+      <EventRecordID>1161742</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=247
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=18
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.487323300Z" />
+      <EventRecordID>1328809</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-9d83-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 18
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 248
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.513271900Z" />
+      <EventRecordID>1328810</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-2ad4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-MpPreference -DisableRealtimeMonitoring $true</Data>
+      <Data Name="ScriptBlockId">f455ad08-4885-470d-8365-0469205fe153</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.780183500Z" />
+      <EventRecordID>1161743</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-MpPreference -DisableRealtimeMonitoring $true</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=255
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=19
+	ScriptName=
+	CommandLine=Set-MpPreference -DisableRealtimeMonitoring $true</Data>
+      <Data>CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.780183500Z" />
+      <EventRecordID>1161744</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=259
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=19
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.787594400Z" />
+      <EventRecordID>1328811</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-2bd4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 19
+        Command Name = Set-MpPreference
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 256
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.788433200Z" />
+      <EventRecordID>1328812</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-2ad4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 19
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 260
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.794948600Z" />
+      <EventRecordID>1328813</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-2fd4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">700669ca-cfcd-4306-a228-c206e460acb5</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.795810100Z" />
+      <EventRecordID>1161745</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=274
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=21
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.795810100Z" />
+      <EventRecordID>1161746</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=277
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=21
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.797734700Z" />
+      <EventRecordID>1328814</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-4f33-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 21
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 275
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.805163700Z" />
+      <EventRecordID>1328815</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-4e33-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 21
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 278
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.881222900Z" />
+      <EventRecordID>1328816</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-47d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-MpPreference -DisableIOAVProtection $true</Data>
+      <Data Name="ScriptBlockId">df8e876c-abd8-42f1-b7c6-e26e8f74c221</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.952045800Z" />
+      <EventRecordID>1161747</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-MpPreference -DisableIOAVProtection $true</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=285
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=22
+	ScriptName=
+	CommandLine=Set-MpPreference -DisableIOAVProtection $true</Data>
+      <Data>CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.952045800Z" />
+      <EventRecordID>1161748</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=289
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=22
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.962365200Z" />
+      <EventRecordID>1328817</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-48d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 22
+        Command Name = Set-MpPreference
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 286
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.962770600Z" />
+      <EventRecordID>1328818</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-47d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 22
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 290
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.983301300Z" />
+      <EventRecordID>1161749</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=304
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=24
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.983301300Z" />
+      <EventRecordID>1161750</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=307
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=24
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.986724000Z" />
+      <EventRecordID>1328819</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-4cd4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">db4ba932-ba26-46eb-8246-09ca1ec25ad1</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.989648500Z" />
+      <EventRecordID>1328820</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-6933-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 24
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 305
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:50.999423100Z" />
+      <EventRecordID>1328821</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-6833-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 24
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 308
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.010771600Z" />
+      <EventRecordID>1328822</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-7133-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-MpPreference -DisableBehaviorMonitoring $true</Data>
+      <Data Name="ScriptBlockId">1738dc77-dbb9-457a-ad3a-f03b03d63a42</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.061428500Z" />
+      <EventRecordID>1161751</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-MpPreference -DisableBehaviorMonitoring $true</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=315
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=25
+	ScriptName=
+	CommandLine=Set-MpPreference -DisableBehaviorMonitoring $true</Data>
+      <Data>CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.061428500Z" />
+      <EventRecordID>1161752</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=319
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=25
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.070844400Z" />
+      <EventRecordID>1328823</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-7233-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 25
+        Command Name = Set-MpPreference
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 316
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.071219000Z" />
+      <EventRecordID>1328824</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-7133-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 25
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 320
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.083752700Z" />
+      <EventRecordID>1161753</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=334
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=27
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.088969300Z" />
+      <EventRecordID>1328825</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-55d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">5365a941-a82a-44f5-acd8-3d5ccd004688</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.091512400Z" />
+      <EventRecordID>1328826</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-5ad4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 27
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 335
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.092775300Z" />
+      <EventRecordID>1161754</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=337
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=27
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.106306200Z" />
+      <EventRecordID>1328827</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-59d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 27
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 338
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.108429400Z" />
+      <EventRecordID>1161755</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-MpPreference -DisableIntrusionPreventionSystem $true</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=345
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=28
+	ScriptName=
+	CommandLine=Set-MpPreference -DisableIntrusionPreventionSystem $true</Data>
+      <Data>CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.108429400Z" />
+      <EventRecordID>1161756</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=349
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=28
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.118349700Z" />
+      <EventRecordID>1328828</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-5dd4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-MpPreference -DisableIntrusionPreventionSystem $true</Data>
+      <Data Name="ScriptBlockId">8e52c5f3-5b28-4e67-966c-e0a02af1f69c</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.134744600Z" />
+      <EventRecordID>1328829</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-5ed4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 28
+        Command Name = Set-MpPreference
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 346
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.134744600Z" />
+      <EventRecordID>1328830</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-5dd4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 28
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 350
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.139436800Z" />
+      <EventRecordID>1161757</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=364
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=30
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.151904100Z" />
+      <EventRecordID>1328831</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-62d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">46111745-5dfb-4c37-b8ae-bffa2dbad4a2</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:51.155015700Z" />
+      <EventRecordID>1328832</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-9a33-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 30
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 365
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.327115400Z" />
+      <EventRecordID>1161758</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=367
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=30
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.339524200Z" />
+      <EventRecordID>1328833</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-9933-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 30
+        Command Name = PSConsoleHostReadLine
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 368
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadLine): "PSConsoleHostReadLine"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.355530400Z" />
+      <EventRecordID>1328834</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-95d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Set-MpPreference -DisableInboundConnectionFiltering $true</Data>
+      <Data Name="ScriptBlockId">8e60a591-10b7-4636-96f1-1fe818cc1081</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.420848000Z" />
+      <EventRecordID>1161759</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Set-MpPreference -DisableInboundConnectionFiltering $true</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=375
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=31
+	ScriptName=
+	CommandLine=Set-MpPreference -DisableInboundConnectionFiltering $true</Data>
+      <Data>CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.420848000Z" />
+      <EventRecordID>1161760</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=379
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=31
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.420848000Z" />
+      <EventRecordID>1161761</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="0" ThreadID="0" />
+      <Channel>Windows PowerShell</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=394
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.1237
+	HostId=cd8cafb9-7c03-4e5e-9d54-914780550df1
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.19041.1237
+	RunspaceId=d94c9947-fce3-4f7e-9a49-18ff6724f22b
+	PipelineId=33
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.423233400Z" />
+      <EventRecordID>1328835</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-96d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 31
+        Command Name = Set-MpPreference
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 376
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-MpPreference): "Set-MpPreference"
+ParameterBinding(Set-MpPreference): name="DisableInboundConnectionFiltering"; value="True"
+ParameterBinding(Set-MpPreference): name="QuarantinePurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingAdditionalActionTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingCriticalFailureTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ReportingNonCriticalTimeOut"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanAvgCPULoadFactor"; value="0"
+ParameterBinding(Set-MpPreference): name="CheckForSignaturesBeforeRunningScan"; value="False"
+ParameterBinding(Set-MpPreference): name="ScanPurgeItemsAfterDelay"; value="0"
+ParameterBinding(Set-MpPreference): name="ScanOnlyIfIdleEnabled"; value="False"
+ParameterBinding(Set-MpPreference): name="ThrottleForScheduledScanOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFirstAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureAuGracePeriod"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureDefinitionUpdateFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureDisableUpdateOnStartupWithoutEngine"; value="False"
+ParameterBinding(Set-MpPreference): name="SignatureFallbackOrder"; value=""
+ParameterBinding(Set-MpPreference): name="SharedSignaturesPath"; value=""
+ParameterBinding(Set-MpPreference): name="SignatureUpdateCatchupInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobUpdateInterval"; value="0"
+ParameterBinding(Set-MpPreference): name="SignatureBlobFileSharesSources"; value=""
+ParameterBinding(Set-MpPreference): name="MeteredConnectionUpdates"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDatagramProcessing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCpuThrottleOnIdleScans"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableAutoExclusions"; value="False"
+ParameterBinding(Set-MpPreference): name="DisablePrivacyMode"; value="False"
+ParameterBinding(Set-MpPreference): name="RandomizeScheduleTaskTimes"; value="False"
+ParameterBinding(Set-MpPreference): name="SchedulerRandomizationTime"; value="0"
+ParameterBinding(Set-MpPreference): name="DisableBehaviorMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIntrusionPreventionSystem"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableIOAVProtection"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRealtimeMonitoring"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScriptScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableArchiveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableCatchupQuickScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableEmailScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRemovableDriveScanning"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRestorePoint"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningMappedNetworkDrivesForFullScan"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableScanningNetworkFiles"; value="False"
+ParameterBinding(Set-MpPreference): name="UILockdown"; value="False"
+ParameterBinding(Set-MpPreference): name="Force"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableBlockAtFirstSeen"; value="False"
+ParameterBinding(Set-MpPreference): name="CloudExtendedTimeout"; value="0"
+ParameterBinding(Set-MpPreference): name="EnableLowCpuPriority"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFileHashComputation"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableFullScanOnBatteryPower"; value="False"
+ParameterBinding(Set-MpPreference): name="ProxyPacUrl"; value=""
+ParameterBinding(Set-MpPreference): name="ProxyServer"; value=""
+ParameterBinding(Set-MpPreference): name="ForceUseProxyOnly"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableTlsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableHttpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableDnsOverTcpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableSshParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableGradualRelease"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowNetworkProtectionDownLevel"; value="False"
+ParameterBinding(Set-MpPreference): name="AllowDatagramProcessingOnWinServer"; value="False"
+ParameterBinding(Set-MpPreference): name="EnableDnsSinkhole"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableRdpParsing"; value="False"
+ParameterBinding(Set-MpPreference): name="DisableNetworkProtectionPerfTelemetry"; value="False"
+ParameterBinding(Set-MpPreference): name="TrustLabelProtectionStatus"; value="0"
+ParameterBinding(Set-MpPreference): name="ThrottleLimit"; value="0"
+ParameterBinding(Set-MpPreference): name="AsJob"; value="False"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.423600800Z" />
+      <EventRecordID>1328836</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0001-95d4-4d82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 31
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 380
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.430033400Z" />
+      <EventRecordID>1328837</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-fb33-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">03931fa6-8ff8-4a61-9e3d-7c1721ef2b53</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-06T09:34:52.432254400Z" />
+      <EventRecordID>1328838</EventRecordID>
+      <Correlation ActivityID="{82305249-b6dd-0000-0034-4e82ddb6d701}" />
+      <Execution ProcessID="1636" ThreadID="9868" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.19041.1237
+        Host ID = cd8cafb9-7c03-4e5e-9d54-914780550df1
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.19041.1237
+        Runspace ID = d94c9947-fce3-4f7e-9a49-18ff6724f22b
+        Pipeline ID = 33
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\2.0.0\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 395
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,98 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Program-Compatibility-Assistant" Guid="{4cb314df-c11f-47d7-9c04-65fb0051561b}" />
+      <EventID>17</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T21:50:20.049401700Z" />
+      <EventRecordID>1</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5020" ThreadID="7468" />
+      <Channel>Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <ResolverFiredEvent xmlns="http://www.microsoft.com/Windows/Diagnosis/PCA/events">
+        <ExePath>C:\Users\IEUser\Desktop\procexp64.exe</ExePath>
+        <ResolverName>WrpKeyMitigation</ResolverName>
+      </ResolverFiredEvent>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Program-Compatibility-Assistant" Guid="{4cb314df-c11f-47d7-9c04-65fb0051561b}" />
+      <EventID>17</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:11:17.282188900Z" />
+      <EventRecordID>2</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4396" ThreadID="3944" />
+      <Channel>Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <ResolverFiredEvent xmlns="http://www.microsoft.com/Windows/Diagnosis/PCA/events">
+        <ExePath>C:\Users\IEUser\Downloads\Invoice@0582.cpl</ExePath>
+        <ResolverName>ControlPanelApplet</ResolverName>
+      </ResolverFiredEvent>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Program-Compatibility-Assistant" Guid="{4cb314df-c11f-47d7-9c04-65fb0051561b}" />
+      <EventID>17</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-29T21:14:29.638746200Z" />
+      <EventRecordID>3</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4396" ThreadID="3976" />
+      <Channel>Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <ResolverFiredEvent xmlns="http://www.microsoft.com/Windows/Diagnosis/PCA/events">
+        <ExePath>C:\Users\IEUser\Desktop\procexp64.exe</ExePath>
+        <ResolverName>WrpKeyMitigation</ResolverName>
+      </ResolverFiredEvent>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Program-Compatibility-Assistant" Guid="{4cb314df-c11f-47d7-9c04-65fb0051561b}" />
+      <EventID>17</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-23T11:17:00.483376700Z" />
+      <EventRecordID>4</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1404" ThreadID="1644" />
+      <Channel>Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <UserData>
+      <ResolverFiredEvent xmlns="http://www.microsoft.com/Windows/Diagnosis/PCA/events">
+        <ExePath>C:\Users\IEUser\Desktop\procexp64.exe</ExePath>
+        <ResolverName>WrpKeyMitigation</ResolverName>
+      </ResolverFiredEvent>
+    </UserData>
+  </Event>
+</root>

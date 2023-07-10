@@ -1,0 +1,74 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>6004</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000080000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T12:58:32.242577400Z" />
+      <EventRecordID>341</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1764" ThreadID="2284" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData Name="DNS_EVENT_BAD_ZONE_TRANSFER_REQUEST">
+      <Data Name="param1">10.23.23.9</Data>
+      <Data Name="param2">non-existing.lan.</Data>
+      <Binary>
+      </Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>6004</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000080000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T12:58:40.280466100Z" />
+      <EventRecordID>342</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1764" ThreadID="2284" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData Name="DNS_EVENT_BAD_ZONE_TRANSFER_REQUEST">
+      <Data Name="param1">10.23.23.9</Data>
+      <Data Name="param2">google.com.</Data>
+      <Binary>
+      </Binary>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-DNS-Server-Service" Guid="{71a551f5-c893-4849-886b-b5ec8502641e}" />
+      <EventID>6004</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000080000</Keywords>
+      <TimeCreated SystemTime="2020-07-11T12:58:57.451062000Z" />
+      <EventRecordID>343</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1764" ThreadID="2284" />
+      <Channel>DNS Server</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData Name="DNS_EVENT_BAD_ZONE_TRANSFER_REQUEST">
+      <Data Name="param1">10.23.23.9</Data>
+      <Data Name="param2">hacking-zone.lan.</Data>
+      <Binary>
+      </Binary>
+    </EventData>
+  </Event>
+</root>

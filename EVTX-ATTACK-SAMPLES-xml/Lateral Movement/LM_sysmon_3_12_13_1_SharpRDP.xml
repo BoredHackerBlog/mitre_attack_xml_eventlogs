@@ -1,0 +1,1243 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:11.181381900Z" />
+      <EventRecordID>311349</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="3892" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:09.694</Data>
+      <Data Name="ProcessGuid">{747f3d96-85f1-5f07-0000-001074cb0000}</Data>
+      <Data Name="ProcessId">428</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">192.168.56.1</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">52543</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">192.168.56.101</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:14.124941300Z" />
+      <EventRecordID>311350</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:14.110</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:14.195350800Z" />
+      <EventRecordID>311351</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:14.173</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:17.584038600Z" />
+      <EventRecordID>311352</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:17.578</Data>
+      <Data Name="ProcessGuid">{747f3d96-9371-5f07-0000-00102d024400}</Data>
+      <Data Name="ProcessId">2568</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.475 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">"C:\windows\system32\notepad.exe" </Data>
+      <Data Name="CurrentDirectory">C:\windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-86fa-5f07-0000-00204a8b0600}</Data>
+      <Data Name="LogonId">0x68b4a</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B6D237154F2E528F0B503B58B025862D66B02B73,MD5=0E61079D3283687D2E279272966AE99D,SHA256=A92056D772260B39A876D01552496B2F8B4610A0B1E084952FE1176784E2CE77,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ParentProcessId">2356</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:17.591085900Z" />
+      <EventRecordID>311353</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:17.579</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:17.591137600Z" />
+      <EventRecordID>311354</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:17.579</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\a</Data>
+      <Data Name="Details">c:\windows\system32\notepad.exe\1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:17.591169400Z" />
+      <EventRecordID>311355</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:17.579</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\MRUList</Data>
+      <Data Name="Details">a</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:27.033040900Z" />
+      <EventRecordID>311356</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="3892" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:24.591</Data>
+      <Data Name="ProcessGuid">{747f3d96-85f1-5f07-0000-001074cb0000}</Data>
+      <Data Name="ProcessId">428</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">192.168.56.1</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">52545</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">192.168.56.101</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:28.307191900Z" />
+      <EventRecordID>311357</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:28.297</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:28.458874000Z" />
+      <EventRecordID>311358</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:28.423</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:31.217905200Z" />
+      <EventRecordID>311359</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:31.178</Data>
+      <Data Name="ProcessGuid">{747f3d96-937f-5f07-0000-0010ebdd4400}</Data>
+      <Data Name="ProcessId">7356</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.475 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">"C:\windows\system32\notepad.exe" </Data>
+      <Data Name="CurrentDirectory">C:\windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-86fa-5f07-0000-00204a8b0600}</Data>
+      <Data Name="LogonId">0x68b4a</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B6D237154F2E528F0B503B58B025862D66B02B73,MD5=0E61079D3283687D2E279272966AE99D,SHA256=A92056D772260B39A876D01552496B2F8B4610A0B1E084952FE1176784E2CE77,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ParentProcessId">2356</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:31.217996300Z" />
+      <EventRecordID>311360</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:31.172</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:31.218022800Z" />
+      <EventRecordID>311361</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:31.172</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\MRUList</Data>
+      <Data Name="Details">a</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:40.413193200Z" />
+      <EventRecordID>311362</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="3892" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:39.116</Data>
+      <Data Name="ProcessGuid">{747f3d96-85f1-5f07-0000-001074cb0000}</Data>
+      <Data Name="ProcessId">428</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">192.168.56.1</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">52546</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">192.168.56.101</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:42.919208500Z" />
+      <EventRecordID>311363</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:42.907</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:43.042849600Z" />
+      <EventRecordID>311364</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:43.016</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:45.589922700Z" />
+      <EventRecordID>311365</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:45.576</Data>
+      <Data Name="ProcessGuid">{747f3d96-938d-5f07-0000-001043a84500}</Data>
+      <Data Name="ProcessId">7976</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-86fa-5f07-0000-00204a8b0600}</Data>
+      <Data Name="LogonId">0x68b4a</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ParentProcessId">2356</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:45.590448500Z" />
+      <EventRecordID>311366</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:45.579</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:45.590589400Z" />
+      <EventRecordID>311367</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:45.579</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\b</Data>
+      <Data Name="Details">cmd.exe\1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:45.590736300Z" />
+      <EventRecordID>311368</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:00:45.579</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\MRUList</Data>
+      <Data Name="Details">ba</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:48.105226200Z" />
+      <EventRecordID>311369</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:48.095</Data>
+      <Data Name="ProcessGuid">{747f3d96-9390-5f07-0000-00105cbc4500}</Data>
+      <Data Name="ProcessId">8032</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.475 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">c:\windows\system32\notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-86fa-5f07-0000-00204a8b0600}</Data>
+      <Data Name="LogonId">0x68b4a</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B6D237154F2E528F0B503B58B025862D66B02B73,MD5=0E61079D3283687D2E279272966AE99D,SHA256=A92056D772260B39A876D01552496B2F8B4610A0B1E084952FE1176784E2CE77,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-938d-5f07-0000-001043a84500}</Data>
+      <Data Name="ParentProcessId">7976</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:00:58.550437500Z" />
+      <EventRecordID>311370</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="3892" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:00:57.196</Data>
+      <Data Name="ProcessGuid">{747f3d96-85f1-5f07-0000-001074cb0000}</Data>
+      <Data Name="ProcessId">428</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">192.168.56.1</Data>
+      <Data Name="SourceHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="SourcePort">52547</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">192.168.56.101</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:01.154382700Z" />
+      <EventRecordID>311371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:01:01.142</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:01.337406400Z" />
+      <EventRecordID>311372</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:01:01.314</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:03.898570600Z" />
+      <EventRecordID>311373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:01:03.894</Data>
+      <Data Name="ProcessGuid">{747f3d96-939f-5f07-0000-0010888e4600}</Data>
+      <Data Name="ProcessId">7456</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows PowerShell</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">PowerShell.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-86fa-5f07-0000-00204a8b0600}</Data>
+      <Data Name="LogonId">0x68b4a</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=6CBCE4A295C163791B60FC23D285E6D84F28EE4C,MD5=7353F60B1739074EB17C5F4DDDEFE239,SHA256=DE96A6E69944335375DC1AC238336066889D9FFC7D73628EF4FE1B1B160AB32C,IMPHASH=741776AACCFC5B71FF59832DCDCACE0F</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ParentProcessId">2356</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:03.899240600Z" />
+      <EventRecordID>311374</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:01:03.893</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:03.900433700Z" />
+      <EventRecordID>311375</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:01:03.893</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\c</Data>
+      <Data Name="Details">powershell.exe\1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:03.902259900Z" />
+      <EventRecordID>311376</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:01:03.893</Data>
+      <Data Name="ProcessGuid">{747f3d96-86fc-5f07-0000-00101e4b0700}</Data>
+      <Data Name="ProcessId">2356</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\MRUList</Data>
+      <Data Name="Details">cba</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:01:06.427723000Z" />
+      <EventRecordID>311377</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:01:06.422</Data>
+      <Data Name="ProcessGuid">{747f3d96-93a2-5f07-0000-00108ec54600}</Data>
+      <Data Name="ProcessId">7200</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.17763.475 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">"C:\windows\system32\notepad.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-86fa-5f07-0000-00204a8b0600}</Data>
+      <Data Name="LogonId">0x68b4a</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B6D237154F2E528F0B503B58B025862D66B02B73,MD5=0E61079D3283687D2E279272966AE99D,SHA256=A92056D772260B39A876D01552496B2F8B4610A0B1E084952FE1176784E2CE77,IMPHASH=C8922BE3DCDFEB5994C9EEE7745DC22E</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-939f-5f07-0000-0010888e4600}</Data>
+      <Data Name="ParentProcessId">7456</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:02:42.085643200Z" />
+      <EventRecordID>311378</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3280" ThreadID="1044" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:02:42.078</Data>
+      <Data Name="ProcessGuid">{747f3d96-911a-5f07-0000-001087c73500}</Data>
+      <Data Name="ProcessId">2284</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:05:58.373961100Z" />
+      <EventRecordID>311382</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:05:55.880</Data>
+      <Data Name="ProcessGuid">{747f3d96-94c3-5f07-0000-001080b40100}</Data>
+      <Data Name="ProcessId">3096</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">cmd.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-1350-5f08-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">628</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:06:07.487274000Z" />
+      <EventRecordID>311383</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-09 22:06:07.353</Data>
+      <Data Name="ProcessGuid">{747f3d96-94cf-5f07-0000-0010bd590400}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\explorer.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1217 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Explorer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">EXPLORER.EXE</Data>
+      <Data Name="CommandLine">C:\Windows\Explorer.EXE</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-94cd-5f07-0000-0020abbf0300}</Data>
+      <Data Name="LogonId">0x3bfab</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=BACA86CCD45F8B5C27D0E9605B74B5FE924526B8,MD5=E1CB52C97C27F702CC96CF886B67FB8B,SHA256=B47C78A36A4DB2FB653876F4D6BD3DD7726CD311C2B2F8204CE8ED21EBD700F2,IMPHASH=6D78CE65118DF73A9E7BEAC9366C186A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-94cf-5f07-0000-0010444f0400}</Data>
+      <Data Name="ParentProcessId">5084</Data>
+      <Data Name="ParentImage">C:\Windows\System32\userinit.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\userinit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:06:14.112018000Z" />
+      <EventRecordID>311384</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:06:14.101</Data>
+      <Data Name="ProcessGuid">{747f3d96-94cf-5f07-0000-0010bd590400}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:06:14.229482200Z" />
+      <EventRecordID>311385</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:06:14.212</Data>
+      <Data Name="ProcessGuid">{747f3d96-94cf-5f07-0000-0010bd590400}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:06:20.184983300Z" />
+      <EventRecordID>311386</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:06:20.180</Data>
+      <Data Name="ProcessGuid">{747f3d96-94cf-5f07-0000-0010bd590400}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:06:20.185045500Z" />
+      <EventRecordID>311387</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:06:20.180</Data>
+      <Data Name="ProcessGuid">{747f3d96-94cf-5f07-0000-0010bd590400}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\d</Data>
+      <Data Name="Details">eventvwr\1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:06:20.185107400Z" />
+      <EventRecordID>311388</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-07-09 22:06:20.180</Data>
+      <Data Name="ProcessGuid">{747f3d96-94cf-5f07-0000-0010bd590400}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\MRUList</Data>
+      <Data Name="Details">dcba</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T22:07:33.800208700Z" />
+      <EventRecordID>311389</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3148" ThreadID="4088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2020-07-09 22:07:33.789</Data>
+      <Data Name="ProcessGuid">{747f3d96-94dc-5f07-0000-00102fb00700}</Data>
+      <Data Name="ProcessId">7128</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,436 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:30:32.931756000Z" />
+      <EventRecordID>16386</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:30:32.916</Data>
+      <Data Name="ProcessGuid">{365abb72-1ff8-5cd8-0000-00102a342000}</Data>
+      <Data Name="ProcessId">1332</Data>
+      <Data Name="Image">C:\Python27\python.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">python  winpwnage.py -u execute -i 9 -p c:\Windows\system32\cmd.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=ECA93AAAA5039E12D2F0CC3F0C8F5AF8FDB15C71,MD5=E11683E4A1E88666DD5E0331F969E0C6,SHA256=B6B4BD10303797C209C4F3C3FCC863A925A77AE2C38090FB8B3FF1BF9C4DDE84,IMPHASH=F3F3DE6C332CF6049756A5B794EBD0C5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-15de-5cd8-0000-001028c20a00}</Data>
+      <Data Name="ParentProcessId">3976</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:30:46.181756000Z" />
+      <EventRecordID>16387</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:30:46.181</Data>
+      <Data Name="ProcessGuid">{365abb72-1ff8-5cd8-0000-00102a342000}</Data>
+      <Data Name="ProcessId">1332</Data>
+      <Data Name="Image">c:\python27\python.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\ieframe.url</Data>
+      <Data Name="CreationUtcTime">2019-05-12 13:30:46.181</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:30:46.400506000Z" />
+      <EventRecordID>16388</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:30:46.213</Data>
+      <Data Name="ProcessGuid">{365abb72-2006-5cd8-0000-0010a2862300}</Data>
+      <Data Name="ProcessId">2960</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\rundll32.exe" ieframe.dll,OpenURL c:\users\ieuser\appdata\local\temp\ieframe.url</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=892503B20247B341CFD20DDA5FDACFA41527A087,MD5=C648901695E275C8F2AD04B687A68CE2,SHA256=3FA4912EB43FC304652D7B01F118589259861E2D628FA7C86193E54D5F987670,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-1ff8-5cd8-0000-00102a342000}</Data>
+      <Data Name="ParentProcessId">1332</Data>
+      <Data Name="ParentImage">C:\Python27\python.exe</Data>
+      <Data Name="ParentCommandLine">python  winpwnage.py -u execute -i 9 -p c:\Windows\system32\cmd.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:30:46.556756000Z" />
+      <EventRecordID>16389</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:30:46.275</Data>
+      <Data Name="ProcessGuid">{365abb72-2006-5cd8-0000-0010e0912300}</Data>
+      <Data Name="ProcessId">2936</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe" </Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-2006-5cd8-0000-0010a2862300}</Data>
+      <Data Name="ParentProcessId">2960</Data>
+      <Data Name="ParentImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\rundll32.exe" ieframe.dll,OpenURL c:\users\ieuser\appdata\local\temp\ieframe.url</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:32:58.167195400Z" />
+      <EventRecordID>16390</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:32:58.167</Data>
+      <Data Name="ProcessGuid">{365abb72-208a-5cd8-0000-0010119b2400}</Data>
+      <Data Name="ProcessId">3560</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">rundll32.exe  url.dll,OpenURL file://C:/Windows/system32/calc.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=892503B20247B341CFD20DDA5FDACFA41527A087,MD5=C648901695E275C8F2AD04B687A68CE2,SHA256=3FA4912EB43FC304652D7B01F118589259861E2D628FA7C86193E54D5F987670,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-2006-5cd8-0000-0010e0912300}</Data>
+      <Data Name="ParentProcessId">2936</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:33:37.078801400Z" />
+      <EventRecordID>16391</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:33:37.063</Data>
+      <Data Name="ProcessGuid">{365abb72-20b1-5cd8-0000-001064d62400}</Data>
+      <Data Name="ProcessId">1844</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">rundll32.exe  url.dll,FileProtocolHandler calc.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=892503B20247B341CFD20DDA5FDACFA41527A087,MD5=C648901695E275C8F2AD04B687A68CE2,SHA256=3FA4912EB43FC304652D7B01F118589259861E2D628FA7C86193E54D5F987670,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-2006-5cd8-0000-0010e0912300}</Data>
+      <Data Name="ParentProcessId">2936</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:33:59.743077700Z" />
+      <EventRecordID>16392</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:33:59.727</Data>
+      <Data Name="ProcessGuid">{365abb72-20c7-5cd8-0000-001021022500}</Data>
+      <Data Name="ProcessId">1416</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">rundll32.exe  url.dll,FileProtocolHandler file://C:/Windows/system32/calc.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=892503B20247B341CFD20DDA5FDACFA41527A087,MD5=C648901695E275C8F2AD04B687A68CE2,SHA256=3FA4912EB43FC304652D7B01F118589259861E2D628FA7C86193E54D5F987670,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-2006-5cd8-0000-0010e0912300}</Data>
+      <Data Name="ParentProcessId">2936</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:37:49.604920800Z" />
+      <EventRecordID>16394</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:37:49.604</Data>
+      <Data Name="ProcessGuid">{365abb72-15b9-5cd8-0000-00103ceb0600}</Data>
+      <Data Name="ProcessId">2940</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\ProgramData\calc.hta</Data>
+      <Data Name="CreationUtcTime">2019-05-12 13:37:49.604</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:38:00.523670800Z" />
+      <EventRecordID>16395</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:38:00.523</Data>
+      <Data Name="ProcessGuid">{365abb72-21b8-5cd8-0000-0010bade2600}</Data>
+      <Data Name="ProcessId">3856</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">rundll32.exe  url.dll,FileProtocolHandler file:///C:/programdata/calc.hta</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=892503B20247B341CFD20DDA5FDACFA41527A087,MD5=C648901695E275C8F2AD04B687A68CE2,SHA256=3FA4912EB43FC304652D7B01F118589259861E2D628FA7C86193E54D5F987670,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-2006-5cd8-0000-0010e0912300}</Data>
+      <Data Name="ParentProcessId">2936</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:38:00.712733300Z" />
+      <EventRecordID>16396</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:38:00.592</Data>
+      <Data Name="ProcessGuid">{365abb72-21b8-5cd8-0000-0010e4e82600}</Data>
+      <Data Name="ProcessId">2964</Data>
+      <Data Name="Image">C:\Windows\System32\mshta.exe</Data>
+      <Data Name="FileVersion">11.00.9600.16428 (winblue_gdr.131013-1700)</Data>
+      <Data Name="Description">Microsoft (R) HTML Application host</Data>
+      <Data Name="Product">Internet Explorer</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\mshta.exe" "C:\programdata\calc.hta" </Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=D4F0397F83083E1C6FB0894187CC72AEBCF2F34F,MD5=ABDFC692D9FE43E2BA8FE6CB5A8CB95A,SHA256=949485BA939953642714AE6831D7DCB261691CAC7CBB8C1A9220333801F60820,IMPHASH=00B1859A95A316FD37DFF4210480907A</Data>
+      <Data Name="ParentProcessGuid">{365abb72-21b8-5cd8-0000-0010bade2600}</Data>
+      <Data Name="ParentProcessId">3856</Data>
+      <Data Name="ParentImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentCommandLine">rundll32.exe  url.dll,FileProtocolHandler file:///C:/programdata/calc.hta</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T13:38:01.383045800Z" />
+      <EventRecordID>16397</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="1996" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 13:38:01.297</Data>
+      <Data Name="ProcessGuid">{365abb72-21b9-5cd8-0000-0010fc002700}</Data>
+      <Data Name="ProcessId">704</Data>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Calculator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\calc.exe" </Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-1596-5cd8-0000-0020103a0100}</Data>
+      <Data Name="LogonId">0x13a10</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9018A7D6CDBE859A430E8794E73381F77C840BE0,MD5=60B7C0FEAD45F2066E5B805A91F4F0FC,SHA256=80C10EE5F21F92F89CBC293A59D2FD4C01C7958AACAD15642558DB700943FA22,IMPHASH=F93B5D76132F6E6068946EC238813CE1</Data>
+      <Data Name="ParentProcessGuid">{365abb72-21b8-5cd8-0000-0010e4e82600}</Data>
+      <Data Name="ParentProcessId">2964</Data>
+      <Data Name="ParentImage">C:\Windows\System32\mshta.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\mshta.exe" "C:\programdata\calc.hta" </Data>
+    </EventData>
+  </Event>
+</root>

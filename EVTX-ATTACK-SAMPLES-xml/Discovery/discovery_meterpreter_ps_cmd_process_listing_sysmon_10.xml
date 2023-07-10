@@ -1,0 +1,1666 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:22:56.571138000Z" />
+      <EventRecordID>8322</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:22:56.555</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7d0-5cc7-0000-0010d0220e00}</Data>
+      <Data Name="SourceProcessId">3712</Data>
+      <Data Name="SourceThreadId">3756</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d0-5cc7-0000-0010cb280e00}</Data>
+      <Data Name="TargetProcessId">2784</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Local\Temp\opera autoupdate\installer.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4534c|C:\Windows\system32\kernel32.dll+5112b|C:\Windows\system32\kernel32.dll+2079|C:\Windows\AppPatch\AcLayers.DLL+12689|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+48766|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+4843f|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+333f4|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+331ea|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+3300a|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+32db6|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+33334|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+70d3|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+5058|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+58c6|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+98ce1|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+70263</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:22:56.930513000Z" />
+      <EventRecordID>8328</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:22:56.930</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7d0-5cc7-0000-0010d0220e00}</Data>
+      <Data Name="SourceProcessId">3712</Data>
+      <Data Name="SourceThreadId">3756</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d0-5cc7-0000-0010df2f0e00}</Data>
+      <Data Name="TargetProcessId">3624</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4534c|C:\Windows\system32\kernel32.dll+5112b|C:\Windows\system32\kernel32.dll+2079|C:\Windows\AppPatch\AcLayers.DLL+12689|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+48766|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+4843f|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+28188|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+72d7|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+5058|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+58c6|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+98ce1|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+70263|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+7045d|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+706ba|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+687cc|C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe+700c7</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:22:57.149263000Z" />
+      <EventRecordID>8332</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:22:57.149</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7d0-5cc7-0000-0010df2f0e00}</Data>
+      <Data Name="SourceProcessId">3624</Data>
+      <Data Name="SourceThreadId">2824</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d1-5cc7-0000-0010af380e00}</Data>
+      <Data Name="TargetProcessId">3504</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4534c|C:\Windows\system32\kernel32.dll+5112b|C:\Windows\system32\kernel32.dll+2079|C:\Windows\AppPatch\AcLayers.DLL+12689|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+fede6|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+fe583|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+fd817|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+fd984|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+fdafb|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+1de2d|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+1821|C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe+2560f8|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.883638000Z" />
+      <EventRecordID>8335</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f69f-5cc7-0000-0010132b0000}</Data>
+      <Data Name="TargetProcessId">264</Data>
+      <Data Name="TargetImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8336</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-001033480000}</Data>
+      <Data Name="TargetProcessId">336</Data>
+      <Data Name="TargetImage">C:\Windows\system32\csrss.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8337</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-0010a74b0000}</Data>
+      <Data Name="TargetProcessId">384</Data>
+      <Data Name="TargetImage">C:\Windows\system32\wininit.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8338</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-00103f4c0000}</Data>
+      <Data Name="TargetProcessId">392</Data>
+      <Data Name="TargetImage">C:\Windows\system32\csrss.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8339</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-001043520000}</Data>
+      <Data Name="TargetProcessId">440</Data>
+      <Data Name="TargetImage">C:\Windows\system32\winlogon.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8340</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-001004550000}</Data>
+      <Data Name="TargetProcessId">468</Data>
+      <Data Name="TargetImage">C:\Windows\system32\services.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8341</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-001072590000}</Data>
+      <Data Name="TargetProcessId">492</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8342</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-0010a3590000}</Data>
+      <Data Name="TargetProcessId">500</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsm.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8343</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-0010bb700000}</Data>
+      <Data Name="TargetProcessId">616</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8344</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-0010e7ac0000}</Data>
+      <Data Name="TargetProcessId">676</Data>
+      <Data Name="TargetImage">C:\Windows\System32\VBoxService.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8345</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a1-5cc7-0000-00101ab00000}</Data>
+      <Data Name="TargetProcessId">740</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8346</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-00105fb40000}</Data>
+      <Data Name="TargetProcessId">804</Data>
+      <Data Name="TargetImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8347</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-001015c00000}</Data>
+      <Data Name="TargetProcessId">872</Data>
+      <Data Name="TargetImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.899263000Z" />
+      <EventRecordID>8348</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-0010a7c40000}</Data>
+      <Data Name="TargetProcessId">908</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8349</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-001014c90000}</Data>
+      <Data Name="TargetProcessId">956</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8350</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-001012cf0000}</Data>
+      <Data Name="TargetProcessId">1016</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8351</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-0010f9d80000}</Data>
+      <Data Name="TargetProcessId">1148</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8352</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-00100eed0000}</Data>
+      <Data Name="TargetProcessId">1288</Data>
+      <Data Name="TargetImage">C:\Windows\System32\spoolsv.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8353</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.883</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a2-5cc7-0000-0010b8f20000}</Data>
+      <Data Name="TargetProcessId">1328</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8354</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a3-5cc7-0000-0010d30e0100}</Data>
+      <Data Name="TargetProcessId">1476</Data>
+      <Data Name="TargetImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8355</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a3-5cc7-0000-001062120100}</Data>
+      <Data Name="TargetProcessId">1504</Data>
+      <Data Name="TargetImage">C:\Windows\system32\taskhost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8356</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a3-5cc7-0000-0010051a0100}</Data>
+      <Data Name="TargetProcessId">1572</Data>
+      <Data Name="TargetImage">C:\Windows\system32\taskeng.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8357</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a3-5cc7-0000-0010443a0100}</Data>
+      <Data Name="TargetProcessId">1732</Data>
+      <Data Name="TargetImage">C:\Program Files\OpenSSH\bin\cygrunsrv.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8358</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a3-5cc7-0000-0010f7500100}</Data>
+      <Data Name="TargetProcessId">1904</Data>
+      <Data Name="TargetImage">C:\Windows\system32\conhost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8359</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a3-5cc7-0000-00108a560100}</Data>
+      <Data Name="TargetProcessId">1952</Data>
+      <Data Name="TargetImage">C:\Program Files\OpenSSH\usr\sbin\sshd.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8360</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a4-5cc7-0000-0010c65f0100}</Data>
+      <Data Name="TargetProcessId">1996</Data>
+      <Data Name="TargetImage">C:\Windows\system32\wlms\wlms.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8361</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a4-5cc7-0000-001098750100}</Data>
+      <Data Name="TargetProcessId">1000</Data>
+      <Data Name="TargetImage">C:\Windows\system32\wbem\unsecapp.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8362</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a4-5cc7-0000-001020ba0100}</Data>
+      <Data Name="TargetProcessId">1896</Data>
+      <Data Name="TargetImage">C:\Windows\system32\sppsvc.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8363</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a5-5cc7-0000-00100cd40100}</Data>
+      <Data Name="TargetProcessId">2160</Data>
+      <Data Name="TargetImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8364</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a5-5cc7-0000-001094d70100}</Data>
+      <Data Name="TargetProcessId">2192</Data>
+      <Data Name="TargetImage">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8365</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a5-5cc7-0000-00108aff0100}</Data>
+      <Data Name="TargetProcessId">2360</Data>
+      <Data Name="TargetImage">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8366</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a6-5cc7-0000-00103f140200}</Data>
+      <Data Name="TargetProcessId">2416</Data>
+      <Data Name="TargetImage">C:\Program Files\Google\Update\1.3.34.7\GoogleCrashHandler.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8367</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6a6-5cc7-0000-0010dc200200}</Data>
+      <Data Name="TargetProcessId">2448</Data>
+      <Data Name="TargetImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8368</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6c9-5cc7-0000-0010a25c0600}</Data>
+      <Data Name="TargetProcessId">2788</Data>
+      <Data Name="TargetImage">C:\Windows\system32\Dwm.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8369</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6c9-5cc7-0000-0010135f0600}</Data>
+      <Data Name="TargetProcessId">2812</Data>
+      <Data Name="TargetImage">C:\Windows\Explorer.EXE</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8370</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6c9-5cc7-0000-00109b9a0600}</Data>
+      <Data Name="TargetProcessId">2908</Data>
+      <Data Name="TargetImage">C:\Windows\System32\VBoxTray.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.914888000Z" />
+      <EventRecordID>8371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6ca-5cc7-0000-00104dbb0600}</Data>
+      <Data Name="TargetProcessId">3016</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Roaming\svchost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8372</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6ca-5cc7-0000-001048c10600}</Data>
+      <Data Name="TargetProcessId">3028</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6ca-5cc7-0000-001017c50600}</Data>
+      <Data Name="TargetProcessId">3044</Data>
+      <Data Name="TargetImage">C:\Windows\system32\conhost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8374</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f6cf-5cc7-0000-00100c870700}</Data>
+      <Data Name="TargetProcessId">3264</Data>
+      <Data Name="TargetImage">C:\Windows\system32\SearchIndexer.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8375</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f787-5cc7-0000-001068b30a00}</Data>
+      <Data Name="TargetProcessId">2500</Data>
+      <Data Name="TargetImage">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8376</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f787-5cc7-0000-0010fbb30a00}</Data>
+      <Data Name="TargetProcessId">2024</Data>
+      <Data Name="TargetImage">C:\Windows\system32\conhost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8377</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f797-5cc7-0000-00105af70a00}</Data>
+      <Data Name="TargetProcessId">2352</Data>
+      <Data Name="TargetImage">C:\Windows\system32\mmc.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8378</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d0-5cc7-0000-0010b31e0e00}</Data>
+      <Data Name="TargetProcessId">1236</Data>
+      <Data Name="TargetImage">C:\Windows\system32\taskeng.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8379</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d0-5cc7-0000-0010d0220e00}</Data>
+      <Data Name="TargetProcessId">3712</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Local\Programs\Opera\launcher.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8380</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d0-5cc7-0000-0010df2f0e00}</Data>
+      <Data Name="TargetProcessId">3624</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8381</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d1-5cc7-0000-0010af380e00}</Data>
+      <Data Name="TargetProcessId">3504</Data>
+      <Data Name="TargetImage">C:\Users\IEUser\AppData\Local\Programs\Opera\60.0.3255.70\opera_autoupdate.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8382</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d1-5cc7-0000-0010ce400e00}</Data>
+      <Data Name="TargetProcessId">2144</Data>
+      <Data Name="TargetImage">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-30T07:23:00.930513000Z" />
+      <EventRecordID>8383</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1876" ThreadID="1444" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-30 07:23:00.899</Data>
+      <Data Name="SourceProcessGUID">{365abb72-f7c9-5cc7-0000-0010bf010e00}</Data>
+      <Data Name="SourceProcessId">3772</Data>
+      <Data Name="SourceThreadId">1088</Data>
+      <Data Name="SourceImage">D:\m.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-f7d1-5cc7-0000-001058500e00}</Data>
+      <Data Name="TargetProcessId">1344</Data>
+      <Data Name="TargetImage">C:\Windows\system32\DllHost.exe</Data>
+      <Data Name="GrantedAccess">0x1410</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4595c|C:\Windows\system32\KERNELBASE.dll+8185|UNKNOWN(01770343)|UNKNOWN(0176FF9D)|UNKNOWN(0176F8EC)|UNKNOWN(00397486)|UNKNOWN(003973A0)|UNKNOWN(003978A3)|C:\Windows\system32\kernel32.dll+4ef8c|C:\Windows\SYSTEM32\ntdll.dll+6367a|C:\Windows\SYSTEM32\ntdll.dll+6364d</Data>
+    </EventData>
+  </Event>
+</root>

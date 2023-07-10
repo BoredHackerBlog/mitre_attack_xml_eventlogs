@@ -1,0 +1,155 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2020-12-17T10:38:33.951180900Z" />
+      <EventRecordID>337870</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="672" ThreadID="10348" />
+      <Channel>System</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">WCESERVICE</Data>
+      <Data Name="ImagePath">D:\Service\test.exe</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">demand start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-03T10:24:12.402791100Z" />
+      <EventRecordID>388110</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="8344" />
+      <Channel>System</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1180" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">Microsoft Office Click-to-Run Service</Data>
+      <Data Name="ImagePath">"C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" /service</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">auto start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-03T10:33:48.102656400Z" />
+      <EventRecordID>388136</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="1428" />
+      <Channel>System</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">Microsoft Search in Bing</Data>
+      <Data Name="ImagePath">"C:\Program Files (x86)\Microsoft\Microsoft Search in Bing\MicrosoftSearchInBing.exe"</Data>
+      <Data Name="ServiceType">user mode service</Data>
+      <Data Name="StartType">auto start</Data>
+      <Data Name="AccountName">LocalSystem</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-16T15:50:54.591884200Z" />
+      <EventRecordID>426757</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="684" ThreadID="8852" />
+      <Channel>System</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1627" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">Npcap Packet Driver (NPCAP)</Data>
+      <Data Name="ImagePath">\SystemRoot\system32\DRIVERS\npcap.sys</Data>
+      <Data Name="ServiceType">kernel mode driver</Data>
+      <Data Name="StartType">demand start</Data>
+      <Data Name="AccountName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T16:12:22.200119200Z" />
+      <EventRecordID>453867</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="684" ThreadID="10560" />
+      <Channel>System</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">mimikatz driver (mimidrv)</Data>
+      <Data Name="ImagePath">C:\TOOLS\Security_tool\Mimikatz-fev-2020\mimidrv.sys</Data>
+      <Data Name="ServiceType">kernel mode driver</Data>
+      <Data Name="StartType">auto start</Data>
+      <Data Name="AccountName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Service Control Manager" Guid="{555908d1-a6d7-4695-8e1e-26931d2012f4}" EventSourceName="Service Control Manager" />
+      <EventID Qualifiers="16384">7045</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8080000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-26T16:17:35.489920300Z" />
+      <EventRecordID>453879</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="684" ThreadID="1164" />
+      <Channel>System</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ServiceName">mimikatz driver (mimidrv)</Data>
+      <Data Name="ImagePath">C:\TOOLS\Security_tool\Mimikatz-fev-2020\mimidrv.sys</Data>
+      <Data Name="ServiceType">kernel mode driver</Data>
+      <Data Name="StartType">auto start</Data>
+      <Data Name="AccountName">
+      </Data>
+    </EventData>
+  </Event>
+</root>

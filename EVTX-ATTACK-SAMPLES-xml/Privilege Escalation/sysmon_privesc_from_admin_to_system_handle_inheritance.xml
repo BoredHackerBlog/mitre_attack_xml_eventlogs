@@ -1,0 +1,118 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T18:10:42.434409600Z" />
+      <EventRecordID>16148</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2020" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 18:10:42.418</Data>
+      <Data Name="ProcessGuid">{365abb72-1022-5cd7-0000-00105d081c00}</Data>
+      <Data Name="ProcessId">744</Data>
+      <Data Name="Image">C:\Python27\python.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">python  winpwnage.py -u elevate -i 1 -p c:\Windows\System32\cmd.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-0807-5cd7-0000-002091450100}</Data>
+      <Data Name="LogonId">0x14591</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=ECA93AAAA5039E12D2F0CC3F0C8F5AF8FDB15C71,MD5=E11683E4A1E88666DD5E0331F969E0C6,SHA256=B6B4BD10303797C209C4F3C3FCC863A925A77AE2C38090FB8B3FF1BF9C4DDE84,IMPHASH=F3F3DE6C332CF6049756A5B794EBD0C5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-0c15-5cd7-0000-0010fb1c1500}</Data>
+      <Data Name="ParentProcessId">2404</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T18:10:42.637534600Z" />
+      <EventRecordID>16149</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2020" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 18:10:42.637</Data>
+      <Data Name="SourceProcessGUID">{365abb72-1022-5cd7-0000-00105d081c00}</Data>
+      <Data Name="SourceProcessId">744</Data>
+      <Data Name="SourceThreadId">3924</Data>
+      <Data Name="SourceImage">c:\python27\python.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-8693-5cd7-0000-0010765e0000}</Data>
+      <Data Name="TargetProcessId">492</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x101ffb</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4591c|C:\Windows\system32\KERNELBASE.dll+8185|c:\python27\DLLs\_ctypes.pyd+ed6a|c:\python27\DLLs\_ctypes.pyd+d9d6|c:\python27\DLLs\_ctypes.pyd+999e|c:\python27\DLLs\_ctypes.pyd+a1ce|c:\python27\DLLs\_ctypes.pyd+5b71|C:\Windows\system32\python27.dll+8f14c|C:\Windows\system32\python27.dll+113384|C:\Windows\system32\python27.dll+112f24|C:\Windows\system32\python27.dll+110c7e|C:\Windows\system32\python27.dll+113001|C:\Windows\system32\python27.dll+112f12|C:\Windows\system32\python27.dll+110c7e|C:\Windows\system32\python27.dll+111d7c|C:\Windows\system32\python27.dll+113063</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-11T18:10:42.668784600Z" />
+      <EventRecordID>16150</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2020" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-11 18:10:42.653</Data>
+      <Data Name="ProcessGuid">{365abb72-1022-5cd7-0000-0010df121c00}</Data>
+      <Data Name="ProcessId">3248</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">c:\Windows\System32\cmd.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\WinPwnage-master\WinPwnage-master\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-8693-5cd7-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-8693-5cd7-0000-0010765e0000}</Data>
+      <Data Name="ParentProcessId">492</Data>
+      <Data Name="ParentImage">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\lsass.exe</Data>
+    </EventData>
+  </Event>
+</root>

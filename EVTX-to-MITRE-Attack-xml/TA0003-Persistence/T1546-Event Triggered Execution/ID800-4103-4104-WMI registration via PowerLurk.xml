@@ -1,0 +1,383 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.041829000Z" />
+      <EventRecordID>28810</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=289
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=cebe54d1-4235-4f11-9fd4-5319a4253d0e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=147302b5-06ec-4bbb-a604-7772a0f40632
+	PipelineId=68
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.151734500Z" />
+      <EventRecordID>28811</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>            $Consumer = Set-WmiInstance -Namespace root/subscription -Class CommandLineEventConsumer -Arguments $CommandConsumerArgs @Arguments
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=291
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=cebe54d1-4235-4f11-9fd4-5319a4253d0e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=147302b5-06ec-4bbb-a604-7772a0f40632
+	PipelineId=69
+	ScriptName=C:\Users\admmig\Desktop\powerlurk.ps1
+	CommandLine=            $Consumer = Set-WmiInstance -Namespace root/subscription -Class CommandLineEventConsumer -Arguments $CommandConsumerArgs @Arguments
+</Data>
+      <Data>CommandInvocation(Set-WmiInstance): "Set-WmiInstance"
+ParameterBinding(Set-WmiInstance): name="Namespace"; value="root/subscription"
+ParameterBinding(Set-WmiInstance): name="Class"; value="CommandLineEventConsumer"
+ParameterBinding(Set-WmiInstance): name="Arguments"; value="System.Collections.Hashtable"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.167370500Z" />
+      <EventRecordID>28812</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>            $Filter = Set-WmiInstance -Namespace root/subscription -Class __EventFilter -Arguments $EventFilterArgs @Arguments
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=293
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=cebe54d1-4235-4f11-9fd4-5319a4253d0e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=147302b5-06ec-4bbb-a604-7772a0f40632
+	PipelineId=69
+	ScriptName=C:\Users\admmig\Desktop\powerlurk.ps1
+	CommandLine=            $Filter = Set-WmiInstance -Namespace root/subscription -Class __EventFilter -Arguments $EventFilterArgs @Arguments
+</Data>
+      <Data>CommandInvocation(Set-WmiInstance): "Set-WmiInstance"
+ParameterBinding(Set-WmiInstance): name="Namespace"; value="root/subscription"
+ParameterBinding(Set-WmiInstance): name="Class"; value="__EventFilter"
+ParameterBinding(Set-WmiInstance): name="Arguments"; value="System.Collections.Hashtable"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.198620000Z" />
+      <EventRecordID>28813</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>            Set-WmiInstance -Namespace root/subscription -Class __FilterToConsumerBinding -Arguments $FilterToConsumerArgs @Arguments | Out-Null
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=295
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=cebe54d1-4235-4f11-9fd4-5319a4253d0e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=147302b5-06ec-4bbb-a604-7772a0f40632
+	PipelineId=69
+	ScriptName=C:\Users\admmig\Desktop\powerlurk.ps1
+	CommandLine=            Set-WmiInstance -Namespace root/subscription -Class __FilterToConsumerBinding -Arguments $FilterToConsumerArgs @Arguments | Out-Null
+</Data>
+      <Data>CommandInvocation(Set-WmiInstance): "Set-WmiInstance"
+ParameterBinding(Set-WmiInstance): name="Namespace"; value="root/subscription"
+ParameterBinding(Set-WmiInstance): name="Class"; value="__FilterToConsumerBinding"
+ParameterBinding(Set-WmiInstance): name="Arguments"; value="System.Collections.Hashtable"
+CommandInvocation(Out-Null): "Out-Null"
+ParameterBinding(Out-Null): name="InputObject"; value="__FilterToConsumerBinding.Consumer="CommandLineEventConsumer.Name=\"Evil23\"",Filter="__EventFilter.Name=\"Evil23\"""
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.198620000Z" />
+      <EventRecordID>28814</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=297
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=cebe54d1-4235-4f11-9fd4-5319a4253d0e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=147302b5-06ec-4bbb-a604-7772a0f40632
+	PipelineId=69
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.214251300Z" />
+      <EventRecordID>28815</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=299
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=cebe54d1-4235-4f11-9fd4-5319a4253d0e
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=147302b5-06ec-4bbb-a604-7772a0f40632
+	PipelineId=71
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.042899300Z" />
+      <EventRecordID>30203</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-FB92-34382D51D701}" />
+      <Execution ProcessID="2096" ThreadID="5848" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = cebe54d1-4235-4f11-9fd4-5319a4253d0e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 147302b5-06ec-4bbb-a604-7772a0f40632
+        Pipeline ID = 68
+        Command Name = PSConsoleHostReadline
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 290
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.058429500Z" />
+      <EventRecordID>30204</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-84A0-36382D51D701}" />
+      <Execution ProcessID="2096" ThreadID="5848" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Register-MaliciousWmiEvent -EventName Evil23 -PermanentCommand "cmd.exe /c echo %ProcessId% &gt;&gt; c:\\temp\\log.txt" -Trigger ProcessStart -ProcessName notepad.exe</Data>
+      <Data Name="ScriptBlockId">e0e50dd9-152a-4e73-abef-d419adf732e6</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.157099000Z" />
+      <EventRecordID>30205</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0001-86A0-36382D51D701}" />
+      <Execution ProcessID="2096" ThreadID="5848" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = cebe54d1-4235-4f11-9fd4-5319a4253d0e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 147302b5-06ec-4bbb-a604-7772a0f40632
+        Pipeline ID = 69
+        Command Name = Set-WmiInstance
+        Command Type = Cmdlet
+        Script Name = C:\Users\admmig\Desktop\powerlurk.ps1
+        Command Path = 
+        Sequence Number = 292
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-WmiInstance): "Set-WmiInstance"
+ParameterBinding(Set-WmiInstance): name="Namespace"; value="root/subscription"
+ParameterBinding(Set-WmiInstance): name="Class"; value="CommandLineEventConsumer"
+ParameterBinding(Set-WmiInstance): name="Arguments"; value="System.Collections.Hashtable"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-10T14:12:46.177246300Z" />
+      <EventRecordID>30206</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0000-0E6C-35382D51D701}" />
+      <Execution ProcessID="2096" ThreadID="5848" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = cebe54d1-4235-4f11-9fd4-5319a4253d0e
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 147302b5-06ec-4bbb-a604-7772a0f40632
+        Pipeline ID = 69
+        Command Name = Set-WmiInstance
+        Command Type = Cmdlet
+        Script Name = C:\Users\admmig\Desktop\powerlurk.ps1
+        Command Path = 
+        Sequence Number = 294
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-WmiInstance): "Set-WmiInstance"
+ParameterBinding(Set-WmiInstance): name="Namespace"; value="root/subscription"
+ParameterBinding(Set-WmiInstance): name="Class"; value="__EventFilter"
+ParameterBinding(Set-WmiInstance): name="Arguments"; value="System.Collections.Hashtable"
+</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,143 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4661</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12803</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2017-06-12T23:39:43.512986700Z" />
+      <EventRecordID>8068</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="496" ThreadID="504" />
+      <Channel>Security</Channel>
+      <Computer>2012r2srv.maincorp.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-2634088540-571122920-1382659128-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">MAINCORP</Data>
+      <Data Name="SubjectLogonId">0x432c8</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="ObjectType">SAM_DOMAIN</Data>
+      <Data Name="ObjectName">DC=maincorp,DC=local</Data>
+      <Data Name="HandleId">0xc9774b43b0</Data>
+      <Data Name="TransactionId">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="AccessList">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%5392
+				%%5393
+				%%5394
+				%%5395
+				%%5396
+				%%5397
+				%%5398
+				%%5399
+				%%5400
+				</Data>
+      <Data Name="AccessMask">0x2d</Data>
+      <Data Name="PrivilegeList">?-</Data>
+      <Data Name="Properties">---
+	{19195a5a-6da0-11d0-afd3-00c04fd930c9}
+%%1537
+%%1538
+%%1539
+%%1540
+%%5392
+%%5393
+%%5394
+%%5395
+%%5396
+%%5397
+%%5398
+%%5399
+%%5400
+		{c7407360-20bf-11d0-a768-00aa006e0529}
+			{bf9679a4-0de6-11d0-a285-00aa003049e2}
+			{bf9679a5-0de6-11d0-a285-00aa003049e2}
+			{bf9679a6-0de6-11d0-a285-00aa003049e2}
+			{bf9679bb-0de6-11d0-a285-00aa003049e2}
+			{bf9679c2-0de6-11d0-a285-00aa003049e2}
+			{bf9679c3-0de6-11d0-a285-00aa003049e2}
+			{bf967a09-0de6-11d0-a285-00aa003049e2}
+			{bf967a0b-0de6-11d0-a285-00aa003049e2}
+		{b8119fd0-04f6-4762-ab7a-4986c76b3f9a}
+			{bf967a34-0de6-11d0-a285-00aa003049e2}
+			{bf967a33-0de6-11d0-a285-00aa003049e2}
+			{bf9679c5-0de6-11d0-a285-00aa003049e2}
+			{bf967a61-0de6-11d0-a285-00aa003049e2}
+			{bf967977-0de6-11d0-a285-00aa003049e2}
+			{bf96795e-0de6-11d0-a285-00aa003049e2}
+			{bf9679ea-0de6-11d0-a285-00aa003049e2}
+		{ab721a52-1e2f-11d0-9819-00aa0040529b}
+</Data>
+      <Data Name="RestrictedSidCount">0</Data>
+      <Data Name="ProcessId">0x1f0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4765</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2017-06-12T23:39:43.512986700Z" />
+      <EventRecordID>8075</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="496" ThreadID="1696" />
+      <Channel>Security</Channel>
+      <Computer>2012r2srv.maincorp.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SourceUserName">maincorp.local\Domain Admins</Data>
+      <Data Name="SourceSid">S-1-5-21-2634088540-571122920-1382659128-512</Data>
+      <Data Name="TargetUserName">Andrei</Data>
+      <Data Name="TargetDomainName">MAINCORP</Data>
+      <Data Name="TargetSid">S-1-5-21-2634088540-571122920-1382659128-1104</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-2634088540-571122920-1382659128-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">MAINCORP</Data>
+      <Data Name="SubjectLogonId">0x432c8</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SidList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4658</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12804</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2017-06-12T23:39:43.512986700Z" />
+      <EventRecordID>8076</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="252" />
+      <Channel>Security</Channel>
+      <Computer>2012r2srv.maincorp.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-2634088540-571122920-1382659128-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">MAINCORP</Data>
+      <Data Name="SubjectLogonId">0x432c8</Data>
+      <Data Name="ObjectServer">Security Account Manager</Data>
+      <Data Name="HandleId">0xc9774b43b0</Data>
+      <Data Name="ProcessId">0x1f0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+</root>

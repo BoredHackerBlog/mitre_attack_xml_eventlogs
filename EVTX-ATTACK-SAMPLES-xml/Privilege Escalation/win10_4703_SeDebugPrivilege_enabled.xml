@@ -1,0 +1,34 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4703</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13317</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-08-14T12:48:15.921507500Z" />
+      <EventRecordID>11983</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="248" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x342ba</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">MSEDGEWIN10</Data>
+      <Data Name="TargetLogonId">0x342ba</Data>
+      <Data Name="ProcessName">C:\Users\IEUser\Desktop\x64\mimikatz.exe</Data>
+      <Data Name="ProcessId">0x8fc</Data>
+      <Data Name="EnabledPrivilegeList">SeDebugPrivilege</Data>
+      <Data Name="DisabledPrivilegeList">-</Data>
+    </EventData>
+  </Event>
+</root>

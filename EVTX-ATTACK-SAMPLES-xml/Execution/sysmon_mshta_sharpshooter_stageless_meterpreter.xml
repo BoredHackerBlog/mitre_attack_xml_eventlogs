@@ -1,0 +1,128 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:13:42.294109800Z" />
+      <EventRecordID>7648</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:13:42.278</Data>
+      <Data Name="ProcessGuid">{365abb72-9aa6-5d04-0000-00109c850f00}</Data>
+      <Data Name="ProcessId">652</Data>
+      <Data Name="Image">C:\Windows\System32\mshta.exe</Data>
+      <Data Name="FileVersion">11.00.9600.16428 (winblue_gdr.131013-1700)</Data>
+      <Data Name="Description">Microsoft (R) HTML Application host</Data>
+      <Data Name="Product">Internet Explorer</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\mshta.exe" "C:\Users\IEUser\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\S97WTYG7\update.hta" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-98e4-5d04-0000-0020a4350100}</Data>
+      <Data Name="LogonId">0x135a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=D4F0397F83083E1C6FB0894187CC72AEBCF2F34F,MD5=ABDFC692D9FE43E2BA8FE6CB5A8CB95A,SHA256=949485BA939953642714AE6831D7DCB261691CAC7CBB8C1A9220333801F60820,IMPHASH=00B1859A95A316FD37DFF4210480907A</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9972-5d04-0000-0010f0490c00}</Data>
+      <Data Name="ParentProcessId">3660</Data>
+      <Data Name="ParentImage">C:\Program Files\Internet Explorer\iexplore.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Internet Explorer\iexplore.exe" C:\Users\IEUser\Downloads\update.html</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:13:44.106609800Z" />
+      <EventRecordID>7649</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:13:42.577</Data>
+      <Data Name="ProcessGuid">{365abb72-9aa6-5d04-0000-00109c850f00}</Data>
+      <Data Name="ProcessId">652</Data>
+      <Data Name="Image">C:\Windows\System32\mshta.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.13</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49159</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">4443</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-06-15T07:14:32.809734800Z" />
+      <EventRecordID>7650</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2044" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-06-15 07:14:32.622</Data>
+      <Data Name="ProcessGuid">{365abb72-9ad8-5d04-0000-0010c08c1000}</Data>
+      <Data Name="ProcessId">3892</Data>
+      <Data Name="Image">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">COM Surrogate</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-98e4-5d04-0000-0020a4350100}</Data>
+      <Data Name="LogonId">0x135a4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=ACE762C51DB1908C858C898D7E0F9B36F788D2D9,MD5=A63DC5C2EA944E6657203E0C8EDEAF61,SHA256=F7AD4B09AFB301CE46DF695B22114331A57D52E6D4163FF74787BF68CCF44C78,IMPHASH=EB9A02895A60E58547EFF153D6FF8829</Data>
+      <Data Name="ParentProcessGuid">{365abb72-1771-5d05-0000-001030790000}</Data>
+      <Data Name="ParentProcessId">616</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch</Data>
+    </EventData>
+  </Event>
+</root>

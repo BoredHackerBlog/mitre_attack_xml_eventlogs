@@ -1,0 +1,217 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>6416</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13316</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:34:49.837376800Z" />
+      <EventRecordID>127530</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2204" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="DeviceId">SWD\PRINTENUM\{32FB2173-023E-43DF-9F82-0E851CC0D9BF}</Data>
+      <Data Name="DeviceDescription">\\fs03vuln\Kiwi Legit Printer</Data>
+      <Data Name="ClassId">{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}</Data>
+      <Data Name="ClassName">PrintQueue</Data>
+      <Data Name="VendorIds">
+		PRINTENUM\PrinterConnection
+		genericgeneric_/_tex8040
+		
+		</Data>
+      <Data Name="CompatibleIds">
+		GenPrinterConnection
+		SWD\GenericRaw
+		SWD\Generic
+		
+		</Data>
+      <Data Name="LocationInformation">
+		Spooler Internal
+		</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:34:49.884246500Z" />
+      <EventRecordID>127531</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2376" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x738</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x418</Data>
+      <Data Name="CommandLine">"cmd.exe"</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:34:49.884246500Z" />
+      <EventRecordID>127532</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2376" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x2ac</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x738</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:34:50.024870800Z" />
+      <EventRecordID>127533</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="500" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x123550</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\USER\S-1-5-21-4230534742-2542757381-3142984815-1111\Printers\Connections\,,fs03vuln,Kiwi Legit Printer</Data>
+      <Data Name="HandleId">0x6a4</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%4432
+				%%4433
+				%%4434
+				%%4435
+				%%4436
+				%%4437
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x418</Data>
+      <Data Name="ProcessName">C:\Windows\System32\spoolsv.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:34:50.024870800Z" />
+      <EventRecordID>127534</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="492" ThreadID="500" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x123550</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x6a4</Data>
+      <Data Name="AccessMask">983103</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x418</Data>
+      <Data Name="ProcessName">C:\Windows\System32\spoolsv.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-27T10:35:56.899800900Z" />
+      <EventRecordID>127567</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2204" />
+      <Channel>Security</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xf08</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1938</Data>
+      <Data Name="ProcessId">0x234</Data>
+      <Data Name="CommandLine">C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x12377a</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,219 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:14:11.167697600Z" />
+      <EventRecordID>113200</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:14:07.7823894
+sequence_number:1
+action_id:LGIS
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:13469EEE-5B46-416F-816E-BD8E83BEA111
+session_server_principal_name:
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:-- network protocol: TCP/IP
+set quoted_identifier on
+set arithabort off
+set numeric_roundabort off
+set ansi_warnings on
+set ansi_padding on
+set ansi_nulls on
+set concat_null_yields_null on
+set cursor_close_on_commit off
+set implicit_transactions off
+set language us_english
+set dateformat mdy
+set datefirst 7
+set transaction isolation level read committed
+
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;client_options&gt;0x28000020&lt;/client_options&gt;&lt;client_options1&gt;0x0001f438&lt;/client_options1&gt;&lt;connect_options&gt;0x00000000&lt;/connect_options&gt;&lt;packet_data_size&gt;4096&lt;/packet_data_size&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;is_dac&gt;0&lt;/is_dac&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>4</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:14:11.167697600Z" />
+      <EventRecordID>113201</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:14:07.8605342
+sequence_number:1
+action_id:LGIS
+succeeded:true
+is_column_permission:false
+session_id:54
+server_principal_id:2
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:LX
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:E6CD9781-2DB2-4246-BFAD-70EF7BF1F178
+session_server_principal_name:
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:-- network protocol: TCP/IP
+set quoted_identifier on
+set arithabort off
+set numeric_roundabort off
+set ansi_warnings on
+set ansi_padding on
+set ansi_nulls on
+set concat_null_yields_null on
+set cursor_close_on_commit off
+set implicit_transactions off
+set language us_english
+set dateformat mdy
+set datefirst 7
+set transaction isolation level read committed
+
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;pooled_connection&gt;0&lt;/pooled_connection&gt;&lt;client_options&gt;0x28000020&lt;/client_options&gt;&lt;client_options1&gt;0x0001f438&lt;/client_options1&gt;&lt;connect_options&gt;0x00000000&lt;/connect_options&gt;&lt;packet_data_size&gt;4096&lt;/packet_data_size&gt;&lt;address&gt;10.23.23.9&lt;/address&gt;&lt;is_dac&gt;0&lt;/is_dac&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:14:16.167790300Z" />
+      <EventRecordID>113202</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:14:11.6833666
+sequence_number:1
+action_id:AL  
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:DA
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:07DE5F90-9DA4-4653-AE58-F113BEAFD795
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:RCS-TEST-db
+schema_name:
+object_name:db-audit-spec
+statement:ALTER DATABASE AUDIT SPECIFICATION [db-audit-spec]
+WITH (STATE = OFF)
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:14:16.167790300Z" />
+      <EventRecordID>113203</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:14:11.6833666
+sequence_number:1
+action_id:DR  
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:DA
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:6F3D9994-CFBA-48F6-985B-2CD374A18039
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:RCS-TEST-db
+schema_name:
+object_name:db-audit-spec
+statement:DROP DATABASE AUDIT SPECIFICATION [db-audit-spec]
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

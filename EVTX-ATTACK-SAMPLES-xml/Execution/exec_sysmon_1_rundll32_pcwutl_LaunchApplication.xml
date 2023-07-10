@@ -1,0 +1,44 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-12T17:09:02.275164700Z" />
+      <EventRecordID>16507</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2012" ThreadID="300" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-12 17:09:02.275</Data>
+      <Data Name="ProcessGuid">{365abb72-532e-5cd8-0000-00106c222700}</Data>
+      <Data Name="ProcessId">1528</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\rundll32.exe"  pcwutl.dll,LaunchApplication c:\Windows\system32\calc.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-4fb5-5cd8-0000-0020f2350100}</Data>
+      <Data Name="LogonId">0x135f2</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=892503B20247B341CFD20DDA5FDACFA41527A087,MD5=C648901695E275C8F2AD04B687A68CE2,SHA256=3FA4912EB43FC304652D7B01F118589259861E2D628FA7C86193E54D5F987670,IMPHASH=239D911DFA7551A8B735680BC39B2238</Data>
+      <Data Name="ParentProcessGuid">{365abb72-516b-5cd8-0000-001087e41600}</Data>
+      <Data Name="ParentProcessId">3788</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+</root>

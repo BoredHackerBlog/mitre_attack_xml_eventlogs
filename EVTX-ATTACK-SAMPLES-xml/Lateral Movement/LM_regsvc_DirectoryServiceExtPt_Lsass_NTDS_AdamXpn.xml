@@ -1,0 +1,208 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T22:11:17.572242300Z" />
+      <EventRecordID>345993</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="10204" ThreadID="2096" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-10-06 22:11:17.571</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-e683-5f7c-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\winreg</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T22:11:17.814931600Z" />
+      <EventRecordID>345994</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="10204" ThreadID="2096" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2020-10-06 22:11:17.814</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-e699-5f7c-0000-001048ef0000}</Data>
+      <Data Name="ProcessId">404</Data>
+      <Data Name="Image">C:\WINDOWS\system32\svchost.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\NTDS\DirectoryServiceExtPt</Data>
+      <Data Name="Details">\\172.16.66.254\shared\lsadb.dll</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T22:11:17.848672400Z" />
+      <EventRecordID>345995</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="10204" ThreadID="2096" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">DeleteValue</Data>
+      <Data Name="UtcTime">2020-10-06 22:11:17.848</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-e699-5f7c-0000-001048ef0000}</Data>
+      <Data Name="ProcessId">404</Data>
+      <Data Name="Image">C:\WINDOWS\system32\svchost.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\NTDS\DirectoryServiceExtPt</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T22:11:18.680112000Z" />
+      <EventRecordID>345996</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="10204" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-06 22:11:17.538</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-e683-5f7c-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">172.16.66.36</Data>
+      <Data Name="SourceHostname">01566S-WIN16-IR</Data>
+      <Data Name="SourcePort">64037</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">172.16.66.143</Data>
+      <Data Name="DestinationHostname">02694w-win10.threebeesco.com</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T22:11:18.680136000Z" />
+      <EventRecordID>345997</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="10204" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-06 22:11:17.565</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-e698-5f7c-0000-00103c790000}</Data>
+      <Data Name="ProcessId">632</Data>
+      <Data Name="Image">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">172.16.66.143</Data>
+      <Data Name="SourceHostname">02694w-win10.threebeesco.com</Data>
+      <Data Name="SourcePort">49920</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">172.16.66.36</Data>
+      <Data Name="DestinationHostname">01566S-WIN16-IR</Data>
+      <Data Name="DestinationPort">49670</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-06T22:11:18.930443000Z" />
+      <EventRecordID>345998</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="10204" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>02694w-win10.threebeesco.com</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-06 22:11:17.818</Data>
+      <Data Name="ProcessGuid">{6a3c3ef2-e683-5f7c-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">172.16.66.36</Data>
+      <Data Name="SourceHostname">01566S-WIN16-IR</Data>
+      <Data Name="SourcePort">64038</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">172.16.66.143</Data>
+      <Data Name="DestinationHostname">02694w-win10.threebeesco.com</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+</root>

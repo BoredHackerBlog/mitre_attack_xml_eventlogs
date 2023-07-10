@@ -1,0 +1,184 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4625</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-09T13:18:23.627952500Z" />
+      <EventRecordID>137222</EventRecordID>
+      <Correlation ActivityID="{74a48ca1-86f6-0001-2e8d-a474f686d601}" />
+      <Execution ProcessID="640" ThreadID="684" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x79e59</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">MSEDGEWIN10</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xc000006a</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="LogonProcessName">Chrome</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">MSEDGEWIN10</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1358</Data>
+      <Data Name="ProcessName">C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-09T13:18:25.377120000Z" />
+      <EventRecordID>137223</EventRecordID>
+      <Correlation ActivityID="{74a48ca1-86f6-0001-2e8d-a474f686d601}" />
+      <Execution ProcessID="640" ThreadID="712" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">MSEDGEWIN10$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x25c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-09T13:18:27.714613200Z" />
+      <EventRecordID>137224</EventRecordID>
+      <Correlation ActivityID="{74a48ca1-86f6-0001-2e8d-a474f686d601}" />
+      <Execution ProcessID="640" ThreadID="684" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x79e59</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">MSEDGEWIN10</Data>
+      <Data Name="TargetLogonId">0x1cd8f6</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="LogonProcessName">Chrome</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">MSEDGEWIN10</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1358</Data>
+      <Data Name="ProcessName">C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x1cd964</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-09-09T13:18:27.714758600Z" />
+      <EventRecordID>137225</EventRecordID>
+      <Correlation ActivityID="{74a48ca1-86f6-0001-2e8d-a474f686d601}" />
+      <Execution ProcessID="640" ThreadID="684" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x79e59</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">MSEDGEWIN10</Data>
+      <Data Name="TargetLogonId">0x1cd964</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="LogonProcessName">Chrome</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">MSEDGEWIN10</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1358</Data>
+      <Data Name="ProcessName">C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1843</Data>
+      <Data Name="TargetLinkedLogonId">0x1cd8f6</Data>
+      <Data Name="ElevatedToken">%%1843</Data>
+    </EventData>
+  </Event>
+</root>

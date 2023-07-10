@@ -1,0 +1,170 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>3</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T17:52:47.072312200Z" />
+      <EventRecordID>1129</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="768" ThreadID="4460" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="string">BITS Transfer</Data>
+      <Data Name="string2">OFFSEC\admmig</Data>
+      <Data Name="string3">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>5</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T17:52:48.592798000Z" />
+      <EventRecordID>1130</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="768" ThreadID="4424" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="jobTitle">BITS Transfer</Data>
+      <Data Name="jobId">{2e340c8c-7f77-401f-90fd-578049749afb}</Data>
+      <Data Name="jobOwner">OFFSEC\admmig</Data>
+      <Data Name="fileCount">1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>3</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T17:53:36.643879500Z" />
+      <EventRecordID>1131</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="768" ThreadID="1788" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="string">BITS Transfer</Data>
+      <Data Name="string2">OFFSEC\admmig</Data>
+      <Data Name="string3">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>59</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>1</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T17:53:42.530662000Z" />
+      <EventRecordID>1132</EventRecordID>
+      <Correlation ActivityID="{470f04e8-35f7-474f-9d19-3444a2826db1}" />
+      <Execution ProcessID="768" ThreadID="4256" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="transferId">{470f04e8-35f7-474f-9d19-3444a2826db1}</Data>
+      <Data Name="name">BITS Transfer</Data>
+      <Data Name="Id">{ebfcb3cd-6489-40ef-8eb7-7e0d6b4dd4ff}</Data>
+      <Data Name="url">https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso</Data>
+      <Data Name="peer">
+      </Data>
+      <Data Name="fileTime">2021-08-19T11:06:00.000000000Z</Data>
+      <Data Name="fileLength">3071934464</Data>
+      <Data Name="bytesTotal">3071934464</Data>
+      <Data Name="bytesTransferred">0</Data>
+      <Data Name="bytesTransferredFromPeer">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>60</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>2</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T18:05:47.899173700Z" />
+      <EventRecordID>1133</EventRecordID>
+      <Correlation ActivityID="{470f04e8-35f7-474f-9d19-3444a2826db1}" />
+      <Execution ProcessID="768" ThreadID="4424" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="transferId">{470f04e8-35f7-474f-9d19-3444a2826db1}</Data>
+      <Data Name="name">BITS Transfer</Data>
+      <Data Name="Id">{ebfcb3cd-6489-40ef-8eb7-7e0d6b4dd4ff}</Data>
+      <Data Name="url">https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso</Data>
+      <Data Name="peer">
+      </Data>
+      <Data Name="hr">262152</Data>
+      <Data Name="fileTime">2021-08-19T11:06:00.000000000Z</Data>
+      <Data Name="fileLength">3071934464</Data>
+      <Data Name="bytesTotal">3071934464</Data>
+      <Data Name="bytesTransferred">2497476607</Data>
+      <Data Name="proxy">
+      </Data>
+      <Data Name="peerProtocolFlags">0</Data>
+      <Data Name="bytesTransferredFromPeer">0</Data>
+      <Data Name="AdditionalInfoHr">0</Data>
+      <Data Name="PeerContextInfo">0</Data>
+      <Data Name="bandwidthLimit">18446744073709551615</Data>
+      <Data Name="ignoreBandwidthLimitsOnLan">false</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Bits-Client" Guid="{ef1cc15b-46c1-414e-bb95-e76b077bd51e}" />
+      <EventID>5</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-21T18:05:47.899173700Z" />
+      <EventRecordID>1134</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="768" ThreadID="4424" />
+      <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="jobTitle">BITS Transfer</Data>
+      <Data Name="jobId">{ebfcb3cd-6489-40ef-8eb7-7e0d6b4dd4ff}</Data>
+      <Data Name="jobOwner">OFFSEC\admmig</Data>
+      <Data Name="fileCount">1</Data>
+    </EventData>
+  </Event>
+</root>

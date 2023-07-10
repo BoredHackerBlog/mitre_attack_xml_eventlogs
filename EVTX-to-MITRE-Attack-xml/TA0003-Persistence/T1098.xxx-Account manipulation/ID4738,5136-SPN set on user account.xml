@@ -1,0 +1,166 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4738</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T21:22:22.853836700Z" />
+      <EventRecordID>15779580</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="860" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="Dummy">-</Data>
+      <Data Name="TargetUserName">honey-pot1</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1159</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x6529663</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">-</Data>
+      <Data Name="DisplayName">-</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">-</Data>
+      <Data Name="HomePath">-</Data>
+      <Data Name="ScriptPath">-</Data>
+      <Data Name="ProfilePath">-</Data>
+      <Data Name="UserWorkstations">-</Data>
+      <Data Name="PasswordLastSet">-</Data>
+      <Data Name="AccountExpires">-</Data>
+      <Data Name="PrimaryGroupId">-</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">-</Data>
+      <Data Name="NewUacValue">-</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T21:22:31.163062400Z" />
+      <EventRecordID>15779594</EventRecordID>
+      <Correlation ActivityID="{6d05f384-4f78-0000-aef3-056d784fd601}" />
+      <Execution ProcessID="528" ThreadID="992" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{52bfbf59-4cf4-4d5e-98d1-09d1ebe12fde}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x6529663</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=honey-pot1,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{259162f1-58e4-4ee9-9b9c-2baf2a03d376}</Data>
+      <Data Name="ObjectClass">user</Data>
+      <Data Name="AttributeLDAPDisplayName">servicePrincipalName</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.12</Data>
+      <Data Name="AttributeValue">HTTP/HACK-ME-PC.offsec.lan</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4738</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13824</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T21:25:39.266596300Z" />
+      <EventRecordID>15779969</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="528" ThreadID="3836" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="Dummy">-</Data>
+      <Data Name="TargetUserName">honey-pot1</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetSid">S-1-5-21-4230534742-2542757381-3142984815-1159</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x6531f37</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">-</Data>
+      <Data Name="DisplayName">-</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">-</Data>
+      <Data Name="HomePath">-</Data>
+      <Data Name="ScriptPath">-</Data>
+      <Data Name="ProfilePath">-</Data>
+      <Data Name="UserWorkstations">-</Data>
+      <Data Name="PasswordLastSet">-</Data>
+      <Data Name="AccountExpires">-</Data>
+      <Data Name="PrimaryGroupId">-</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">-</Data>
+      <Data Name="NewUacValue">-</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-09T21:25:41.773923700Z" />
+      <EventRecordID>15779983</EventRecordID>
+      <Correlation ActivityID="{6d05f384-4f78-0000-aef3-056d784fd601}" />
+      <Execution ProcessID="528" ThreadID="860" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{23e10b6b-4bc4-4cd5-bd5f-9b9ba2ef95a3}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1158</Data>
+      <Data Name="SubjectUserName">lambda-user</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x6531f37</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=honey-pot1,OU=Test-OU,OU=OFFSEC-COMPANY,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{259162f1-58e4-4ee9-9b9c-2baf2a03d376}</Data>
+      <Data Name="ObjectClass">user</Data>
+      <Data Name="AttributeLDAPDisplayName">servicePrincipalName</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.12</Data>
+      <Data Name="AttributeValue">MSSQLSvc/HACK-ME-PC.offsec.lan</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+</root>

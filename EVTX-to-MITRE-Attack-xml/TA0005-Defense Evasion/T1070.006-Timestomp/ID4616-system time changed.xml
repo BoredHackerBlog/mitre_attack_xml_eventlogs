@@ -1,0 +1,226 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-27T15:47:00.365613100Z" />
+      <EventRecordID>19620789</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="22320" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x934c5</Data>
+      <Data Name="PreviousTime">2021-11-24T15:47:00.388763900Z</Data>
+      <Data Name="NewTime">2021-11-27T15:47:00.369000000Z</Data>
+      <Data Name="ProcessId">0x40fc</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-27T15:47:00.369550300Z" />
+      <EventRecordID>19620790</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="22320" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x934c5</Data>
+      <Data Name="PreviousTime">2021-11-27T15:47:00.365663000Z</Data>
+      <Data Name="NewTime">2021-11-27T15:47:00.369000000Z</Data>
+      <Data Name="ProcessId">0x40fc</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-24T15:43:16.657682200Z" />
+      <EventRecordID>19620793</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="20628" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-19</Data>
+      <Data Name="SubjectUserName">LOCAL SERVICE</Data>
+      <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+      <Data Name="SubjectLogonId">0x3e5</Data>
+      <Data Name="PreviousTime">2021-11-27T15:47:00.465385500Z</Data>
+      <Data Name="NewTime">2021-11-24T15:43:16.657000000Z</Data>
+      <Data Name="ProcessId">0x17c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-24T15:43:16.653427200Z" />
+      <EventRecordID>19620794</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="23440" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-19</Data>
+      <Data Name="SubjectUserName">LOCAL SERVICE</Data>
+      <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+      <Data Name="SubjectLogonId">0x3e5</Data>
+      <Data Name="PreviousTime">2021-11-24T15:43:16.659672000Z</Data>
+      <Data Name="NewTime">2021-11-24T15:43:16.656000000Z</Data>
+      <Data Name="ProcessId">0x17c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-24T15:48:15.210848900Z" />
+      <EventRecordID>19620900</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="22320" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-19</Data>
+      <Data Name="SubjectUserName">LOCAL SERVICE</Data>
+      <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+      <Data Name="SubjectLogonId">0x3e5</Data>
+      <Data Name="PreviousTime">2021-11-24T15:48:05.022785300Z</Data>
+      <Data Name="NewTime">2021-11-24T15:48:15.210859500Z</Data>
+      <Data Name="ProcessId">0x17c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-24T15:48:15.210431400Z" />
+      <EventRecordID>19620901</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="22320" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-19</Data>
+      <Data Name="SubjectUserName">LOCAL SERVICE</Data>
+      <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+      <Data Name="SubjectLogonId">0x3e5</Data>
+      <Data Name="PreviousTime">2021-11-24T15:48:15.210953300Z</Data>
+      <Data Name="NewTime">2021-11-24T15:48:15.210000000Z</Data>
+      <Data Name="ProcessId">0x17c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-24T15:48:24.985484000Z" />
+      <EventRecordID>19620903</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="20628" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x934c5</Data>
+      <Data Name="PreviousTime">2021-11-24T15:48:33.084791500Z</Data>
+      <Data Name="NewTime">2021-11-24T15:48:25.000000000Z</Data>
+      <Data Name="ProcessId">0x5924</Data>
+      <Data Name="ProcessName">C:\Windows\System32\dllhost.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4616</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12288</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-24T15:48:25.000236500Z" />
+      <EventRecordID>19620904</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="20628" />
+      <Channel>Security</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x934c5</Data>
+      <Data Name="PreviousTime">2021-11-24T15:48:24.985521400Z</Data>
+      <Data Name="NewTime">2021-11-24T15:48:25.000000000Z</Data>
+      <Data Name="ProcessId">0x5924</Data>
+      <Data Name="ProcessName">C:\Windows\System32\dllhost.exe</Data>
+    </EventData>
+  </Event>
+</root>

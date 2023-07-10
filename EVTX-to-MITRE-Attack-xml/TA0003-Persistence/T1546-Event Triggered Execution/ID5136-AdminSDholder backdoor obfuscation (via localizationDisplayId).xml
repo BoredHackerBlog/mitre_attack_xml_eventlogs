@@ -1,0 +1,142 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-27T14:20:03.032800600Z" />
+      <EventRecordID>125918254</EventRecordID>
+      <Correlation ActivityID="{be6feeb9-2260-0000-cbee-6fbe6022d701}" />
+      <Execution ProcessID="560" ThreadID="2248" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{c37c1925-c30d-47a0-8f8f-f7d569c924a2}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1b790f9</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{16bfbcba-6758-4cde-bdeb-8e3f661e271e}</Data>
+      <Data Name="ObjectClass">controlAccessRight</Data>
+      <Data Name="AttributeLDAPDisplayName">localizationDisplayId</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.9</Data>
+      <Data Name="AttributeValue">3</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-27T14:20:03.033128200Z" />
+      <EventRecordID>125918255</EventRecordID>
+      <Correlation ActivityID="{be6feeb9-2260-0000-cbee-6fbe6022d701}" />
+      <Execution ProcessID="560" ThreadID="3104" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{c37c1925-c30d-47a0-8f8f-f7d569c924a2}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1b790f9</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{16bfbcba-6758-4cde-bdeb-8e3f661e271e}</Data>
+      <Data Name="ObjectClass">controlAccessRight</Data>
+      <Data Name="AttributeLDAPDisplayName">localizationDisplayId</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.9</Data>
+      <Data Name="AttributeValue">2</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-27T14:28:44.379977800Z" />
+      <EventRecordID>125921360</EventRecordID>
+      <Correlation ActivityID="{be6feeb9-2260-0000-cbee-6fbe6022d701}" />
+      <Execution ProcessID="560" ThreadID="2480" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{faeca81d-02c2-4669-b2fc-80bec0c7e977}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1b790f9</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{16bfbcba-6758-4cde-bdeb-8e3f661e271e}</Data>
+      <Data Name="ObjectClass">controlAccessRight</Data>
+      <Data Name="AttributeLDAPDisplayName">localizationDisplayId</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.9</Data>
+      <Data Name="AttributeValue">2</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-27T14:28:44.380237800Z" />
+      <EventRecordID>125921361</EventRecordID>
+      <Correlation ActivityID="{be6feeb9-2260-0000-cbee-6fbe6022d701}" />
+      <Execution ProcessID="560" ThreadID="5888" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{faeca81d-02c2-4669-b2fc-80bec0c7e977}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1b790f9</Data>
+      <Data Name="DSName">offsec.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=User-Force-Change-Password,CN=Extended-Rights,CN=Configuration,DC=offsec,DC=lan</Data>
+      <Data Name="ObjectGUID">{16bfbcba-6758-4cde-bdeb-8e3f661e271e}</Data>
+      <Data Name="ObjectClass">controlAccessRight</Data>
+      <Data Name="AttributeLDAPDisplayName">localizationDisplayId</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.9</Data>
+      <Data Name="AttributeValue">3</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+</root>

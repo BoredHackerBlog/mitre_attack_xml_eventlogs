@@ -1,0 +1,767 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:40:00.730676000Z" />
+      <EventRecordID>37</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6024" ThreadID="5500" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{511224D4-1EB4-47B9-BC4A-37E21F923FED}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:00.580Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147725349</Data>
+      <Data Name="Threat Name">Trojan:PowerShell/Powersploit.M</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">8</Data>
+      <Data Name="Category Name">Trojan</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Trojan:PowerShell/Powersploit.M&amp;threatid=2147725349&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1056\Get-Keystrokes.ps1</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">%%822</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">%%887</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 1.297.1333.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 1.1.16100.4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:40:16.396422000Z" />
+      <EventRecordID>48</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6024" ThreadID="5500" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{8791B1FB-0FE7-412E-B084-524CB5A221F3}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:13.775Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147735426</Data>
+      <Data Name="Threat Name">Trojan:XML/Exeselrun.gen!A</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">8</Data>
+      <Data Name="Category Name">Trojan</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Trojan:XML/Exeselrun.gen!A&amp;threatid=2147735426&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1086\payloads\test.xsl</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">2</Data>
+      <Data Name="Type Name">%%823</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">%%887</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 1.297.1333.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 1.1.16100.4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:41:16.418508300Z" />
+      <EventRecordID>75</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6024" ThreadID="5500" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{37522D93-EBDD-4A5B-93B6-E984C9E3FD38}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:16.697Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147708292</Data>
+      <Data Name="Threat Name">HackTool:JS/Jsprat</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:JS/Jsprat&amp;threatid=2147708292&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0005)</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">8</Data>
+      <Data Name="Type Name">%%862</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">%%887</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 1.297.1333.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 1.1.16100.4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:41:17.508276100Z" />
+      <EventRecordID>76</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6024" ThreadID="5500" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{CEF4D8DA-15D6-4667-8E4C-12D19AB4EFED}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:18.385Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147683177</Data>
+      <Data Name="Threat Name">Backdoor:ASP/Ace.T</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">6</Data>
+      <Data Name="Category Name">Backdoor</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Backdoor:ASP/Ace.T&amp;threatid=2147683177&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\cmd.aspx</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">%%822</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">%%887</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 1.297.1333.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 1.1.16100.4</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:41:48.236136800Z" />
+      <EventRecordID>95</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="6024" ThreadID="5500" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{F6272F78-9FD1-47D2-B206-89E0F0DCBDB9}</Data>
+      <Data Name="Detection Time">2019-07-18T20:41:40.357Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147726426</Data>
+      <Data Name="Threat Name">Trojan:Win32/Sehyioa.A!cl</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">8</Data>
+      <Data Name="Category Name">Trojan</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Trojan:Win32/Sehyioa.A!cl&amp;threatid=2147726426&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1218\src\Win32\T1218-2.dll</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">8</Data>
+      <Data Name="Type Name">%%862</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">%%887</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1117</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:51:50.275470800Z" />
+      <EventRecordID>101</EventRecordID>
+      <Correlation ActivityID="{6e1a750f-42c6-491e-941a-12f6af57ebd2}" />
+      <Execution ProcessID="6024" ThreadID="6068" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{511224D4-1EB4-47B9-BC4A-37E21F923FED}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:00.580Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147725349</Data>
+      <Data Name="Threat Name">Trojan:PowerShell/Powersploit.M</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">8</Data>
+      <Data Name="Category Name">Trojan</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Trojan:PowerShell/Powersploit.M&amp;threatid=2147725349&amp;enterprise=0</Data>
+      <Data Name="Status Code">103</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">2</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1056\Get-Keystrokes.ps1</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">%%822</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">2</Data>
+      <Data Name="Action Name">%%809</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x80508023</Data>
+      <Data Name="Error Description">The program could not find the malware and other potentially unwanted software on this device. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1116</EventID>
+      <Version>0</Version>
+      <Level>3</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:51:50.798994900Z" />
+      <EventRecordID>102</EventRecordID>
+      <Correlation ActivityID="{40013f0f-ef76-4940-a8b2-4de50be9aac3}" />
+      <Execution ProcessID="6024" ThreadID="6068" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{37522D93-EBDD-4A5B-93B6-E984C9E3FD38}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:16.697Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147708292</Data>
+      <Data Name="Threat Name">HackTool:JS/Jsprat</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:JS/Jsprat&amp;threatid=2147708292&amp;enterprise=0</Data>
+      <Data Name="Status Code">1</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">1</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">containerfile:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp; file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0005); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0037); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0045); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0065); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0068)</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">8</Data>
+      <Data Name="Type Name">%%862</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">9</Data>
+      <Data Name="Action Name">%%887</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">
+      </Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1117</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:53:31.900809700Z" />
+      <EventRecordID>103</EventRecordID>
+      <Correlation ActivityID="{2ad0cf94-c382-4568-a488-1253a4ed0f54}" />
+      <Execution ProcessID="6024" ThreadID="6068" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{CEF4D8DA-15D6-4667-8E4C-12D19AB4EFED}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:18.385Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147683177</Data>
+      <Data Name="Threat Name">Backdoor:ASP/Ace.T</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">6</Data>
+      <Data Name="Category Name">Backdoor</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Backdoor:ASP/Ace.T&amp;threatid=2147683177&amp;enterprise=0</Data>
+      <Data Name="Status Code">3</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">2</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\cmd.aspx</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">0</Data>
+      <Data Name="Type Name">%%822</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">2</Data>
+      <Data Name="Action Name">%%809</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1117</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:53:31.902610500Z" />
+      <EventRecordID>104</EventRecordID>
+      <Correlation ActivityID="{2ad0cf94-c382-4568-a488-1253a4ed0f54}" />
+      <Execution ProcessID="6024" ThreadID="6068" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{F6272F78-9FD1-47D2-B206-89E0F0DCBDB9}</Data>
+      <Data Name="Detection Time">2019-07-18T20:41:40.357Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147726426</Data>
+      <Data Name="Threat Name">Trojan:Win32/Sehyioa.A!cl</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">8</Data>
+      <Data Name="Category Name">Trojan</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Trojan:Win32/Sehyioa.A!cl&amp;threatid=2147726426&amp;enterprise=0</Data>
+      <Data Name="Status Code">3</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">2</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1218\src\Win32\T1218-2.dll</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">8</Data>
+      <Data Name="Type Name">%%862</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">2</Data>
+      <Data Name="Action Name">%%809</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1117</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:53:31.905406600Z" />
+      <EventRecordID>105</EventRecordID>
+      <Correlation ActivityID="{2ad0cf94-c382-4568-a488-1253a4ed0f54}" />
+      <Execution ProcessID="6024" ThreadID="6068" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{37522D93-EBDD-4A5B-93B6-E984C9E3FD38}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:16.697Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147708292</Data>
+      <Data Name="Threat Name">HackTool:JS/Jsprat</Data>
+      <Data Name="Severity ID">4</Data>
+      <Data Name="Severity Name">High</Data>
+      <Data Name="Category ID">34</Data>
+      <Data Name="Category Name">Tool</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=HackTool:JS/Jsprat&amp;threatid=2147708292&amp;enterprise=0</Data>
+      <Data Name="Status Code">3</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">2</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">containerfile:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp; file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0005); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0037); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0045); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0065); file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1100\shells\b.jsp-&gt;(SCRIPT0068)</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">8</Data>
+      <Data Name="Type Name">%%862</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">2</Data>
+      <Data Name="Action Name">%%809</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x00000000</Data>
+      <Data Name="Error Description">The operation completed successfully. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Defender" Guid="{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}" />
+      <EventID>1117</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-18T20:53:31.952568800Z" />
+      <EventRecordID>106</EventRecordID>
+      <Correlation ActivityID="{2ad0cf94-c382-4568-a488-1253a4ed0f54}" />
+      <Execution ProcessID="6024" ThreadID="6068" />
+      <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="Product Name">%%827</Data>
+      <Data Name="Product Version">4.18.1906.3</Data>
+      <Data Name="Detection ID">{8791B1FB-0FE7-412E-B084-524CB5A221F3}</Data>
+      <Data Name="Detection Time">2019-07-18T20:40:13.775Z</Data>
+      <Data Name="Unused">
+      </Data>
+      <Data Name="Unused2">
+      </Data>
+      <Data Name="Threat ID">2147735426</Data>
+      <Data Name="Threat Name">Trojan:XML/Exeselrun.gen!A</Data>
+      <Data Name="Severity ID">5</Data>
+      <Data Name="Severity Name">Severe</Data>
+      <Data Name="Category ID">8</Data>
+      <Data Name="Category Name">Trojan</Data>
+      <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&amp;name=Trojan:XML/Exeselrun.gen!A&amp;threatid=2147735426&amp;enterprise=0</Data>
+      <Data Name="Status Code">5</Data>
+      <Data Name="Status Description">
+      </Data>
+      <Data Name="State">2</Data>
+      <Data Name="Source ID">3</Data>
+      <Data Name="Source Name">%%818</Data>
+      <Data Name="Process Name">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="Detection User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="Unused3">
+      </Data>
+      <Data Name="Path">file:_C:\AtomicRedTeam\atomic-red-team-master\atomics\T1086\payloads\test.xsl</Data>
+      <Data Name="Origin ID">1</Data>
+      <Data Name="Origin Name">%%845</Data>
+      <Data Name="Execution ID">1</Data>
+      <Data Name="Execution Name">%%813</Data>
+      <Data Name="Type ID">2</Data>
+      <Data Name="Type Name">%%823</Data>
+      <Data Name="Pre Execution Status">0</Data>
+      <Data Name="Action ID">6</Data>
+      <Data Name="Action Name">%%811</Data>
+      <Data Name="Unused4">
+      </Data>
+      <Data Name="Error Code">0x80508023</Data>
+      <Data Name="Error Description">The program could not find the malware and other potentially unwanted software on this device. </Data>
+      <Data Name="Unused5">
+      </Data>
+      <Data Name="Post Clean Status">0</Data>
+      <Data Name="Additional Actions ID">0</Data>
+      <Data Name="Additional Actions String">No additional actions required</Data>
+      <Data Name="Remediation User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Unused6">
+      </Data>
+      <Data Name="Signature Version">AV: 1.297.1333.0, AS: 1.297.1333.0, NIS: 0.0.0.0</Data>
+      <Data Name="Engine Version">AM: 1.1.16100.4, NIS: 0.0.0.0</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,155 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-23T19:09:34.052509100Z" />
+      <EventRecordID>2861</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2152" ThreadID="3092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-01-23 19:09:33.519</Data>
+      <Data Name="ProcessGuid">{747f3d96-ef6d-5e29-0000-0010a243f100}</Data>
+      <Data Name="ProcessId">5484</Data>
+      <Data Name="Image">C:\ProgramData\USOShared\SharpRDP.exe</Data>
+      <Data Name="FileVersion">1.0.0.0</Data>
+      <Data Name="Description">SharpRDP</Data>
+      <Data Name="Product">SharpRDP</Data>
+      <Data Name="Company">
+      </Data>
+      <Data Name="OriginalFileName">SharpRDP.exe</Data>
+      <Data Name="CommandLine">SharpRDP.exe  computername=192.168.56.1 command="C:\Temp\file.exe" username=domain\user password=password</Data>
+      <Data Name="CurrentDirectory">C:\ProgramData\USOShared\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-eb92-5e29-0000-0020a80dd500}</Data>
+      <Data Name="LogonId">0xd50da8</Data>
+      <Data Name="TerminalSessionId">7</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=D95EC4806527B4C2F2A129CCF33B7835BAD3AB4B,MD5=83820781DDAF24913A2E3051CD6BE6C0,SHA256=EEAA9445F41A4B9B5A2695B2CE5DA94DB25104104B533AF7E1320B50DEED0C0D,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-eef2-5e29-0000-00106174ef00}</Data>
+      <Data Name="ParentProcessId">724</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-23T19:09:34.657117400Z" />
+      <EventRecordID>2862</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2152" ThreadID="3092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2020-01-23 19:09:33.911</Data>
+      <Data Name="ProcessGuid">{747f3d96-ef6d-5e29-0000-0010a243f100}</Data>
+      <Data Name="ProcessId">5484</Data>
+      <Data Name="Image">C:\ProgramData\USOShared\SharpRDP.exe</Data>
+      <Data Name="ImageLoaded">C:\ProgramData\USOShared\AxInterop.MSTSCLib.dll</Data>
+      <Data Name="FileVersion">1.0.0.0</Data>
+      <Data Name="Description">
+      </Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">AxInterop.MSTSCLib.dll</Data>
+      <Data Name="Hashes">SHA1=7E613165F4E4696AB13D8D5F3F889131EBC186E0,MD5=A482BE452F384E446FD9F3A91986FCD4,SHA256=9DDAE70F550B452ABE3C75A6036845ABD4134F858C1DEC3343762D97A9CF8450,IMPHASH=DAE02F32A21E03CE65412F6E56942DAA</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-23T19:09:34.657583100Z" />
+      <EventRecordID>2863</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2152" ThreadID="3092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Execution - Image Loaded from suspicious path</Data>
+      <Data Name="UtcTime">2020-01-23 19:09:33.911</Data>
+      <Data Name="ProcessGuid">{747f3d96-ef6d-5e29-0000-0010a243f100}</Data>
+      <Data Name="ProcessId">5484</Data>
+      <Data Name="Image">C:\ProgramData\USOShared\SharpRDP.exe</Data>
+      <Data Name="ImageLoaded">C:\ProgramData\USOShared\AxInterop.MSTSCLib.dll</Data>
+      <Data Name="FileVersion">1.0.0.0</Data>
+      <Data Name="Description">
+      </Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">AxInterop.MSTSCLib.dll</Data>
+      <Data Name="Hashes">SHA1=7E613165F4E4696AB13D8D5F3F889131EBC186E0,MD5=A482BE452F384E446FD9F3A91986FCD4,SHA256=9DDAE70F550B452ABE3C75A6036845ABD4134F858C1DEC3343762D97A9CF8450,IMPHASH=DAE02F32A21E03CE65412F6E56942DAA</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-01-23T19:09:34.660561900Z" />
+      <EventRecordID>2864</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2152" ThreadID="3092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">LM - suspicious RDP Client</Data>
+      <Data Name="UtcTime">2020-01-23 19:09:33.977</Data>
+      <Data Name="ProcessGuid">{747f3d96-ef6d-5e29-0000-0010a243f100}</Data>
+      <Data Name="ProcessId">5484</Data>
+      <Data Name="Image">C:\ProgramData\USOShared\SharpRDP.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\SysWOW64\mstscax.dll</Data>
+      <Data Name="FileVersion">10.0.17763.348 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Remote Desktop Services ActiveX Client</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">mstscax.dll</Data>
+      <Data Name="Hashes">SHA1=359B2E4C537B00DD450D1E7B3465EE1BA094E8D6,MD5=654534BAC7465961F302C7A990DFDC8D,SHA256=D9827ABED81572C296BB6A63863515BA7B9EB1C8164A4E92A97E1FF0BD04AAB1,IMPHASH=1EA1D2F3BE5D1C352344C4CBF6A7614C</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+</root>

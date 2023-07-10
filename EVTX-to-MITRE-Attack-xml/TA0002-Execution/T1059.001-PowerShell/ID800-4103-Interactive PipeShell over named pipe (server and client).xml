@@ -1,0 +1,1156 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:05:20.242837300Z" />
+      <EventRecordID>29353</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0000-88AC-20382D51D701}" />
+      <Execution ProcessID="4048" ThreadID="1148" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = bd562abd-9bda-4c45-8dd0-1d1939b8a2ec
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 4b5551f8-0137-4d3e-a6d3-3061a6604583
+        Pipeline ID = 19
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 48
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:05:59.809458200Z" />
+      <EventRecordID>28208</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=49
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=bd562abd-9bda-4c45-8dd0-1d1939b8a2ec
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=4b5551f8-0137-4d3e-a6d3-3061a6604583
+	PipelineId=19
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:00.114281400Z" />
+      <EventRecordID>28209</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>		Try {$PipeObject = New-Object System.IO.Pipes.NamedPipeServerStream($Pipe, [System.IO.Pipes.PipeDirection]::InOut)}
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=51
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=bd562abd-9bda-4c45-8dd0-1d1939b8a2ec
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=4b5551f8-0137-4d3e-a6d3-3061a6604583
+	PipelineId=20
+	ScriptName=C:\TOOLS\Invoke-PipeShell.ps1
+	CommandLine=		Try {$PipeObject = New-Object System.IO.Pipes.NamedPipeServerStream($Pipe, [System.IO.Pipes.PipeDirection]::InOut)}
+</Data>
+      <Data>CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="System.IO.Pipes.NamedPipeServerStream"
+ParameterBinding(New-Object): name="ArgumentList"; value="eventlog_svc, InOut"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:00.152059100Z" />
+      <EventRecordID>28210</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>			echo "`n[&gt;] Waiting for client..`n"
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=53
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.3383
+	HostId=bd562abd-9bda-4c45-8dd0-1d1939b8a2ec
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.3383
+	RunspaceId=4b5551f8-0137-4d3e-a6d3-3061a6604583
+	PipelineId=20
+	ScriptName=C:\TOOLS\Invoke-PipeShell.ps1
+	CommandLine=			echo "`n[&gt;] Waiting for client..`n"
+</Data>
+      <Data>CommandInvocation(Write-Output): "Write-Output"
+ParameterBinding(Write-Output): name="InputObject"; value="
+[&gt;] Waiting for client..
+"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:05:59.812035100Z" />
+      <EventRecordID>29354</EventRecordID>
+      <Correlation ActivityID="{38068009-512D-0000-87AC-20382D51D701}" />
+      <Execution ProcessID="4048" ThreadID="1148" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.3383
+        Host ID = bd562abd-9bda-4c45-8dd0-1d1939b8a2ec
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.3383
+        Runspace ID = 4b5551f8-0137-4d3e-a6d3-3061a6604583
+        Pipeline ID = 19
+        Command Name = PSConsoleHostReadline
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 50
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:05:40.097760700Z" />
+      <EventRecordID>8787413</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-0795-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">4e750683-f255-4025-80ce-70a7623ae2d6</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:05:40.098915900Z" />
+      <EventRecordID>8787414</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-0C95-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 367
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 1685
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:06.120981900Z" />
+      <EventRecordID>9383782</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1686
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=367
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:06.136601300Z" />
+      <EventRecordID>9383783</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>		Try {$PipeObject = new-object System.IO.Pipes.NamedPipeClientStream($Server, $Pipe, [System.IO.Pipes.PipeDirection]::InOut, [System.IO.Pipes.PipeOptions]::None, [System.Security.Principal.TokenImpersonationLevel]::Impersonation)}
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1688
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=368
+	ScriptName=C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+	CommandLine=		Try {$PipeObject = new-object System.IO.Pipes.NamedPipeClientStream($Server, $Pipe, [System.IO.Pipes.PipeDirection]::InOut, [System.IO.Pipes.PipeOptions]::None, [System.Security.Principal.TokenImpersonationLevel]::Impersonation)}
+</Data>
+      <Data>CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="System.IO.Pipes.NamedPipeClientStream"
+ParameterBinding(New-Object): name="ArgumentList"; value="localhost, eventlog_svc, InOut, None, Impersonation"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:06.124239700Z" />
+      <EventRecordID>8787415</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-0B95-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 367
+        Command Name = PSConsoleHostReadline
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1687
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:06.125028600Z" />
+      <EventRecordID>8787416</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-2C95-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Invoke-PipeShell -mode client -server localhost -aeskey aaaabbbbccccdddd -pipe eventlog_svc -i -timeout 1000</Data>
+      <Data Name="ScriptBlockId">64d8bc4c-53ba-45e7-bf38-00ecbf2185e2</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:06.151813300Z" />
+      <EventRecordID>8787417</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-2E95-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 368
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+        Command Path = 
+        Sequence Number = 1689
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="System.IO.Pipes.NamedPipeClientStream"
+ParameterBinding(New-Object): name="ArgumentList"; value="localhost, eventlog_svc, InOut, None, Impersonation"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:06.161712600Z" />
+      <EventRecordID>8787418</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-3195-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">function Initialize-Pipe {
+		if ($PipeMode -eq "Server") {
+			echo "`n[&gt;] Waiting for client..`n"
+			$PipeObject.WaitForConnection()
+		} else {
+			try {
+			# Add a 1s time-out in case the server is not live
+			$PipeObject.Connect($timeout)
+			} catch {
+				echo "[!] Server pipe not available!"
+				Return
+			}
+		}
+
+		$PipeReader = $PipeWriter = $null
+		$PipeReader = new-object System.IO.StreamReader($PipeObject)
+		$PipeWriter = new-object System.IO.StreamWriter($PipeObject)
+		$PipeWriter.AutoFlush = $true
+
+		Initialize-Session
+	}</Data>
+      <Data Name="ScriptBlockId">6a0647ce-0f80-454c-8023-03e0cf659055</Data>
+      <Data Name="Path">C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.154232900Z" />
+      <EventRecordID>9383784</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>				echo "[!] Server pipe not available!"
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1690
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=368
+	ScriptName=C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+	CommandLine=				echo "[!] Server pipe not available!"
+</Data>
+      <Data>CommandInvocation(Write-Output): "Write-Output"
+ParameterBinding(Write-Output): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.154232900Z" />
+      <EventRecordID>9383785</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1692
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=368
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="+-----------------------------------
+| Host Name      : JUMP01
+| Named Pipe     : eventlog_svc
+| AES Key        : aaaabbbbccccdddd
+| Timeout        : 1000
++-----------------------------------"
+ParameterBinding(Out-Default): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.156738100Z" />
+      <EventRecordID>9383786</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1694
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=370
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.154588400Z" />
+      <EventRecordID>8787419</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0000-E0E0-09942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 368
+        Command Name = Write-Output
+        Command Type = Cmdlet
+        Script Name = C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+        Command Path = 
+        Sequence Number = 1691
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Write-Output): "Write-Output"
+ParameterBinding(Write-Output): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.154855900Z" />
+      <EventRecordID>8787420</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-2C95-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 368
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1693
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="+-----------------------------------
+| Host Name      : JUMP01
+| Named Pipe     : eventlog_svc
+| AES Key        : aaaabbbbccccdddd
+| Timeout        : 1000
++-----------------------------------"
+ParameterBinding(Out-Default): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.156226400Z" />
+      <EventRecordID>8787421</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-CEA2-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">395b1b9d-4d11-4938-ae31-20144668cf09</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:07.157449200Z" />
+      <EventRecordID>8787422</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-D3A2-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 370
+        Command Name = Set-StrictMode
+        Command Type = Cmdlet
+        Script Name = C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+        Command Path = 
+        Sequence Number = 1695
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:27.055067700Z" />
+      <EventRecordID>9383787</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1696
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=370
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:27.070765800Z" />
+      <EventRecordID>9383788</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>		Try {$PipeObject = new-object System.IO.Pipes.NamedPipeClientStream($Server, $Pipe, [System.IO.Pipes.PipeDirection]::InOut, [System.IO.Pipes.PipeOptions]::None, [System.Security.Principal.TokenImpersonationLevel]::Impersonation)}
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1698
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=371
+	ScriptName=C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+	CommandLine=		Try {$PipeObject = new-object System.IO.Pipes.NamedPipeClientStream($Server, $Pipe, [System.IO.Pipes.PipeDirection]::InOut, [System.IO.Pipes.PipeOptions]::None, [System.Security.Principal.TokenImpersonationLevel]::Impersonation)}
+</Data>
+      <Data>CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="System.IO.Pipes.NamedPipeClientStream"
+ParameterBinding(New-Object): name="ArgumentList"; value="localhost, eventlog_svc, InOut, None, Impersonation"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:27.069895800Z" />
+      <EventRecordID>8787423</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-D2A2-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 370
+        Command Name = PSConsoleHostReadline
+        Command Type = Function
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1697
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(PSConsoleHostReadline): "PSConsoleHostReadline"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>2</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:27.070660000Z" />
+      <EventRecordID>8787424</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0001-1B6B-11942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Invoke-PipeShell -mode client -server localhost -aeskey aaaabbbbccccdddd -pipe eventlog_svc -timeout 1000 -c ls</Data>
+      <Data Name="ScriptBlockId">650e35f6-b250-43af-8fff-6f9511ebd621</Data>
+      <Data Name="Path">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:27.073221600Z" />
+      <EventRecordID>8787425</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0001-1D6B-11942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 371
+        Command Name = New-Object
+        Command Type = Cmdlet
+        Script Name = C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+        Command Path = 
+        Sequence Number = 1699
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(New-Object): "New-Object"
+ParameterBinding(New-Object): name="TypeName"; value="System.IO.Pipes.NamedPipeClientStream"
+ParameterBinding(New-Object): name="ArgumentList"; value="localhost, eventlog_svc, InOut, None, Impersonation"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:28.070281600Z" />
+      <EventRecordID>9383789</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>				echo "[!] Server pipe not available!"
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1700
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=371
+	ScriptName=C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+	CommandLine=				echo "[!] Server pipe not available!"
+</Data>
+      <Data>CommandInvocation(Write-Output): "Write-Output"
+ParameterBinding(Write-Output): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:28.070281600Z" />
+      <EventRecordID>9383790</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1702
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=371
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="+-----------------------------------
+| Host Name      : JUMP01
+| Named Pipe     : eventlog_svc
+| AES Key        : aaaabbbbccccdddd
+| Timeout        : 1000
++-----------------------------------"
+ParameterBinding(Out-Default): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:28.070281600Z" />
+      <EventRecordID>9383791</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1704
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=5.1.14393.4350
+	HostId=386ac606-c0a1-4f18-a86e-6a28baefb9f7
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=5.1.14393.4350
+	RunspaceId=5f72e181-c55b-4e38-9f6f-ca33a565d14e
+	PipelineId=373
+	ScriptName=C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1
+	CommandLine=    Microsoft.PowerShell.Core\Set-StrictMode -Off
+</Data>
+      <Data>CommandInvocation(Set-StrictMode): "Set-StrictMode"
+ParameterBinding(Set-StrictMode): name="Off"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:28.071868700Z" />
+      <EventRecordID>8787426</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0007-21A3-0B942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 371
+        Command Name = Write-Output
+        Command Type = Cmdlet
+        Script Name = C:\Users\admmig\Downloads\tmp\Invoke-PipeShell.ps1
+        Command Path = 
+        Sequence Number = 1701
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Write-Output): "Write-Output"
+ParameterBinding(Write-Output): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{A0C1853B-5C40-4B15-8766-3CF1C58F985A}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-06-03T13:06:28.072127400Z" />
+      <EventRecordID>8787427</EventRecordID>
+      <Correlation ActivityID="{93FD0727-512B-0001-1B6B-11942B51D701}" />
+      <Execution ProcessID="7588" ThreadID="9704" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 5.1.14393.4350
+        Host ID = 386ac606-c0a1-4f18-a86e-6a28baefb9f7
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 5.1.14393.4350
+        Runspace ID = 5f72e181-c55b-4e38-9f6f-ca33a565d14e
+        Pipeline ID = 371
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1703
+        User = OFFSEC\admmig
+        Connected User = 
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+ParameterBinding(Out-Default): name="InputObject"; value="+-----------------------------------
+| Host Name      : JUMP01
+| Named Pipe     : eventlog_svc
+| AES Key        : aaaabbbbccccdddd
+| Timeout        : 1000
++-----------------------------------"
+ParameterBinding(Out-Default): name="InputObject"; value="[!] Server pipe not available!"
+</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,73 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T14:56:41.818163600Z" />
+      <EventRecordID>354573</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="5328" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1659379</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">43133</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-04-21T14:56:41.905911100Z" />
+      <EventRecordID>354575</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2424" />
+      <Channel>Security</Channel>
+      <Computer>srvdefender01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x1659379</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">43133</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">svcctl</Data>
+      <Data Name="AccessMask">0x7</Data>
+      <Data Name="AccessList">%%4416
+				%%4417
+				%%4418
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+</root>

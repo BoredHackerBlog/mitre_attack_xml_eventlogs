@@ -1,0 +1,94 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-15T08:19:02.298512000Z" />
+      <EventRecordID>25048</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="748" ThreadID="6064" />
+      <Channel>Security</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-1005675359-741490361-30848483-1108</SubjectUserSid>
+        <SubjectUserName>bob</SubjectUserName>
+        <SubjectDomainName>insecurebank</SubjectDomainName>
+        <SubjectLogonId>0x1c363a4</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-15T08:19:16.102509700Z" />
+      <EventRecordID>25049</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="308" />
+      <Channel>Security</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-7</Data>
+      <Data Name="TargetUserName">ANONYMOUS LOGON</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x1d12916</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V1</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">59336</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4634</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12545</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-11-15T08:19:17.134469200Z" />
+      <EventRecordID>25050</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="5300" />
+      <Channel>Security</Channel>
+      <Computer>alice.insecurebank.local</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserSid">S-1-5-7</Data>
+      <Data Name="TargetUserName">ANONYMOUS LOGON</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x1d12916</Data>
+      <Data Name="LogonType">3</Data>
+    </EventData>
+  </Event>
+</root>

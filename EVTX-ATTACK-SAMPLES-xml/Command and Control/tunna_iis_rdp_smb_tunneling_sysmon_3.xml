@@ -1,0 +1,482 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:04:07.207049300Z" />
+      <EventRecordID>35076</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:04:05.797</Data>
+      <Data Name="ProcessGuid">{747f3d96-48a4-5d6e-0000-001072958000}</Data>
+      <Data Name="ProcessId">3008</Data>
+      <Data Name="Image">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49947</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:04:07.207131200Z" />
+      <EventRecordID>35077</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:04:05.797</Data>
+      <Data Name="ProcessGuid">{747f3d96-9874-5d6e-0000-0010c1c20000}</Data>
+      <Data Name="ProcessId">8</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">3389</Data>
+      <Data Name="SourcePortName">ms-wbt-server</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">49947</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:04:56.358687300Z" />
+      <EventRecordID>35079</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:04:55.147</Data>
+      <Data Name="ProcessGuid">{747f3d96-48a4-5d6e-0000-001072958000}</Data>
+      <Data Name="ProcessId">3008</Data>
+      <Data Name="Image">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49948</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:04:58.463053000Z" />
+      <EventRecordID>35080</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:04:55.147</Data>
+      <Data Name="ProcessGuid">{747f3d96-9874-5d6e-0000-0010c1c20000}</Data>
+      <Data Name="ProcessId">8</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">3389</Data>
+      <Data Name="SourcePortName">ms-wbt-server</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">49948</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:05:22.837679700Z" />
+      <EventRecordID>35118</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:05:21.532</Data>
+      <Data Name="ProcessGuid">{747f3d96-986d-5d6e-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="SourcePortName">netbios-ns</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.255.255.255</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">137</Data>
+      <Data Name="DestinationPortName">netbios-ns</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:05:22.837750900Z" />
+      <EventRecordID>35119</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:05:21.532</Data>
+      <Data Name="ProcessGuid">{747f3d96-986d-5d6e-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.255.255.255</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="SourcePortName">netbios-ns</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.15</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">137</Data>
+      <Data Name="DestinationPortName">netbios-ns</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:33:24.177710600Z" />
+      <EventRecordID>35202</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:33:22.873</Data>
+      <Data Name="ProcessGuid">{747f3d96-4f81-5d6e-0000-001001818b00}</Data>
+      <Data Name="ProcessId">8892</Data>
+      <Data Name="Image">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49949</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:33:24.177923900Z" />
+      <EventRecordID>35203</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:33:22.873</Data>
+      <Data Name="ProcessGuid">{747f3d96-986d-5d6e-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">445</Data>
+      <Data Name="SourcePortName">microsoft-ds</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">49949</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:34:37.129225100Z" />
+      <EventRecordID>35205</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:34:35.937</Data>
+      <Data Name="ProcessGuid">{747f3d96-4f81-5d6e-0000-001001818b00}</Data>
+      <Data Name="ProcessId">8892</Data>
+      <Data Name="Image">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49950</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:34:37.129370300Z" />
+      <EventRecordID>35206</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:34:35.937</Data>
+      <Data Name="ProcessGuid">{747f3d96-986d-5d6e-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">445</Data>
+      <Data Name="SourcePortName">microsoft-ds</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">49950</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:36:26.005428200Z" />
+      <EventRecordID>35209</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:36:24.649</Data>
+      <Data Name="ProcessGuid">{747f3d96-986d-5d6e-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="SourcePortName">netbios-ns</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.255.255.255</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">137</Data>
+      <Data Name="DestinationPortName">netbios-ns</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-03T11:36:26.005493900Z" />
+      <EventRecordID>35210</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3144" ThreadID="3948" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-03 11:36:24.649</Data>
+      <Data Name="ProcessGuid">{747f3d96-986d-5d6e-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.255.255.255</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="SourcePortName">netbios-ns</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.15</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">137</Data>
+      <Data Name="DestinationPortName">netbios-ns</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,62 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4732</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-22T11:22:05.201727100Z" />
+      <EventRecordID>191029</EventRecordID>
+      <Correlation ActivityID="{15957a0b-7182-0000-a07a-95158271d501}" />
+      <Execution ProcessID="624" ThreadID="4452" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">-</Data>
+      <Data Name="MemberSid">S-1-5-21-3461203602-4096304019-2269080069-501</Data>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x27a10f</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4732</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13826</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-22T11:23:19.251925800Z" />
+      <EventRecordID>191030</EventRecordID>
+      <Correlation ActivityID="{15957a0b-7182-0000-a07a-95158271d501}" />
+      <Execution ProcessID="624" ThreadID="5108" />
+      <Channel>Security</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="MemberName">-</Data>
+      <Data Name="MemberSid">S-1-5-20</Data>
+      <Data Name="TargetUserName">Administrators</Data>
+      <Data Name="TargetDomainName">Builtin</Data>
+      <Data Name="TargetSid">S-1-5-32-544</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-3461203602-4096304019-2269080069-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">MSEDGEWIN10</Data>
+      <Data Name="SubjectLogonId">0x27a10f</Data>
+      <Data Name="PrivilegeList">-</Data>
+    </EventData>
+  </Event>
+</root>

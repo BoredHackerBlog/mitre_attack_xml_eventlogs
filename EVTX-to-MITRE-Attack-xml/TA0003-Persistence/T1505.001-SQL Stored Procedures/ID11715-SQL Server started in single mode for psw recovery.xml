@@ -1,0 +1,22 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">17115</EventID>
+      <Level>4</Level>
+      <Task>2</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-03T15:18:22.260285900Z" />
+      <EventRecordID>125735</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+	 -s "RADAR"
+	 -m</Data>
+      <Binary>DB4200000A0000000E0000004D005300530051004C00300031005C0052004100440041005200000000000000</Binary>
+    </EventData>
+  </Event>
+</root>

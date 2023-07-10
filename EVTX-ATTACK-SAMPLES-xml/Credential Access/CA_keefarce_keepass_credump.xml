@@ -1,0 +1,172 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T18:47:00.046849800Z" />
+      <EventRecordID>7020</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1816" ThreadID="1228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1036,technique_name=Masquerading</Data>
+      <Data Name="UtcTime">2019-04-27 18:47:00.046</Data>
+      <Data Name="ProcessGuid">{365abb72-a3a4-5cc4-0000-001084960c00}</Data>
+      <Data Name="ProcessId">1288</Data>
+      <Data Name="Image">C:\Users\Public\KeeFarce.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">KeeFarce.exe</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-a19b-5cc4-0000-0020a8ff0000}</Data>
+      <Data Name="LogonId">0xffa8</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=C622268A9305BA27C78ECB5FFCC1D43B019847B5,MD5=07D86CD24E11C1B8F0C2F2029F9D3466,SHA256=F0D5C8E6DF82A7B026F4F0412F8EDE11A053185675D965215B1FFBBC52326516,IMPHASH=D94F14D149DD5809F1B4D1C38A1B4E40</Data>
+      <Data Name="ParentProcessGuid">{365abb72-a22d-5cc4-0000-0010e2830900}</Data>
+      <Data Name="ParentProcessId">3680</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T18:47:00.062474800Z" />
+      <EventRecordID>7021</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1816" ThreadID="1228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">creddump - keefarce HKTL</Data>
+      <Data Name="UtcTime">2019-04-27 18:47:00.062</Data>
+      <Data Name="ProcessGuid">{365abb72-a201-5cc4-0000-00104f500800}</Data>
+      <Data Name="ProcessId">2364</Data>
+      <Data Name="Image">C:\Program Files\KeePass Password Safe 2\KeePass.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\Public\BootstrapDLL.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=B1230EC24647B3A6A21C2168134917642AE0F44A,MD5=A7683D7DC8C31E7162816D109C98D090,SHA256=92DDE9160B7A26FACD379166898E0A149F7EAD4B9D040AC974C4AFE6B4BD09B5,IMPHASH=E70B5F29E0EFB3558160EFC6DD598747</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T18:47:00.062474800Z" />
+      <EventRecordID>7022</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1816" ThreadID="1228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">creddump - keefarce HKTL</Data>
+      <Data Name="UtcTime">2019-04-27 18:47:00.062</Data>
+      <Data Name="ProcessGuid">{365abb72-a3a4-5cc4-0000-001084960c00}</Data>
+      <Data Name="ProcessId">1288</Data>
+      <Data Name="Image">C:\Users\Public\KeeFarce.exe</Data>
+      <Data Name="ImageLoaded">C:\Users\Public\BootstrapDLL.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=B1230EC24647B3A6A21C2168134917642AE0F44A,MD5=A7683D7DC8C31E7162816D109C98D090,SHA256=92DDE9160B7A26FACD379166898E0A149F7EAD4B9D040AC974C4AFE6B4BD09B5,IMPHASH=E70B5F29E0EFB3558160EFC6DD598747</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>8</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T18:47:00.062474800Z" />
+      <EventRecordID>7023</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1816" ThreadID="1228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-27 18:47:00.062</Data>
+      <Data Name="SourceProcessGuid">{365abb72-a3a4-5cc4-0000-001084960c00}</Data>
+      <Data Name="SourceProcessId">1288</Data>
+      <Data Name="SourceImage">C:\Users\Public\KeeFarce.exe</Data>
+      <Data Name="TargetProcessGuid">{365abb72-a201-5cc4-0000-00104f500800}</Data>
+      <Data Name="TargetProcessId">2364</Data>
+      <Data Name="TargetImage">C:\Program Files\KeePass Password Safe 2\KeePass.exe</Data>
+      <Data Name="NewThreadId">1920</Data>
+      <Data Name="StartAddress">0x5A801260</Data>
+      <Data Name="StartModule">C:\Users\Public\BootstrapDLL.dll</Data>
+      <Data Name="StartFunction">LoadManagedProject</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T18:47:00.124974800Z" />
+      <EventRecordID>7024</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1816" ThreadID="1228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-04-27 18:47:00.124</Data>
+      <Data Name="ProcessGuid">{365abb72-a3a4-5cc4-0000-001084960c00}</Data>
+      <Data Name="ProcessId">1288</Data>
+      <Data Name="Image">C:\Users\Public\KeeFarce.exe</Data>
+    </EventData>
+  </Event>
+</root>

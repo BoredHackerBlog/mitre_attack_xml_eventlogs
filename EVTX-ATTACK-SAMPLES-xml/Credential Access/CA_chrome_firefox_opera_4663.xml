@@ -1,0 +1,160 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T19:27:55.274060400Z" />
+      <EventRecordID>4987</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="824" ThreadID="6060" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns:auto-ns3="http://schemas.microsoft.com/win/2004/08/events" xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-3583694148-1414552638-2922671848-1000</SubjectUserSid>
+        <SubjectUserName>IEUser</SubjectUserName>
+        <SubjectDomainName>IEWIN7</SubjectDomainName>
+        <SubjectLogonId>0xffa8</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T19:31:15.355063000Z" />
+      <EventRecordID>4988</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="68" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0xffa8</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Users\IEUser\AppData\Roaming\Opera Software\Opera Stable\Login Data</Data>
+      <Data Name="HandleId">0x50</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x134c</Data>
+      <Data Name="ProcessName">C:\Users\Defau1t\wsus.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T19:33:05.308188000Z" />
+      <EventRecordID>4989</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0xffa8</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Users\IEUser\AppData\Roaming\Mozilla\Firefox\Profiles\kushu3sd.default\key4.db</Data>
+      <Data Name="HandleId">0x50</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x134c</Data>
+      <Data Name="ProcessName">C:\Users\Defau1t\wsus.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T19:33:18.699755200Z" />
+      <EventRecordID>4990</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0xffa8</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Users\IEUser\AppData\Roaming\Mozilla\Firefox\Profiles\kushu3sd.default\logins.json</Data>
+      <Data Name="HandleId">0x50</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x134c</Data>
+      <Data Name="ProcessName">C:\Users\Defau1t\wsus.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4663</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12800</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-04-27T19:33:50.134293600Z" />
+      <EventRecordID>4991</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="44" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0xffa8</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Users\IEUser\AppData\Local\Google\Chrome\User Data\Default\Login Data</Data>
+      <Data Name="HandleId">0x50</Data>
+      <Data Name="AccessList">%%4416
+				</Data>
+      <Data Name="AccessMask">0x1</Data>
+      <Data Name="ProcessId">0x134c</Data>
+      <Data Name="ProcessName">C:\Users\Defau1t\wsus.exe</Data>
+    </EventData>
+  </Event>
+</root>

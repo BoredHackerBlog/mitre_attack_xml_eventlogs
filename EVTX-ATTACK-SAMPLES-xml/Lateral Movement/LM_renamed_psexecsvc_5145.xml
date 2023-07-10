@@ -1,0 +1,900 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:09.530682500Z" />
+      <EventRecordID>83997</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">winreg</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:09.530682500Z" />
+      <EventRecordID>83998</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">winreg</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:09.540696900Z" />
+      <EventRecordID>84000</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:30.400692100Z" />
+      <EventRecordID>84002</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:30.400692100Z" />
+      <EventRecordID>84003</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x80</Data>
+      <Data Name="AccessList">%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:32.223312900Z" />
+      <EventRecordID>84005</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">MsFteWds</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:32.233327300Z" />
+      <EventRecordID>84009</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.15</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:32.794133700Z" />
+      <EventRecordID>84010</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">MsFteWds</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:32.804148100Z" />
+      <EventRecordID>84011</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.15</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:40.595351300Z" />
+      <EventRecordID>84012</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100080</Data>
+      <Data Name="AccessList">%%1541
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:41.716964100Z" />
+      <EventRecordID>84014</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">MsFteWds</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:41.716964100Z" />
+      <EventRecordID>84015</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.15</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:42.237712900Z" />
+      <EventRecordID>84017</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x11d8c8</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">57357</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">MsFteWds</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T12:57:42.237712900Z" />
+      <EventRecordID>84018</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">IEWIN7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.15</Data>
+      <Data Name="IpPort">49160</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">srvsvc</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.350688900Z" />
+      <EventRecordID>84037</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">\</Data>
+      <Data Name="AccessMask">0x100088</Data>
+      <Data Name="AccessList">%%1541
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.350688900Z" />
+      <EventRecordID>84038</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">blabla.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.350688900Z" />
+      <EventRecordID>84039</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\ADMIN$</Data>
+      <Data Name="ShareLocalPath">\??\C:\Windows</Data>
+      <Data Name="RelativeTargetName">blabla.exe</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.380732100Z" />
+      <EventRecordID>84044</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">svcctl</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.540962500Z" />
+      <EventRecordID>84047</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">blabla</Data>
+      <Data Name="AccessMask">0x12019f</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.711207300Z" />
+      <EventRecordID>84050</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">blabla-NLLT108334-37048-stdin</Data>
+      <Data Name="AccessMask">0x120196</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4417
+				%%4418
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.711207300Z" />
+      <EventRecordID>84051</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">blabla-NLLT108334-37048-stdout</Data>
+      <Data Name="AccessMask">0x120089</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5145</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12811</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-01-19T13:00:10.711207300Z" />
+      <EventRecordID>84052</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="512" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="SubjectUserName">IEUser</Data>
+      <Data Name="SubjectDomainName">IEWIN7</Data>
+      <Data Name="SubjectLogonId">0x162630</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="IpAddress">10.0.2.16</Data>
+      <Data Name="IpPort">54765</Data>
+      <Data Name="ShareName">\\*\IPC$</Data>
+      <Data Name="ShareLocalPath">
+      </Data>
+      <Data Name="RelativeTargetName">blabla-NLLT108334-37048-stderr</Data>
+      <Data Name="AccessMask">0x120089</Data>
+      <Data Name="AccessList">%%1538
+				%%1541
+				%%4416
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="AccessReason">-</Data>
+    </EventData>
+  </Event>
+</root>

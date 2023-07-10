@@ -1,0 +1,29 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-06-04T09:30:48.170578800Z" />
+      <EventRecordID>98</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1680" ThreadID="6620" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>exchange01.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-06-04 09:30:48.170</Data>
+      <Data Name="ProcessGuid">{6d3c60fe-f13d-60b9-22e2-010000001d00}</Data>
+      <Data Name="ProcessId">19108</Data>
+      <Data Name="Image">C:\Program Files (x86)\Notepad++\notepad++.exe</Data>
+      <Data Name="TargetFilename">E:\Exchange2016\TransportRoles\Shared\agents.config</Data>
+      <Data Name="CreationUtcTime">2021-01-21 10:20:36.244</Data>
+    </EventData>
+  </Event>
+</root>

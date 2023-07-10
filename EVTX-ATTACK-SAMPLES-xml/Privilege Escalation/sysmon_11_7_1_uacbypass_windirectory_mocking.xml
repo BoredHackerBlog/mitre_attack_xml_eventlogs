@@ -1,0 +1,342 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:41.424255700Z" />
+      <EventRecordID>4723</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-27 22:43:41.388</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ProcessId">6632</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="CommandLine">"C:\Users\IEUser\Downloads\UACBypass.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-d21d-5d3c-0000-0020dd5c2300}</Data>
+      <Data Name="LogonId">0x235cdd</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=23434874C017F3987BA5FD7B9ABB5FCCF1D62231,MD5=4C2E8A86ADAF45774C0A0CB52F25C04B,SHA256=81C898300A19FD8F92297E4BE8BEC8C43E9420B42E93167D375FA1512654EA23,IMPHASH=1A0963EBB2F7EC4A6BDCCD537C92C853</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-d21f-5d3c-0000-0010531c2400}</Data>
+      <Data Name="ParentProcessId">4536</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\Explorer.EXE</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:41.755254600Z" />
+      <EventRecordID>4724</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">ProvEsc - UAC Bypass Mocking Trusted WinFolders</Data>
+      <Data Name="UtcTime">2019-07-27 22:43:41.627</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ProcessId">6632</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="TargetFilename">C:\Windows \System32</Data>
+      <Data Name="CreationUtcTime">2019-07-27 22:43:41.627</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:41.755406400Z" />
+      <EventRecordID>4725</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">ProvEsc - UAC Bypass Mocking Trusted WinFolders</Data>
+      <Data Name="UtcTime">2019-07-27 22:43:41.627</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ProcessId">6632</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="TargetFilename">C:\Windows \System32\winSAT.exe</Data>
+      <Data Name="CreationUtcTime">2019-07-27 22:43:41.627</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:41.757216100Z" />
+      <EventRecordID>4726</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">ProvEsc - UAC Bypass Mocking Trusted WinFolders</Data>
+      <Data Name="UtcTime">2019-07-27 22:43:41.641</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ProcessId">6632</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="TargetFilename">C:\Windows \System32\WINMM.dll</Data>
+      <Data Name="CreationUtcTime">2019-07-27 22:43:41.641</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:42.033042200Z" />
+      <EventRecordID>4727</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - UACBypass Mocking Trusted WinFolders</Data>
+      <Data Name="UtcTime">2019-07-27 22:43:41.972</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39d-5d3c-0000-0010131e5600}</Data>
+      <Data Name="ProcessId">7128</Data>
+      <Data Name="Image">C:\Windows \System32\winSAT.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows System Assessment Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows \System32\winSAT.exe" formal</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Downloads\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-d21d-5d3c-0000-0020dd5c2300}</Data>
+      <Data Name="LogonId">0x235cdd</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=C6B8FDB2ED8FA8A20CD7348E221A18443EF8510B,MD5=BA2ED9D3420FC7F43CB0E535AE8A042C,SHA256=5BD1CD3B86A26DE22ED2C6CDD552C0DAD499B2F1BA1E5A85AF2FB78CFF5D502A,IMPHASH=6F82B876C4C1039B7980A9F0C8B57991</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ParentProcessId">6632</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Downloads\UACBypass.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:42.033420500Z" />
+      <EventRecordID>4728</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-27 22:43:42.018</Data>
+      <Data Name="SourceProcessGUID">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="SourceProcessId">6632</Data>
+      <Data Name="SourceThreadId">4364</Data>
+      <Data Name="SourceImage">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="TargetProcessGUID">{747f3d96-d39d-5d3c-0000-0010131e5600}</Data>
+      <Data Name="TargetProcessId">7128</Data>
+      <Data Name="TargetImage">C:\Windows \System32\winSAT.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+a0fb4|C:\Windows\System32\KERNELBASE.dll+47241|C:\Windows\System32\KERNELBASE.dll+46196|C:\Windows\System32\KERNEL32.DLL+1c2e3|C:\Windows\System32\windows.storage.dll+19f330|C:\Windows\System32\windows.storage.dll+14ce7e|C:\Windows\System32\windows.storage.dll+efad8|C:\Windows\System32\windows.storage.dll+ef8b7|C:\Windows\System32\windows.storage.dll+ef51d|C:\Windows\System32\windows.storage.dll+14b0ad|C:\Windows\System32\windows.storage.dll+145da4|C:\Windows\System32\windows.storage.dll+147c7a|C:\Windows\System32\windows.storage.dll+14432d|C:\Windows\System32\windows.storage.dll+144225|C:\Windows\System32\SHELL32.dll+a880f|C:\Windows\System32\SHELL32.dll+a86ca|C:\Windows\System32\SHELL32.dll+484e7|C:\Windows\System32\SHELL32.dll+52549|C:\Windows\System32\SHELL32.dll+a8393|C:\Windows\System32\SHELL32.dll+a826b|C:\Windows\System32\SHELL32.dll+50666|C:\Windows\System32\SHELL32.dll+c2e1e|C:\Windows\System32\shcore.dll+2c315|C:\Windows\System32\KERNEL32.DLL+17974</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:42.161809600Z" />
+      <EventRecordID>4729</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-27 22:43:42.159</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39e-5d3c-0000-0010ef395600}</Data>
+      <Data Name="ProcessId">4028</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">consent.exe 6820 324 0000022557280720</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-503d-5d3d-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=9329B2362078DE27242DD4534F588AF3264BF0BF,MD5=27992D7EBE51AEC655A088DE88BAD5C9,SHA256=8F112431143A22BAAAFB448EEFD63BF90E7691C890AC69A296574FD07BA03EC6,IMPHASH=522D83761201075834F05037F5307949</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-d231-5d3c-0000-00107e1d2900}</Data>
+      <Data Name="ParentProcessId">6820</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:42.392880400Z" />
+      <EventRecordID>4730</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - UACBypass Mocking Trusted WinFolders</Data>
+      <Data Name="UtcTime">2019-07-27 22:43:42.354</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39e-5d3c-0000-0010805a5600}</Data>
+      <Data Name="ProcessId">3904</Data>
+      <Data Name="Image">C:\Windows \System32\winSAT.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows System Assessment Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows \System32\winSAT.exe" formal</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-d21d-5d3c-0000-0020ee5b2300}</Data>
+      <Data Name="LogonId">0x235bee</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=C6B8FDB2ED8FA8A20CD7348E221A18443EF8510B,MD5=BA2ED9D3420FC7F43CB0E535AE8A042C,SHA256=5BD1CD3B86A26DE22ED2C6CDD552C0DAD499B2F1BA1E5A85AF2FB78CFF5D502A,IMPHASH=6F82B876C4C1039B7980A9F0C8B57991</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ParentProcessId">6632</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Users\IEUser\Downloads\UACBypass.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:42.938088700Z" />
+      <EventRecordID>4731</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-07-27 22:43:42.394</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39d-5d3c-0000-001026f55500}</Data>
+      <Data Name="ProcessId">6632</Data>
+      <Data Name="Image">C:\Users\IEUser\Downloads\UACBypass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-07-27T22:43:43.016956400Z" />
+      <EventRecordID>4732</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2748" ThreadID="3384" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">PrivEsc - UACBypass Mocking Trusted WinFolders</Data>
+      <Data Name="UtcTime">2019-07-27 22:43:42.661</Data>
+      <Data Name="ProcessGuid">{747f3d96-d39e-5d3c-0000-0010805a5600}</Data>
+      <Data Name="ProcessId">3904</Data>
+      <Data Name="Image">C:\Windows \System32\winSAT.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows \System32\WINMM.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="Hashes">SHA1=7CE46211A5A8D7FE4A767E12BD80769673FDAEE5,MD5=7F8A2B842948EB70133FA34F0CFE772B,SHA256=078CA38607F24FD21A563FA5189843734677B98D5017D5EBB03B2960053B25B5,IMPHASH=14E2B78EE82AD03FAC47525FEDDCA7E6</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+</root>

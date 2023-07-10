@@ -1,0 +1,651 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:31.863181800Z" />
+      <EventRecordID>1861976</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="948" ThreadID="5600" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-4230534742-2542757381-3142984815-1111</SubjectUserSid>
+        <SubjectUserName>admmig</SubjectUserName>
+        <SubjectDomainName>OFFSEC</SubjectDomainName>
+        <SubjectLogonId>0x3bf2653</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.658272900Z" />
+      <EventRecordID>1861977</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x16d8</Data>
+      <Data Name="NewProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x11f0</Data>
+      <Data Name="CommandLine">"C:\Program Files\OpenSSH-Win64\sshd.exe" -R</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-16384</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4717</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13569</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.848430300Z" />
+      <EventRecordID>1861978</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetSid">S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-5848</Data>
+      <Data Name="AccessGranted">SeServiceLogonRight</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4673</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.849302600Z" />
+      <EventRecordID>1861979</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="ObjectServer">NT Local Security Authority / Authentication Service</Data>
+      <Data Name="Service">LsaRegisterLogonProcess()</Data>
+      <Data Name="PrivilegeList">SeTcbPrivilege</Data>
+      <Data Name="ProcessId">0x240</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.875990700Z" />
+      <EventRecordID>1861980</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetUserName">sshd_5848</Data>
+      <Data Name="TargetDomainName">VIRTUAL USERS</Data>
+      <Data Name="TargetLogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetServerName">localhost</Data>
+      <Data Name="TargetInfo">localhost</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.876091800Z" />
+      <EventRecordID>1861981</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-5848</Data>
+      <Data Name="TargetUserName">sshd_5848</Data>
+      <Data Name="TargetDomainName">VIRTUAL USERS</Data>
+      <Data Name="TargetLogonId">0x3c569ed</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+      <Data Name="RestrictedAdminMode">-</Data>
+      <Data Name="TargetOutboundUserName">-</Data>
+      <Data Name="TargetOutboundDomainName">-</Data>
+      <Data Name="VirtualAccount">%%1842</Data>
+      <Data Name="TargetLinkedLogonId">0x0</Data>
+      <Data Name="ElevatedToken">%%1842</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4627</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12554</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.876112300Z" />
+      <EventRecordID>1861982</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-5848</Data>
+      <Data Name="TargetUserName">sshd_5848</Data>
+      <Data Name="TargetDomainName">VIRTUAL USERS</Data>
+      <Data Name="TargetLogonId">0x3c569ed</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="EventIdx">1</Data>
+      <Data Name="EventCountTotal">1</Data>
+      <Data Name="GroupMembership">
+		%{S-1-16-12288}
+		%{S-1-1-0}
+		%{S-1-5-32-545}
+		%{S-1-5-6}
+		%{S-1-2-1}
+		%{S-1-5-11}
+		%{S-1-5-15}
+		%{S-1-2-0}
+		%{S-1-5-111-0}</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.876118800Z" />
+      <EventRecordID>1861983</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-5848</Data>
+      <Data Name="SubjectUserName">sshd_5848</Data>
+      <Data Name="SubjectDomainName">VIRTUAL USERS</Data>
+      <Data Name="SubjectLogonId">0x3c569ed</Data>
+      <Data Name="PrivilegeList">SeImpersonatePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4718</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13569</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.876488800Z" />
+      <EventRecordID>1861984</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetSid">S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-5848</Data>
+      <Data Name="AccessRemoved">SeServiceLogonRight</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:46.878253200Z" />
+      <EventRecordID>1861985</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="3868" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xd20</Data>
+      <Data Name="NewProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="CommandLine">"C:\Program Files\OpenSSH-Win64\sshd.exe" -y</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">sshd_5848</Data>
+      <Data Name="TargetDomainName">VIRTUAL USERS</Data>
+      <Data Name="TargetLogonId">0x3c569ed</Data>
+      <Data Name="ParentProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:52.315636300Z" />
+      <EventRecordID>1861986</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0000-c72e-9ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="Workstation">FS01</Data>
+      <Data Name="Status">0xc0000064</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4625</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:52.315789100Z" />
+      <EventRecordID>1861987</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="108" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="TargetDomainName">FS01</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xc0000064</Data>
+      <Data Name="LogonType">8</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">FS01</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:53.378618500Z" />
+      <EventRecordID>1861988</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0000-d22e-9ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="Workstation">FS01</Data>
+      <Data Name="Status">0xc0000064</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4625</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:53.378809600Z" />
+      <EventRecordID>1861989</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="TargetDomainName">FS01</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xc0000064</Data>
+      <Data Name="LogonType">8</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">FS01</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:54.043203300Z" />
+      <EventRecordID>1861990</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0000-d32e-9ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="Workstation">FS01</Data>
+      <Data Name="Status">0xc0000064</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4625</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:54.043338500Z" />
+      <EventRecordID>1861991</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="TargetDomainName">FS01</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xc0000064</Data>
+      <Data Name="LogonType">8</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">FS01</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:54.662693400Z" />
+      <EventRecordID>1861992</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0000-dc2e-9ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="Workstation">FS01</Data>
+      <Data Name="Status">0xc0000064</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4625</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:54.662818800Z" />
+      <EventRecordID>1861993</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="TargetDomainName">FS01</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xc0000064</Data>
+      <Data Name="LogonType">8</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">FS01</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4776</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14336</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:54.945531600Z" />
+      <EventRecordID>1861994</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0000-dd2e-9ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="PackageName">MICROSOFT_AUTHENTICATION_PACKAGE_V1_0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="Workstation">FS01</Data>
+      <Data Name="Status">0xc0000064</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4625</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-20T12:49:54.945671900Z" />
+      <EventRecordID>1861995</EventRecordID>
+      <Correlation ActivityID="{a67be420-4636-0001-36e4-7ba63646d701}" />
+      <Execution ProcessID="576" ThreadID="5164" />
+      <Channel>Security</Channel>
+      <Computer>fs01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS01$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">NOUSER</Data>
+      <Data Name="TargetDomainName">FS01</Data>
+      <Data Name="Status">0xc000006d</Data>
+      <Data Name="FailureReason">%%2313</Data>
+      <Data Name="SubStatus">0xc0000064</Data>
+      <Data Name="LogonType">8</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">FS01</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x16d8</Data>
+      <Data Name="ProcessName">C:\Program Files\OpenSSH-Win64\sshd.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+</root>

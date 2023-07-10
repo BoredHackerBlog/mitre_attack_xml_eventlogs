@@ -1,0 +1,579 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:48.290682400Z" />
+      <EventRecordID>17715</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:48.290</Data>
+      <Data Name="ProcessGuid">{365abb72-28d0-5cda-0000-00103a6b1300}</Data>
+      <Data Name="ProcessId">2676</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\whoami.exe"  /groups</Data>
+      <Data Name="CurrentDirectory">C:\temp\PowerShell-Suite-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002087350100}</Data>
+      <Data Name="LogonId">0x13587</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=DC058F52AD8ACBD316827B6DCAC2434AB3CC515C,MD5=0EBF71E33EF09CA65D9683AFA999C473,SHA256=599EFD455AEEEFE2044A9B597061F271595033F5D0DF2C99DFDBCA8394BBCEC3,IMPHASH=C5352B949915AB8CD5E1844790D19274</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="ParentProcessId">2016</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:48.290682400Z" />
+      <EventRecordID>17716</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:48.290</Data>
+      <Data Name="SourceProcessGUID">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="SourceProcessId">2016</Data>
+      <Data Name="SourceThreadId">1552</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-28d0-5cda-0000-00103a6b1300}</Data>
+      <Data Name="TargetProcessId">2676</Data>
+      <Data Name="TargetImage">C:\Windows\system32\whoami.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01C71547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5534c9|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+551bde|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:48.359432400Z" />
+      <EventRecordID>17717</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:48.342</Data>
+      <Data Name="ProcessGuid">{365abb72-28d0-5cda-0000-0010f76f1300}</Data>
+      <Data Name="ProcessId">3964</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\whoami.exe"  /groups</Data>
+      <Data Name="CurrentDirectory">C:\temp\PowerShell-Suite-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002087350100}</Data>
+      <Data Name="LogonId">0x13587</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=DC058F52AD8ACBD316827B6DCAC2434AB3CC515C,MD5=0EBF71E33EF09CA65D9683AFA999C473,SHA256=599EFD455AEEEFE2044A9B597061F271595033F5D0DF2C99DFDBCA8394BBCEC3,IMPHASH=C5352B949915AB8CD5E1844790D19274</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="ParentProcessId">2016</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:48.359432400Z" />
+      <EventRecordID>17718</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:48.342</Data>
+      <Data Name="SourceProcessGUID">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="SourceProcessId">2016</Data>
+      <Data Name="SourceThreadId">1552</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-28d0-5cda-0000-0010f76f1300}</Data>
+      <Data Name="TargetProcessId">3964</Data>
+      <Data Name="TargetImage">C:\Windows\system32\whoami.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01C71547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5534c9|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+551bde|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.143807400Z" />
+      <EventRecordID>17719</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.092</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-0010b08b1300}</Data>
+      <Data Name="ProcessId">3776</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">consent.exe 968 288 03573528</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-a56e-5cda-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A0396C4F136E19E6FF9EFD45E5D0580BD8F193F1,MD5=2C290AE8C7DA38C3FF9EB1B11606170B,SHA256=644B4C317E5455FFC5941A35C5D085927CB6043FFB80DCF7F18DA8C6F6998643,IMPHASH=3F38F9B645EEBC120F6DFE0B37F41F22</Data>
+      <Data Name="ParentProcessGuid">{365abb72-26e0-5cda-0000-00101cd50000}</Data>
+      <Data Name="ParentProcessId">968</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.453182400Z" />
+      <EventRecordID>17720</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.453</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-001019aa1300}</Data>
+      <Data Name="ProcessId">1020</Data>
+      <Data Name="Image">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">System Preparation Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\sysprep\sysprep.exe"</Data>
+      <Data Name="CurrentDirectory">C:\temp\PowerShell-Suite-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002087350100}</Data>
+      <Data Name="LogonId">0x13587</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=24938F8BAA45E385958DBE7BE53A2E03A1C589EE,MD5=06648F3712AD7975E8220524672E2DD1,SHA256=DE3DFB3617B3E3FABB9F12088E7D2019510915E0AE2397E7F96FE2575CFBF8FC,IMPHASH=E925A3BDE35ECBE27F0C2C2AB1030008</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="ParentProcessId">2016</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.453182400Z" />
+      <EventRecordID>17721</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.453</Data>
+      <Data Name="SourceProcessGUID">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="SourceProcessId">2016</Data>
+      <Data Name="SourceThreadId">1552</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-28d3-5cda-0000-001019aa1300}</Data>
+      <Data Name="TargetProcessId">1020</Data>
+      <Data Name="TargetImage">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01C71547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5534c9|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+551bde|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|C:\Windows\assembly\NativeImages_v2.0.50727_32\Microsoft.PowerShel#\69c77bdf9af8fdbb1ae99a4ecc814d78\Microsoft.PowerShell.Commands.Utility.ni.dll+ffe50747</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.470369900Z" />
+      <EventRecordID>17722</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.453</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-00106faa1300}</Data>
+      <Data Name="ProcessId">2768</Data>
+      <Data Name="Image">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">System Preparation Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\sysprep\sysprep.exe" "C:\Windows\System32\sysprep\sysprep.exe" </Data>
+      <Data Name="CurrentDirectory">C:\temp\PowerShell-Suite-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002087350100}</Data>
+      <Data Name="LogonId">0x13587</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=24938F8BAA45E385958DBE7BE53A2E03A1C589EE,MD5=06648F3712AD7975E8220524672E2DD1,SHA256=DE3DFB3617B3E3FABB9F12088E7D2019510915E0AE2397E7F96FE2575CFBF8FC,IMPHASH=E925A3BDE35ECBE27F0C2C2AB1030008</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="ParentProcessId">2016</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.470369900Z" />
+      <EventRecordID>17723</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.453</Data>
+      <Data Name="SourceProcessGUID">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="SourceProcessId">2016</Data>
+      <Data Name="SourceThreadId">1552</Data>
+      <Data Name="SourceImage">
+      </Data>
+      <Data Name="TargetProcessGUID">{365abb72-28d3-5cda-0000-00106faa1300}</Data>
+      <Data Name="TargetProcessId">2768</Data>
+      <Data Name="TargetImage">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1ce7|UNKNOWN(01C71547)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5534c9|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+551bde|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|UNKNOWN(00000000)(wow64)|C:\Windows\assembly\NativeImages_v2.0.50727_32\Microsoft.PowerShel#\69c77bdf9af8fdbb1ae99a4ecc814d78\Microsoft.PowerShell.Commands.Utility.ni.dll+ffe50747</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.487557400Z" />
+      <EventRecordID>17724</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.470</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-00103bac1300}</Data>
+      <Data Name="ProcessId">572</Data>
+      <Data Name="Image">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">System Preparation Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\sysprep\sysprep.exe" </Data>
+      <Data Name="CurrentDirectory">C:\temp\PowerShell-Suite-master\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002087350100}</Data>
+      <Data Name="LogonId">0x13587</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=24938F8BAA45E385958DBE7BE53A2E03A1C589EE,MD5=06648F3712AD7975E8220524672E2DD1,SHA256=DE3DFB3617B3E3FABB9F12088E7D2019510915E0AE2397E7F96FE2575CFBF8FC,IMPHASH=E925A3BDE35ECBE27F0C2C2AB1030008</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="ParentProcessId">2016</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.487557400Z" />
+      <EventRecordID>17725</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.470</Data>
+      <Data Name="SourceProcessGUID">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="SourceProcessId">2016</Data>
+      <Data Name="SourceThreadId">952</Data>
+      <Data Name="SourceImage">C:\Windows\explorer.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-28d3-5cda-0000-00103bac1300}</Data>
+      <Data Name="TargetProcessId">572</Data>
+      <Data Name="TargetImage">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4530c|C:\Windows\system32\kernel32.dll+51133|C:\Windows\system32\kernel32.dll+2079|C:\Windows\system32\shell32.dll+15595|C:\Windows\system32\shell32.dll+22b92|C:\Windows\system32\shell32.dll+15399|C:\Windows\system32\shell32.dll+2f5d9|C:\Windows\system32\shell32.dll+149e4|C:\Windows\system32\shell32.dll+2f65b|C:\Windows\system32\shell32.dll+14b2b|C:\Windows\system32\shell32.dll+2223c|C:\Windows\system32\shell32.dll+16761|C:\Windows\system32\shell32.dll+21e44|C:\Windows\system32\shell32.dll+21ea7|UNKNOWN(01C72AF6)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\4ad0c43b7c3d76c0c58b03b29710fea7\System.ni.dll+5c9682</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.487557400Z" />
+      <EventRecordID>17726</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.470</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-001055ad1300}</Data>
+      <Data Name="ProcessId">3388</Data>
+      <Data Name="Image">C:\Windows\System32\consent.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Consent UI for administrative applications</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">consent.exe 968 312 0197CDB0</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-a56e-5cda-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A0396C4F136E19E6FF9EFD45E5D0580BD8F193F1,MD5=2C290AE8C7DA38C3FF9EB1B11606170B,SHA256=644B4C317E5455FFC5941A35C5D085927CB6043FFB80DCF7F18DA8C6F6998643,IMPHASH=3F38F9B645EEBC120F6DFE0B37F41F22</Data>
+      <Data Name="ParentProcessGuid">{365abb72-26e0-5cda-0000-00101cd50000}</Data>
+      <Data Name="ParentProcessId">968</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.814119900Z" />
+      <EventRecordID>17727</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.676</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-00106dc31300}</Data>
+      <Data Name="ProcessId">3068</Data>
+      <Data Name="Image">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">System Preparation Tool</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\sysprep\sysprep.exe" </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002045350100}</Data>
+      <Data Name="LogonId">0x13545</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=24938F8BAA45E385958DBE7BE53A2E03A1C589EE,MD5=06648F3712AD7975E8220524672E2DD1,SHA256=DE3DFB3617B3E3FABB9F12088E7D2019510915E0AE2397E7F96FE2575CFBF8FC,IMPHASH=E925A3BDE35ECBE27F0C2C2AB1030008</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28a0-5cda-0000-001074181300}</Data>
+      <Data Name="ParentProcessId">2016</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.831307400Z" />
+      <EventRecordID>17728</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Possible UAC Bypass - mcx2prov DLL</Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.728</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-00106dc31300}</Data>
+      <Data Name="ProcessId">3068</Data>
+      <Data Name="Image">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\sysprep\cryptbase.dll</Data>
+      <Data Name="FileVersion">2.5.1.0</Data>
+      <Data Name="Description">Yamabiko Proxy</Data>
+      <Data Name="Product">Yamabiko</Data>
+      <Data Name="Company">Yokai Ltd.</Data>
+      <Data Name="Hashes">SHA1=4DA0DCAD144039F6DD7739E37AB3A7B78FB86B4D,MD5=2BA4BC4753A29D56AA185C972CA1023E,SHA256=A6BE522A1FC48B391EFCB3A3CFE49560A455F1BB853505F7E9ACCA8EDF116B4C,IMPHASH=380A21A3D5988707B0CFE7CA5B1C7E0B</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-14T02:32:51.831307400Z" />
+      <EventRecordID>17729</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2024" ThreadID="2004" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-14 02:32:51.728</Data>
+      <Data Name="ProcessGuid">{365abb72-28d3-5cda-0000-001088c71300}</Data>
+      <Data Name="ProcessId">3976</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows PowerShell</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe"</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\WindowsPowerShell\v1.0\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-26e1-5cda-0000-002045350100}</Data>
+      <Data Name="LogonId">0x13545</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=04C5D2B4DA9A0F3FA8A45702D4256CEE42D8C48D,MD5=92F44E405DB16AC55D97E3BFE3B132FA,SHA256=6C05E11399B7E3C8ED31BAE72014CF249C144A8F4A2C54A758EB2E6FAD47AEC7,IMPHASH=96BA691B035D05F44E35AB23F6BA946C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-28d3-5cda-0000-00106dc31300}</Data>
+      <Data Name="ParentProcessId">3068</Data>
+      <Data Name="ParentImage">C:\Windows\System32\sysprep\sysprep.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\sysprep\sysprep.exe" </Data>
+    </EventData>
+  </Event>
+</root>

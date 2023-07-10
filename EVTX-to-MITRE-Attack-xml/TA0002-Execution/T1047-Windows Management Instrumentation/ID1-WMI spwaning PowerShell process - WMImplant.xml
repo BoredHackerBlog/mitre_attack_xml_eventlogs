@@ -1,0 +1,44 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-08T15:01:27.604646300Z" />
+      <EventRecordID>44867</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1068" ThreadID="1628" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-11-08 15:01:27.604</Data>
+      <Data Name="ProcessGuid">{a57649d1-3bc7-6189-091b-5d0300000000}</Data>
+      <Data Name="ProcessId">1860</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows PowerShell</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">PowerShell.EXE</Data>
+      <Data Name="CommandLine">powershell $env:I4Pzl|.(Get-C`ommand ('{1}e{0}'-f'x','i'))</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{a57649d1-3bc7-6189-ad1a-5d0300000000}</Data>
+      <Data Name="LogonId">0x35d1aad</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9F1E24917EF96BBB339F4E2A226ACAFD1009F47B,MD5=C031E215B8B08C752BF362F6D4C5D3AD,SHA256=840E1F9DC5A29BEBF01626822D7390251E9CF05BB3560BA7B68BDB8A41CF08E3,IMPHASH=099B747A4A31983374E54912D4BB7C44</Data>
+      <Data Name="ParentProcessGuid">{a57649d1-1303-6179-d9c8-010000000000}</Data>
+      <Data Name="ParentProcessId">1508</Data>
+      <Data Name="ParentImage">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\wbem\wmiprvse.exe -secured -Embedding</Data>
+    </EventData>
+  </Event>
+</root>

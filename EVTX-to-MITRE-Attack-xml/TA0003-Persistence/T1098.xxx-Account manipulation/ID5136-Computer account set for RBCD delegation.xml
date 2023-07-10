@@ -1,0 +1,191 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4742</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13825</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-11-29T21:04:17.764729100Z" />
+      <EventRecordID>42361</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="1848" />
+      <Channel>Security</Channel>
+      <Computer>AD01.kdmo.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ComputerAccountChange">-</Data>
+      <Data Name="TargetUserName">TARGET01$</Data>
+      <Data Name="TargetDomainName">KDMO</Data>
+      <Data Name="TargetSid">S-1-5-21-1089590679-3038349081-645448463-1112</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-1089590679-3038349081-645448463-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">KDMO</Data>
+      <Data Name="SubjectLogonId">0x445ea</Data>
+      <Data Name="PrivilegeList">-</Data>
+      <Data Name="SamAccountName">-</Data>
+      <Data Name="DisplayName">-</Data>
+      <Data Name="UserPrincipalName">-</Data>
+      <Data Name="HomeDirectory">-</Data>
+      <Data Name="HomePath">-</Data>
+      <Data Name="ScriptPath">-</Data>
+      <Data Name="ProfilePath">-</Data>
+      <Data Name="UserWorkstations">-</Data>
+      <Data Name="PasswordLastSet">-</Data>
+      <Data Name="AccountExpires">-</Data>
+      <Data Name="PrimaryGroupId">-</Data>
+      <Data Name="AllowedToDelegateTo">-</Data>
+      <Data Name="OldUacValue">-</Data>
+      <Data Name="NewUacValue">-</Data>
+      <Data Name="UserAccountControl">-</Data>
+      <Data Name="UserParameters">-</Data>
+      <Data Name="SidHistory">-</Data>
+      <Data Name="LogonHours">-</Data>
+      <Data Name="DnsHostName">-</Data>
+      <Data Name="ServicePrincipalNames">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-11-29T21:04:24.809805100Z" />
+      <EventRecordID>42362</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="780" />
+      <Channel>Security</Channel>
+      <Computer>AD01.kdmo.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{975f80f3-f60a-4a74-9df8-f132cdd9658c}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-1089590679-3038349081-645448463-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">KDMO</Data>
+      <Data Name="SubjectLogonId">0x445ea</Data>
+      <Data Name="DSName">kdmo.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">CN=TARGET01,CN=Computers,DC=kdmo,DC=lan</Data>
+      <Data Name="ObjectGUID">{3cdb7225-cb8a-493e-914e-11e16e563acb}</Data>
+      <Data Name="ObjectClass">computer</Data>
+      <Data Name="AttributeLDAPDisplayName">msDS-AllowedToActOnBehalfOfOtherIdentity</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">Malformed Security Descriptor</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-11-29T21:04:54.825305500Z" />
+      <EventRecordID>42371</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="780" />
+      <Channel>Security</Channel>
+      <Computer>AD01.kdmo.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{5a74a773-eb7d-4167-85d9-a41faa53a396}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-1089590679-3038349081-645448463-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">KDMO</Data>
+      <Data Name="SubjectLogonId">0x445ea</Data>
+      <Data Name="DSName">kdmo.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">ou=SERVERS,OU=ASSETS,DC=kdmo,DC=lan</Data>
+      <Data Name="ObjectGUID">{ce449fac-47d0-4f69-8f90-2110ae131ff8}</Data>
+      <Data Name="ObjectClass">organizationalUnit</Data>
+      <Data Name="AttributeLDAPDisplayName">objectClass</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.2</Data>
+      <Data Name="AttributeValue">2.5.6.5</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-11-29T21:04:54.825618000Z" />
+      <EventRecordID>42372</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="780" />
+      <Channel>Security</Channel>
+      <Computer>AD01.kdmo.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{d145679a-a75e-4162-9719-3167d986899d}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-1089590679-3038349081-645448463-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">KDMO</Data>
+      <Data Name="SubjectLogonId">0x445ea</Data>
+      <Data Name="DSName">kdmo.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">ou=SERVERS,OU=ASSETS,DC=kdmo,DC=lan</Data>
+      <Data Name="ObjectGUID">{ce449fac-47d0-4f69-8f90-2110ae131ff8}</Data>
+      <Data Name="ObjectClass">organizationalUnit</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:DAG:DAD:AI(OA;;CCDC;4828cc14-1437-45bc-9b07-ad6f015e5f28;;AO)(OA;;CCDC;bf967a86-0de6-11d0-a285-00aa003049e2;;AO)(OA;;CCDC;bf967a9c-0de6-11d0-a285-00aa003049e2;;AO)(OA;;CCDC;bf967aa8-0de6-11d0-a285-00aa003049e2;;PO)(OA;;CCDC;bf967aba-0de6-11d0-a285-00aa003049e2;;AO)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;DA)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(OA;CIID;RPWP;5b47d60f-6090-40b2-9f37-2a4de88f3063;;S-1-5-21-1089590679-3038349081-645448463-526)(OA;CIID;RPWP;5b47d60f-6090-40b2-9f37-2a4de88f3063;;S-1-5-21-1089590679-3038349081-645448463-527)(OA;CIIOID;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIOID;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIOID;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIID;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;WD)(OA;CIID;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIID;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;CIID;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-1089590679-3038349081-645448463-519)(A;CIID;LC;;;RU)(A;CIID;CCLCSWRPWPLOCRSDRCWDWO;;;BA)S:AI(OU;CIIOIDSA;CRWDWO;;bf967a9c-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIOIDSA;CRWDWO;;bf967aba-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIDSA;CCDC;bf967aa5-0de6-11d0-a285-00aa003049e2;;WD)(OU;CIIOIDSA;WPCRWDWO;;bf967a86-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIDSA;WPCRSDWDWO;;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;CIIDSA;CRWD;;;WD)</Data>
+      <Data Name="OperationType">%%14675</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5136</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14081</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2022-11-29T21:04:54.825910400Z" />
+      <EventRecordID>42373</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="676" ThreadID="780" />
+      <Channel>Security</Channel>
+      <Computer>AD01.kdmo.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="OpCorrelationID">{d145679a-a75e-4162-9719-3167d986899d}</Data>
+      <Data Name="AppCorrelationID">-</Data>
+      <Data Name="SubjectUserSid">S-1-5-21-1089590679-3038349081-645448463-500</Data>
+      <Data Name="SubjectUserName">Administrator</Data>
+      <Data Name="SubjectDomainName">KDMO</Data>
+      <Data Name="SubjectLogonId">0x445ea</Data>
+      <Data Name="DSName">kdmo.lan</Data>
+      <Data Name="DSType">%%14676</Data>
+      <Data Name="ObjectDN">ou=SERVERS,OU=ASSETS,DC=kdmo,DC=lan</Data>
+      <Data Name="ObjectGUID">{ce449fac-47d0-4f69-8f90-2110ae131ff8}</Data>
+      <Data Name="ObjectClass">organizationalUnit</Data>
+      <Data Name="AttributeLDAPDisplayName">nTSecurityDescriptor</Data>
+      <Data Name="AttributeSyntaxOID">2.5.5.15</Data>
+      <Data Name="AttributeValue">O:DAG:DAD:AI(D;;DTSD;;;WD)(OA;;CCDC;4828cc14-1437-45bc-9b07-ad6f015e5f28;;AO)(OA;;CCDC;bf967a86-0de6-11d0-a285-00aa003049e2;;AO)(OA;;CCDC;bf967a9c-0de6-11d0-a285-00aa003049e2;;AO)(OA;;CCDC;bf967aa8-0de6-11d0-a285-00aa003049e2;;PO)(OA;;CCDC;bf967aba-0de6-11d0-a285-00aa003049e2;;AO)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;DA)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(OA;CIID;RPWP;5b47d60f-6090-40b2-9f37-2a4de88f3063;;S-1-5-21-1089590679-3038349081-645448463-526)(OA;CIID;RPWP;5b47d60f-6090-40b2-9f37-2a4de88f3063;;S-1-5-21-1089590679-3038349081-645448463-527)(OA;CIIOID;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIOID;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIOID;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIID;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;WD)(OA;CIID;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIID;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;CIID;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-1089590679-3038349081-645448463-519)(A;CIID;LC;;;RU)(A;CIID;CCLCSWRPWPLOCRSDRCWDWO;;;BA)S:AI(OU;CIIOIDSA;CRWDWO;;bf967a9c-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIOIDSA;CRWDWO;;bf967aba-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIDSA;CCDC;bf967aa5-0de6-11d0-a285-00aa003049e2;;WD)(OU;CIIOIDSA;WPCRWDWO;;bf967a86-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIDSA;WPCRSDWDWO;;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;CIIDSA;CRWD;;;WD)</Data>
+      <Data Name="OperationType">%%14674</Data>
+    </EventData>
+  </Event>
+</root>

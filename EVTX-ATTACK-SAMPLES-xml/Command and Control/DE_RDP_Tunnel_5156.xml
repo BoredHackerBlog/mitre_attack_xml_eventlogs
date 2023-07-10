@@ -1,0 +1,3267 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:01:41.593830000Z" />
+      <EventRecordID>227693</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="820" ThreadID="608" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns:auto-ns3="http://schemas.microsoft.com/win/2004/08/events" xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-1587066498-1489273250-1035260531-1108</SubjectUserSid>
+        <SubjectUserName>admin01</SubjectUserName>
+        <SubjectDomainName>EXAMPLE</SubjectDomainName>
+        <SubjectLogonId>0xaf855</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:01:47.512340400Z" />
+      <EventRecordID>227694</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">820</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::80ac:4126:fa58:1b81</Data>
+      <Data Name="SourcePort">546</Data>
+      <Data Name="DestAddress">ff02::1:2</Data>
+      <Data Name="DestPort">547</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">65865</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:01:47.562412400Z" />
+      <EventRecordID>227695</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x1fc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\TSTheme.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x278</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.426662000Z" />
+      <EventRecordID>227698</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49263</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.426662000Z" />
+      <EventRecordID>227700</EventRecordID>
+      <Correlation ActivityID="{ad38ff07-bc05-4620-a79a-51e18f454768}" />
+      <Execution ProcessID="520" ThreadID="1920" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetUserName">user01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetServerName">localhost</Data>
+      <Data Name="TargetInfo">localhost</Data>
+      <Data Name="ProcessId">0x704</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.426662000Z" />
+      <EventRecordID>227701</EventRecordID>
+      <Correlation ActivityID="{ad38ff07-bc05-4620-a79a-51e18f454768}" />
+      <Execution ProcessID="520" ThreadID="1920" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="TargetUserName">user01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x1414c8</Data>
+      <Data Name="LogonType">11</Data>
+      <Data Name="LogonProcessName">User32 </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC01</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x704</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.466719600Z" />
+      <EventRecordID>227703</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49264</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.476734000Z" />
+      <EventRecordID>227704</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49265</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.476734000Z" />
+      <EventRecordID>227705</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49266</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.526806000Z" />
+      <EventRecordID>227707</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="520" ThreadID="3420" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetUserName">user01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonGuid">{42daf7a9-f185-f292-0ebd-b86a26624d31}</Data>
+      <Data Name="TargetServerName">localhost</Data>
+      <Data Name="TargetInfo">localhost</Data>
+      <Data Name="ProcessId">0x208</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:04.526806000Z" />
+      <EventRecordID>227708</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="520" ThreadID="3420" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="TargetUserName">user01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x1414d9</Data>
+      <Data Name="LogonType">7</Data>
+      <Data Name="LogonProcessName">Negotiat</Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC01</Data>
+      <Data Name="LogonGuid">{42daf7a9-f185-f292-0ebd-b86a26624d31}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x208</Data>
+      <Data Name="ProcessName">C:\Windows\System32\lsass.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:05.418087600Z" />
+      <EventRecordID>227709</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49267</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">135</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:05.458145200Z" />
+      <EventRecordID>227710</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49268</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">49155</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:05.528246000Z" />
+      <EventRecordID>227712</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x250</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\AtBroker.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:02:19.518362800Z" />
+      <EventRecordID>227713</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">820</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::80ac:4126:fa58:1b81</Data>
+      <Data Name="SourcePort">546</Data>
+      <Data Name="DestAddress">ff02::1:2</Data>
+      <Data Name="DestPort">547</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">65865</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:28.318440800Z" />
+      <EventRecordID>227714</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1106</Data>
+      <Data Name="SubjectUserName">user01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x2ed80</Data>
+      <Data Name="NewProcessId">0xcfc</Data>
+      <Data Name="NewProcessName">C:\Users\user01\Desktop\plink.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xe60</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:28.348559000Z" />
+      <EventRecordID>227717</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">3324</Data>
+      <Data Name="Application">\device\harddiskvolume1\users\user01\desktop\plink.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49269</Data>
+      <Data Name="DestAddress">10.0.2.18</Data>
+      <Data Name="DestPort">80</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:29.121592800Z" />
+      <EventRecordID>227718</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.255.255.255</Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="DestAddress">10.0.2.18</Data>
+      <Data Name="DestPort">137</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:29.121592800Z" />
+      <EventRecordID>227719</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.255.255.255</Data>
+      <Data Name="SourcePort">138</Data>
+      <Data Name="DestAddress">10.0.2.18</Data>
+      <Data Name="DestPort">138</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:32.183609800Z" />
+      <EventRecordID>227720</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49270</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">445</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:35.704839200Z" />
+      <EventRecordID>227721</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xa38</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\slui.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x278</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:36.025300000Z" />
+      <EventRecordID>227724</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.255.255.255</Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="DestAddress">10.0.2.18</Data>
+      <Data Name="DestPort">137</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:36.025300000Z" />
+      <EventRecordID>227725</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">10.255.255.255</Data>
+      <Data Name="SourcePort">138</Data>
+      <Data Name="DestAddress">10.0.2.18</Data>
+      <Data Name="DestPort">138</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:03:42.664847200Z" />
+      <EventRecordID>227726</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x934</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x990</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.632120800Z" />
+      <EventRecordID>227727</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">3324</Data>
+      <Data Name="Application">\device\harddiskvolume1\users\user01\desktop\plink.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">49271</Data>
+      <Data Name="DestAddress">127.0.0.2</Data>
+      <Data Name="DestPort">3389</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.632120800Z" />
+      <EventRecordID>227728</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">127.0.0.2</Data>
+      <Data Name="SourcePort">3389</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">49271</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.722250400Z" />
+      <EventRecordID>227731</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">1280</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">0.0.0.0</Data>
+      <Data Name="SourcePort">55355</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">36</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.722250400Z" />
+      <EventRecordID>227732</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1280</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">55355</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">53</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.722250400Z" />
+      <EventRecordID>227733</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">1280</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">50448</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.722250400Z" />
+      <EventRecordID>227734</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1280</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::80ac:4126:fa58:1b81</Data>
+      <Data Name="SourcePort">50448</Data>
+      <Data Name="DestAddress">ff02::1:3</Data>
+      <Data Name="DestPort">5355</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.722250400Z" />
+      <EventRecordID>227735</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">1280</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">0.0.0.0</Data>
+      <Data Name="SourcePort">53613</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">36</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:01.722250400Z" />
+      <EventRecordID>227736</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1280</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">53613</Data>
+      <Data Name="DestAddress">224.0.0.252</Data>
+      <Data Name="DestPort">5355</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:43.171852000Z" />
+      <EventRecordID>227737</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49272</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">135</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:43.171852000Z" />
+      <EventRecordID>227738</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49273</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">49158</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:43.171852000Z" />
+      <EventRecordID>227739</EventRecordID>
+      <Correlation ActivityID="{44f141eb-b63a-462b-9dee-3998c9913055}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1108</Data>
+      <Data Name="SubjectUserName">admin01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x14871d</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:43.171852000Z" />
+      <EventRecordID>227740</EventRecordID>
+      <Correlation ActivityID="{44f141eb-b63a-462b-9dee-3998c9913055}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1108</Data>
+      <Data Name="TargetUserName">admin01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x14871d</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">PC02</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:45.905783200Z" />
+      <EventRecordID>227741</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">3324</Data>
+      <Data Name="Application">\device\harddiskvolume1\users\user01\desktop\plink.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">49274</Data>
+      <Data Name="DestAddress">127.0.0.2</Data>
+      <Data Name="DestPort">3389</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:45.905783200Z" />
+      <EventRecordID>227742</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">127.0.0.2</Data>
+      <Data Name="SourcePort">3389</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">49274</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.442372000Z" />
+      <EventRecordID>227745</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49275</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">49158</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.442372000Z" />
+      <EventRecordID>227746</EventRecordID>
+      <Correlation ActivityID="{ff684e42-4c42-4957-a95f-f8957cf3a4b8}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1108</Data>
+      <Data Name="SubjectUserName">admin01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x148f5d</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeTakeOwnershipPrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeLoadDriverPrivilege
+			SeImpersonatePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.442372000Z" />
+      <EventRecordID>227747</EventRecordID>
+      <Correlation ActivityID="{ff684e42-4c42-4957-a95f-f8957cf3a4b8}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1108</Data>
+      <Data Name="TargetUserName">admin01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x148f5d</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">PC02</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.462400800Z" />
+      <EventRecordID>227748</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x38c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\smss.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x124</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.462400800Z" />
+      <EventRecordID>227749</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x9d4</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\csrss.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x38c</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.542516000Z" />
+      <EventRecordID>227750</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x4b8</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x38c</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:57.672703200Z" />
+      <EventRecordID>227751</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xc70</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x4b8</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.283581600Z" />
+      <EventRecordID>227756</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49276</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.323639200Z" />
+      <EventRecordID>227757</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49277</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.333653600Z" />
+      <EventRecordID>227758</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49278</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.333653600Z" />
+      <EventRecordID>227759</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49279</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4648</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.363696800Z" />
+      <EventRecordID>227761</EventRecordID>
+      <Correlation ActivityID="{94862aea-0c0c-4b98-88b1-a269075a77e2}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TargetUserName">admin01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonGuid">{af83a89c-c68a-5397-5ac6-24a0c4d2baf6}</Data>
+      <Data Name="TargetServerName">localhost</Data>
+      <Data Name="TargetInfo">localhost</Data>
+      <Data Name="ProcessId">0x4b8</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">49274</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.363696800Z" />
+      <EventRecordID>227762</EventRecordID>
+      <Correlation ActivityID="{94862aea-0c0c-4b98-88b1-a269075a77e2}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1587066498-1489273250-1035260531-1108</Data>
+      <Data Name="TargetUserName">admin01</Data>
+      <Data Name="TargetDomainName">EXAMPLE</Data>
+      <Data Name="TargetLogonId">0x14a321</Data>
+      <Data Name="LogonType">10</Data>
+      <Data Name="LogonProcessName">User32 </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC01</Data>
+      <Data Name="LogonGuid">{af83a89c-c68a-5397-5ac6-24a0c4d2baf6}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x4b8</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">49274</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4672</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12548</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.363696800Z" />
+      <EventRecordID>227763</EventRecordID>
+      <Correlation ActivityID="{94862aea-0c0c-4b98-88b1-a269075a77e2}" />
+      <Execution ProcessID="520" ThreadID="3980" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1587066498-1489273250-1035260531-1108</Data>
+      <Data Name="SubjectUserName">admin01</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x14a321</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.413768800Z" />
+      <EventRecordID>227765</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49280</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">445</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.413768800Z" />
+      <EventRecordID>227766</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49281</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.413768800Z" />
+      <EventRecordID>227767</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49282</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:04:58.543956000Z" />
+      <EventRecordID>227768</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">520</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\lsass.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">49283</Data>
+      <Data Name="DestAddress">10.0.2.15</Data>
+      <Data Name="DestPort">88</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:00.997484000Z" />
+      <EventRecordID>227769</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x410</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x278</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:04.802956000Z" />
+      <EventRecordID>227772</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x62c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\smss.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x124</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:04.802956000Z" />
+      <EventRecordID>227773</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xadc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\csrss.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x62c</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:04.873056800Z" />
+      <EventRecordID>227774</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x768</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x62c</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:05.123416800Z" />
+      <EventRecordID>227775</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xce0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x768</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:05.253604000Z" />
+      <EventRecordID>227776</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x9fc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\TSTheme.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x278</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:06.575504800Z" />
+      <EventRecordID>227783</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-20</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e4</Data>
+      <Data Name="NewProcessId">0xa1c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\rdpclip.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x500</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:06.585519200Z" />
+      <EventRecordID>227784</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC01$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x7f0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\AtBroker.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0xdec</Data>
+      <Data Name="CommandLine">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.592784800Z" />
+      <EventRecordID>227826</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::80ac:4126:fa58:1b81</Data>
+      <Data Name="SourcePort">55138</Data>
+      <Data Name="DestAddress">ff02::c</Data>
+      <Data Name="DestPort">1900</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.592784800Z" />
+      <EventRecordID>227827</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">::1</Data>
+      <Data Name="SourcePort">55139</Data>
+      <Data Name="DestAddress">ff02::c</Data>
+      <Data Name="DestPort">1900</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.592784800Z" />
+      <EventRecordID>227828</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55139</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.592784800Z" />
+      <EventRecordID>227829</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">55140</Data>
+      <Data Name="DestAddress">239.255.255.250</Data>
+      <Data Name="DestPort">1900</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.592784800Z" />
+      <EventRecordID>227830</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">55141</Data>
+      <Data Name="DestAddress">239.255.255.250</Data>
+      <Data Name="DestPort">1900</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.592784800Z" />
+      <EventRecordID>227831</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">55141</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.602799200Z" />
+      <EventRecordID>227832</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55139</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.602799200Z" />
+      <EventRecordID>227833</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">55141</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.702943200Z" />
+      <EventRecordID>227862</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">0.0.0.0</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">36</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.702943200Z" />
+      <EventRecordID>227863</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">0.0.0.0</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">36</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.702943200Z" />
+      <EventRecordID>227864</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.702943200Z" />
+      <EventRecordID>227865</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.702943200Z" />
+      <EventRecordID>227866</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">0.0.0.0</Data>
+      <Data Name="SourcePort">53614</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">36</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5158</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.702943200Z" />
+      <EventRecordID>227867</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessId">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="SourceAddress">::</Data>
+      <Data Name="SourcePort">53615</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14608</Data>
+      <Data Name="LayerRTID">38</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227868</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">10.0.2.17</Data>
+      <Data Name="SourcePort">53614</Data>
+      <Data Name="DestAddress">239.255.255.250</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227869</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">53614</Data>
+      <Data Name="DestAddress">239.255.255.250</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227870</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53614</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227871</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53614</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227872</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">fe80::80ac:4126:fa58:1b81</Data>
+      <Data Name="SourcePort">53615</Data>
+      <Data Name="DestAddress">ff02::c</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227873</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">::1</Data>
+      <Data Name="SourcePort">53615</Data>
+      <Data Name="DestAddress">ff02::c</Data>
+      <Data Name="DestPort">3702</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">50</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227874</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">53615</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.712957600Z" />
+      <EventRecordID>227875</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">53615</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.773044000Z" />
+      <EventRecordID>227946</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">53615</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.773044000Z" />
+      <EventRecordID>227947</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">53615</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.793072800Z" />
+      <EventRecordID>227948</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53614</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:18.793072800Z" />
+      <EventRecordID>227949</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53614</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:19.684354400Z" />
+      <EventRecordID>227950</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">53614</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:19.734426400Z" />
+      <EventRecordID>227951</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">984</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14593</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">49284</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">5357</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14611</Data>
+      <Data Name="LayerRTID">48</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:19.734426400Z" />
+      <EventRecordID>227952</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">4</Data>
+      <Data Name="Application">System</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">127.0.0.1</Data>
+      <Data Name="SourcePort">5357</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">49284</Data>
+      <Data Name="Protocol">6</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:21.597104800Z" />
+      <EventRecordID>227953</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55139</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:21.597104800Z" />
+      <EventRecordID>227954</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">55141</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:21.607119200Z" />
+      <EventRecordID>227955</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55139</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:21.607119200Z" />
+      <EventRecordID>227956</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">55141</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:24.601424800Z" />
+      <EventRecordID>227957</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55139</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:24.601424800Z" />
+      <EventRecordID>227958</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">55141</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:24.611439200Z" />
+      <EventRecordID>227959</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">ff02::c</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">::1</Data>
+      <Data Name="DestPort">55139</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">46</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>5156</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12810</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T18:05:24.611439200Z" />
+      <EventRecordID>227960</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="56" />
+      <Channel>Security</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="ProcessID">1588</Data>
+      <Data Name="Application">\device\harddiskvolume1\windows\system32\svchost.exe</Data>
+      <Data Name="Direction">%%14592</Data>
+      <Data Name="SourceAddress">239.255.255.250</Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="DestAddress">127.0.0.1</Data>
+      <Data Name="DestPort">55141</Data>
+      <Data Name="Protocol">17</Data>
+      <Data Name="FilterRTID">0</Data>
+      <Data Name="LayerName">%%14610</Data>
+      <Data Name="LayerRTID">44</Data>
+      <Data Name="RemoteUserID">S-1-0-0</Data>
+      <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>
+  </Event>
+</root>

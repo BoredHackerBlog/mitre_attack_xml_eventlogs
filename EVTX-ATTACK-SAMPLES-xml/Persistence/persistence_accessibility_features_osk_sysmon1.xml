@@ -1,0 +1,111 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>12</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>12</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-16T16:08:30.516570500Z" />
+      <EventRecordID>18916</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1744" ThreadID="2120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1076,technique_name=Remote Desktop Protocol</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2019-05-16 16:08:30.515</Data>
+      <Data Name="ProcessGuid">{dfae8213-8afe-5cdd-0000-001035b90a00}</Data>
+      <Data Name="ProcessId">1684</Data>
+      <Data Name="Image">C:\Windows\system32\LogonUI.exe</Data>
+      <Data Name="TargetObject">HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-16T16:08:34.867569300Z" />
+      <EventRecordID>18917</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1744" ThreadID="2120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1015,technique_name=Accessibility Features</Data>
+      <Data Name="UtcTime">2019-05-16 16:08:34.853</Data>
+      <Data Name="ProcessGuid">{dfae8213-8b02-5cdd-0000-00109bca0a00}</Data>
+      <Data Name="ProcessId">1720</Data>
+      <Data Name="Image">C:\Windows\System32\osk.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\osk.exe"  </Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{dfae8213-832f-5cdd-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=7C3D7281E1151FE4127923F4B4C3CD36438E1A12,MD5=F5AE03DE0AD60F5B17B82F2CD68402FE,SHA256=6F88FB88FFB0F1D5465C2826E5B4F523598B1B8378377C8378FFEBC171BAD18B,IMPHASH=77AED1ADAF24B344F08C8AD1432908C3</Data>
+      <Data Name="ParentProcessGuid">{dfae8213-8b00-5cdd-0000-001043c20a00}</Data>
+      <Data Name="ParentProcessId">1112</Data>
+      <Data Name="ParentImage">C:\Windows\System32\Utilman.exe</Data>
+      <Data Name="ParentCommandLine">utilman.exe /debug</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-16T16:08:40.360593400Z" />
+      <EventRecordID>18918</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1744" ThreadID="2120" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DC1.insecurebank.local</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1033,technique_name=System Owner/User Discovery</Data>
+      <Data Name="UtcTime">2019-05-16 16:08:40.350</Data>
+      <Data Name="ProcessGuid">{dfae8213-8b08-5cdd-0000-001011ce0a00}</Data>
+      <Data Name="ProcessId">3764</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">6.3.9600.16384 (winblue_rtm.130821-1623)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{dfae8213-832f-5cdd-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=E06B89D9B87A8A4E5A8B7A5307C3BA88E0A01D41,MD5=D609D59A042C04A50EB41EC5D52F7471,SHA256=16C4CEE8C7BF4070E25A32F0B95857FA5CEC51E47D246E6FBAD69887460961B2,IMPHASH=98A3BC461E82881A801A12AAA668BD47</Data>
+      <Data Name="ParentProcessGuid">{dfae8213-8b02-5cdd-0000-00109bca0a00}</Data>
+      <Data Name="ParentProcessId">1720</Data>
+      <Data Name="ParentImage">C:\Windows\System32\osk.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\System32\osk.exe"  </Data>
+    </EventData>
+  </Event>
+</root>

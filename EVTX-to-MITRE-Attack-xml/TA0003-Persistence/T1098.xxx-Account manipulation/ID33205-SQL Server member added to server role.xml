@@ -1,0 +1,49 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T21:06:38.288883000Z" />
+      <EventRecordID>59082</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 21:06:38.2107559
+sequence_number:1
+action_id:APRL
+succeeded:true
+is_column_permission:false
+session_id:52
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:264
+target_database_principal_id:0
+object_id:3
+user_defined_event_id:0
+class_type:SG
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:C83A7B3B-F5D2-451A-9453-FAAA27FE4F69
+session_server_principal_name:OFFSEC\admmig
+server_principal_name:OFFSEC\admmig
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb57040000
+database_principal_name:dbo
+target_server_principal_name:test-sql
+target_server_principal_sid:ff3873c6bcf5c04f89e4773e8797f200
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:sysadmin
+statement:ALTER SERVER ROLE [sysadmin] ADD MEMBER [test-sql]
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

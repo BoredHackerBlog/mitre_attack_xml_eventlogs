@@ -1,0 +1,117 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-08T19:14:54.471523200Z" />
+      <EventRecordID>38289</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2956" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Guest RID Hijack</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-09-08 19:14:54.453</Data>
+      <Data Name="ProcessGuid">{747f3d96-067d-5d75-0000-001007745500}</Data>
+      <Data Name="ProcessId">7680</Data>
+      <Data Name="Image">C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe</Data>
+      <Data Name="TargetObject">HKLM\SAM\SAM\Domains\Account\Users\000001F5\F</Data>
+      <Data Name="Details">Binary Data</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-08T19:17:44.249169600Z" />
+      <EventRecordID>38292</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2956" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-09-08 19:17:44.203</Data>
+      <Data Name="ProcessGuid">{747f3d96-53d8-5d75-0000-00101811cd00}</Data>
+      <Data Name="ProcessId">6868</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\PsExec64.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-3461203602-4096304019-2269080069-1000\Software\Sysinternals\PsExec\EulaAccepted</Data>
+      <Data Name="Details">DWORD (0x00000001)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-08T19:17:44.350762700Z" />
+      <EventRecordID>38294</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2956" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-09-08 19:17:44.296</Data>
+      <Data Name="ProcessGuid">{747f3d96-64f9-5d75-0000-001038560000}</Data>
+      <Data Name="ProcessId">576</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\PSEXESVC\Start</Data>
+      <Data Name="Details">DWORD (0x00000003)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-08T19:17:44.391389000Z" />
+      <EventRecordID>38295</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2956" ThreadID="2088" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2019-09-08 19:17:44.296</Data>
+      <Data Name="ProcessGuid">{747f3d96-64f9-5d75-0000-001038560000}</Data>
+      <Data Name="ProcessId">576</Data>
+      <Data Name="Image">C:\Windows\system32\services.exe</Data>
+      <Data Name="TargetObject">HKLM\System\CurrentControlSet\Services\PSEXESVC\ImagePath</Data>
+      <Data Name="Details">%%SystemRoot%%\PSEXESVC.exe</Data>
+    </EventData>
+  </Event>
+</root>

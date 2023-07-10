@@ -1,0 +1,44 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-01T11:13:11.195955100Z" />
+      <EventRecordID>60574</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1100" ThreadID="1740" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1015,technique_name=Accessibility Features</Data>
+      <Data Name="UtcTime">2021-02-01 11:13:11.180</Data>
+      <Data Name="ProcessGuid">{7cf65fc7-e247-6017-0804-000000001b00}</Data>
+      <Data Name="ProcessId">3360</Data>
+      <Data Name="Image">C:\Windows\System32\setspn.exe</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">Query or reset the computer's SPN attribute</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">setspn.exe</Data>
+      <Data Name="CommandLine">setspn  -T offsec -Q */*</Data>
+      <Data Name="CurrentDirectory">C:\Users\admmig\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{7cf65fc7-1f88-6015-87c8-610100000000}</Data>
+      <Data Name="LogonId">0x161c887</Data>
+      <Data Name="TerminalSessionId">3</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=3B8C77CC25CF382D51B418CB9738BA99C3FDBAA9,MD5=C729DEA1888B1B047F51844BA5BD875F,SHA256=E3B06217D90BD1A2C12852398EA0E85C12E58F0ECBA35465E3DC60AC29AC0DC9,IMPHASH=6CBDE380709080AA31FA97FC18EF504E</Data>
+      <Data Name="ParentProcessGuid">{7cf65fc7-1ff0-6015-5b02-000000001b00}</Data>
+      <Data Name="ParentProcessId">1468</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+</root>

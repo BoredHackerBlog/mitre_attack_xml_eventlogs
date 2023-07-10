@@ -1,0 +1,191 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:09:34.231130500Z" />
+      <EventRecordID>113180</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:09:34.2311305
+sequence_number:1
+action_id:AUSC
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:A 
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:00000000-0000-0000-0000-000000000000
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;session&gt;&lt;![CDATA[Test-audit-srv-object$A]]&gt;&lt;/session&gt;&lt;action&gt;destroyed&lt;/action&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:09:34.246735700Z" />
+      <EventRecordID>113181</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:09:34.2467357
+sequence_number:1
+action_id:AUSC
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:0
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:A 
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:00000000-0000-0000-0000-000000000000
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:
+schema_name:
+object_name:
+statement:
+additional_information:&lt;action_info xmlns="http://schemas.microsoft.com/sqlserver/2008/sqlaudit_data"&gt;&lt;session&gt;&lt;![CDATA[Test-audit-srv-object$A]]&gt;&lt;/session&gt;&lt;action&gt;event disabled&lt;/action&gt;&lt;object&gt;&lt;![CDATA[audit_event]]&gt;&lt;/object&gt;&lt;/action_info&gt;
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:09:35.816134300Z" />
+      <EventRecordID>113182</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:09:34.2311305
+sequence_number:1
+action_id:AL  
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:A 
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:D2E564E4-6628-454F-BF5A-8D6BD916EDC9
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:Test-audit-srv-object
+statement:ALTER SERVER AUDIT [Test-audit-srv-object]
+WITH (STATE = OFF)
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="MSSQL$RADAR" />
+      <EventID Qualifiers="16384">33205</EventID>
+      <Level>0</Level>
+      <Task>5</Task>
+      <Keywords>0xa0000000000000</Keywords>
+      <TimeCreated SystemTime="2020-11-24T09:09:35.816134300Z" />
+      <EventRecordID>113183</EventRecordID>
+      <Channel>Application</Channel>
+      <Computer>mssql01.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>audit_schema_version:1
+event_time:2020-11-24 09:09:34.2467357
+sequence_number:1
+action_id:DR  
+succeeded:true
+is_column_permission:false
+session_id:53
+server_principal_id:2
+database_principal_id:1
+target_server_principal_id:0
+target_database_principal_id:0
+object_id:0
+user_defined_event_id:0
+class_type:A 
+permission_bitmask:00000000000000000000000000000000
+sequence_group_id:35D571D7-C8F6-4613-B60E-2B1D9DB2E679
+session_server_principal_name:OFFSEC\admin-hacker
+server_principal_name:OFFSEC\admin-hacker
+server_principal_sid:01050000000000051500000056d628fc05668f976f2456bb7b040000
+database_principal_name:dbo
+target_server_principal_name:
+target_server_principal_sid:
+target_database_principal_name:
+server_instance_name:MSSQL01\RADAR
+database_name:master
+schema_name:
+object_name:Test-audit-srv-object
+statement:DROP SERVER AUDIT [Test-audit-srv-object]
+additional_information:
+user_defined_information:
+</Data>
+    </EventData>
+  </Event>
+</root>

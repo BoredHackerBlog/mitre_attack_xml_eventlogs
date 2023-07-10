@@ -1,0 +1,203 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-25T18:04:24.089350500Z" />
+      <EventRecordID>4460</EventRecordID>
+      <Correlation ActivityID="{8523902b-c984-0000-1c5a-248584c9d701}" />
+      <Execution ProcessID="216" ThreadID="2212" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">Clear-EventLog -LogName application, system -confirm</Data>
+      <Data Name="ScriptBlockId">34a9d898-6ca0-4a44-8046-ec7e191a8426</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-25T18:04:30.000000000Z" />
+      <EventRecordID>1609</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>Clear-EventLog -LogName application, system -confirm</Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1018
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=270059aa-c0a7-4ab1-b1bc-97ce5be47ddc
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=4.0
+	RunspaceId=24e761f4-725e-4782-8bbc-11d34f5ee241
+	PipelineId=61
+	ScriptName=
+	CommandLine=Clear-EventLog -LogName application, system -confirm</Data>
+      <Data>CommandInvocation(Clear-EventLog): "Clear-EventLog"
+ParameterBinding(Clear-EventLog): name="LogName"; value="application, system"
+ParameterBinding(Clear-EventLog): name="Confirm"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="PowerShell" />
+      <EventID Qualifiers="0">800</EventID>
+      <Level>4</Level>
+      <Task>8</Task>
+      <Keywords>0x80000000000000</Keywords>
+      <TimeCreated SystemTime="2021-10-25T18:04:30.000000000Z" />
+      <EventRecordID>1610</EventRecordID>
+      <Channel>Windows PowerShell</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data>
+      </Data>
+      <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=1020
+
+	UserId=OFFSEC\admmig
+	HostName=ConsoleHost
+	HostVersion=4.0
+	HostId=270059aa-c0a7-4ab1-b1bc-97ce5be47ddc
+	HostApplication=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+	EngineVersion=4.0
+	RunspaceId=24e761f4-725e-4782-8bbc-11d34f5ee241
+	PipelineId=61
+	ScriptName=
+	CommandLine=</Data>
+      <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-25T18:04:30.334471100Z" />
+      <EventRecordID>4461</EventRecordID>
+      <Correlation ActivityID="{8523902b-c984-0000-8c5a-248584c9d701}" />
+      <Execution ProcessID="216" ThreadID="2212" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = 270059aa-c0a7-4ab1-b1bc-97ce5be47ddc
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 4.0
+        Runspace ID = 24e761f4-725e-4782-8bbc-11d34f5ee241
+        Pipeline ID = 61
+        Command Name = Clear-EventLog
+        Command Type = Cmdlet
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1019
+        User = OFFSEC\admmig
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Clear-EventLog): "Clear-EventLog"
+ParameterBinding(Clear-EventLog): name="LogName"; value="application, system"
+ParameterBinding(Clear-EventLog): name="Confirm"; value="True"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4103</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>106</Task>
+      <Opcode>20</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-25T18:04:30.334471100Z" />
+      <EventRecordID>4462</EventRecordID>
+      <Correlation ActivityID="{8523902b-c984-0000-8b5a-248584c9d701}" />
+      <Execution ProcessID="216" ThreadID="2212" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="ContextInfo">        Severity = Informational
+        Host Name = ConsoleHost
+        Host Version = 4.0
+        Host ID = 270059aa-c0a7-4ab1-b1bc-97ce5be47ddc
+        Host Application = C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+        Engine Version = 4.0
+        Runspace ID = 24e761f4-725e-4782-8bbc-11d34f5ee241
+        Pipeline ID = 61
+        Command Name = 
+        Command Type = Script
+        Script Name = 
+        Command Path = 
+        Sequence Number = 1021
+        User = OFFSEC\admmig
+        Shell ID = Microsoft.PowerShell
+</Data>
+      <Data Name="UserData">
+      </Data>
+      <Data Name="Payload">CommandInvocation(Out-Default): "Out-Default"
+</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+      <EventID>4104</EventID>
+      <Version>1</Version>
+      <Level>5</Level>
+      <Task>102</Task>
+      <Opcode>15</Opcode>
+      <Keywords>0x0</Keywords>
+      <TimeCreated SystemTime="2021-10-25T18:04:30.350077200Z" />
+      <EventRecordID>4463</EventRecordID>
+      <Correlation ActivityID="{8523902b-c984-0000-8b5a-248584c9d701}" />
+      <Execution ProcessID="216" ThreadID="2212" />
+      <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+      <Computer>FS03.offsec.lan</Computer>
+      <Security UserID="S-1-5-21-4230534742-2542757381-3142984815-1111" />
+    </System>
+    <EventData>
+      <Data Name="MessageNumber">1</Data>
+      <Data Name="MessageTotal">1</Data>
+      <Data Name="ScriptBlockText">prompt</Data>
+      <Data Name="ScriptBlockId">a9303d86-1da1-4ff3-b33b-3492ff77ff9a</Data>
+    </EventData>
+  </Event>
+</root>

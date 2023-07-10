@@ -1,0 +1,462 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.635333700Z" />
+      <EventRecordID>112962</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.633</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ProcessId">8028</Data>
+      <Data Name="Image">C:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">NetworkServiceExploit.exe  -i -c "c:\Windows\System32\cmd.exe"</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Tools\PrivEsc\</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="LogonGuid">{747f3d96-3b92-5eb5-0000-0020e4030000}</Data>
+      <Data Name="LogonId">0x3e4</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=356C43986540261EBCEF26CBDCD4E95ABB9233A9,MD5=F72DD2BA157C8814EE59950713079580,SHA256=1754F83853B70D8C2171902204AAE31C6A26C0EB8F201092522C0A9D4E026F0B,IMPHASH=7CDEB456B3E1DA4A76E456F8FA2C8B9F</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-3dd4-5eb7-0000-0010515f3801}</Data>
+      <Data Name="ParentProcessId">6584</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.647666600Z" />
+      <EventRecordID>112963</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.641</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ProcessId">8028</Data>
+      <Data Name="PipeName">\frAQBc8Wsa1</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.662190200Z" />
+      <EventRecordID>112964</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.654</Data>
+      <Data Name="ProcessGuid">{747f3d96-3b8b-5eb5-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="PipeName">\frAQBc8Wsa1</Data>
+      <Data Name="Image">System</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.701237000Z" />
+      <EventRecordID>112965</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.689</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ProcessId">8028</Data>
+      <Data Name="PipeName">&lt;Anonymous Pipe&gt;</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.701279300Z" />
+      <EventRecordID>112966</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.689</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ProcessId">8028</Data>
+      <Data Name="PipeName">&lt;Anonymous Pipe&gt;</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.701304800Z" />
+      <EventRecordID>112967</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">CreatePipe</Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.689</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ProcessId">8028</Data>
+      <Data Name="PipeName">&lt;Anonymous Pipe&gt;</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.701327000Z" />
+      <EventRecordID>112968</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.689</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ProcessId">8028</Data>
+      <Data Name="PipeName">&lt;Anonymous Pipe&gt;</Data>
+      <Data Name="Image">c:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:36.709454700Z" />
+      <EventRecordID>112969</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-10 00:09:36.703</Data>
+      <Data Name="ProcessGuid">{747f3d96-4640-5eb7-0000-0010ef364b01}</Data>
+      <Data Name="ProcessId">372</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.17763.592 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">c:\Windows\System32\cmd.exe</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Tools\PrivEsc\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-3b92-5eb5-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=8C5437CD76A89EC983E3B364E219944DA3DAB464,MD5=975B45B669930B0CC773EAF2B414206F,SHA256=3656F37A1C6951EC4496FABB8EE957D3A6E3C276D5A3785476B482C9C0D32EA2,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-4640-5eb7-0000-0010292d4b01}</Data>
+      <Data Name="ParentProcessId">8028</Data>
+      <Data Name="ParentImage">C:\Users\IEUser\Tools\PrivEsc\NetworkServiceExploit.exe</Data>
+      <Data Name="ParentCommandLine">NetworkServiceExploit.exe  -i -c "c:\Windows\System32\cmd.exe"</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:38.023663500Z" />
+      <EventRecordID>112970</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="7080" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-09 05:00:50.383</Data>
+      <Data Name="ProcessGuid">{747f3d96-3b8b-5eb5-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49682</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:38.023778100Z" />
+      <EventRecordID>112971</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="7080" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-09 05:00:50.383</Data>
+      <Data Name="ProcessGuid">{747f3d96-3b8b-5eb5-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49682</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">MSEDGEWIN10</Data>
+      <Data Name="DestinationPort">445</Data>
+      <Data Name="DestinationPortName">microsoft-ds</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:09:43.372595900Z" />
+      <EventRecordID>112972</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-10 00:09:43.370</Data>
+      <Data Name="ProcessGuid">{747f3d96-4647-5eb7-0000-0010b3454b01}</Data>
+      <Data Name="ProcessId">7672</Data>
+      <Data Name="Image">C:\Windows\System32\whoami.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">whoami - displays logged on user information</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">whoami.exe</Data>
+      <Data Name="CommandLine">whoami</Data>
+      <Data Name="CurrentDirectory">c:\Users\IEUser\Tools\PrivEsc\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-3b92-5eb5-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=47D7864D26FC67E0D60391CBF170D33DA518C322,MD5=43C2D3293AD939241DF61B3630A9D3B6,SHA256=1D5491E3C468EE4B4EF6EDFF4BBC7D06EE83180F6F0B1576763EA2EFE049493A,IMPHASH=7FF0758B766F747CE57DFAC70743FB88</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-4640-5eb7-0000-0010ef364b01}</Data>
+      <Data Name="ParentProcessId">372</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">c:\Windows\System32\cmd.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:11:16.714565400Z" />
+      <EventRecordID>113046</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="3432" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-10 00:11:16.623</Data>
+      <Data Name="ProcessGuid">{747f3d96-46a4-5eb7-0000-00109fe74c01}</Data>
+      <Data Name="ProcessId">180</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Host Process for Windows Services</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">svchost.exe</Data>
+      <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{747f3d96-3b92-5eb5-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=A1385CE20AD79F55DF235EFFD9780C31442AA234,MD5=8A0A29438052FAED8A2532DA50455756,SHA256=7FD065BAC18C5278777AE44908101CDFED72D26FA741367F0AD4D02020787AB6,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-3b92-5eb5-0000-00102f530000}</Data>
+      <Data Name="ParentProcessId">592</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-05-10T00:11:20.824620100Z" />
+      <EventRecordID>113052</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2728" ThreadID="7080" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-05-09 05:02:10.678</Data>
+      <Data Name="ProcessGuid">{747f3d96-3b8b-5eb5-0000-0010eb030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">192.168.56.101</Data>
+      <Data Name="SourceHostname">MSEDGEWIN10</Data>
+      <Data Name="SourcePort">49683</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">192.168.56.1</Data>
+      <Data Name="DestinationHostname">LAPTOP-JU4M3I0E</Data>
+      <Data Name="DestinationPort">139</Data>
+      <Data Name="DestinationPortName">netbios-ssn</Data>
+    </EventData>
+  </Event>
+</root>

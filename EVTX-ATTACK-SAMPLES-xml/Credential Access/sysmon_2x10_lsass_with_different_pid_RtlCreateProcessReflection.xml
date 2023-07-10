@@ -1,0 +1,98 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-07T21:51:39.204637600Z" />
+      <EventRecordID>2125126</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-07 21:51:39.203</Data>
+      <Data Name="SourceProcessGUID">{00247c92-ee6b-5f04-0000-00108c67a859}</Data>
+      <Data Name="SourceProcessId">30256</Data>
+      <Data Name="SourceThreadId">5576</Data>
+      <Data Name="SourceImage">C:\Users\Public\tools\SysinternalsSuite\procdump.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-dc62-5eef-0000-001026f60100}</Data>
+      <Data Name="TargetProcessId">908</Data>
+      <Data Name="TargetImage">C:\windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9c534|C:\windows\System32\wow64.dll+ba94|C:\windows\System32\wow64.dll+7123|C:\windows\System32\wow64cpu.dll+1783|C:\windows\System32\wow64cpu.dll+1199|C:\windows\System32\wow64.dll+c77a|C:\windows\System32\wow64.dll+c637|C:\windows\SYSTEM32\ntdll.dll+718eb|C:\windows\SYSTEM32\ntdll.dll+717d3|C:\windows\SYSTEM32\ntdll.dll+7177e|C:\windows\SYSTEM32\ntdll.dll+7208c(wow64)|C:\windows\System32\KERNELBASE.dll+f10a8(wow64)|C:\Users\Public\tools\SysinternalsSuite\procdump.exe+7c36|C:\windows\System32\KERNEL32.DLL+16359(wow64)|C:\windows\SYSTEM32\ntdll.dll+67c24(wow64)|C:\windows\SYSTEM32\ntdll.dll+67bf4(wow64)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-07T21:51:39.256632300Z" />
+      <EventRecordID>2125128</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-07 21:51:39.256</Data>
+      <Data Name="SourceProcessGUID">{00247c92-ee6b-5f04-0000-00109069a859}</Data>
+      <Data Name="SourceProcessId">28528</Data>
+      <Data Name="SourceThreadId">3444</Data>
+      <Data Name="SourceImage">C:\Users\Public\tools\SysinternalsSuite\procdump64.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-dc62-5eef-0000-001026f60100}</Data>
+      <Data Name="TargetProcessId">908</Data>
+      <Data Name="TargetImage">C:\windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9c534|C:\windows\System32\KERNELBASE.dll+2726e|C:\Users\Public\tools\SysinternalsSuite\procdump64.exe+82b4|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-07T21:51:39.262862800Z" />
+      <EventRecordID>2125129</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-07 21:51:39.262</Data>
+      <Data Name="SourceProcessGUID">{00247c92-ee6b-5f04-0000-00109069a859}</Data>
+      <Data Name="SourceProcessId">28528</Data>
+      <Data Name="SourceThreadId">22356</Data>
+      <Data Name="SourceImage">C:\Users\Public\tools\SysinternalsSuite\procdump64.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-ee6b-5f04-0000-00105c6ca859}</Data>
+      <Data Name="TargetProcessId">30096</Data>
+      <Data Name="TargetImage">C:\windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9ca14|C:\windows\SYSTEM32\ntdll.dll+110610|C:\windows\System32\KERNELBASE.dll+d68de|C:\Users\Public\tools\SysinternalsSuite\procdump64.exe+120bb|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+</root>

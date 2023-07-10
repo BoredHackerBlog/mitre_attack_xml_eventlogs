@@ -1,0 +1,179 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-30T22:05:47.229944400Z" />
+      <EventRecordID>48099</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-11-30 22:05:47.229</Data>
+      <Data Name="ProcessGuid">{a57649d1-a03b-61a6-2f23-8d0000000000}</Data>
+      <Data Name="ProcessId">2668</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Manaa57fc8cc#\287ded39f444f2847a5175b4bf51f9c9\System.Management.Automation.ni.dll</Data>
+      <Data Name="FileVersion">6.3.9600.17400</Data>
+      <Data Name="Description">System.Management.Automation</Data>
+      <Data Name="Product">Microsoft (R) Windows (R) Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">System.Management.Automation.dll</Data>
+      <Data Name="Hashes">SHA1=4F4193BFF5970968B6EEAD58EB83F9415F32A5C1,MD5=9139657B434F2FA8023775958164DB0C,SHA256=EE9CD13CC38A285D48B00E21CBB11F9CA8C8F435ADF6ADF5281C371DD0A406AA,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">-</Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-30T22:05:50.065567800Z" />
+      <EventRecordID>48103</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1688" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1047,technique_name=Windows Management Instrumentation</Data>
+      <Data Name="UtcTime">2021-11-30 22:05:50.049</Data>
+      <Data Name="ProcessGuid">{a57649d1-a03b-61a6-2f23-8d0000000000}</Data>
+      <Data Name="ProcessId">2668</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\wbem\wmiutils.dll</Data>
+      <Data Name="FileVersion">6.3.9600.17415 (winblue_r4.141028-1500)</Data>
+      <Data Name="Description">WMI</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">wmiutils.dll</Data>
+      <Data Name="Hashes">SHA1=1663A59FF35A01F612C878AB83F2AD242BB46FB6,MD5=FC2036AB90490D8FDFB3B3F3B90AF56F,SHA256=E293B79E4C06E8DEFD95F3CB9B70BA1CC50E83C37930DA802B50066AC6DF0509,IMPHASH=77B4BD4D7F94DBB1235EEE9E8C0737DC</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-30T22:05:50.864921700Z" />
+      <EventRecordID>48104</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1680" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-11-30 22:05:44.846</Data>
+      <Data Name="ProcessGuid">{a57649d1-a03b-61a6-2f23-8d0000000000}</Data>
+      <Data Name="ProcessId">2668</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.23.42.38</Data>
+      <Data Name="SourceHostname">-</Data>
+      <Data Name="SourcePort">62095</Data>
+      <Data Name="SourcePortName">-</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.23.123.11</Data>
+      <Data Name="DestinationHostname">-</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="DestinationPortName">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-30T22:05:59.943116000Z" />
+      <EventRecordID>48105</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1684" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2021-11-30 22:05:59.927</Data>
+      <Data Name="SourceProcessGUID">{a57649d1-a03b-61a6-2f23-8d0000000000}</Data>
+      <Data Name="SourceProcessId">2668</Data>
+      <Data Name="SourceThreadId">2736</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessGUID">{a57649d1-92d8-61a4-7191-000000000000}</Data>
+      <Data Name="TargetProcessId">480</Data>
+      <Data Name="TargetImage">C:\Windows\system32\lsass.exe</Data>
+      <Data Name="GrantedAccess">0x143a</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+90eaa|C:\Windows\system32\KERNELBASE.dll+2e5e|UNKNOWN(000000CDD65B2A68)</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-11-30T22:06:02.033365100Z" />
+      <EventRecordID>48106</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1048" ThreadID="1680" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>fs03vuln.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1086,technique_name=PowerShell</Data>
+      <Data Name="UtcTime">2021-11-30 22:05:56.784</Data>
+      <Data Name="ProcessGuid">{a57649d1-a03b-61a6-2f23-8d0000000000}</Data>
+      <Data Name="ProcessId">2668</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.23.42.38</Data>
+      <Data Name="SourceHostname">-</Data>
+      <Data Name="SourcePort">62096</Data>
+      <Data Name="SourcePortName">-</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.23.123.11</Data>
+      <Data Name="DestinationHostname">-</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="DestinationPortName">-</Data>
+    </EventData>
+  </Event>
+</root>

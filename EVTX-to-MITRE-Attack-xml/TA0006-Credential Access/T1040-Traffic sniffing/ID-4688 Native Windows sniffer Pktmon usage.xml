@@ -1,0 +1,212 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-25T21:56:19.530727400Z" />
+      <EventRecordID>415291</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="6940" />
+      <Channel>Security</Channel>
+      <Computer>FX-BS7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1038188009-4061210039-1974013838-1004</Data>
+      <Data Name="SubjectUserName">admin</Data>
+      <Data Name="SubjectDomainName">FX-BS7</Data>
+      <Data Name="SubjectLogonId">0x977caa</Data>
+      <Data Name="NewProcessId">0x16d0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x2b1c</Data>
+      <Data Name="CommandLine">pktmon  filter add -p 80</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-25T21:56:32.794598300Z" />
+      <EventRecordID>415292</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4632" />
+      <Channel>Security</Channel>
+      <Computer>FX-BS7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1038188009-4061210039-1974013838-1004</Data>
+      <Data Name="SubjectUserName">admin</Data>
+      <Data Name="SubjectDomainName">FX-BS7</Data>
+      <Data Name="SubjectLogonId">0x977caa</Data>
+      <Data Name="NewProcessId">0x2b0c</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x2b1c</Data>
+      <Data Name="CommandLine">pktmon  comp list</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-25T21:56:50.874398200Z" />
+      <EventRecordID>415293</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="352" />
+      <Channel>Security</Channel>
+      <Computer>FX-BS7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1038188009-4061210039-1974013838-1004</Data>
+      <Data Name="SubjectUserName">admin</Data>
+      <Data Name="SubjectDomainName">FX-BS7</Data>
+      <Data Name="SubjectLogonId">0x977caa</Data>
+      <Data Name="NewProcessId">0x2bdc</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x2b1c</Data>
+      <Data Name="CommandLine">pktmon  stpop</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-25T21:56:53.090636100Z" />
+      <EventRecordID>415294</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="4632" />
+      <Channel>Security</Channel>
+      <Computer>FX-BS7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-21-1038188009-4061210039-1974013838-1004</Data>
+      <Data Name="SubjectUserName">admin</Data>
+      <Data Name="SubjectDomainName">FX-BS7</Data>
+      <Data Name="SubjectLogonId">0x977caa</Data>
+      <Data Name="NewProcessId">0x1bc0</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name="TokenElevationType">%%1937</Data>
+      <Data Name="ProcessId">0x2b1c</Data>
+      <Data Name="CommandLine">pktmon  stop</Data>
+      <Data Name="TargetUserSid">S-1-0-0</Data>
+      <Data Name="TargetUserName">-</Data>
+      <Data Name="TargetDomainName">-</Data>
+      <Data Name="TargetLogonId">0x0</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-12288</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-25T21:57:05.324690800Z" />
+      <EventRecordID>415295</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="9580" />
+      <Channel>Security</Channel>
+      <Computer>FX-BS7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FX-BS7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xec8</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x3c4</Data>
+      <Data Name="CommandLine">C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1038188009-4061210039-1974013838-1001</Data>
+      <Data Name="TargetUserName">FOXTWO</Data>
+      <Data Name="TargetDomainName">FX-BS7</Data>
+      <Data Name="TargetLogonId">0x19cfa</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-8192</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4688</EventID>
+      <Version>2</Version>
+      <Level>0</Level>
+      <Task>13312</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2021-03-25T21:57:11.415484600Z" />
+      <EventRecordID>415296</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="4" ThreadID="352" />
+      <Channel>Security</Channel>
+      <Computer>FX-BS7</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">FX-BS7$</Data>
+      <Data Name="SubjectDomainName">WORKGROUP</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="NewProcessId">0xb60</Data>
+      <Data Name="NewProcessName">C:\Windows\System32\dllhost.exe</Data>
+      <Data Name="TokenElevationType">%%1936</Data>
+      <Data Name="ProcessId">0x3c4</Data>
+      <Data Name="CommandLine">C:\Windows\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}</Data>
+      <Data Name="TargetUserSid">S-1-5-21-1038188009-4061210039-1974013838-1001</Data>
+      <Data Name="TargetUserName">FOXTWO</Data>
+      <Data Name="TargetDomainName">FX-BS7</Data>
+      <Data Name="TargetLogonId">0x19cfa</Data>
+      <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="MandatoryLabel">S-1-16-8192</Data>
+    </EventData>
+  </Event>
+</root>

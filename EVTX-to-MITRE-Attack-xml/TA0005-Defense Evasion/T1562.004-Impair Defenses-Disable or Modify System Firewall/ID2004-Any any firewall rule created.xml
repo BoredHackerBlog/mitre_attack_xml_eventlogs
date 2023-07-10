@@ -1,0 +1,55 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}" />
+      <EventID>2004</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>0</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000020000000000</Keywords>
+      <TimeCreated SystemTime="2021-02-22T22:57:19.435480200Z" />
+      <EventRecordID>6683</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1072" ThreadID="9504" />
+      <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>
+      <Computer>jump01.offsec.lan</Computer>
+      <Security UserID="S-1-5-19" />
+    </System>
+    <EventData>
+      <Data Name="RuleId">{48A712F0-078E-4A6C-AA87-2545E5F432BA}</Data>
+      <Data Name="RuleName">any crazy rule</Data>
+      <Data Name="Origin">1</Data>
+      <Data Name="ApplicationPath">
+      </Data>
+      <Data Name="ServiceName">
+      </Data>
+      <Data Name="Direction">1</Data>
+      <Data Name="Protocol">256</Data>
+      <Data Name="LocalPorts">
+      </Data>
+      <Data Name="RemotePorts">
+      </Data>
+      <Data Name="Action">3</Data>
+      <Data Name="Profiles">2147483647</Data>
+      <Data Name="LocalAddresses">*</Data>
+      <Data Name="RemoteAddresses">*</Data>
+      <Data Name="RemoteMachineAuthorizationList">
+      </Data>
+      <Data Name="RemoteUserAuthorizationList">
+      </Data>
+      <Data Name="EmbeddedContext">
+      </Data>
+      <Data Name="Flags">1</Data>
+      <Data Name="Active">1</Data>
+      <Data Name="EdgeTraversal">0</Data>
+      <Data Name="LooseSourceMapped">0</Data>
+      <Data Name="SecurityOptions">0</Data>
+      <Data Name="ModifyingUser">S-1-5-21-4230534742-2542757381-3142984815-1111</Data>
+      <Data Name="ModifyingApplication">C:\Windows\System32\mmc.exe</Data>
+      <Data Name="SchemaVersion">538</Data>
+      <Data Name="RuleStatus">65536</Data>
+      <Data Name="LocalOnlyMapped">0</Data>
+    </EventData>
+  </Event>
+</root>

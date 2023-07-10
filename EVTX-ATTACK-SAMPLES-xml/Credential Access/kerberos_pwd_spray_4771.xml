@@ -1,0 +1,429 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Eventlog" Guid="{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}" />
+      <EventID>1102</EventID>
+      <Version>0</Version>
+      <Level>4</Level>
+      <Task>104</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x4020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:27.321769700Z" />
+      <EventRecordID>887106</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="8" ThreadID="6640" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <UserData>
+      <LogFileCleared xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+        <SubjectUserSid>S-1-5-21-308926384-506822093-3341789130-1106</SubjectUserSid>
+        <SubjectUserName>a-jbrown</SubjectUserName>
+        <SubjectDomainName>3B</SubjectDomainName>
+        <SubjectLogonId>0x3a17a</SubjectLogonId>
+      </LogFileCleared>
+    </UserData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.414827100Z" />
+      <EventRecordID>887107</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="2476" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">HD01</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55961</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.414856500Z" />
+      <EventRecordID>887108</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="1680" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admin</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55958</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.414929100Z" />
+      <EventRecordID>887109</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="6916" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">svc-02</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55963</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.414967400Z" />
+      <EventRecordID>887110</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="2320" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">HD02</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55962</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.414984300Z" />
+      <EventRecordID>887111</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="3384" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">svc-01</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55960</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.415050200Z" />
+      <EventRecordID>887112</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="7012" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">bob</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55957</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.415371600Z" />
+      <EventRecordID>887113</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="3384" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admin02</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-0-0</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x6</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="PreAuthType">-</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55966</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4771</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.425365400Z" />
+      <EventRecordID>887114</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="2356" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">Administrator</Data>
+      <Data Name="TargetSid">S-1-5-21-308926384-506822093-3341789130-500</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x18</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55967</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4771</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.425838200Z" />
+      <EventRecordID>887115</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="4856" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">backdoor</Data>
+      <Data Name="TargetSid">S-1-5-21-308926384-506822093-3341789130-107103</Data>
+      <Data Name="ServiceName">krbtgt/THREEBEESCO.COM</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x18</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55968</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.434698900Z" />
+      <EventRecordID>887116</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="3384" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">normal</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-5-21-308926384-506822093-3341789130-109603</Data>
+      <Data Name="ServiceName">krbtgt</Data>
+      <Data Name="ServiceSid">S-1-5-21-308926384-506822093-3341789130-502</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">172.16.66.1</Data>
+      <Data Name="IpPort">55969</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4768</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14339</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-22T20:29:36.437702800Z" />
+      <EventRecordID>887117</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="568" ThreadID="2356" />
+      <Channel>Security</Channel>
+      <Computer>01566s-win16-ir.threebeesco.com</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">normal</Data>
+      <Data Name="TargetDomainName">THREEBEESCO.COM</Data>
+      <Data Name="TargetSid">S-1-5-21-308926384-506822093-3341789130-109603</Data>
+      <Data Name="ServiceName">krbtgt</Data>
+      <Data Name="ServiceSid">S-1-5-21-308926384-506822093-3341789130-502</Data>
+      <Data Name="TicketOptions">0x10</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="PreAuthType">2</Data>
+      <Data Name="IpAddress">::ffff:172.16.66.1</Data>
+      <Data Name="IpPort">52559</Data>
+      <Data Name="CertIssuerName">
+      </Data>
+      <Data Name="CertSerialNumber">
+      </Data>
+      <Data Name="CertThumbprint">
+      </Data>
+    </EventData>
+  </Event>
+</root>

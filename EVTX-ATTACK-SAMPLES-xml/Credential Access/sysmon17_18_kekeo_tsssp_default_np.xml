@@ -1,0 +1,81 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>17</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>17</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-06T13:49:35.433683800Z" />
+      <EventRecordID>37109</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3140" ThreadID="3776" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">CredAccess - Keko default np</Data>
+      <Data Name="UtcTime">2019-09-06 13:49:35.428</Data>
+      <Data Name="ProcessGuid">{747f3d96-393e-5d72-0000-0010ad443200}</Data>
+      <Data Name="ProcessId">6908</Data>
+      <Data Name="PipeName">\kekeo_tsssp_endpoint</Data>
+      <Data Name="Image">c:\Users\IEUser\Desktop\kekeo.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-06T13:49:39.823362500Z" />
+      <EventRecordID>37110</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3140" ThreadID="3776" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">CredAccess - Keko default np</Data>
+      <Data Name="UtcTime">2019-09-06 13:49:39.819</Data>
+      <Data Name="ProcessGuid">{747f3d96-3944-5d72-0000-001019773200}</Data>
+      <Data Name="ProcessId">7808</Data>
+      <Data Name="PipeName">\kekeo_tsssp_endpoint</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\kekeo.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-09-06T14:58:44.918618500Z" />
+      <EventRecordID>37112</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3140" ThreadID="3776" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-09-06 14:58:44.902</Data>
+      <Data Name="ProcessGuid">{747f3d96-7424-5d72-0000-0010befbbc00}</Data>
+      <Data Name="ProcessId">3128</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    </EventData>
+  </Event>
+</root>

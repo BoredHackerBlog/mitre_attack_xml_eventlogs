@@ -1,0 +1,315 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8010000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:33:06.521159600Z" />
+      <EventRecordID>24476804</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">
+      </Data>
+      <Data Name="TargetDomainName">
+      </Data>
+      <Data Name="ServiceName">
+      </Data>
+      <Data Name="ServiceSid">S-1-0-0</Data>
+      <Data Name="TicketOptions">0x40810000</Data>
+      <Data Name="TicketEncryptionType">0xffffffff</Data>
+      <Data Name="IpAddress">::ffff:10.23.23.9</Data>
+      <Data Name="IpPort">55179</Data>
+      <Data Name="Status">0x25</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:33:06.523437800Z" />
+      <EventRecordID>24476805</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">admmig@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">Svc-SQL-DB01</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1171</Data>
+      <Data Name="TicketOptions">0x40810000</Data>
+      <Data Name="TicketEncryptionType">0x17</Data>
+      <Data Name="IpAddress">::ffff:10.23.23.9</Data>
+      <Data Name="IpPort">55180</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{ed648110-acf3-7f43-0ccb-256ef183156d}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:11.847298300Z" />
+      <EventRecordID>24477165</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="556" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ROOTDC1$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">ROOTDC1$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1000</Data>
+      <Data Name="TicketOptions">0x40810000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">0</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{cbc3e78b-1536-ea74-415a-4dc1d4989a16}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:12.567771100Z" />
+      <EventRecordID>24478113</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="3936" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">ROOTDC1$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">ROOTDC1$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1000</Data>
+      <Data Name="TicketOptions">0x40810000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::1</Data>
+      <Data Name="IpPort">0</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{58c34c13-bf89-aa22-ba63-ba320a04e0f6}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:54.898372900Z" />
+      <EventRecordID>24478165</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">WEC01$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">ROOTDC1$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1000</Data>
+      <Data Name="TicketOptions">0x40800000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.22</Data>
+      <Data Name="IpPort">54273</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{790d9d18-b314-17d0-d833-ce58448a3177}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:54.999160300Z" />
+      <EventRecordID>24478170</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">WEC01$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">WEC01$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1113</Data>
+      <Data Name="TicketOptions">0x40810000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.22</Data>
+      <Data Name="IpPort">54275</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{790d9d18-b314-17d0-d833-ce58448a3177}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:55.142290700Z" />
+      <EventRecordID>24478171</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">WEC01$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">ROOTDC2$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1120</Data>
+      <Data Name="TicketOptions">0x40800000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.22</Data>
+      <Data Name="IpPort">54277</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{b31b1fa6-f0c7-a129-fa95-61b9def52544}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:55.483569600Z" />
+      <EventRecordID>24478172</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">WEC01$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">ROOTDC1$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1000</Data>
+      <Data Name="TicketOptions">0x40800000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.22</Data>
+      <Data Name="IpPort">54279</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{b31b1fa6-f0c7-a129-fa95-61b9def52544}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:55.484653000Z" />
+      <EventRecordID>24478173</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">WEC01$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">krbtgt</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-502</Data>
+      <Data Name="TicketOptions">0x60810010</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.22</Data>
+      <Data Name="IpPort">54280</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{b31b1fa6-f0c7-a129-fa95-61b9def52544}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4769</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>14337</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2020-08-02T11:37:55.625815000Z" />
+      <EventRecordID>24478189</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="516" ThreadID="2620" />
+      <Channel>Security</Channel>
+      <Computer>rootdc1.offsec.lan</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="TargetUserName">WEC01$@OFFSEC.LAN</Data>
+      <Data Name="TargetDomainName">OFFSEC.LAN</Data>
+      <Data Name="ServiceName">ROOTDC1$</Data>
+      <Data Name="ServiceSid">S-1-5-21-4230534742-2542757381-3142984815-1000</Data>
+      <Data Name="TicketOptions">0x40810000</Data>
+      <Data Name="TicketEncryptionType">0x12</Data>
+      <Data Name="IpAddress">::ffff:10.23.42.22</Data>
+      <Data Name="IpPort">54285</Data>
+      <Data Name="Status">0x0</Data>
+      <Data Name="LogonGuid">{b31b1fa6-f0c7-a129-fa95-61b9def52544}</Data>
+      <Data Name="TransmittedServices">-</Data>
+    </EventData>
+  </Event>
+</root>

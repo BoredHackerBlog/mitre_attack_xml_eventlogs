@@ -1,0 +1,33 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-06-30T20:50:25.546713900Z" />
+      <EventRecordID>303867</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3248" ThreadID="4128" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">Evasion Suspicious NtOpenProcess Call</Data>
+      <Data Name="UtcTime">2020-06-30 20:50:25.539</Data>
+      <Data Name="SourceProcessGUID">{747f3d96-a591-5efb-0000-00109fe4cc01}</Data>
+      <Data Name="SourceProcessId">1972</Data>
+      <Data Name="SourceThreadId">7192</Data>
+      <Data Name="SourceImage">C:\Users\Public\za3bollo.exe</Data>
+      <Data Name="TargetProcessGUID">{747f3d96-59bb-5efb-0000-0010d81b6400}</Data>
+      <Data Name="TargetProcessId">2996</Data>
+      <Data Name="TargetImage">C:\Windows\system32\notepad.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">UNKNOWN(000001F3C35A0014)</Data>
+    </EventData>
+  </Event>
+</root>

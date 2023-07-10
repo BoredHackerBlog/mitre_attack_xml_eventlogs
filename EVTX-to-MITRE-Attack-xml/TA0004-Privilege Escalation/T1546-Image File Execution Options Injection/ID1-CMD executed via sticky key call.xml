@@ -1,0 +1,71 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T12:06:57.954898800Z" />
+      <EventRecordID>11788</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3064" ThreadID="3680" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1059,technique_name=Command-Line Interface</Data>
+      <Data Name="UtcTime">2021-05-03 12:06:57.947</Data>
+      <Data Name="ProcessGuid">{9828da72-e761-608f-2a14-000000000c00}</Data>
+      <Data Name="ProcessId">3300</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">10.0.19041.746 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">Cmd.Exe</Data>
+      <Data Name="CommandLine">C:\windows\system32\cmd.exe sethc.exe 211</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">OFFSEC\admmig</Data>
+      <Data Name="LogonGuid">{9828da72-ea47-6087-347e-0b0000000000}</Data>
+      <Data Name="LogonId">0xb7e34</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=F1EFB0FDDC156E4C61C5F78A54700E4E7984D55D,MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+      <Data Name="ParentProcessGuid">{9828da72-ea43-6087-6b00-000000000c00}</Data>
+      <Data Name="ParentProcessId">3984</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>18</EventID>
+      <Version>1</Version>
+      <Level>4</Level>
+      <Task>18</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2021-05-03T12:07:07.639616100Z" />
+      <EventRecordID>11789</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3064" ThreadID="3680" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>win10-02.offsec.lan</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">technique_id=T1049,technique_name=System Network Connections Discovery</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2021-05-03 12:07:07.629</Data>
+      <Data Name="ProcessGuid">{9828da72-683b-6089-db05-000000000c00}</Data>
+      <Data Name="ProcessId">7272</Data>
+      <Data Name="PipeName">\srvsvc</Data>
+      <Data Name="Image">C:\Windows\system32\mmc.exe</Data>
+    </EventData>
+  </Event>
+</root>

@@ -1,0 +1,2736 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:01:46.884038400Z" />
+      <EventRecordID>1940897</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:01:45.887</Data>
+      <Data Name="ProcessGuid">{365abb72-d695-5c67-0000-00103c3e0100}</Data>
+      <Data Name="ProcessId">1608</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">239.255.255.250</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="SourcePortName">ssdp</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.16</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">57182</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:01:50.699524800Z" />
+      <EventRecordID>1940898</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:01:50.699</Data>
+      <Data Name="ProcessGuid">{365abb72-dd79-5c67-0000-00109c931000}</Data>
+      <Data Name="ProcessId">3520</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\plink.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:02:21.934438400Z" />
+      <EventRecordID>1940899</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:02:21.934</Data>
+      <Data Name="ProcessGuid">{365abb72-dfad-5c67-0000-0010e0811500}</Data>
+      <Data Name="ProcessId">2312</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\plink.exe</Data>
+      <Data Name="FileVersion">Release 0.70</Data>
+      <Data Name="Description">Command-line SSH, Telnet, and Rlogin client</Data>
+      <Data Name="Product">PuTTY suite</Data>
+      <Data Name="Company">Simon Tatham</Data>
+      <Data Name="CommandLine">plink.exe  10.0.2.18 -P 80 -C -R 127.0.0.3:4444:127.0.0.2:3389 -l test -pw test</Data>
+      <Data Name="CurrentDirectory">C:\Users\IEUser\Desktop\</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-d6ab-5c67-0000-002056660200}</Data>
+      <Data Name="LogonId">0x26656</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=7806AD24F669CD8BB9EBE16F87E90173047F8EE4</Data>
+      <Data Name="ParentProcessGuid">{365abb72-d92a-5c67-0000-0010cb580900}</Data>
+      <Data Name="ParentProcessId">3904</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\Windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:02:22.965921600Z" />
+      <EventRecordID>1940900</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:02:21.995</Data>
+      <Data Name="ProcessGuid">{365abb72-dfad-5c67-0000-0010e0811500}</Data>
+      <Data Name="ProcessId">2312</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\plink.exe</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">49185</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">80</Data>
+      <Data Name="DestinationPortName">http</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:02:48.502641600Z" />
+      <EventRecordID>1940901</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:02:46.454</Data>
+      <Data Name="ProcessGuid">{365abb72-dfad-5c67-0000-0010e0811500}</Data>
+      <Data Name="ProcessId">2312</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\plink.exe</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">49186</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.2</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:02:48.502641600Z" />
+      <EventRecordID>1940902</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:02:46.454</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.2</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3389</Data>
+      <Data Name="SourcePortName">ms-wbt-server</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">49186</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:03:02.272441600Z" />
+      <EventRecordID>1940903</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:03:00.320</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:80ac:4126:fa58:1b81</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">64763</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:03:02.272441600Z" />
+      <EventRecordID>1940904</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:03:00.321</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">61400</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">224.0.0.252</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">5355</Data>
+      <Data Name="DestinationPortName">llmnr</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:03:47.086881600Z" />
+      <EventRecordID>1940905</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:03:45.909</Data>
+      <Data Name="ProcessGuid">{365abb72-d695-5c67-0000-00103c3e0100}</Data>
+      <Data Name="ProcessId">1608</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">239.255.255.250</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="SourcePortName">ssdp</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.16</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">59304</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:03:48.058278400Z" />
+      <EventRecordID>1940906</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:03:48.048</Data>
+      <Data Name="ProcessGuid">{365abb72-e004-5c67-0000-00107c9b1500}</Data>
+      <Data Name="ProcessId">2504</Data>
+      <Data Name="Image">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Interactive services detection</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">UI0Detect.exe 224</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-d6ab-5c67-0000-002056660200}</Data>
+      <Data Name="LogonId">0x26656</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=4C0D16BD7C0C13D4D279DCFD3A7BC8B790DA35F7</Data>
+      <Data Name="ParentProcessGuid">{365abb72-d6a2-5c67-0000-0010bc390200}</Data>
+      <Data Name="ParentProcessId">2324</Data>
+      <Data Name="ParentImage">C:\Windows\System32\UI0Detect.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\UI0Detect.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:03:48.078307200Z" />
+      <EventRecordID>1940907</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:03:48.068</Data>
+      <Data Name="ProcessGuid">{365abb72-e004-5c67-0000-00107c9b1500}</Data>
+      <Data Name="ProcessId">2504</Data>
+      <Data Name="Image">C:\Windows\System32\UI0Detect.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.141404800Z" />
+      <EventRecordID>1940908</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.141</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-0010fca01500}</Data>
+      <Data Name="ProcessId">3444</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Session Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">\SystemRoot\System32\smss.exe 00000000 0000003c </Data>
+      <Data Name="CurrentDirectory">C:\Windows\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=3F71807933F1BC000D4D0AD6C1FA7393987516E9</Data>
+      <Data Name="ParentProcessGuid">{365abb72-5517-5c68-0000-0010732a0000}</Data>
+      <Data Name="ParentProcessId">292</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.151419200Z" />
+      <EventRecordID>1940909</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.151</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-00104aa11500}</Data>
+      <Data Name="ProcessId">3344</Data>
+      <Data Name="Image">C:\Windows\System32\csrss.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Client Server Runtime Process</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=53BC9B2AE89FCAD6197EC519AE588F926C88E460</Data>
+      <Data Name="ParentProcessGuid">{365abb72-e014-5c67-0000-0010fca01500}</Data>
+      <Data Name="ParentProcessId">3444</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 00000000 0000003c </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.221520000Z" />
+      <EventRecordID>1940910</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.211</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001013a21500}</Data>
+      <Data Name="ProcessId">2516</Data>
+      <Data Name="Image">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Logon Application</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">winlogon.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=B7F3D71BD568CBD15C6C3445042FCBEB322E8072</Data>
+      <Data Name="ParentProcessGuid">{365abb72-e014-5c67-0000-0010fca01500}</Data>
+      <Data Name="ParentProcessId">3444</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 00000000 0000003c </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.221520000Z" />
+      <EventRecordID>1940911</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.211</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-0010fca01500}</Data>
+      <Data Name="ProcessId">3444</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.231534400Z" />
+      <EventRecordID>1940912</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.231</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\rdpdd.dll</Data>
+      <Data Name="Hashes">SHA1=853533AD0FD5081E57931D98CF5B1CD4ACBF0601</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.231534400Z" />
+      <EventRecordID>1940913</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.231</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\rdpdd.dll</Data>
+      <Data Name="Hashes">SHA1=853533AD0FD5081E57931D98CF5B1CD4ACBF0601</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.351707200Z" />
+      <EventRecordID>1940914</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.331</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001023a71500}</Data>
+      <Data Name="ProcessId">3780</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Logon User Interface Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"LogonUI.exe" /flags:0x0</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">2</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=6FCAD4F6BB71049744D25F2B53A651AC5AA79187</Data>
+      <Data Name="ParentProcessGuid">{365abb72-e014-5c67-0000-001013a21500}</Data>
+      <Data Name="ParentProcessId">2516</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.892484800Z" />
+      <EventRecordID>1940915</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.882</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001024b71500}</Data>
+      <Data Name="ProcessId">3064</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Windows Session Manager</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">\SystemRoot\System32\smss.exe 00000000 0000003c </Data>
+      <Data Name="CurrentDirectory">C:\Windows\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">3</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=3F71807933F1BC000D4D0AD6C1FA7393987516E9</Data>
+      <Data Name="ParentProcessGuid">{365abb72-5517-5c68-0000-0010732a0000}</Data>
+      <Data Name="ParentProcessId">292</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.892484800Z" />
+      <EventRecordID>1940916</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.892</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001090b71500}</Data>
+      <Data Name="ProcessId">3204</Data>
+      <Data Name="Image">C:\Windows\System32\csrss.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Client Server Runtime Process</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">3</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=53BC9B2AE89FCAD6197EC519AE588F926C88E460</Data>
+      <Data Name="ParentProcessGuid">{365abb72-e014-5c67-0000-001024b71500}</Data>
+      <Data Name="ParentProcessId">3064</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 00000000 0000003c </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.962585600Z" />
+      <EventRecordID>1940917</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.952</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001094b81500}</Data>
+      <Data Name="ProcessId">2988</Data>
+      <Data Name="Image">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Logon Application</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">winlogon.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">3</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=B7F3D71BD568CBD15C6C3445042FCBEB322E8072</Data>
+      <Data Name="ParentProcessGuid">{365abb72-e014-5c67-0000-001024b71500}</Data>
+      <Data Name="ParentProcessId">3064</Data>
+      <Data Name="ParentImage">C:\Windows\System32\smss.exe</Data>
+      <Data Name="ParentCommandLine">\SystemRoot\System32\smss.exe 00000000 0000003c </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:04.962585600Z" />
+      <EventRecordID>1940918</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.952</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001024b71500}</Data>
+      <Data Name="ProcessId">3064</Data>
+      <Data Name="Image">C:\Windows\System32\smss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.092772800Z" />
+      <EventRecordID>1940919</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.122</Data>
+      <Data Name="ProcessGuid">{365abb72-dfad-5c67-0000-0010e0811500}</Data>
+      <Data Name="ProcessId">2312</Data>
+      <Data Name="Image">C:\Users\IEUser\Desktop\plink.exe</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">49187</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.2</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">3389</Data>
+      <Data Name="DestinationPortName">ms-wbt-server</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.092772800Z" />
+      <EventRecordID>1940920</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:04.122</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.2</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3389</Data>
+      <Data Name="SourcePortName">ms-wbt-server</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">49187</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.122816000Z" />
+      <EventRecordID>1940921</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:05.072</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\VBoxDisp.dll</Data>
+      <Data Name="Hashes">SHA1=0D14114598EE4A3080B9F9083AE5A3339D429737</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Oracle Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.122816000Z" />
+      <EventRecordID>1940922</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:05.072</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\vga.dll</Data>
+      <Data Name="Hashes">SHA1=00F4056FD5FE28EC255B4521EE18C700BCF9CEEB</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Microsoft Windows</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.122816000Z" />
+      <EventRecordID>1940923</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:05.072</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\VBoxDisp.dll</Data>
+      <Data Name="Hashes">SHA1=0D14114598EE4A3080B9F9083AE5A3339D429737</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Oracle Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.283046400Z" />
+      <EventRecordID>1940924</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:05.232</Data>
+      <Data Name="ProcessGuid">{365abb72-e015-5c67-0000-00103fc01500}</Data>
+      <Data Name="ProcessId">2920</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Logon User Interface Host</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"LogonUI.exe" /flags:0x0</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="LogonGuid">{365abb72-551f-5c68-0000-0020e7030000}</Data>
+      <Data Name="LogonId">0x3e7</Data>
+      <Data Name="TerminalSessionId">3</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=6FCAD4F6BB71049744D25F2B53A651AC5AA79187</Data>
+      <Data Name="ParentProcessGuid">{365abb72-e014-5c67-0000-001094b81500}</Data>
+      <Data Name="ParentProcessId">2988</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:04:05.563449600Z" />
+      <EventRecordID>1940925</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:04:05.453</Data>
+      <Data Name="ProcessGuid">{365abb72-e015-5c67-0000-0010d0c61500}</Data>
+      <Data Name="ProcessId">3712</Data>
+      <Data Name="Image">C:\Windows\System32\TSTheme.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">TSTheme Server Module</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\TSTheme.exe -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-d6ab-5c67-0000-002056660200}</Data>
+      <Data Name="LogonId">0x26656</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9F071CE21298C2BA5E47E77A198E3C694EEA9A85</Data>
+      <Data Name="ParentProcessGuid">{365abb72-551f-5c68-0000-001079710000}</Data>
+      <Data Name="ParentProcessId">624</Data>
+      <Data Name="ParentImage">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\svchost.exe -k DcomLaunch</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:06.200641600Z" />
+      <EventRecordID>1940926</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:06.190</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001023a71500}</Data>
+      <Data Name="ProcessId">3780</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:06.200641600Z" />
+      <EventRecordID>1940927</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:06.190</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001013a21500}</Data>
+      <Data Name="ProcessId">2516</Data>
+      <Data Name="Image">C:\Windows\System32\winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:06.410944000Z" />
+      <EventRecordID>1940928</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:06.400</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-00104aa11500}</Data>
+      <Data Name="ProcessId">3344</Data>
+      <Data Name="Image">C:\Windows\System32\csrss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:06.971750400Z" />
+      <EventRecordID>1940929</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:06.971</Data>
+      <Data Name="ProcessGuid">{365abb72-e015-5c67-0000-0010d0c61500}</Data>
+      <Data Name="ProcessId">3712</Data>
+      <Data Name="Image">C:\Windows\System32\TSTheme.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940930</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.728</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">49478</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940931</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.729</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">224.0.0.252</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">61795</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940932</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.729</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="SourceHostname">PC02</Data>
+      <Data Name="SourcePort">49478</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:80ac:4126:fa58:1b81</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">5355</Data>
+      <Data Name="DestinationPortName">llmnr</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940933</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.730</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">61795</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940934</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.733</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">224.0.0.252</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">57255</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940935</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.734</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">57255</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940936</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.738</Data>
+      <Data Name="ProcessGuid">{365abb72-5517-5c68-0000-0010ea030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">137</Data>
+      <Data Name="SourcePortName">netbios-ns</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">137</Data>
+      <Data Name="DestinationPortName">netbios-ns</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:22.794502400Z" />
+      <EventRecordID>1940937</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:21.740</Data>
+      <Data Name="ProcessGuid">{365abb72-5517-5c68-0000-0010ea030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">139</Data>
+      <Data Name="SourcePortName">netbios-ssn</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">49184</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>6</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>6</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:25.488376000Z" />
+      <EventRecordID>1940938</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:25.428</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\VBoxDisp.dll</Data>
+      <Data Name="Hashes">SHA1=0D14114598EE4A3080B9F9083AE5A3339D429737</Data>
+      <Data Name="Signed">true</Data>
+      <Data Name="Signature">Oracle Corporation</Data>
+      <Data Name="SignatureStatus">Valid</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:26.499830400Z" />
+      <EventRecordID>1940939</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:26.459</Data>
+      <Data Name="ProcessGuid">{365abb72-e066-5c67-0000-00107a001600}</Data>
+      <Data Name="ProcessId">1908</Data>
+      <Data Name="Image">C:\Windows\System32\AtBroker.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Transitions Accessible technologies between desktops</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">atbroker.exe</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">PC01\IEUser</Data>
+      <Data Name="LogonGuid">{365abb72-d6ab-5c67-0000-002056660200}</Data>
+      <Data Name="LogonId">0x26656</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=1B376C177C5629C0E620431AF1A9E8C16BF23D53</Data>
+      <Data Name="ParentProcessGuid">{365abb72-551e-5c68-0000-001073510000}</Data>
+      <Data Name="ParentProcessId">456</Data>
+      <Data Name="ParentImage">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="ParentCommandLine">winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:26.529873600Z" />
+      <EventRecordID>1940940</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:26.519</Data>
+      <Data Name="ProcessGuid">{365abb72-e015-5c67-0000-00103fc01500}</Data>
+      <Data Name="ProcessId">2920</Data>
+      <Data Name="Image">C:\Windows\System32\LogonUI.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:26.529873600Z" />
+      <EventRecordID>1940941</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:26.519</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001094b81500}</Data>
+      <Data Name="ProcessId">2988</Data>
+      <Data Name="Image">C:\Windows\System32\winlogon.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:26.539888000Z" />
+      <EventRecordID>1940942</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:26.529</Data>
+      <Data Name="ProcessGuid">{365abb72-e014-5c67-0000-001090b71500}</Data>
+      <Data Name="ProcessId">3204</Data>
+      <Data Name="Image">C:\Windows\System32\csrss.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:26.539888000Z" />
+      <EventRecordID>1940943</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:26.539</Data>
+      <Data Name="ProcessGuid">{365abb72-e066-5c67-0000-00107a001600}</Data>
+      <Data Name="ProcessId">1908</Data>
+      <Data Name="Image">C:\Windows\System32\AtBroker.exe</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:34.871868800Z" />
+      <EventRecordID>1940944</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:33.766</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">63309</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:34.871868800Z" />
+      <EventRecordID>1940945</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:33.767</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">224.0.0.252</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">51695</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:34.871868800Z" />
+      <EventRecordID>1940946</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:33.767</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">51695</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:34.871868800Z" />
+      <EventRecordID>1940947</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:33.769</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">62259</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:34.871868800Z" />
+      <EventRecordID>1940948</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:33.776</Data>
+      <Data Name="ProcessGuid">{365abb72-5517-5c68-0000-0010ea030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">139</Data>
+      <Data Name="SourcePortName">netbios-ssn</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">49185</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:46.929206400Z" />
+      <EventRecordID>1940949</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:45.814</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">59302</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:46.929206400Z" />
+      <EventRecordID>1940950</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:45.815</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">224.0.0.252</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">62053</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:46.929206400Z" />
+      <EventRecordID>1940951</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:45.815</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">62053</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:46.929206400Z" />
+      <EventRecordID>1940952</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:45.818</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">61049</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:46.929206400Z" />
+      <EventRecordID>1940953</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:45.826</Data>
+      <Data Name="ProcessGuid">{365abb72-5517-5c68-0000-0010ea030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">139</Data>
+      <Data Name="SourcePortName">netbios-ssn</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">49186</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:46.929206400Z" />
+      <EventRecordID>1940954</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:45.913</Data>
+      <Data Name="ProcessGuid">{365abb72-d695-5c67-0000-00103c3e0100}</Data>
+      <Data Name="ProcessId">1608</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">239.255.255.250</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">1900</Data>
+      <Data Name="SourcePortName">ssdp</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.16</Data>
+      <Data Name="DestinationHostname">
+      </Data>
+      <Data Name="DestinationPort">52122</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:59.056644800Z" />
+      <EventRecordID>1940955</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:57.859</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">55679</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:59.056644800Z" />
+      <EventRecordID>1940956</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:57.860</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">224.0.0.252</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">52894</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:59.056644800Z" />
+      <EventRecordID>1940957</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:57.861</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">52894</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:59.056644800Z" />
+      <EventRecordID>1940958</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:57.861</Data>
+      <Data Name="ProcessGuid">{365abb72-d693-5c67-0000-0010c4180100}</Data>
+      <Data Name="ProcessId">1276</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\NETWORK SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:1:3</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">5355</Data>
+      <Data Name="SourcePortName">llmnr</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:647b:25b7:1cc4:b972</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">64257</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:05:59.056644800Z" />
+      <EventRecordID>1940959</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:57.864</Data>
+      <Data Name="ProcessGuid">{365abb72-5517-5c68-0000-0010ea030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">139</Data>
+      <Data Name="SourcePortName">netbios-ssn</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">49187</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:00.558804800Z" />
+      <EventRecordID>1940960</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:59.521</Data>
+      <Data Name="ProcessGuid">{365abb72-d695-5c67-0000-00103c3e0100}</Data>
+      <Data Name="ProcessId">1608</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">239.255.255.250</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="SourcePortName">ws-discovery</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">61401</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:00.558804800Z" />
+      <EventRecordID>1940961</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:59.521</Data>
+      <Data Name="ProcessGuid">{365abb72-d692-5c67-0000-0010fcc10000}</Data>
+      <Data Name="ProcessId">952</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">239.255.255.250</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="SourcePortName">ws-discovery</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">61401</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:00.558804800Z" />
+      <EventRecordID>1940962</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:59.522</Data>
+      <Data Name="ProcessGuid">{365abb72-d692-5c67-0000-0010fcc10000}</Data>
+      <Data Name="ProcessId">952</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:0:c</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="SourcePortName">ws-discovery</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">fe80:0:0:0:80ac:4126:fa58:1b81</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">61402</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:00.558804800Z" />
+      <EventRecordID>1940963</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:59.522</Data>
+      <Data Name="ProcessGuid">{365abb72-d692-5c67-0000-0010fcc10000}</Data>
+      <Data Name="ProcessId">952</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:0:c</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="SourcePortName">ws-discovery</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">0:0:0:0:0:0:0:1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">61402</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:00.558804800Z" />
+      <EventRecordID>1940964</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:05:59.522</Data>
+      <Data Name="ProcessGuid">{365abb72-d695-5c67-0000-00103c3e0100}</Data>
+      <Data Name="ProcessId">1608</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">true</Data>
+      <Data Name="SourceIp">ff02:0:0:0:0:0:0:c</Data>
+      <Data Name="SourceHostname">
+      </Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="SourcePortName">ws-discovery</Data>
+      <Data Name="DestinationIsIpv6">true</Data>
+      <Data Name="DestinationIp">0:0:0:0:0:0:0:1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">61402</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:02.311324800Z" />
+      <EventRecordID>1940965</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:06:00.653</Data>
+      <Data Name="ProcessGuid">{365abb72-d692-5c67-0000-0010fcc10000}</Data>
+      <Data Name="ProcessId">952</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">10.0.2.17</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">49188</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">10.0.2.18</Data>
+      <Data Name="DestinationHostname">PC02</Data>
+      <Data Name="DestinationPort">5357</Data>
+      <Data Name="DestinationPortName">wsd</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:02.561684800Z" />
+      <EventRecordID>1940966</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:06:01.480</Data>
+      <Data Name="ProcessGuid">{365abb72-d695-5c67-0000-00103c3e0100}</Data>
+      <Data Name="ProcessId">1608</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">udp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">3702</Data>
+      <Data Name="SourcePortName">ws-discovery</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">61401</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:03.062404800Z" />
+      <EventRecordID>1940967</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:06:01.954</Data>
+      <Data Name="ProcessGuid">{365abb72-d692-5c67-0000-0010fcc10000}</Data>
+      <Data Name="ProcessId">952</Data>
+      <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">49189</Data>
+      <Data Name="SourcePortName">
+      </Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">5357</Data>
+      <Data Name="DestinationPortName">wsd</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>3</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>3</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:03.062404800Z" />
+      <EventRecordID>1940968</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="316" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:06:01.954</Data>
+      <Data Name="ProcessGuid">{365abb72-5517-5c68-0000-0010ea030000}</Data>
+      <Data Name="ProcessId">4</Data>
+      <Data Name="Image">System</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">false</Data>
+      <Data Name="SourceIsIpv6">false</Data>
+      <Data Name="SourceIp">127.0.0.1</Data>
+      <Data Name="SourceHostname">PC01.example.corp</Data>
+      <Data Name="SourcePort">5357</Data>
+      <Data Name="SourcePortName">wsd</Data>
+      <Data Name="DestinationIsIpv6">false</Data>
+      <Data Name="DestinationIp">127.0.0.1</Data>
+      <Data Name="DestinationHostname">PC01.example.corp</Data>
+      <Data Name="DestinationPort">49189</Data>
+      <Data Name="DestinationPortName">
+      </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-16T10:06:38.843856000Z" />
+      <EventRecordID>1940969</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="1728" ThreadID="412" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>PC01.example.corp</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-02-16 10:06:38.833</Data>
+      <Data Name="ProcessGuid">{365abb72-e0ae-5c67-0000-0010c9b81700}</Data>
+      <Data Name="ProcessId">3820</Data>
+      <Data Name="Image">C:\Windows\System32\taskhost.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Host Process for Windows Tasks</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">taskhost.exe $(Arg0)</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+      <Data Name="LogonGuid">{365abb72-d691-5c67-0000-0020e5030000}</Data>
+      <Data Name="LogonId">0x3e5</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">System</Data>
+      <Data Name="Hashes">SHA1=D37708435E6F6CF2FD69B791FA4BE3460329B47D</Data>
+      <Data Name="ParentProcessGuid">{365abb72-551e-5c68-0000-001048590000}</Data>
+      <Data Name="ParentProcessId">516</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+    </EventData>
+  </Event>
+</root>

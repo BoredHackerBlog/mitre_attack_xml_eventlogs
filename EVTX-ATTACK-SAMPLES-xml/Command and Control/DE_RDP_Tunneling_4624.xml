@@ -1,0 +1,734 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:14:52.409734400Z" />
+      <EventRecordID>5278</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="1716" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d4</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:04.175284800Z" />
+      <EventRecordID>5281</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="484" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">0</Data>
+      <Data Name="LogonProcessName">-</Data>
+      <Data Name="AuthenticationPackageName">-</Data>
+      <Data Name="WorkstationName">-</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x4</Data>
+      <Data Name="ProcessName">
+      </Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:04.635947200Z" />
+      <EventRecordID>5283</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:04.911343000Z" />
+      <EventRecordID>5285</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-20</Data>
+      <Data Name="TargetUserName">NETWORK SERVICE</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e4</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:05.065564200Z" />
+      <EventRecordID>5287</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-19</Data>
+      <Data Name="TargetUserName">LOCAL SERVICE</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e5</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:05.660417400Z" />
+      <EventRecordID>5289</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:05.924796600Z" />
+      <EventRecordID>5291</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:07.422945400Z" />
+      <EventRecordID>5293</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:08.216083000Z" />
+      <EventRecordID>5296</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:08.689762400Z" />
+      <EventRecordID>5299</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="516" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3583694148-1414552638-2922671848-1002</Data>
+      <Data Name="TargetUserName">sshd_server</Data>
+      <Data Name="TargetDomainName">PC02</Data>
+      <Data Name="TargetLogonId">0xe509</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC02</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:15:36.367608200Z" />
+      <EventRecordID>5302</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="876" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-7</Data>
+      <Data Name="TargetUserName">ANONYMOUS LOGON</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x113f5</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V1</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:17:38.018243300Z" />
+      <EventRecordID>5303</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:17:38.779337700Z" />
+      <EventRecordID>5305</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-18</Data>
+      <Data Name="TargetUserName">SYSTEM</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x3e7</Data>
+      <Data Name="LogonType">5</Data>
+      <Data Name="LogonProcessName">Advapi  </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">
+      </Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x1d0</Data>
+      <Data Name="ProcessName">C:\Windows\System32\services.exe</Data>
+      <Data Name="IpAddress">-</Data>
+      <Data Name="IpPort">-</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:19:51.259835300Z" />
+      <EventRecordID>5308</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="528" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">PC02</Data>
+      <Data Name="TargetLogonId">0x21f73</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="LogonProcessName">User32 </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC02</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x198</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:26:53.356780900Z" />
+      <EventRecordID>5315</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="3952" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">PC02</Data>
+      <Data Name="TargetLogonId">0x45120</Data>
+      <Data Name="LogonType">10</Data>
+      <Data Name="LogonProcessName">User32 </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC02</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x658</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">49164</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:29:40.657347300Z" />
+      <EventRecordID>5319</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="3952" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-5-18</Data>
+      <Data Name="SubjectUserName">PC02$</Data>
+      <Data Name="SubjectDomainName">EXAMPLE</Data>
+      <Data Name="SubjectLogonId">0x3e7</Data>
+      <Data Name="TargetUserSid">S-1-5-21-3583694148-1414552638-2922671848-1000</Data>
+      <Data Name="TargetUserName">IEUser</Data>
+      <Data Name="TargetDomainName">PC02</Data>
+      <Data Name="TargetLogonId">0x4a26d</Data>
+      <Data Name="LogonType">2</Data>
+      <Data Name="LogonProcessName">User32 </Data>
+      <Data Name="AuthenticationPackageName">Negotiate</Data>
+      <Data Name="WorkstationName">PC02</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">-</Data>
+      <Data Name="KeyLength">0</Data>
+      <Data Name="ProcessId">0x994</Data>
+      <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+      <Data Name="IpAddress">127.0.0.1</Data>
+      <Data Name="IpPort">0</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:31:19.529518500Z" />
+      <EventRecordID>5322</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="3952" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-7</Data>
+      <Data Name="TargetUserName">ANONYMOUS LOGON</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x73d02</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">PC01</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V1</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.0.2.17</Data>
+      <Data Name="IpPort">49168</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+      <EventID>4624</EventID>
+      <Version>0</Version>
+      <Level>0</Level>
+      <Task>12544</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8020000000000000</Keywords>
+      <TimeCreated SystemTime="2019-02-13T15:31:31.556812900Z" />
+      <EventRecordID>5323</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="480" ThreadID="3952" />
+      <Channel>Security</Channel>
+      <Computer>PC02.example.corp</Computer>
+      <Security />
+    </System>
+    <EventData>
+      <Data Name="SubjectUserSid">S-1-0-0</Data>
+      <Data Name="SubjectUserName">-</Data>
+      <Data Name="SubjectDomainName">-</Data>
+      <Data Name="SubjectLogonId">0x0</Data>
+      <Data Name="TargetUserSid">S-1-5-7</Data>
+      <Data Name="TargetUserName">ANONYMOUS LOGON</Data>
+      <Data Name="TargetDomainName">NT AUTHORITY</Data>
+      <Data Name="TargetLogonId">0x7d4f4</Data>
+      <Data Name="LogonType">3</Data>
+      <Data Name="LogonProcessName">NtLmSsp </Data>
+      <Data Name="AuthenticationPackageName">NTLM</Data>
+      <Data Name="WorkstationName">PC01</Data>
+      <Data Name="LogonGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="TransmittedServices">-</Data>
+      <Data Name="LmPackageName">NTLM V1</Data>
+      <Data Name="KeyLength">128</Data>
+      <Data Name="ProcessId">0x0</Data>
+      <Data Name="ProcessName">-</Data>
+      <Data Name="IpAddress">10.0.2.17</Data>
+      <Data Name="IpPort">49169</Data>
+    </EventData>
+  </Event>
+</root>

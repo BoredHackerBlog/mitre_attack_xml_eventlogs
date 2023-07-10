@@ -1,0 +1,151 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-02T18:00:29.615842100Z" />
+      <EventRecordID>2116720</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">suspicious execution path</Data>
+      <Data Name="UtcTime">2020-07-02 18:00:29.612</Data>
+      <Data Name="ProcessGuid">{00247c92-20bd-5efe-0000-00106d029d3a}</Data>
+      <Data Name="ProcessId">16900</Data>
+      <Data Name="Image">C:\Users\Public\tools\evasion\chost.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">chost.exe  payload.bin</Data>
+      <Data Name="CurrentDirectory">C:\Users\Public\tools\evasion\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-8e79-5efd-0000-0020b446e837}</Data>
+      <Data Name="LogonId">0x37e846b4</Data>
+      <Data Name="TerminalSessionId">7</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=06A1D9CC580F1CC239E643302CAB9166E0DF6355,MD5=7724B90C1D66AB3FA2A781E344AD2BE5,SHA256=805CA4E5A08C2366923D46680FDFBAD8C3012AB6A93D518624C377FA8A610A43,IMPHASH=A4DE9CE85347166ACB42B7FA4676BF25</Data>
+      <Data Name="ParentProcessGuid">{00247c92-1117-5efe-0000-001025004e3a}</Data>
+      <Data Name="ParentProcessId">30572</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"C:\windows\system32\cmd.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-02T18:00:29.617786500Z" />
+      <EventRecordID>2116721</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-02 18:00:29.616</Data>
+      <Data Name="SourceProcessGUID">{00247c92-1117-5efe-0000-00105a024e3a}</Data>
+      <Data Name="SourceProcessId">29168</Data>
+      <Data Name="SourceThreadId">4580</Data>
+      <Data Name="SourceImage">C:\windows\system32\conhost.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-20bd-5efe-0000-00106d029d3a}</Data>
+      <Data Name="TargetProcessId">16900</Data>
+      <Data Name="TargetImage">C:\Users\Public\tools\evasion\chost.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9c534|C:\windows\System32\KERNELBASE.dll+2726e|C:\windows\system32\conhost.exe+1260d|C:\windows\system32\conhost.exe+12505|C:\windows\system32\conhost.exe+895c|C:\windows\system32\conhost.exe+f2e6|C:\windows\System32\KERNEL32.DLL+17bd4|C:\windows\SYSTEM32\ntdll.dll+6ce51</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-02T18:00:29.650400100Z" />
+      <EventRecordID>2116722</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-02 18:00:29.642</Data>
+      <Data Name="ProcessGuid">{00247c92-20bd-5efe-0000-00105c059d3a}</Data>
+      <Data Name="ProcessId">16788</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="FileVersion">10.0.18362.693 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Notepad</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+      <Data Name="CommandLine">notepad</Data>
+      <Data Name="CurrentDirectory">C:\windows\</Data>
+      <Data Name="User">LAPTOP-JU4M3I0E\bouss</Data>
+      <Data Name="LogonGuid">{00247c92-8e79-5efd-0000-0020b446e837}</Data>
+      <Data Name="LogonId">0x37e846b4</Data>
+      <Data Name="TerminalSessionId">7</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=C401CD335BA6A3BDAF8799FDC09CDC0721F06015,MD5=06E6C0482562459ADB462CA9008262F8,SHA256=E5D90BEEB6F13F4613C3153DABBD1466F4A062B7252D931F37210907A7F914F7,IMPHASH=E2D17AC7541817AA681AE8FF7734AD89</Data>
+      <Data Name="ParentProcessGuid">{00247c92-1117-5efe-0000-00105a024e3a}</Data>
+      <Data Name="ParentProcessId">29168</Data>
+      <Data Name="ParentImage">C:\Windows\System32\conhost.exe</Data>
+      <Data Name="ParentCommandLine">\??\C:\windows\system32\conhost.exe 0xffffffff -ForceV1</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-07-02T18:00:29.650453700Z" />
+      <EventRecordID>2116723</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="5320" ThreadID="6908" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAPTOP-JU4M3I0E</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-07-02 18:00:29.642</Data>
+      <Data Name="SourceProcessGUID">{00247c92-1117-5efe-0000-00105a024e3a}</Data>
+      <Data Name="SourceProcessId">29168</Data>
+      <Data Name="SourceThreadId">19060</Data>
+      <Data Name="SourceImage">C:\windows\system32\conhost.exe</Data>
+      <Data Name="TargetProcessGUID">{00247c92-20bd-5efe-0000-00105c059d3a}</Data>
+      <Data Name="TargetProcessId">16788</Data>
+      <Data Name="TargetImage">C:\windows\system32\notepad.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\windows\SYSTEM32\ntdll.dll+9d8e4|C:\windows\System32\KERNELBASE.dll+5f36a|C:\windows\System32\KERNELBASE.dll+5c5ca|C:\windows\System32\KERNELBASE.dll+5bd86|C:\windows\System32\KERNEL32.DLL+5e90b|UNKNOWN(000002022934003D)</Data>
+    </EventData>
+  </Event>
+</root>

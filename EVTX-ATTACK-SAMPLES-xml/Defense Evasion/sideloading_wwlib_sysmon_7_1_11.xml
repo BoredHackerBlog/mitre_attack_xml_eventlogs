@@ -1,0 +1,252 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:26:54.679582900Z" />
+      <EventRecordID>419622</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:26:54.668</Data>
+      <Data Name="ProcessGuid">{747f3d96-19fb-5f8b-0000-0010db270a00}</Data>
+      <Data Name="ProcessId">3364</Data>
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+      <Data Name="TargetFilename">C:\ProgramData\Intel\wwlib.dll</Data>
+      <Data Name="CreationUtcTime">2020-10-17 16:26:54.668</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>7</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>7</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:27:08.070948700Z" />
+      <EventRecordID>419623</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:27:08.058</Data>
+      <Data Name="ProcessGuid">{747f3d96-1b5b-5f8b-0000-001047a62100}</Data>
+      <Data Name="ProcessId">5076</Data>
+      <Data Name="Image">C:\ProgramData\Intel\CV.exe</Data>
+      <Data Name="ImageLoaded">C:\ProgramData\Intel\wwlib.dll</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="Hashes">SHA1=7442108B3E63CC7004AA107FFAE911590A1784CB,MD5=443CB0F0B428505DD186861B7D4CE1C4,SHA256=746265B89A195198B1783669D966DBD31F0FD3D49101AD2DA18453583F1914C3,IMPHASH=F39A7C2185726FEEAE792839EFD8B8E5</Data>
+      <Data Name="Signed">false</Data>
+      <Data Name="Signature">
+      </Data>
+      <Data Name="SignatureStatus">Unavailable</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:27:08.081356500Z" />
+      <EventRecordID>419624</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:27:08.075</Data>
+      <Data Name="ProcessGuid">{747f3d96-1b5c-5f8b-0000-001006af2100}</Data>
+      <Data Name="ProcessId">1536</Data>
+      <Data Name="Image">C:\Windows\SysWOW64\calc.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Windows Calculator</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">CALC.EXE</Data>
+      <Data Name="CommandLine">calc.exe</Data>
+      <Data Name="CurrentDirectory">C:\ProgramData\Intel\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-19f7-5f8b-0000-0020a7fa0800}</Data>
+      <Data Name="LogonId">0x8faa7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=B24FDB248D36D0AB86675169414AB8FED4A21A88,MD5=60FF7F830695B46E4E978968D9A995FE,SHA256=381A38D6E7A146B99E2BE866B9E95FFE31F0DCFCEC62272C7C0D6B7114C9227F,IMPHASH=BA072A972FE6C47C8CF7A0347BB0AF7A</Data>
+      <Data Name="ParentProcessGuid">{747f3d96-1b5b-5f8b-0000-001047a62100}</Data>
+      <Data Name="ParentProcessId">5076</Data>
+      <Data Name="ParentImage">C:\ProgramData\Intel\CV.exe</Data>
+      <Data Name="ParentCommandLine">"C:\ProgramData\Intel\CV.exe" </Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:27:08.734365400Z" />
+      <EventRecordID>419625</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:27:08.670</Data>
+      <Data Name="ProcessGuid">{747f3d96-1b5c-5f8b-0000-0010a6e02100}</Data>
+      <Data Name="ProcessId">5912</Data>
+      <Data Name="Image">C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2008.2.0_x64__8wekyb3d8bbwe\Calculator.exe</Data>
+      <Data Name="FileVersion">?</Data>
+      <Data Name="Description">?</Data>
+      <Data Name="Product">?</Data>
+      <Data Name="Company">?</Data>
+      <Data Name="OriginalFileName">?</Data>
+      <Data Name="CommandLine">"C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2008.2.0_x64__8wekyb3d8bbwe\Calculator.exe" -ServerName:App.AppXsm3pg4n7er43kdh1qp4e79f1j7am68r8.mca</Data>
+      <Data Name="CurrentDirectory">C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.2008.2.0_x64__8wekyb3d8bbwe\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-19f7-5f8b-0000-0020a7fa0800}</Data>
+      <Data Name="LogonId">0x8faa7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">AppContainer</Data>
+      <Data Name="Hashes">SHA1=80A5BEB63D629FE33E8425FA35BCE266E85AE599,MD5=04318D5F758DBC698741AC62BD8A88D0,SHA256=06033F4B545583D88E1F6924776124D9AAD4E0304DE803B33355FB41BAC8E48E,IMPHASH=5EDA7F67A1FE4BF9F0D4A2E37ACD0C11</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">824</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:27:10.464978000Z" />
+      <EventRecordID>419626</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:27:10.463</Data>
+      <Data Name="ProcessGuid">{747f3d96-1b5e-5f8b-0000-001034322200}</Data>
+      <Data Name="ProcessId">2720</Data>
+      <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data>
+      <Data Name="FileVersion">10.0.17763.1075 (WinBuild.160101.0800)</Data>
+      <Data Name="Description">Runtime Broker</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="OriginalFileName">RuntimeBroker.exe</Data>
+      <Data Name="CommandLine">C:\Windows\System32\RuntimeBroker.exe -Embedding</Data>
+      <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+      <Data Name="User">MSEDGEWIN10\IEUser</Data>
+      <Data Name="LogonGuid">{747f3d96-19f7-5f8b-0000-0020a7fa0800}</Data>
+      <Data Name="LogonId">0x8faa7</Data>
+      <Data Name="TerminalSessionId">1</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+      <Data Name="Hashes">SHA1=E17AB3C6C038F086D0654626B62979795AD06EFE,MD5=57ACEB23C3E8F94FE0393AA2029BADDC,SHA256=E00345A3DF0EE01EDBD9C14E39EA8C8D5FA0A7D09DE8141155333391F8AAA453,IMPHASH=0EED46A2FDA377B907A358F23DB4199F</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name="ParentProcessId">824</Data>
+      <Data Name="ParentImage">?</Data>
+      <Data Name="ParentCommandLine">?</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:27:10.787882100Z" />
+      <EventRecordID>419627</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:27:10.777</Data>
+      <Data Name="ProcessGuid">{747f3d96-1b5e-5f8b-0000-001034322200}</Data>
+      <Data Name="ProcessId">2720</Data>
+      <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\HCJVGQ5XQYJQFTRJAKRF.temp</Data>
+      <Data Name="CreationUtcTime">2020-10-17 16:27:10.777</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2020-10-17T16:27:10.791010300Z" />
+      <EventRecordID>419628</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="3344" ThreadID="4376" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>MSEDGEWIN10</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2020-10-17 16:27:10.777</Data>
+      <Data Name="ProcessGuid">{747f3d96-1b5e-5f8b-0000-001034322200}</Data>
+      <Data Name="ProcessId">2720</Data>
+      <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data>
+      <Data Name="TargetFilename">C:\Users\IEUser\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\ff99ba2fb2e34b73.customDestinations-ms~RF6f668.TMP</Data>
+      <Data Name="CreationUtcTime">2020-10-17 16:27:10.777</Data>
+    </EventData>
+  </Event>
+</root>

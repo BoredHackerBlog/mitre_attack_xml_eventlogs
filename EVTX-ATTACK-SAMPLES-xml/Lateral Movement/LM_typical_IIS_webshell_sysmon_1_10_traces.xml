@@ -1,0 +1,160 @@
+<root>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-24T01:33:53.112486600Z" />
+      <EventRecordID>1044</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-24 01:33:53.112</Data>
+      <Data Name="ProcessGuid">{365abb72-4a01-5ce7-0000-0010ee9dac00}</Data>
+      <Data Name="ProcessId">2404</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Windows Command Processor</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">"c:\windows\system32\cmd.exe" /c net user</Data>
+      <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="LogonGuid">{365abb72-45c7-5ce7-0000-002092f99c00}</Data>
+      <Data Name="LogonId">0x9cf992</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=EE8CBF12D87C4D388F09B4F69BED2E91682920B5,MD5=AD7B9C14083B52BC532FBA5948342B98,SHA256=17F746D82695FA9B35493B41859D39D786D32B23A9D2E00F4011DEC7A02402AE,IMPHASH=CEEFB55F764020CC5C5F8F23349AB163</Data>
+      <Data Name="ParentProcessGuid">{365abb72-49d6-5ce7-0000-001020a7a700}</Data>
+      <Data Name="ParentProcessId">2580</Data>
+      <Data Name="ParentImage">C:\Windows\System32\inetsrv\w3wp.exe</Data>
+      <Data Name="ParentCommandLine">c:\windows\system32\inetsrv\w3wp.exe -ap "DefaultAppPool" -v "v2.0" -l "webengine4.dll" -a \\.\pipe\iisipm719e5ea8-b97b-40d0-96b6-44cca91790fe -h "C:\inetpub\temp\apppools\DefaultAppPool\DefaultAppPool.config" -w "" -m 0 -t 20</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>10</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>10</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-24T01:33:53.122501000Z" />
+      <EventRecordID>1045</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-24 01:33:53.112</Data>
+      <Data Name="SourceProcessGUID">{365abb72-49d6-5ce7-0000-001020a7a700}</Data>
+      <Data Name="SourceProcessId">2580</Data>
+      <Data Name="SourceThreadId">2484</Data>
+      <Data Name="SourceImage">c:\windows\system32\inetsrv\w3wp.exe</Data>
+      <Data Name="TargetProcessGUID">{365abb72-4a01-5ce7-0000-0010ee9dac00}</Data>
+      <Data Name="TargetProcessId">2404</Data>
+      <Data Name="TargetImage">c:\windows\system32\cmd.exe</Data>
+      <Data Name="GrantedAccess">0x1fffff</Data>
+      <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+4534c|C:\Windows\system32\kernel32.dll+5112b|C:\Windows\system32\kernel32.dll+2079|C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll+1cc7|UNKNOWN(006E1ACF)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\ad92dab7f418877d6a1e0358ce35658a\System.ni.dll+5511d9|C:\Windows\assembly\NativeImages_v2.0.50727_32\System\ad92dab7f418877d6a1e0358ce35658a\System.ni.dll+54f8ee|UNKNOWN(010E0F51)|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+896bd4|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+896cf3|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+896c77|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+17b2ce|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+17b225|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+18ddbe|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+18d644|C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Web\7057023b1bb89e4623a922b311be4dba\System.Web.ni.dll+18d571</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-24T01:33:53.182587400Z" />
+      <EventRecordID>1046</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-24 01:33:53.152</Data>
+      <Data Name="ProcessGuid">{365abb72-4a01-5ce7-0000-00102da1ac00}</Data>
+      <Data Name="ProcessId">788</Data>
+      <Data Name="Image">C:\Windows\System32\net.exe</Data>
+      <Data Name="FileVersion">6.1.7600.16385 (win7_rtm.090713-1255)</Data>
+      <Data Name="Description">Net Command</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">net  user</Data>
+      <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="LogonGuid">{365abb72-45c7-5ce7-0000-002092f99c00}</Data>
+      <Data Name="LogonId">0x9cf992</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=9A544E2094273741AA2D3E7EA0AF303AF2B587EA,MD5=B9A4DAC2192FD78CDA097BFA79F6E7B2,SHA256=D468E6B1B79555AC8BCE0300942FD479689EB8F159F3A399848D3BF9B9990A56,IMPHASH=B1F584304D1C7F2899A954905D8318C7</Data>
+      <Data Name="ParentProcessGuid">{365abb72-4a01-5ce7-0000-0010ee9dac00}</Data>
+      <Data Name="ParentProcessId">2404</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="ParentCommandLine">"c:\windows\system32\cmd.exe" /c net user</Data>
+    </EventData>
+  </Event>
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime="2019-05-24T01:33:53.192601800Z" />
+      <EventRecordID>1047</EventRecordID>
+      <Correlation />
+      <Execution ProcessID="2032" ThreadID="2092" />
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>IEWIN7</Computer>
+      <Security UserID="S-1-5-18" />
+    </System>
+    <EventData>
+      <Data Name="RuleName">
+      </Data>
+      <Data Name="UtcTime">2019-05-24 01:33:53.162</Data>
+      <Data Name="ProcessGuid">{365abb72-4a01-5ce7-0000-0010b6a2ac00}</Data>
+      <Data Name="ProcessId">712</Data>
+      <Data Name="Image">C:\Windows\System32\net1.exe</Data>
+      <Data Name="FileVersion">6.1.7601.17514 (win7sp1_rtm.101119-1850)</Data>
+      <Data Name="Description">Net Command</Data>
+      <Data Name="Product">Microsoft« Windows« Operating System</Data>
+      <Data Name="Company">Microsoft Corporation</Data>
+      <Data Name="CommandLine">C:\Windows\system32\net1  user</Data>
+      <Data Name="CurrentDirectory">c:\windows\system32\inetsrv\</Data>
+      <Data Name="User">IIS APPPOOL\DefaultAppPool</Data>
+      <Data Name="LogonGuid">{365abb72-45c7-5ce7-0000-002092f99c00}</Data>
+      <Data Name="LogonId">0x9cf992</Data>
+      <Data Name="TerminalSessionId">0</Data>
+      <Data Name="IntegrityLevel">High</Data>
+      <Data Name="Hashes">SHA1=387577C0B3B89FEFCE983DC42CFF456A33287035,MD5=2041012726EF7C95ED51C15C56545A7F,SHA256=A0BE13AC9443ACC6D2EEA474CC82A727BDB7E1009F573DBA34D269F9A6AAA347,IMPHASH=FB687F4F7ACC1F20B5382A2C932A259E</Data>
+      <Data Name="ParentProcessGuid">{365abb72-4a01-5ce7-0000-00102da1ac00}</Data>
+      <Data Name="ParentProcessId">788</Data>
+      <Data Name="ParentImage">C:\Windows\System32\net.exe</Data>
+      <Data Name="ParentCommandLine">net  user</Data>
+    </EventData>
+  </Event>
+</root>
